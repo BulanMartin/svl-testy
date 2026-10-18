@@ -1,0 +1,602 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "roztrousena_skleroza"
+  title: "Roztroušená skleróza"
+  source:
+    file: "roztrousena-skleroza-2023.pdf"
+    year: 2023
+coverage:
+  proposed_question_count: 36
+  rationale: "36 otázek pokrývá formy RS, kliniku, diagnostiku, diferenciální diagnózu, léčbu a praktickou péči. Nejednoznačné či chybně vysázené položky tabulek nejsou testovány."
+  sections:
+    - id: "zaklady"
+      title: "Formy a projevy"
+      planned_question_count: 10
+    - id: "diagnostika"
+      title: "Diagnostika a diferenciální diagnóza"
+      planned_question_count: 9
+    - id: "lecba"
+      title: "Léčba a bezpečnost"
+      planned_question_count: 10
+    - id: "pece"
+      title: "Symptomatická péče a zvláštní situace"
+      planned_question_count: 7
+questions:
+  - id: "roztrousena_skleroza_001"
+    section_id: "zaklady"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Kterou část nervového systému primárně postihuje RS?"
+    options:
+      - id: "a"
+        text: "Centrální nervový systém."
+      - id: "b"
+        text: "Výhradně periferní nervy."
+      - id: "c"
+        text: "Výhradně nervosvalovou ploténku."
+    correct_option_id: "a"
+    explanation: "Jde o zánětlivé onemocnění CNS s demyelinizací i neuroaxonálním poškozením."
+    source_pages:
+      - 5
+  - id: "roztrousena_skleroza_002"
+    section_id: "zaklady"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co znamená CIS?"
+    options:
+      - id: "a"
+        text: "Chronická infekce sedacího nervu."
+      - id: "b"
+        text: "Klinicky izolovaný syndrom, první typická klinická epizoda."
+      - id: "c"
+        text: "Stupeň úplné imobility."
+    correct_option_id: "b"
+    explanation: "CIS může být prvním projevem budoucí RS."
+    source_pages:
+      - 5
+  - id: "roztrousena_skleroza_003"
+    section_id: "zaklady"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký průběh má relaps-remitentní forma?"
+    options:
+      - id: "a"
+        text: "Nepřetržitou progresi bez jakékoli ataky od začátku."
+      - id: "b"
+        text: "Vždy jedinou celoživotní ataku bez dalšího rizika."
+      - id: "c"
+        text: "Střídání atak a remisí."
+    correct_option_id: "c"
+    explanation: "Neurologický nález se po atakách upravuje v různé míře."
+    source_pages:
+      - 5
+  - id: "roztrousena_skleroza_004"
+    section_id: "zaklady"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co charakterizuje primárně progresivní RS?"
+    options:
+      - id: "a"
+        text: "Narůstání disability od začátku nemoci."
+      - id: "b"
+        text: "Progresi vznikající výhradně po dvaceti letech remisí."
+      - id: "c"
+        text: "Pouze periferní obrny."
+    correct_option_id: "a"
+    explanation: "PP RS začíná progresí od počátku."
+    source_pages:
+      - 5
+  - id: "roztrousena_skleroza_005"
+    section_id: "zaklady"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak je definována progrese u RS?"
+    options:
+      - id: "a"
+        text: "Každé krátké kolísání únavy během dne."
+      - id: "b"
+        text: "Pozvolna narůstající objektivní disabilita nezávislá na relapsech."
+      - id: "c"
+        text: "Pouze vznik horečky."
+    correct_option_id: "b"
+    explanation: "Progrese není synonymem jednotlivé ataky."
+    source_pages:
+      - 5
+  - id: "roztrousena_skleroza_006"
+    section_id: "zaklady"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak dlouho musí typické obtíže trvat, aby odpovídaly definici ataky?"
+    options:
+      - id: "a"
+        text: "Alespoň pět minut při horečce."
+      - id: "b"
+        text: "Výhradně déle než šest měsíců."
+      - id: "c"
+        text: "Alespoň 24 hodin bez horečky či infekce."
+    correct_option_id: "c"
+    explanation: "Definice odlišuje ataku od přechodného zhoršení při infekci."
+    source_pages:
+      - 5
+  - id: "roztrousena_skleroza_007"
+    section_id: "zaklady"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co hodnotí škála EDSS?"
+    options:
+      - id: "a"
+        text: "Stupeň neurologické disability."
+      - id: "b"
+        text: "Pouze intenzitu deprese."
+      - id: "c"
+        text: "Pouze počet lézí na MR."
+    correct_option_id: "a"
+    explanation: "Ve vyšších stupních výrazně závisí na schopnosti chůze."
+    source_pages:
+      - 5
+  - id: "roztrousena_skleroza_008"
+    section_id: "zaklady"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který faktor text uvádí jako rizikový pro RS?"
+    options:
+      - id: "a"
+        text: "Pravidelnou přiměřenou fyzickou aktivitu."
+      - id: "b"
+        text: "Kouření."
+      - id: "c"
+        text: "Dostatečný příjem vitaminu D jako prokázanou příčinu."
+    correct_option_id: "b"
+    explanation: "V etiologii působí genetické i environmentální vlivy."
+    source_pages:
+      - 5
+  - id: "roztrousena_skleroza_009"
+    section_id: "zaklady"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který projev může upozornit na retrobulbární neuritidu?"
+    options:
+      - id: "a"
+        text: "Izolovaná oboustranná nedoslýchavost."
+      - id: "b"
+        text: "Pouze zhoršení čtení do blízka s věkem."
+      - id: "c"
+        text: "Jednostranné zhoršení zraku s poruchou barvocitu a bolestí za okem."
+    correct_option_id: "c"
+    explanation: "Optická neuritida patří mezi časté první projevy."
+    source_pages:
+      - 6
+  - id: "roztrousena_skleroza_010"
+    section_id: "zaklady"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Které nespecifické obtíže jsou u RS časté?"
+    options:
+      - id: "a"
+        text: "Únava, deprese a kognitivní potíže."
+      - id: "b"
+        text: "Pouze izolovaná žloutenka."
+      - id: "c"
+        text: "Pouze bezbolestná hematurie."
+    correct_option_id: "a"
+    explanation: "RS má vedle ložiskových příznaků i nespecifické projevy."
+    source_pages:
+      - 6
+  - id: "roztrousena_skleroza_011"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Na čem stojí diagnóza RS?"
+    options:
+      - id: "a"
+        text: "Pouze pozitivním CRP."
+      - id: "b"
+        text: "Typické klinice, MR a vyloučení jiných příčin."
+      - id: "c"
+        text: "Pouze rodinné anamnéze."
+    correct_option_id: "b"
+    explanation: "Diagnostika kombinuje klinický obraz a pomocná vyšetření."
+    source_pages:
+      - 6
+  - id: "roztrousena_skleroza_012"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co vyjadřuje diseminace v čase a prostoru?"
+    options:
+      - id: "a"
+        text: "Pouze velikost jediné léze."
+      - id: "b"
+        text: "Šíření infekce mezi osobami."
+      - id: "c"
+        text: "Výskyt demyelinizačních dějů v různých dobách a lokalizacích CNS."
+    correct_option_id: "c"
+    explanation: "Jde o základ diagnostických kritérií RS."
+    source_pages:
+      - 6
+  - id: "roztrousena_skleroza_013"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký likvorový nález podporuje RS?"
+    options:
+      - id: "a"
+        text: "Oligoklonální pásy bez odpovídajícího nálezu v séru."
+      - id: "b"
+        text: "Pouze shodné sérové a likvorové koncentrace glukózy."
+      - id: "c"
+        text: "Izolovaná hypokalemie."
+    correct_option_id: "a"
+    explanation: "Nález svědčí pro intratekální imunitní aktivitu."
+    source_pages:
+      - 6
+  - id: "roztrousena_skleroza_014"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co naznačuje vychytávání gadolinia lézí?"
+    options:
+      - id: "a"
+        text: "Vždy staré neaktivní ložisko."
+      - id: "b"
+        text: "Porušenou hematoencefalickou bariéru a aktivitu procesu."
+      - id: "c"
+        text: "Výhradně periferní neuropatii."
+    correct_option_id: "b"
+    explanation: "Kontrastní T1 zobrazení pomáhá hodnotit aktivitu choroby."
+    source_pages:
+      - 6
+  - id: "roztrousena_skleroza_015"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Která lokalizace patří mezi typické pro RS?"
+    options:
+      - id: "a"
+        text: "Pouze periferní nervové uzliny."
+      - id: "b"
+        text: "Pouze svalová fascie."
+      - id: "c"
+        text: "Periventrikulární oblast."
+    correct_option_id: "c"
+    explanation: "Typické jsou také juxtakortikální, infratentoriální a míšní léze."
+    source_pages:
+      - 6
+  - id: "roztrousena_skleroza_016"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupovat při atypické klinice a negativních pomocných testech?"
+    options:
+      - id: "a"
+        text: "Znovu důkladně zvážit alternativní diagnózy."
+      - id: "b"
+        text: "Stanovit jistou RS pouze podle únavy."
+      - id: "c"
+        text: "Považovat normální vyšetření za potvrzení RS."
+    correct_option_id: "a"
+    explanation: "Text zdůrazňuje opatrnost při nedostatečné podpoře diagnózy."
+    source_pages:
+      - 6
+  - id: "roztrousena_skleroza_017"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký nález VEP typicky doprovází demyelinizaci zrakové dráhy?"
+    options:
+      - id: "a"
+        text: "Trvale nulová latence P100."
+      - id: "b"
+        text: "Prodloužená latence vlny P100."
+      - id: "c"
+        text: "Zkrácení latence jako jediný diagnostický znak."
+    correct_option_id: "b"
+    explanation: "VEP mohou objektivizovat i subklinické postižení optického nervu."
+    source_pages:
+      - 7
+  - id: "roztrousena_skleroza_018"
+    section_id: "diagnostika"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Která kombinace spíše vede k neuromyelitis optica než typické RS?"
+    options:
+      - id: "a"
+        text: "Izolovaná únava bez nálezu."
+      - id: "b"
+        text: "Pouze normální krevní obraz."
+      - id: "c"
+        text: "Protilátky proti aquaporinu 4 a dlouhá míšní léze přes tři segmenty."
+    correct_option_id: "c"
+    explanation: "NMO patří k důležitým diferenciálním diagnózám."
+    source_pages:
+      - 12
+  - id: "roztrousena_skleroza_019"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká závažná komplikace některé biologické léčby může napodobovat aktivitu RS?"
+    options:
+      - id: "a"
+        text: "Progresivní multifokální leukoencefalopatie."
+      - id: "b"
+        text: "Benigní polohové vertigo jako jediná možnost."
+      - id: "c"
+        text: "Izolovaná tenzní bolest hlavy jako jediná možnost."
+    correct_option_id: "a"
+    explanation: "PML může mít kognitivní, motorické a epileptické projevy."
+    source_pages:
+      - 12
+  - id: "roztrousena_skleroza_020"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který lék je základem léčby akutní ataky podle textu?"
+    options:
+      - id: "a"
+        text: "Samotný nízkodávkovaný paracetamol."
+      - id: "b"
+        text: "Vysokodávkovaný methylprednisolon."
+      - id: "c"
+        text: "Rutinní dlouhodobé antibiotikum."
+    correct_option_id: "b"
+    explanation: "Akutní zánětlivou aktivitu tlumí kortikosteroidní pulz."
+    source_pages:
+      - 7
+  - id: "roztrousena_skleroza_021"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co lze zvážit při nedostatečném efektu léčby těžké ataky?"
+    options:
+      - id: "a"
+        text: "Pouze navýšení vitaminu C."
+      - id: "b"
+        text: "Definitivní ukončení neurologické péče."
+      - id: "c"
+        text: "Výměnnou plazmaferézu nebo imunoadsorpci."
+    correct_option_id: "c"
+    explanation: "Jde o specializované možnosti při nedostatečné odpovědi."
+    source_pages:
+      - 7
+  - id: "roztrousena_skleroza_022"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je třeba sledovat při kortikosteroidní léčbě ataky?"
+    options:
+      - id: "a"
+        text: "Glykemii, psychický stav a možné arytmie."
+      - id: "b"
+        text: "Pouze barvu vlasů."
+      - id: "c"
+        text: "Pouze sluchový práh."
+    correct_option_id: "a"
+    explanation: "Kortikosteroidy mají významné metabolické a další nežádoucí účinky."
+    source_pages:
+      - 7
+  - id: "roztrousena_skleroza_023"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký je cíl dlouhodobé imunomodulační léčby?"
+    options:
+      - id: "a"
+        text: "Pouze krátkodobě tlumit bolest bez vlivu na průběh."
+      - id: "b"
+        text: "Snížit relapsy a oddálit progresi disability."
+      - id: "c"
+        text: "Záměrně zvýšit počet relapsů pro diagnostiku."
+    correct_option_id: "b"
+    explanation: "Včasná léčba může podstatně zlepšit prognózu."
+    source_pages:
+      - 7
+  - id: "roztrousena_skleroza_024"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co patří ke konceptu NEDA?"
+    options:
+      - id: "a"
+        text: "Pouze normální CRP."
+      - id: "b"
+        text: "Pouze nepřítomnost horečky."
+      - id: "c"
+        text: "Nepřítomnost relapsů, progrese a nové MR aktivity."
+    correct_option_id: "c"
+    explanation: "NEDA hodnotí klinickou i zobrazovací aktivitu."
+    source_pages:
+      - 7
+  - id: "roztrousena_skleroza_025"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy se uvažuje o eskalaci léčby?"
+    options:
+      - id: "a"
+        text: "Při aktivitě či nepříznivé prognóze navzdory dosavadní terapii."
+      - id: "b"
+        text: "Pouze podle věku bez klinického kontextu."
+      - id: "c"
+        text: "Výhradně při normální MR a celoživotní stabilitě."
+    correct_option_id: "a"
+    explanation: "Volba intenzity léčby patří specializovanému centru."
+    source_pages:
+      - 7
+  - id: "roztrousena_skleroza_026"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který lék text uvádí pro aktivní sekundárně progresivní RS?"
+    options:
+      - id: "a"
+        text: "Donepezil."
+      - id: "b"
+        text: "Siponimod."
+      - id: "c"
+        text: "Levodopu."
+    correct_option_id: "b"
+    explanation: "Siponimod je uveden v části léčby chronických forem."
+    source_pages:
+      - 7
+  - id: "roztrousena_skleroza_027"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který lék uvádí text pro aktivní primárně progresivní RS?"
+    options:
+      - id: "a"
+        text: "Interferon alfa jako jedinou možnost."
+      - id: "b"
+        text: "Karbamazepin jako kauzální léčbu."
+      - id: "c"
+        text: "Ocrelizumab."
+    correct_option_id: "c"
+    explanation: "Ocrelizumab má v dokumentu uvedenou indikaci pro tuto formu."
+    source_pages:
+      - 7
+  - id: "roztrousena_skleroza_028"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je třeba při interferonu beta pravidelně laboratorně sledovat?"
+    options:
+      - id: "a"
+        text: "Krevní obraz a jaterní testy."
+      - id: "b"
+        text: "Pouze močovou amylázu."
+      - id: "c"
+        text: "Pouze hladinu troponinu."
+    correct_option_id: "a"
+    explanation: "Sledování zachycuje důležité nežádoucí účinky."
+    source_pages:
+      - 12
+  - id: "roztrousena_skleroza_029"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "S kterým rizikem je zvlášť spojován natalizumab?"
+    options:
+      - id: "a"
+        text: "Rutinně vznikající diabetes 1. typu u všech pacientů."
+      - id: "b"
+        text: "PML."
+      - id: "c"
+        text: "Povinná úplná ztráta sluchu."
+    correct_option_id: "b"
+    explanation: "Riziko PML ovlivňuje bezpečnostní monitoraci."
+    source_pages:
+      - 13
+  - id: "roztrousena_skleroza_030"
+    section_id: "pece"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Kam má směřovat pacient s podezřením na RS k dokončení diagnostiky a léčbě?"
+    options:
+      - id: "a"
+        text: "Pouze na rehabilitaci bez neurologie."
+      - id: "b"
+        text: "Pouze do alergologické ambulance."
+      - id: "c"
+        text: "K neurologovi a do centra pro demyelinizační onemocnění."
+    correct_option_id: "c"
+    explanation: "Specializované centrum koordinuje diagnostiku i dlouhodobou léčbu."
+    source_pages:
+      - 5
+  - id: "roztrousena_skleroza_031"
+    section_id: "pece"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Která kombinace odpovídá péči o spasticitu?"
+    options:
+      - id: "a"
+        text: "Baklofen nebo tizanidin spolu s fyzioterapií podle stavu."
+      - id: "b"
+        text: "Pouze antibiotika."
+      - id: "c"
+        text: "Pouze úplný zákaz pohybu."
+    correct_option_id: "a"
+    explanation: "Symptomatická léčba kombinuje farmakologické a rehabilitační postupy."
+    source_pages:
+      - 14
+      - 15
+  - id: "roztrousena_skleroza_032"
+    section_id: "pece"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který postup může pomoci při dysartrii?"
+    options:
+      - id: "a"
+        text: "Výhradně zvýšení dávky statinu."
+      - id: "b"
+        text: "Logopedická péče."
+      - id: "c"
+        text: "Povinný trvalý močový katétr."
+    correct_option_id: "b"
+    explanation: "Logopedie cílí na poruchy řeči."
+    source_pages:
+      - 15
+  - id: "roztrousena_skleroza_033"
+    section_id: "pece"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy je vhodné plánovat těhotenství u RS?"
+    options:
+      - id: "a"
+        text: "Vždy uprostřed těžké neléčené ataky."
+      - id: "b"
+        text: "Bez ohledu na používané léky."
+      - id: "c"
+        text: "Ve stabilizované fázi s posouzením konkrétní léčby."
+    correct_option_id: "c"
+    explanation: "Bezpečnost jednotlivých DMT v graviditě se výrazně liší."
+    source_pages:
+      - 8
+  - id: "roztrousena_skleroza_034"
+    section_id: "pece"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký je obecný vztah RS k možnosti přirozeného porodu?"
+    options:
+      - id: "a"
+        text: "Přirozený porod je možný."
+      - id: "b"
+        text: "RS vždy vyžaduje císařský řez."
+      - id: "c"
+        text: "RS vždy vylučuje těhotenství."
+    correct_option_id: "a"
+    explanation: "Samotná diagnóza automaticky neurčuje operační porod."
+    source_pages:
+      - 8
+  - id: "roztrousena_skleroza_035"
+    section_id: "pece"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč se očkování při anti-CD20 léčbě časuje vůči dávkám léčiva?"
+    options:
+      - id: "a"
+        text: "Protože všechny neživé vakcíny obsahují živý virus."
+      - id: "b"
+        text: "Kvůli maximalizaci protilátkové odpovědi."
+      - id: "c"
+        text: "Kvůli vyloučení jakéhokoli laboratorního sledování."
+    correct_option_id: "b"
+    explanation: "Účinek na B-lymfocyty může snížit odpověď na vakcínu."
+    source_pages:
+      - 8
+  - id: "roztrousena_skleroza_036"
+    section_id: "pece"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Podle čeho se posuzuje pracovní zátěž při dlouhodobé RS?"
+    options:
+      - id: "a"
+        text: "Pouze podle data stanovení diagnózy."
+      - id: "b"
+        text: "Pouze podle počtu tablet."
+      - id: "c"
+        text: "Podle aktuálního neurologického stavu, únavy a funkčních omezení."
+    correct_option_id: "c"
+    explanation: "Posouzení je individuální a zohledňuje více funkčních oblastí."
+    source_pages:
+      - 8

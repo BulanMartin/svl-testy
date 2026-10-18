@@ -1,0 +1,534 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "virova_hepatitida_c"
+  title: "Virová hepatitida C"
+  source:
+    file: "dp-hepatitida-c.pdf"
+    year: 2023
+coverage:
+  proposed_question_count: 32
+  rationale: "32 otázek pokrývá přenos, přirozený průběh, cílené testování, diagnostiku, léčbu i poradenství; opakované pasáže a adresář center nejsou samostatně testovány."
+  sections:
+    - id: "prubeh"
+      title: "Přenos a průběh"
+      planned_question_count: 6
+    - id: "screening"
+      title: "Screening a diagnostika"
+      planned_question_count: 14
+    - id: "lecba"
+      title: "Léčba a následná péče"
+      planned_question_count: 12
+questions:
+  - id: "virova_hepatitida_c_001"
+    section_id: "prubeh"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká cesta přenosu HCV v ČR převládá po zavedení testování dárců krve?"
+    options:
+      - id: "a"
+        text: "Sdílení kontaminovaných pomůcek při injekční aplikaci drog"
+      - id: "b"
+        text: "Konzumace kontaminované vody"
+      - id: "c"
+        text: "Běžný kapénkový přenos"
+    correct_option_id: "a"
+    explanation: "Hlavní cestou je od roku 1992 sdílení infikovaných injekčních pomůcek."
+    source_pages:
+      - 5
+  - id: "virova_hepatitida_c_002"
+    section_id: "prubeh"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který výkon představuje riziko přenosu HCV?"
+    options:
+      - id: "a"
+        text: "Měření krevního tlaku"
+      - id: "b"
+        text: "Tetování bez aseptických podmínek"
+      - id: "c"
+        text: "Ultrazvuk přes neporušenou kůži"
+    correct_option_id: "b"
+    explanation: "Nesterilní tetování může vést k přenosu krví."
+    source_pages:
+      - 5
+  - id: "virova_hepatitida_c_003"
+    section_id: "prubeh"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak obvykle probíhá akutní HCV infekce?"
+    options:
+      - id: "a"
+        text: "Vždy jako výrazně ikterická hepatitida"
+      - id: "b"
+        text: "Vždy jako akutní jaterní selhání"
+      - id: "c"
+        text: "Bez příznaků nebo s neurčitými obtížemi bez ikteru"
+    correct_option_id: "c"
+    explanation: "Často uniká pozornosti právě pro asymptomatický průběh."
+    source_pages:
+      - 5
+  - id: "virova_hepatitida_c_004"
+    section_id: "prubeh"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který nález sám nepatří mezi kritéria akutní HCV infekce?"
+    options:
+      - id: "a"
+        text: "Pozitivita anti-HCV třídy IgM"
+      - id: "b"
+        text: "Doklad nově vzniklé infekce"
+      - id: "c"
+        text: "Průkaz viru v odpovídajícím klinickém kontextu"
+    correct_option_id: "a"
+    explanation: "Text výslovně upozorňuje, že anti-HCV IgM není kritériem akutní infekce."
+    source_pages:
+      - 5
+  - id: "virova_hepatitida_c_005"
+    section_id: "prubeh"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co podporuje progresi jaterního poškození při HCV?"
+    options:
+      - id: "a"
+        text: "Nižší věk při nákaze jako hlavní riziko"
+      - id: "b"
+        text: "Koinfekce HBV nebo HIV"
+      - id: "c"
+        text: "Nepřítomnost steatózy"
+    correct_option_id: "b"
+    explanation: "Koinfekce, alkohol a steatóza patří mezi rizikové faktory progrese."
+    source_pages:
+      - 6
+  - id: "virova_hepatitida_c_006"
+    section_id: "prubeh"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak působí obezita a jaterní steatóza při chronické HCV infekci?"
+    options:
+      - id: "a"
+        text: "Chrání před cirhózou"
+      - id: "b"
+        text: "Zaručují spontánní eliminaci viru"
+      - id: "c"
+        text: "Zvyšují riziko progrese jaterního postižení"
+    correct_option_id: "c"
+    explanation: "Steatóza a obezita jsou spojeny s progresí."
+    source_pages:
+      - 6
+  - id: "virova_hepatitida_c_007"
+    section_id: "screening"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kterou kohortu narození doporučuje text z roku 2023 jednorázově testovat na anti-HCV?"
+    options:
+      - id: "a"
+        text: "1975–1995"
+      - id: "b"
+        text: "1920–1940"
+      - id: "c"
+        text: "2005–2020"
+    correct_option_id: "a"
+    explanation: "Jde o doporučení pro kohortu narozenou v letech 1975–1995."
+    source_pages:
+      - 6
+  - id: "virova_hepatitida_c_008"
+    section_id: "screening"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak má být podle dokumentu testován pacient s diabetem 2. typu?"
+    options:
+      - id: "a"
+        text: "Pouze při ikteru"
+      - id: "b"
+        text: "Jednorázově anti-HCV bez ohledu na další parametr"
+      - id: "c"
+        text: "Pouze před zahájením inzulinu"
+    correct_option_id: "b"
+    explanation: "DM2 je samostatným důvodem jednorázového testování."
+    source_pages:
+      - 6
+  - id: "virova_hepatitida_c_009"
+    section_id: "screening"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy opakovat testování u dříve negativního diabetika 2. typu?"
+    options:
+      - id: "a"
+        text: "Automaticky při každé kontrole glykemie"
+      - id: "b"
+        text: "Nikdy ani po rizikové expozici"
+      - id: "c"
+        text: "Při rizikovém chování nebo podezření na jaterní onemocnění"
+    correct_option_id: "c"
+    explanation: "Opakování je cíleno na nové riziko nebo klinické podezření."
+    source_pages:
+      - 6
+  - id: "virova_hepatitida_c_010"
+    section_id: "screening"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký interval následného testování uvádí text u pacientů v programu náhrady funkce ledvin?"
+    options:
+      - id: "a"
+        text: "6 měsíců"
+      - id: "b"
+        text: "5 let"
+      - id: "c"
+        text: "10 let"
+    correct_option_id: "a"
+    explanation: "U RRT doporučuje pravidelné půlroční testování."
+    source_pages:
+      - 6
+  - id: "virova_hepatitida_c_011"
+    section_id: "screening"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak často doporučuje text testovat injekční uživatele drog?"
+    options:
+      - id: "a"
+        text: "Jednou za 10 let"
+      - id: "b"
+        text: "Každých 6 měsíců"
+      - id: "c"
+        text: "Pouze při ukončení užívání drog"
+    correct_option_id: "b"
+    explanation: "Pravidelný půlroční interval reaguje na trvající riziko."
+    source_pages:
+      - 7
+  - id: "virova_hepatitida_c_012"
+    section_id: "screening"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která skupina má podle textu rovněž podstupovat testování v šestiměsíčních intervalech?"
+    options:
+      - id: "a"
+        text: "Všichni dospělí bez rizik"
+      - id: "b"
+        text: "Všichni pacienti po očkování proti hepatitidě B"
+      - id: "c"
+        text: "Muži mající sex s muži a osoby poskytující komerční sexuální služby"
+    correct_option_id: "c"
+    explanation: "Text vymezuje specifické rizikové skupiny."
+    source_pages:
+      - 7
+  - id: "virova_hepatitida_c_013"
+    section_id: "screening"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký je základní screeningový test HCV?"
+    options:
+      - id: "a"
+        text: "Anti-HCV protilátky"
+      - id: "b"
+        text: "Samotná aktivita ALT"
+      - id: "c"
+        text: "HBsAg"
+    correct_option_id: "a"
+    explanation: "Anti-HCV je základním sérologickým screeningem."
+    source_pages:
+      - 7
+  - id: "virova_hepatitida_c_014"
+    section_id: "screening"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co prokazuje aktivní viremickou HCV infekci?"
+    options:
+      - id: "a"
+        text: "Pouze pozitivní anti-HCV"
+      - id: "b"
+        text: "Pozitivní HCV RNA v krvi"
+      - id: "c"
+        text: "Pouze zvýšená GGT"
+    correct_option_id: "b"
+    explanation: "Aktivní infekci potvrzuje detekce virové RNA."
+    source_pages:
+      - 8
+  - id: "virova_hepatitida_c_015"
+    section_id: "screening"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co následuje po pozitivním anti-HCV v dvoukrokové strategii?"
+    options:
+      - id: "a"
+        text: "Opakování anti-HCV do negativity"
+      - id: "b"
+        text: "Pouze sledování bilirubinu"
+      - id: "c"
+        text: "Vyšetření HCV RNA"
+    correct_option_id: "c"
+    explanation: "Druhý krok odlišuje aktivní infekci od prodělané."
+    source_pages:
+      - 8
+  - id: "virova_hepatitida_c_016"
+    section_id: "screening"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký význam má opakované anti-HCV u již anti-HCV pozitivní osoby?"
+    options:
+      - id: "a"
+        text: "Není indikováno k hodnocení aktivity ani pokročilosti"
+      - id: "b"
+        text: "Určuje stupeň cirhózy"
+      - id: "c"
+        text: "Nahrazuje HCV RNA při kontrole vyléčení"
+    correct_option_id: "a"
+    explanation: "Protilátky nekorelují s aktivitou a pokročilostí onemocnění."
+    source_pages:
+      - 8
+  - id: "virova_hepatitida_c_017"
+    section_id: "screening"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak testovat možnou reinfekci u člověka již léčeného pro HCV?"
+    options:
+      - id: "a"
+        text: "Pouze anti-HCV IgM"
+      - id: "b"
+        text: "Přímo HCV RNA"
+      - id: "c"
+        text: "Pouze celkové anti-HCV"
+    correct_option_id: "b"
+    explanation: "Po prodělané infekci je určující přímá detekce RNA."
+    source_pages:
+      - 8
+  - id: "virova_hepatitida_c_018"
+    section_id: "screening"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdo může indikovat HCV RNA podle dokumentu?"
+    options:
+      - id: "a"
+        text: "Výhradně infektolog"
+      - id: "b"
+        text: "Výhradně hepatolog"
+      - id: "c"
+        text: "Lékař jakékoli specializace"
+    correct_option_id: "c"
+    explanation: "Indikace není vyhrazena specialistovi."
+    source_pages:
+      - 8
+  - id: "virova_hepatitida_c_019"
+    section_id: "screening"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Kam patří anti-HCV pozitivní pacient?"
+    options:
+      - id: "a"
+        text: "Ke gastroenterologovi nebo infektologovi"
+      - id: "b"
+        text: "Pouze k dermatologovi bez dalšího vyšetření"
+      - id: "c"
+        text: "Pouze k nutričnímu terapeutovi"
+    correct_option_id: "a"
+    explanation: "Každá anti-HCV pozitivní osoba má být odborně došetřena."
+    source_pages:
+      - 8
+  - id: "virova_hepatitida_c_020"
+    section_id: "screening"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Vylučují normální jaterní testy HCV infekci?"
+    options:
+      - id: "a"
+        text: "Ano, pokud je normální ALT"
+      - id: "b"
+        text: "Ne, infekce může probíhat i bez jejich zvýšení"
+      - id: "c"
+        text: "Ano, pokud není ikterus"
+    correct_option_id: "b"
+    explanation: "Poradenství zdůrazňuje možný bezpříznakový průběh s normálními testy."
+    source_pages:
+      - 11
+  - id: "virova_hepatitida_c_021"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký je hlavní cíl léčby HCV?"
+    options:
+      - id: "a"
+        text: "Pouze normalizace ALT při přetrvávající viremii"
+      - id: "b"
+        text: "Pouze potlačení svědění"
+      - id: "c"
+        text: "Trvalá eliminace viru"
+    correct_option_id: "c"
+    explanation: "Léčba směřuje k úplnému virologickému vyléčení."
+    source_pages:
+      - 8
+  - id: "virova_hepatitida_c_022"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak je definována SVR12?"
+    options:
+      - id: "a"
+        text: "Negativní HCV RNA 12 týdnů po skončení léčby"
+      - id: "b"
+        text: "Negativní anti-HCV 12 dní po zahájení léčby"
+      - id: "c"
+        text: "Normální ALT v prvním týdnu léčby"
+    correct_option_id: "a"
+    explanation: "SVR12 je setrvalá virologická odpověď po ukončení terapie."
+    source_pages:
+      - 8
+  - id: "virova_hepatitida_c_023"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdo je obecně kandidátem protivirové léčby?"
+    options:
+      - id: "a"
+        text: "Pouze pacient s již vzniklou cirhózou"
+      - id: "b"
+        text: "Pacient s HCV RNA pozitivitou, který léčbu neodmítá a nemá více limitující jiné onemocnění"
+      - id: "c"
+        text: "Pouze pacient s ikterem"
+    correct_option_id: "b"
+    explanation: "Dokument doporučuje léčbu aktivní infekce široce, nikoli až při cirhóze."
+    source_pages:
+      - 8
+  - id: "virova_hepatitida_c_024"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupovat po vyléčení HCV u pacienta s cirhózou?"
+    options:
+      - id: "a"
+        text: "Ukončit veškeré jaterní sledování"
+      - id: "b"
+        text: "Sledovat pouze anti-HCV"
+      - id: "c"
+        text: "Pokračovat v surveillance HCC"
+    correct_option_id: "c"
+    explanation: "Riziko HCC po eliminaci viru klesá, ale nezaniká."
+    source_pages:
+      - 8
+  - id: "virova_hepatitida_c_025"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co jsou DAA?"
+    options:
+      - id: "a"
+        text: "Přímo působící antivirotika blokující virové enzymy"
+      - id: "b"
+        text: "Nespecifická hepatoprotektiva"
+      - id: "c"
+        text: "Antibakteriální antibiotika"
+    correct_option_id: "a"
+    explanation: "DAA zasahují replikační cyklus HCV."
+    source_pages:
+      - 9
+  - id: "virova_hepatitida_c_026"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč se kombinují dvě či tři účinné látky DAA?"
+    options:
+      - id: "a"
+        text: "Pro vyvolání tvorby anti-HCV IgM"
+      - id: "b"
+        text: "Pro omezení vzniku virologické rezistence"
+      - id: "c"
+        text: "Pro léčbu všech pacientů pouze jednou tabletou měsíčně"
+    correct_option_id: "b"
+    explanation: "Kombinace účinných látek brání rezistenci."
+    source_pages:
+      - 9
+  - id: "virova_hepatitida_c_027"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká je obvyklá forma a délka léčby popsaná v dokumentu?"
+    options:
+      - id: "a"
+        text: "Doživotní intravenózní léčba"
+      - id: "b"
+        text: "Jednorázová intramuskulární injekce"
+      - id: "c"
+        text: "Perorální léčba po 2–3 měsíce"
+    correct_option_id: "c"
+    explanation: "Moderní terapie je krátká a perorální."
+    source_pages:
+      - 9
+  - id: "virova_hepatitida_c_028"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je nutné posoudit u polymorbidního pacienta před volbou DAA?"
+    options:
+      - id: "a"
+        text: "Lékové interakce"
+      - id: "b"
+        text: "Pouze krevní skupinu"
+      - id: "c"
+        text: "Pouze titr anti-HCV"
+    correct_option_id: "a"
+    explanation: "Komorbidity a souběžná medikace mohou ovlivnit výběr přípravku."
+    source_pages:
+      - 9
+  - id: "virova_hepatitida_c_029"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co znamená pangenotypová léčba?"
+    options:
+      - id: "a"
+        text: "Účinnost pouze proti genotypu 1b"
+      - id: "b"
+        text: "Srovnatelnou účinnost napříč genotypy HCV"
+      - id: "c"
+        text: "Účinnost pouze proti HBV"
+    correct_option_id: "b"
+    explanation: "Pangenotypové režimy pokrývají všechny genotypy HCV."
+    source_pages:
+      - 9
+  - id: "virova_hepatitida_c_030"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Může se pacient po vyléčení HCV znovu nakazit?"
+    options:
+      - id: "a"
+        text: "Ne, vzniká celoživotní sterilní imunita"
+      - id: "b"
+        text: "Pouze pokud zůstává pozitivní ALT"
+      - id: "c"
+        text: "Ano, prodělaná infekce neposkytuje ochranu před reinfekcí"
+    correct_option_id: "c"
+    explanation: "Vyléčení nevytváří ochranu před novým přenosem."
+    source_pages:
+      - 9
+  - id: "virova_hepatitida_c_031"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký přístup patří do poradenství před testem?"
+    options:
+      - id: "a"
+        text: "Nestigmatizující vysvětlení a prostor pro dotazy"
+      - id: "b"
+        text: "Moralizování jako motivační postup"
+      - id: "c"
+        text: "Sdělení diagnózy aktivní infekce ještě před testem"
+    correct_option_id: "a"
+    explanation: "Text zdůrazňuje respekt a prevenci stigmatizace."
+    source_pages:
+      - 11
+  - id: "virova_hepatitida_c_032"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak vysvětlit pozitivní anti-HCV pacientovi?"
+    options:
+      - id: "a"
+        text: "Vždy znamená nevyléčitelnou infekci"
+      - id: "b"
+        text: "Dokládá kontakt s virem, aktivitu infekce určí RNA"
+      - id: "c"
+        text: "Vždy znamená cirhózu"
+    correct_option_id: "b"
+    explanation: "Samotné protilátky nerozliší prodělanou a aktivní infekci."
+    source_pages:
+      - 12

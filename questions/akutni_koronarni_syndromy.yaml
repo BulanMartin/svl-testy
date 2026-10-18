@@ -1,0 +1,537 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "akutni_koronarni_syndromy"
+  title: "Akutní koronární syndromy"
+  source:
+    file: "dp-akutni-koronarni-syndromy-2024.pdf"
+    year: 2024
+coverage:
+  proposed_question_count: 32
+  rationale: "32 otázek pokrývá klinické rozpoznání, EKG a biomarkery, přednemocniční péči, invazivní strategii, antitrombotickou léčbu a následnou prevenci."
+  sections:
+    - id: "rozpoznani"
+      title: "Rozpoznání a mechanismus"
+      planned_question_count: 5
+    - id: "diagnostika"
+      title: "Diagnostika"
+      planned_question_count: 12
+    - id: "akutni"
+      title: "Akutní péče a reperfuze"
+      planned_question_count: 8
+    - id: "nasledna"
+      title: "Antitrombotická léčba a sekundární prevence"
+      planned_question_count: 7
+questions:
+  - id: "akutni_koronarni_syndromy_001"
+    section_id: "rozpoznani"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který soubor obtíží může svědčit pro akutní koronární syndrom?"
+    options:
+      - id: "a"
+        text: "Tlak na hrudi s propagací do ramene, čelisti nebo epigastria."
+      - id: "b"
+        text: "Pouze izolované svědění kůže po kosmetice."
+      - id: "c"
+        text: "Výhradně chronická bolest prstu při pohybu."
+    correct_option_id: "a"
+    explanation: "AKS může mít široké spektrum projevů včetně dušnosti, únavy či synkopy."
+    source_pages:
+      - 5
+  - id: "akutni_koronarni_syndromy_002"
+    section_id: "rozpoznani"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "U které skupiny zvláště hrozí atypický nebo asymptomatický AKS?"
+    options:
+      - id: "a"
+        text: "Pouze u mladých sportovců bez rizik."
+      - id: "b"
+        text: "U pacientů s diabetem."
+      - id: "c"
+        text: "Výhradně u pacientů s krátkozrakostí."
+    correct_option_id: "b"
+    explanation: "Postup zdůrazňuje atypické projevy zejména u diabetiků."
+    source_pages:
+      - 5
+  - id: "akutni_koronarni_syndromy_003"
+    section_id: "rozpoznani"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co odlišuje nestabilní anginu pectoris od infarktu v popisu dokumentu?"
+    options:
+      - id: "a"
+        text: "Povinná přítomnost patologických Q kmitů."
+      - id: "b"
+        text: "Vždy zvýšený troponin se specifickou dynamikou."
+      - id: "c"
+        text: "Ischemické obtíže bez průkazu myokardiální nekrózy."
+    correct_option_id: "c"
+    explanation: "NAP může vzniknout v klidu či při minimální námaze, ale bez nekrózy."
+    source_pages:
+      - 5
+  - id: "akutni_koronarni_syndromy_004"
+    section_id: "rozpoznani"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký je typický mechanismus aterotrombotického AKS?"
+    options:
+      - id: "a"
+        text: "Ruptura nestabilního plátu s nasedající trombózou."
+      - id: "b"
+        text: "Pouze pomalý vznik kolaterál bez akutní změny."
+      - id: "c"
+        text: "Izolovaná žilní insuficience."
+    correct_option_id: "a"
+    explanation: "Následná trombóza může tepnu částečně či úplně uzavřít."
+    source_pages:
+      - 6
+  - id: "akutni_koronarni_syndromy_005"
+    section_id: "rozpoznani"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Proč je zásadní zkrátit dobu do prvního zdravotnického kontaktu?"
+    options:
+      - id: "a"
+        text: "Umožňuje vynechat EKG."
+      - id: "b"
+        text: "Ovlivňuje další průběh a prognózu AKS."
+      - id: "c"
+        text: "Spolehlivě odstraňuje potřebu reperfuze."
+    correct_option_id: "b"
+    explanation: "Doba ischemie je klíčovou součástí výsledku léčby."
+    source_pages:
+      - 6
+  - id: "akutni_koronarni_syndromy_006"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Do jaké doby od prvního zdravotnického kontaktu se má optimálně provést EKG?"
+    options:
+      - id: "a"
+        text: "Do dvou dnů."
+      - id: "b"
+        text: "Až po výsledku plánovaného lipidogramu."
+      - id: "c"
+        text: "Do deseti minut."
+    correct_option_id: "c"
+    explanation: "Dvanáctisvodové EKG má být dostupné ihned při podezření na AKS."
+    source_pages:
+      - 6
+  - id: "akutni_koronarni_syndromy_007"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Kdo má interpretovat EKG při podezření na AKS?"
+    options:
+      - id: "a"
+        text: "Lékař, nikoli pouze automatický popis přístroje."
+      - id: "b"
+        text: "Výhradně automatický algoritmus bez kontroly."
+      - id: "c"
+        text: "Pacient podle předchozího záznamu."
+    correct_option_id: "a"
+    explanation: "Dokument nepřipouští spolehnutí pouze na automatický popis."
+    source_pages:
+      - 5
+  - id: "akutni_koronarni_syndromy_008"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Vylučuje normální úvodní EKG NSTEMI?"
+    options:
+      - id: "a"
+        text: "Vylučuje vždy."
+      - id: "b"
+        text: "Nevylučuje."
+      - id: "c"
+        text: "Vylučuje pouze u všech diabetiků."
+    correct_option_id: "b"
+    explanation: "NSTEMI může mít zpočátku i fyziologický EKG obraz."
+    source_pages:
+      - 6
+  - id: "akutni_koronarni_syndromy_009"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co lze doplnit při podezření na AKS a neprůkazném standardním EKG?"
+    options:
+      - id: "a"
+        text: "Pouze rentgen zápěstí."
+      - id: "b"
+        text: "Pouze spirometrii."
+      - id: "c"
+        text: "Pravostranné a zadní svody."
+    correct_option_id: "c"
+    explanation: "Rozšířené svody mohou zachytit ischemii nedostatečně zobrazenou standardními svody."
+    source_pages:
+      - 6
+  - id: "akutni_koronarni_syndromy_010"
+    section_id: "diagnostika"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Jaké svody pomáhají zachytit posteriorní STEMI?"
+    options:
+      - id: "a"
+        text: "V7–V9."
+      - id: "b"
+        text: "Pouze aVR."
+      - id: "c"
+        text: "Pouze I a aVL."
+    correct_option_id: "a"
+    explanation: "Zadní svody doplňují standardní záznam při podezření na zadní infarkt."
+    source_pages:
+      - 7
+  - id: "akutni_koronarni_syndromy_011"
+    section_id: "diagnostika"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "S čím dokument spojuje Wellensovo znamení?"
+    options:
+      - id: "a"
+        text: "Izolovanou žilní trombózou."
+      - id: "b"
+        text: "Závažnou stenózou či proximální okluzí LAD."
+      - id: "c"
+        text: "Výhradně fyziologickou sportovní adaptací."
+    correct_option_id: "b"
+    explanation: "Bifazické či hluboce invertované přední T vlny jsou rizikovým nálezem."
+    source_pages:
+      - 8
+  - id: "akutni_koronarni_syndromy_012"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak se interpretuje jediná normální hodnota troponinu v ordinaci?"
+    options:
+      - id: "a"
+        text: "Spolehlivě vylučuje všechny formy AKS."
+      - id: "b"
+        text: "Dokazuje nekardiální příčinu bolesti."
+      - id: "c"
+        text: "Sama AKS nevylučuje."
+    correct_option_id: "c"
+    explanation: "Diagnostika vyžaduje klinický kontext a podle situace časované laboratorní odběry."
+    source_pages:
+      - 5
+  - id: "akutni_koronarni_syndromy_013"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co znamená zvýšený troponin bez dalšího kontextu?"
+    options:
+      - id: "a"
+        text: "Může mít i jiné příčiny než AKS."
+      - id: "b"
+        text: "Vždy dokazuje aterotrombotický infarkt."
+      - id: "c"
+        text: "Vždy znamená chybu laboratoře."
+    correct_option_id: "a"
+    explanation: "Zvýšení se může objevit například při renální insuficienci, úrazech či zánětech."
+    source_pages:
+      - 5
+  - id: "akutni_koronarni_syndromy_014"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy lze v ordinaci zvažovat POCT troponin?"
+    options:
+      - id: "a"
+        text: "Vždy před zavoláním ZZS při jasném STEMI."
+      - id: "b"
+        text: "Při nejednoznačném EKG, dostupném přístroji a bez zdržení indikovaného odeslání."
+      - id: "c"
+        text: "Pouze jako náhradu všech nemocničních odběrů."
+    correct_option_id: "b"
+    explanation: "POCT nesmí zdržovat transport a nenahrazuje laboratorní standard diagnostiky."
+    source_pages:
+      - 5
+  - id: "akutni_koronarni_syndromy_015"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký interval kontrolních odběrů uvádí rule-in/rule-out algoritmus?"
+    options:
+      - id: "a"
+        text: "Čas 0 a za šest měsíců."
+      - id: "b"
+        text: "Pouze jediný odběr bez zohlednění času."
+      - id: "c"
+        text: "Čas 0 a za jednu nebo dvě hodiny."
+    correct_option_id: "c"
+    explanation: "Dynamika cTn a mezní hodnoty se posuzují podle laboratorní metody."
+    source_pages:
+      - 10
+  - id: "akutni_koronarni_syndromy_016"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co následuje, pokud pacient nesplní ani rule-in, ani rule-out podmínky?"
+    options:
+      - id: "a"
+        text: "Observační cesta s došetřením za hospitalizace."
+      - id: "b"
+        text: "Automatické propuštění bez dalšího vyšetření."
+      - id: "c"
+        text: "Automatická fibrinolýza bez klinického posouzení."
+    correct_option_id: "a"
+    explanation: "Mezilehlé výsledky vyžadují další observaci."
+    source_pages:
+      - 10
+  - id: "akutni_koronarni_syndromy_017"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaké omezení platí pro echokardiografii při pokračující ischemii?"
+    options:
+      - id: "a"
+        text: "Musí vždy předcházet transportu do centra."
+      - id: "b"
+        text: "Nesmí zdržet indikované okamžité invazivní řešení."
+      - id: "c"
+        text: "Nahrazuje koronarografii při jasném STEMI."
+    correct_option_id: "b"
+    explanation: "ECHO pomáhá diagnostice, ale čas do reperfuze má prioritu."
+    source_pages:
+      - 10
+  - id: "akutni_koronarni_syndromy_018"
+    section_id: "akutni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká je základní zásada péče v ordinaci při podezření na AKS?"
+    options:
+      - id: "a"
+        text: "Dokončit všechna ambulantní vyšetření před transportem."
+      - id: "b"
+        text: "Vyčkat doma na další den bez monitorace."
+      - id: "c"
+        text: "Neprodlužovat čas do předání ZZS či specialistovi."
+    correct_option_id: "c"
+    explanation: "Přednemocniční úkony nesmějí oddálit specializovanou péči."
+    source_pages:
+      - 9
+  - id: "akutni_koronarni_syndromy_019"
+    section_id: "akutni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jakou perorální nasycovací dávku ASA uvádí text při nepřítomnosti kontraindikace?"
+    options:
+      - id: "a"
+        text: "150–300 mg."
+      - id: "b"
+        text: "5–10 mg."
+      - id: "c"
+        text: "1500–3000 mg."
+    correct_option_id: "a"
+    explanation: "Postup uvádí tuto dávku i při nejisté adherenci k trvalé ASA."
+    source_pages:
+      - 9
+  - id: "akutni_koronarni_syndromy_020"
+    section_id: "akutni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč se nitroglycerin nemá podávat při infarktu pravé komory?"
+    options:
+      - id: "a"
+        text: "Vždy zvyšuje preload nad bezpečnou úroveň."
+      - id: "b"
+        text: "Může snížit preload a vyvolat hypotenzi."
+      - id: "c"
+        text: "Je zde neúčinný pouze kvůli poruše vstřebávání."
+    correct_option_id: "b"
+    explanation: "Pokles preloadu může zhoršit tepový objem a koronární perfuzi."
+    source_pages:
+      - 9
+  - id: "akutni_koronarni_syndromy_021"
+    section_id: "akutni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká podmínka je nutná pro intravenózní betablokátor v popsané přednemocniční péči?"
+    options:
+      - id: "a"
+        text: "Přítomnost hypotenze a AV blokády."
+      - id: "b"
+        text: "Absence jakékoli možnosti monitorace."
+      - id: "c"
+        text: "Hemodynamická stabilita, absence kontraindikací a nepřetržitá kontrola TK a EKG."
+    correct_option_id: "c"
+    explanation: "Text vyžaduje monitoraci a vyloučení například bradykardie či akutního selhání."
+    source_pages:
+      - 9
+  - id: "akutni_koronarni_syndromy_022"
+    section_id: "akutni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je kyslík při saturaci nad 90 % běžně doporučován všem pacientům s AKS?"
+    options:
+      - id: "a"
+        text: "Není běžně doporučován."
+      - id: "b"
+        text: "Je povinný bez ohledu na klinický stav."
+      - id: "c"
+        text: "Nahrazuje protidestičkovou léčbu."
+    correct_option_id: "a"
+    explanation: "Kyslík se řídí oxygenací a klinickou situací, nikoli samotnou diagnózou AKS."
+    source_pages:
+      - 9
+  - id: "akutni_koronarni_syndromy_023"
+    section_id: "akutni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká je v českých podmínkách metoda volby reperfuze STEMI?"
+    options:
+      - id: "a"
+        text: "Rutinní ambulantní ergometrie."
+      - id: "b"
+        text: "Primární perkutánní koronární intervence."
+      - id: "c"
+        text: "Odklad léčby do další preventivní prohlídky."
+    correct_option_id: "b"
+    explanation: "Primární PCI mechanicky zprůchodní infarktovou tepnu."
+    source_pages:
+      - 10
+  - id: "akutni_koronarni_syndromy_024"
+    section_id: "akutni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který pacient s NSTEMI vyžaduje okamžitou invazivní strategii?"
+    options:
+      - id: "a"
+        text: "Stabilní pacient s nízkým rizikem bez obtíží automaticky vždy."
+      - id: "b"
+        text: "Pacient s vyloučeným AKS a normálními nálezy."
+      - id: "c"
+        text: "Hemodynamicky nestabilní pacient s pokračující ischemií."
+    correct_option_id: "c"
+    explanation: "Nestabilita, refrakterní bolest a závažné komplikace jsou velmi rizikové."
+    source_pages:
+      - 11
+  - id: "akutni_koronarni_syndromy_025"
+    section_id: "akutni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký údaj podporuje časnou invazivní strategii u rizikového NSTEMI?"
+    options:
+      - id: "a"
+        text: "GRACE skóre nad 140."
+      - id: "b"
+        text: "Pouze normální tělesná teplota."
+      - id: "c"
+        text: "Izolovaný stabilní lipidogram."
+    correct_option_id: "a"
+    explanation: "Mezi rizikové znaky patří také dynamika troponinu a ST-T změn."
+    source_pages:
+      - 11
+  - id: "akutni_koronarni_syndromy_026"
+    section_id: "nasledna"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká je standardní délka DAPT po AIM uvedená v dokumentu?"
+    options:
+      - id: "a"
+        text: "Dvanáct dnů."
+      - id: "b"
+        text: "Dvanáct měsíců."
+      - id: "c"
+        text: "Vždy pouze jedna dávka při příjmu."
+    correct_option_id: "b"
+    explanation: "Délku lze individuálně upravit podle krvácivého a ischemického rizika."
+    source_pages:
+      - 12
+  - id: "akutni_koronarni_syndromy_027"
+    section_id: "nasledna"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co v dokumentu znamená deeskalace DAPT?"
+    options:
+      - id: "a"
+        text: "Přidání třetího protidestičkového léku."
+      - id: "b"
+        text: "Automatické zvýšení všech dávek na dvojnásobek."
+      - id: "c"
+        text: "Přechod z ticagreloru či prasugrelu na clopidogrel."
+    correct_option_id: "c"
+    explanation: "Deeskalace mění intenzitu protidestičkové léčby."
+    source_pages:
+      - 12
+  - id: "akutni_koronarni_syndromy_028"
+    section_id: "nasledna"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který inhibitor P2Y12 je preferován v kombinaci s DOAC po krátké triple terapii?"
+    options:
+      - id: "a"
+        text: "Clopidogrel."
+      - id: "b"
+        text: "Prasugrel jako povinná jediná možnost."
+      - id: "c"
+        text: "Ticagrelor jako povinná jediná možnost."
+    correct_option_id: "a"
+    explanation: "Text preferuje clopidogrel při současné indikaci antikoagulace."
+    source_pages:
+      - 13
+  - id: "akutni_koronarni_syndromy_029"
+    section_id: "nasledna"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký je cílový LDL cholesterol v sekundární prevenci po AKS?"
+    options:
+      - id: "a"
+        text: "Pod 4,0 mmol/l bez požadavku na relativní pokles."
+      - id: "b"
+        text: "Pod 1,4 mmol/l a pokles nejméně o 50 % výchozí hodnoty."
+      - id: "c"
+        text: "Vždy přesně 3,0 mmol/l."
+    correct_option_id: "b"
+    explanation: "Cíl kombinuje absolutní hodnotu a relativní redukci."
+    source_pages:
+      - 13
+  - id: "akutni_koronarni_syndromy_030"
+    section_id: "nasledna"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy dokument doporučuje první kardiologickou kontrolu po AKS?"
+    options:
+      - id: "a"
+        text: "Nejdříve za dva roky."
+      - id: "b"
+        text: "Pouze při recidivě infarktu."
+      - id: "c"
+        text: "Za čtyři až šest týdnů."
+    correct_option_id: "c"
+    explanation: "První kontrola hodnotí průběh, léčbu a další plán péče."
+    source_pages:
+      - 13
+  - id: "akutni_koronarni_syndromy_031"
+    section_id: "nasledna"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Do jaké kategorie kardiovaskulárního rizika patří pacient po AKS?"
+    options:
+      - id: "a"
+        text: "Velmi vysoké riziko."
+      - id: "b"
+        text: "Nízké riziko po úspěšné PCI."
+      - id: "c"
+        text: "Střední riziko bez ohledu na anamnézu."
+    correct_option_id: "a"
+    explanation: "Prodělaný AKS znamená potřebu dlouhodobé sekundární prevence."
+    source_pages:
+      - 13
+  - id: "akutni_koronarni_syndromy_032"
+    section_id: "nasledna"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který soubor opatření patří do následné péče po AKS?"
+    options:
+      - id: "a"
+        text: "Trvalý klid bez rehabilitace a pokračování kouření."
+      - id: "b"
+        text: "Nekouření, přiměřený pohyb, rehabilitace, mediteránská strava a očkování proti chřipce."
+      - id: "c"
+        text: "Pouze medikace bez režimových opatření."
+    correct_option_id: "b"
+    explanation: "Dokument zdůrazňuje komplexní prevenci a léčbu komorbidit."
+    source_pages:
+      - 13

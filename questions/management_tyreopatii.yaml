@@ -1,0 +1,604 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "management_tyreopatii"
+  title: "Management tyreopatií v ordinaci VPL"
+  source:
+    file: "management-tyreopatii-2023.pdf"
+    year: 2023
+coverage:
+  proposed_question_count: 36
+  rationale: "36 otázek pokrývá laboratorní algoritmy, substituci, hyperfunkci, graviditu, záněty i uzly bez opakování textu a tabulek."
+  sections:
+    - id: "diag"
+      title: "Diagnostika"
+      planned_question_count: 10
+    - id: "lecba"
+      title: "Léčba a sledování"
+      planned_question_count: 10
+    - id: "gravidita"
+      title: "Gravidita"
+      planned_question_count: 6
+    - id: "uzly"
+      title: "Uzly a tyreoiditidy"
+      planned_question_count: 10
+questions:
+  - id: "management_tyreopatii_001"
+    section_id: "diag"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který test postačuje k úvodnímu vyloučení primární tyreoidální dysfunkce u asymptomatického pacienta?"
+    options:
+      - id: "a"
+        text: "TSH"
+      - id: "b"
+        text: "Samotný FT3"
+      - id: "c"
+        text: "Samotné TPOAb"
+    correct_option_id: "a"
+    explanation: "Normální TSH vylučuje aktuální primární funkční poruchu."
+    source_pages:
+      - 5
+  - id: "management_tyreopatii_002"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký nález odpovídá manifestní primární hypotyreóze?"
+    options:
+      - id: "a"
+        text: "Snížený TSH a zvýšený FT4"
+      - id: "b"
+        text: "Zvýšený TSH a snížený FT4"
+      - id: "c"
+        text: "Zvýšený TSH a zvýšený FT4"
+    correct_option_id: "b"
+    explanation: "Primární nedostatečnost vede k poklesu FT4 a kompenzačnímu vzestupu TSH."
+    source_pages:
+      - 5
+  - id: "management_tyreopatii_003"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co charakterizuje subklinickou hypertyreózu?"
+    options:
+      - id: "a"
+        text: "Zvýšený FT4 při normálním TSH"
+      - id: "b"
+        text: "Snížený FT4 při zvýšeném TSH"
+      - id: "c"
+        text: "Opakovaně snížený TSH při normálních FT4 a FT3"
+    correct_option_id: "c"
+    explanation: "Abnormalita musí přetrvávat při opakovaném vyšetření."
+    source_pages:
+      - 5
+  - id: "management_tyreopatii_004"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co doplníme při zvýšeném TSH u negravidního pacienta?"
+    options:
+      - id: "a"
+        text: "FT4 a TPOAb"
+      - id: "b"
+        text: "Pouze kalcitonin"
+      - id: "c"
+        text: "Pouze tyreoglobulin"
+    correct_option_id: "a"
+    explanation: "FT4 určuje funkční závažnost a TPOAb pomáhá určit etiologii."
+    source_pages:
+      - 5
+  - id: "management_tyreopatii_005"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak řešit mírnou izolovanou odchylku TSH s normálními ostatními parametry bez typických příznaků?"
+    options:
+      - id: "a"
+        text: "Automaticky zahájit tyreostatikum"
+      - id: "b"
+        text: "Kontrolovat s odstupem 3–6 měsíců"
+      - id: "c"
+        text: "Automaticky zahájit supresní LT4"
+    correct_option_id: "b"
+    explanation: "Přechodná odchylka může mít netyreoidální příčinu."
+    source_pages:
+      - 5
+  - id: "management_tyreopatii_006"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy není vhodné bez jasných příznaků vyšetřovat tyreoidální testy?"
+    options:
+      - id: "a"
+        text: "Při nově vzniklých typických příznacích hyperfunkce"
+      - id: "b"
+        text: "Při podezření na manifestní hypotyreózu"
+      - id: "c"
+        text: "Během akutního onemocnění a časné rekonvalescence"
+    correct_option_id: "c"
+    explanation: "Netyreoidální onemocnění může výsledky významně zkreslit."
+    source_pages:
+      - 6
+  - id: "management_tyreopatii_007"
+    section_id: "diag"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Co vyžaduje opakovaně zvýšený FT4 při nesuprimovaném TSH?"
+    options:
+      - id: "a"
+        text: "Endokrinologické vyšetření"
+      - id: "b"
+        text: "Automatickou diagnózu primární hypertyreózy"
+      - id: "c"
+        text: "Vyloučení tyreopatie bez dalšího vyšetření"
+    correct_option_id: "a"
+    explanation: "Je třeba rozlišit centrální příčinu, rezistenci, interference či nepravidelné užívání LT4."
+    source_pages:
+      - 6
+  - id: "management_tyreopatii_008"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co provést při hypotyreóze a negativních TPOAb?"
+    options:
+      - id: "a"
+        text: "Vyloučit autoimunitní etiologii jen podle protilátek"
+      - id: "b"
+        text: "Doplnit ultrazvuk štítné žlázy a krku"
+      - id: "c"
+        text: "Rutinně vyšetřit pouze kalcitonin"
+    correct_option_id: "b"
+    explanation: "Část autoimunitních tyreoiditid má negativní protilátky."
+    source_pages:
+      - 6
+  - id: "management_tyreopatii_009"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký význam má opakované sledování koncentrace TPOAb po stanovení autoimunitní tyreoiditidy?"
+    options:
+      - id: "a"
+        text: "Je hlavním ukazatelem dávky LT4"
+      - id: "b"
+        text: "Nahrazuje sledování TSH"
+      - id: "c"
+        text: "Nemá klinický přínos pro monitoraci léčby"
+    correct_option_id: "c"
+    explanation: "TPOAb obvykle přetrvávají a jejich koncentrace není cílem léčby."
+    source_pages:
+      - 13
+  - id: "management_tyreopatii_010"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Pro které onemocnění jsou charakteristické protilátky TRAK?"
+    options:
+      - id: "a"
+        text: "Gravesova-Basedowova nemoc"
+      - id: "b"
+        text: "Medulární karcinom štítné žlázy"
+      - id: "c"
+        text: "Nedostatek jódu bez autoimunity"
+    correct_option_id: "a"
+    explanation: "TRAK míří proti receptoru TSH a odrážejí aktivitu GB nemoci."
+    source_pages:
+      - 13
+  - id: "management_tyreopatii_011"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak se má užívat levotyroxin?"
+    options:
+      - id: "a"
+        text: "Současně se snídaní a kávou"
+      - id: "b"
+        text: "Nalačno 30–60 minut před jídlem s čistou vodou"
+      - id: "c"
+        text: "Vždy současně se všemi ranními léky"
+    correct_option_id: "b"
+    explanation: "Jídlo a další látky mohou narušit vstřebávání LT4."
+    source_pages:
+      - 6
+  - id: "management_tyreopatii_012"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak obvykle zahajujeme LT4 u staršího polymorbidního pacienta s kardiovaskulárním rizikem?"
+    options:
+      - id: "a"
+        text: "200 µg denně bez titrace"
+      - id: "b"
+        text: "Plnou supresní dávkou bez kontrol"
+      - id: "c"
+        text: "12,5–25 µg denně s pomalou titrací"
+    correct_option_id: "c"
+    explanation: "Nízká úvodní dávka omezuje rizika rychlé substituce."
+    source_pages:
+      - 6
+  - id: "management_tyreopatii_013"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který parametr slouží k běžné monitoraci substituce primární hypotyreózy?"
+    options:
+      - id: "a"
+        text: "TSH"
+      - id: "b"
+        text: "TPOAb"
+      - id: "c"
+        text: "Tyreoglobulin"
+    correct_option_id: "a"
+    explanation: "Dávka se obvykle řídí TSH a klinickým stavem."
+    source_pages:
+      - 6
+  - id: "management_tyreopatii_014"
+    section_id: "lecba"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Čím monitorujeme substituci centrální hypotyreózy?"
+    options:
+      - id: "a"
+        text: "Samotným TSH"
+      - id: "b"
+        text: "FT4"
+      - id: "c"
+        text: "Protilátkami TRAK"
+    correct_option_id: "b"
+    explanation: "TSH není při centrální hypotyreóze spolehlivým ukazatelem substituce."
+    source_pages:
+      - 6
+      - 13
+  - id: "management_tyreopatii_015"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy se doporučuje první kontrola TSH po zahájení substituce?"
+    options:
+      - id: "a"
+        text: "Za 2 dny"
+      - id: "b"
+        text: "Až za 2 roky"
+      - id: "c"
+        text: "Za 6–8 týdnů"
+    correct_option_id: "c"
+    explanation: "Ustálení účinku vyžaduje několik týdnů."
+    source_pages:
+      - 6
+  - id: "management_tyreopatii_016"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která hodnota u přetrvávající subklinické hypotyreózy obvykle podporuje zahájení LT4?"
+    options:
+      - id: "a"
+        text: "TSH nad 10 mU/l"
+      - id: "b"
+        text: "TSH pod 0,1 mU/l"
+      - id: "c"
+        text: "Normální TSH u každého pacienta"
+    correct_option_id: "a"
+    explanation: "Při TSH nad 10 mU/l je léčba zpravidla indikována."
+    source_pages:
+      - 5
+      - 12
+  - id: "management_tyreopatii_017"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který nežádoucí účinek tyreostatik vyžaduje přerušení léčby?"
+    options:
+      - id: "a"
+        text: "Lehký přechodný exantém bez dalších obtíží"
+      - id: "b"
+        text: "Agranulocytóza"
+      - id: "c"
+        text: "Mírná přechodná gastrointestinální intolerance"
+    correct_option_id: "b"
+    explanation: "Agranulocytóza patří mezi závažné nežádoucí účinky."
+    source_pages:
+      - 6
+      - 7
+  - id: "management_tyreopatii_018"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co vyšetřit před zahájením tyreostatik?"
+    options:
+      - id: "a"
+        text: "Pouze močový sediment"
+      - id: "b"
+        text: "Pouze sérový vápník"
+      - id: "c"
+        text: "Krevní obraz a jaterní testy"
+    correct_option_id: "c"
+    explanation: "Výchozí vyšetření pomáhá posoudit hematologickou a jaterní bezpečnost."
+    source_pages:
+      - 7
+  - id: "management_tyreopatii_019"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je při závažném nežádoucím účinku vhodná prostá záměna jednoho tyreostatika za jiné?"
+    options:
+      - id: "a"
+        text: "Ne, existuje významné riziko zkřížené reakce"
+      - id: "b"
+        text: "Ano, vždy bez konzultace"
+      - id: "c"
+        text: "Ano, pokud se dávka nového léku zdvojnásobí"
+    correct_option_id: "a"
+    explanation: "Závažnou toxicitu je nutné řešit s endokrinologem."
+    source_pages:
+      - 7
+  - id: "management_tyreopatii_020"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Kdo má řídit péči o manifestní či přetrvávající subklinickou hypertyreózu?"
+    options:
+      - id: "a"
+        text: "Výhradně pacient podle pulzu"
+      - id: "b"
+        text: "Endokrinolog"
+      - id: "c"
+        text: "VPL bez potřeby konzultace"
+    correct_option_id: "b"
+    explanation: "VPL může zahájit léčbu po dohodě s endokrinologem."
+    source_pages:
+      - 6
+  - id: "management_tyreopatii_021"
+    section_id: "gravidita"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká suplementace jódem se doporučuje v graviditě a při kojení kromě nevyřešené hypertyreózy?"
+    options:
+      - id: "a"
+        text: "15–20 mg denně"
+      - id: "b"
+        text: "Žádný jód u všech žen s hypotyreózou"
+      - id: "c"
+        text: "150–200 µg denně nad běžný příjem"
+    correct_option_id: "c"
+    explanation: "Výjimkou je nevyřešená hypertyreóza."
+    source_pages:
+      - 7
+  - id: "management_tyreopatii_022"
+    section_id: "gravidita"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak se obvykle mění potřeba LT4 od 4.–6. týdne gravidity?"
+    options:
+      - id: "a"
+        text: "Stoupá přibližně o 30–50 %"
+      - id: "b"
+        text: "Klesá přibližně na polovinu"
+      - id: "c"
+        text: "Substituce se přerušuje"
+    correct_option_id: "a"
+    explanation: "Gravidita zvyšuje potřebu hormonů štítné žlázy."
+    source_pages:
+      - 7
+  - id: "management_tyreopatii_023"
+    section_id: "gravidita"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak často se kontroluje TSH při substituci do 20. týdne gravidity?"
+    options:
+      - id: "a"
+        text: "Jednou za 2 roky"
+      - id: "b"
+        text: "Každé 4 týdny"
+      - id: "c"
+        text: "Pouze po porodu"
+    correct_option_id: "b"
+    explanation: "Časté kontroly umožňují úpravu dávky."
+    source_pages:
+      - 7
+  - id: "management_tyreopatii_024"
+    section_id: "gravidita"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupovat při nově zjištěné hypotyreóze v graviditě?"
+    options:
+      - id: "a"
+        text: "Vyčkat bez léčby do konce gravidity"
+      - id: "b"
+        text: "Zahájit tyreostatikum"
+      - id: "c"
+        text: "Co nejdříve zahájit LT4 a zajistit endokrinologickou péči"
+    correct_option_id: "c"
+    explanation: "Včasná substituce je v graviditě zásadní."
+    source_pages:
+      - 7
+  - id: "management_tyreopatii_025"
+    section_id: "gravidita"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak se léčí fyziologická tranzientní gestační hypertyreóza?"
+    options:
+      - id: "a"
+        text: "Obvykle nevyžaduje tyreostatickou léčbu"
+      - id: "b"
+        text: "Vždy radiojódem"
+      - id: "c"
+        text: "Vždy vysokou dávkou LT4"
+    correct_option_id: "a"
+    explanation: "Je nutné ji odlišit od skutečné hypertyreózy."
+    source_pages:
+      - 7
+  - id: "management_tyreopatii_026"
+    section_id: "gravidita"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký průběh je typický pro poporodní tyreoiditidu?"
+    options:
+      - id: "a"
+        text: "Trvalá hyperfunkce bez možnosti hypofunkce"
+      - id: "b"
+        text: "Hyperfunkční fáze následovaná hypotyreózou"
+      - id: "c"
+        text: "Pouze zvětšení žlázy bez změn funkce"
+    correct_option_id: "b"
+    explanation: "Výsledkem může být úprava nebo trvalá hypotyreóza."
+    source_pages:
+      - 7
+  - id: "management_tyreopatii_027"
+    section_id: "uzly"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který nález má být ultrazvukově vyšetřen?"
+    options:
+      - id: "a"
+        text: "Každý náhodný 1mm uzel bez rizik"
+      - id: "b"
+        text: "Pouze uzel nad 5 cm"
+      - id: "c"
+        text: "Tyreoidální uzel alespoň 5 mm"
+    correct_option_id: "c"
+    explanation: "Postup doporučuje UZ pro uzly ≥5 mm a hmatné nálezy."
+    source_pages:
+      - 7
+  - id: "management_tyreopatii_028"
+    section_id: "uzly"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co má obsahovat kvalitní ultrazvukový popis uzlu kromě rozměrů?"
+    options:
+      - id: "a"
+        text: "Riziko malignity podle klasifikace a doporučení k FNAB"
+      - id: "b"
+        text: "Jen barvu kůže nad uzlem"
+      - id: "c"
+        text: "Pouze koncentraci TSH"
+    correct_option_id: "a"
+    explanation: "Sonografický rizikový profil určuje potřebu biopsie."
+    source_pages:
+      - 8
+  - id: "management_tyreopatii_029"
+    section_id: "uzly"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co znamená cytologická kategorie Bethesda II?"
+    options:
+      - id: "a"
+        text: "Nedostatečný vzorek"
+      - id: "b"
+        text: "Benigní nález"
+      - id: "c"
+        text: "Maligní nález"
+    correct_option_id: "b"
+    explanation: "Benigní uzly bez progrese lze sledovat."
+    source_pages:
+      - 15
+  - id: "management_tyreopatii_030"
+    section_id: "uzly"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupovat po prvním nediagnostickém výsledku Bethesda I?"
+    options:
+      - id: "a"
+        text: "Prohlásit uzel za benigní"
+      - id: "b"
+        text: "Automaticky podat radiojód bez vyšetření"
+      - id: "c"
+        text: "Opakovat FNAB s odstupem přibližně 3 měsíců"
+    correct_option_id: "c"
+    explanation: "Nedostatečný vzorek nedovoluje uzel bezpečně klasifikovat."
+    source_pages:
+      - 14
+  - id: "management_tyreopatii_031"
+    section_id: "uzly"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký je postoj k supresní léčbě LT4 u benigních uzlů?"
+    options:
+      - id: "a"
+        text: "Rutinně se nedoporučuje"
+      - id: "b"
+        text: "Je povinná u všech uzlů"
+      - id: "c"
+        text: "Nahrazuje biopsii podezřelého uzlu"
+    correct_option_id: "a"
+    explanation: "Případná hypotyreóza se substituuje standardně."
+    source_pages:
+      - 8
+  - id: "management_tyreopatii_032"
+    section_id: "uzly"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Který nález při sledování uzlu podporuje odeslání na endokrinologii?"
+    options:
+      - id: "a"
+        text: "Stabilní benigní obraz"
+      - id: "b"
+        text: "Nové patologické uzliny či extratyreoidální šíření"
+      - id: "c"
+        text: "Samotné kolísání TPOAb"
+    correct_option_id: "b"
+    explanation: "Progrese zahrnuje změnu rizikového obrazu i podezřelé okolní nálezy."
+    source_pages:
+      - 14
+  - id: "management_tyreopatii_033"
+    section_id: "uzly"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je typické pro subakutní De Quervainovu tyreoiditidu?"
+    options:
+      - id: "a"
+        text: "Neboliestivý uzel s trvale normálními zánětlivými ukazateli"
+      - id: "b"
+        text: "Izolovaná produkce kalcitoninu"
+      - id: "c"
+        text: "Bolestivost žlázy po infekci a zvýšené zánětlivé ukazatele"
+    correct_option_id: "c"
+    explanation: "Léčbu NSAID nebo glukokortikoidy má vést endokrinolog."
+    source_pages:
+      - 14
+  - id: "management_tyreopatii_034"
+    section_id: "uzly"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký postup je obvyklý u eufunkční autoimunitní tyreoiditidy?"
+    options:
+      - id: "a"
+        text: "Sledování přibližně jednou ročně"
+      - id: "b"
+        text: "Rutinní tyreostatikum"
+      - id: "c"
+        text: "Rutinní supresní LT4 u každého"
+    correct_option_id: "a"
+    explanation: "Sleduje se riziko přechodu do hypotyreózy."
+    source_pages:
+      - 14
+  - id: "management_tyreopatii_035"
+    section_id: "uzly"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který marker souvisí s medulárním karcinomem štítné žlázy?"
+    options:
+      - id: "a"
+        text: "TPOAb"
+      - id: "b"
+        text: "Kalcitonin"
+      - id: "c"
+        text: "TSH jako specifický nádorový marker"
+    correct_option_id: "b"
+    explanation: "Kalcitonin produkují C buňky."
+    source_pages:
+      - 13
+  - id: "management_tyreopatii_036"
+    section_id: "uzly"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která léčba zvyšuje riziko vzniku tyreopatie?"
+    options:
+      - id: "a"
+        text: "Lokální emoliencia"
+      - id: "b"
+        text: "Běžná substituce vitaminu D jako jediný faktor"
+      - id: "c"
+        text: "Amiodaron"
+    correct_option_id: "c"
+    explanation: "Amiodaron patří mezi významné lékové rizikové faktory."
+    source_pages:
+      - 15

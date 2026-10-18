@@ -1,0 +1,750 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "vybrane_kapitoly_pediatrie"
+  title: "Vybrané kapitoly z pediatrie"
+  source:
+    file: "dp-pediatrie-2026.pdf"
+    year: 2026
+coverage:
+  proposed_question_count: 45
+  rationale: "45 otázek reprezentuje vývoj, prevenci, devět skupin běžných potíží, duševní zdraví a akutní stavy; nejasná či zjevně chybná tvrzení zdroje nejsou testována."
+  sections:
+    - id: "vyvoj"
+      title: "Adolescence a prevence"
+      planned_question_count: 7
+    - id: "infekce"
+      title: "Infekční onemocnění"
+      planned_question_count: 9
+    - id: "somatika"
+      title: "Somatické obtíže"
+      planned_question_count: 15
+    - id: "psychika"
+      title: "Duševní zdraví a rizikové chování"
+      planned_question_count: 7
+    - id: "akutni"
+      title: "Naléhavé stavy a návaznost péče"
+      planned_question_count: 7
+questions:
+  - id: "vybrane_kapitoly_pediatrie_001"
+    section_id: "vyvoj"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký komunikační přístup vyžaduje dospívající pacient?"
+    options:
+      - id: "a"
+        text: "Respekt k jeho rozumové vyspělosti a zapojení do rozhodování."
+      - id: "b"
+        text: "Jednání pouze s rodičem bez kontaktu s dítětem."
+      - id: "c"
+        text: "Předpoklad stejné vyspělosti u všech čtrnáctiletých."
+    correct_option_id: "a"
+    explanation: "Role dospívajícího se s jeho vyspělostí posiluje."
+    source_pages:
+      - 5
+  - id: "vybrane_kapitoly_pediatrie_002"
+    section_id: "vyvoj"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co charakterizuje časnou adolescenci?"
+    options:
+      - id: "a"
+        text: "U všech již ukončený tělesný růst."
+      - id: "b"
+        text: "Růstová akcelerace a rozvoj sekundárních pohlavních znaků."
+      - id: "c"
+        text: "Fyziologický zánik reprodukčních funkcí."
+    correct_option_id: "b"
+    explanation: "Biologické změny jsou v časné adolescenci výrazné."
+    source_pages:
+      - 6
+  - id: "vybrane_kapitoly_pediatrie_003"
+    section_id: "vyvoj"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak komunikovat s adolescentem o sexuální orientaci?"
+    options:
+      - id: "a"
+        text: "Automaticky hodnotit nejistotu jako nemoc."
+      - id: "b"
+        text: "Odmítnout téma jako medicínsky bezvýznamné."
+      - id: "c"
+        text: "Důvěrně, chápavě a bez odsuzování."
+    correct_option_id: "c"
+    explanation: "Důvěra umožňuje řešit obtíže a předcházet izolaci."
+    source_pages:
+      - 6
+  - id: "vybrane_kapitoly_pediatrie_004"
+    section_id: "vyvoj"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak hodnotit výšku, hmotnost a BMI adolescenta?"
+    options:
+      - id: "a"
+        text: "V kontextu růstových grafů a vývoje."
+      - id: "b"
+        text: "Pouze podle jediné absolutní hranice hmotnosti."
+      - id: "c"
+        text: "Bez přihlédnutí k věku a vývoji."
+    correct_option_id: "a"
+    explanation: "Růstová trajektorie je pro dorost zásadní."
+    source_pages:
+      - 7
+  - id: "vybrane_kapitoly_pediatrie_005"
+    section_id: "vyvoj"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je při měření tlaku adolescenta nezbytné?"
+    options:
+      - id: "a"
+        text: "Vždy nejmenší kojenecká manžeta."
+      - id: "b"
+        text: "Vhodná velikost manžety a interpretace podle příslušných grafů."
+      - id: "c"
+        text: "Použití stejné manžety bez ohledu na paži."
+    correct_option_id: "b"
+    explanation: "Nesprávná manžeta může měření zkreslit."
+    source_pages:
+      - 7
+  - id: "vybrane_kapitoly_pediatrie_006"
+    section_id: "vyvoj"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co zahrnout do hodnocení denního režimu adolescenta?"
+    options:
+      - id: "a"
+        text: "Pouze délku dojíždění do školy."
+      - id: "b"
+        text: "Jen počet sportovních soutěží."
+      - id: "c"
+        text: "Spánek, média, stravu, školu a možnost šikany."
+    correct_option_id: "c"
+    explanation: "Režim a sociální okolnosti ovlivňují zdraví a rizikové chování."
+    source_pages:
+      - 7
+  - id: "vybrane_kapitoly_pediatrie_007"
+    section_id: "vyvoj"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co udělat s očkovací anamnézou při přechodu adolescenta do péče VPL?"
+    options:
+      - id: "a"
+        text: "Ověřit pravidelná i doporučená očkování a případné mezery."
+      - id: "b"
+        text: "Považovat ji automaticky za kompletní."
+      - id: "c"
+        text: "Kontrolovat jen očkování proti tetanu."
+    correct_option_id: "a"
+    explanation: "Předání péče je příležitostí k revizi imunizace."
+    source_pages:
+      - 7
+  - id: "vybrane_kapitoly_pediatrie_008"
+    section_id: "infekce"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký je obvyklý úvodní přístup k nekomplikované virové respirační infekci adolescenta?"
+    options:
+      - id: "a"
+        text: "Rutinní antibiotikum u každého."
+      - id: "b"
+        text: "Symptomatická léčba, hydratace a klid."
+      - id: "c"
+        text: "Rutinní dlouhodobá systémová kortikoterapie."
+    correct_option_id: "b"
+    explanation: "Většina primárních infekcí je virová."
+    source_pages:
+      - 8
+      - 9
+  - id: "vybrane_kapitoly_pediatrie_009"
+    section_id: "infekce"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který znak přidává bod v Centor/McIsaacově skóre?"
+    options:
+      - id: "a"
+        text: "Výrazná vodnatá rýma."
+      - id: "b"
+        text: "Přítomnost produktivního kašle."
+      - id: "c"
+        text: "Absence kašle."
+    correct_option_id: "c"
+    explanation: "Mezi body patří i horečka, uzliny a nález na mandlích."
+    source_pages:
+      - 9
+  - id: "vybrane_kapitoly_pediatrie_010"
+    section_id: "infekce"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký test cíleně podporuje diagnózu streptokokové tonzilitidy?"
+    options:
+      - id: "a"
+        text: "Průkaz antigenu Strep A ve výtěru z krku."
+      - id: "b"
+        text: "Samotný močový ketonový test."
+      - id: "c"
+        text: "Sérové PSA."
+    correct_option_id: "a"
+    explanation: "Strep A je specifičtější k etiologii než samotné CRP."
+    source_pages:
+      - 9
+  - id: "vybrane_kapitoly_pediatrie_011"
+    section_id: "infekce"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Které antibiotikum je lékem volby u streptokokové tonzilitidy bez alergie?"
+    options:
+      - id: "a"
+        text: "Metronidazol."
+      - id: "b"
+        text: "Penicilin."
+      - id: "c"
+        text: "Nitrofurantoin."
+    correct_option_id: "b"
+    explanation: "Text uvádí penicilin také jako první volbu u spály."
+    source_pages:
+      - 9
+  - id: "vybrane_kapitoly_pediatrie_012"
+    section_id: "infekce"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který nález podporuje infekční mononukleózu?"
+    options:
+      - id: "a"
+        text: "Izolovaná dysurie bez celkových příznaků."
+      - id: "b"
+        text: "Pouze mechanická bolest kolena při běhu."
+      - id: "c"
+        text: "Povlaková tonzilitida s uzlinovým syndromem a hepatosplenomegalií."
+    correct_option_id: "c"
+    explanation: "Při mononukleóze bývají i elevace transamináz a změny diferenciálu."
+    source_pages:
+      - 9
+  - id: "vybrane_kapitoly_pediatrie_013"
+    section_id: "infekce"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak interpretovat časně negativní sérologii při klinickém podezření na mononukleózu?"
+    options:
+      - id: "a"
+        text: "Časná sérologie může být ještě negativní."
+      - id: "b"
+        text: "Spolehlivě vylučuje onemocnění za všech okolností."
+      - id: "c"
+        text: "Dokazuje streptokokovou etiologii."
+    correct_option_id: "a"
+    explanation: "Sérologický obraz se vyvíjí s trváním infekce."
+    source_pages:
+      - 9
+  - id: "vybrane_kapitoly_pediatrie_014"
+    section_id: "infekce"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co vyžaduje febrilní adolescent s rychlým zhoršováním a petechiemi?"
+    options:
+      - id: "a"
+        text: "Vyčkání několik dnů bez kontroly."
+      - id: "b"
+        text: "Podezření na invazivní meningokokovou infekci a urgentní postup."
+      - id: "c"
+        text: "Pouze lokální mast na exantém."
+    correct_option_id: "b"
+    explanation: "Invazivní infekce se může rozvinout během hodin."
+    source_pages:
+      - 9
+  - id: "vybrane_kapitoly_pediatrie_015"
+    section_id: "infekce"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co má předcházet antibiotikům při podezření na pyelonefritidu?"
+    options:
+      - id: "a"
+        text: "Kontrolní kolonoskopie."
+      - id: "b"
+        text: "Denzitometrie."
+      - id: "c"
+        text: "Odběr moči na kultivaci."
+    correct_option_id: "c"
+    explanation: "Kultivace před léčbou pomáhá etiologickému ověření."
+    source_pages:
+      - 10
+  - id: "vybrane_kapitoly_pediatrie_016"
+    section_id: "infekce"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Proč má význam prevence sexuálně přenosných infekcí v adolescenci?"
+    options:
+      - id: "a"
+        text: "Riziko souvisí se sexuálním chováním a ochranou při styku."
+      - id: "b"
+        text: "Protože všechny infekce přenáší pouze toalety."
+      - id: "c"
+        text: "Protože u mladých nemohou probíhat bez příznaků."
+    correct_option_id: "a"
+    explanation: "Součástí prevence je poučení o ochraně a zdravém sexuálním chování."
+    source_pages:
+      - 10
+  - id: "vybrane_kapitoly_pediatrie_017"
+    section_id: "somatika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Na kterou příčinu bolesti břicha je třeba myslet u dospívající dívky?"
+    options:
+      - id: "a"
+        text: "Pouze dietní chybu bez dalšího vyšetření."
+      - id: "b"
+        text: "Těhotenství a gynekologické příčiny."
+      - id: "c"
+        text: "Výhradně vředovou chorobu."
+    correct_option_id: "b"
+    explanation: "Diferenciální diagnóza musí odpovídat věku a reprodukční možnosti."
+    source_pages:
+      - 10
+  - id: "vybrane_kapitoly_pediatrie_018"
+    section_id: "somatika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká migrace bolesti je typická pro apendicitidu?"
+    options:
+      - id: "a"
+        text: "Z pravého podbřišku výhradně do levého ramene."
+      - id: "b"
+        text: "Z levého třísla výhradně za hrudní kost."
+      - id: "c"
+        text: "Od okolí pupku do pravého podbřišku."
+    correct_option_id: "c"
+    explanation: "Typický obraz může měnit poloha apendixu."
+    source_pages:
+      - 10
+  - id: "vybrane_kapitoly_pediatrie_019"
+    section_id: "somatika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Vylučuje nízké CRP časnou apendicitidu?"
+    options:
+      - id: "a"
+        text: "Ne, CRP se může zvýšit až v pokročilejší fázi."
+      - id: "b"
+        text: "Ano, vylučuje ji s jistotou."
+      - id: "c"
+        text: "Ano, pokud současně není průjem."
+    correct_option_id: "a"
+    explanation: "Rozhodující je celý klinický obraz a vývoj."
+    source_pages:
+      - 10
+  - id: "vybrane_kapitoly_pediatrie_020"
+    section_id: "somatika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které vyšetření pomáhá odlišit IBD při průjmovité formě funkčních obtíží?"
+    options:
+      - id: "a"
+        text: "Sérový troponin."
+      - id: "b"
+        text: "Fekální kalprotektin."
+      - id: "c"
+        text: "Močový hCG u všech chlapců."
+    correct_option_id: "b"
+    explanation: "Vyšetření se volí podle rizika organické příčiny."
+    source_pages:
+      - 11
+  - id: "vybrane_kapitoly_pediatrie_021"
+    section_id: "somatika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který znak bolesti hlavy je varovný?"
+    options:
+      - id: "a"
+        text: "Dlouhodobě neměnná mírná bolest bez dalších projevů."
+      - id: "b"
+        text: "Ústup po odpočinku bez neurologického nálezu."
+      - id: "c"
+        text: "Progrese s ranním zvracením a fokálním neurologickým nálezem."
+    correct_option_id: "c"
+    explanation: "Ranní zvracení a neurologické příznaky mohou ukazovat na sekundární příčinu."
+    source_pages:
+      - 11
+  - id: "vybrane_kapitoly_pediatrie_022"
+    section_id: "somatika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký charakter má typická tenzní bolest hlavy?"
+    options:
+      - id: "a"
+        text: "Tupý svíravý pocit kolem celé hlavy."
+      - id: "b"
+        text: "Výhradně bolest spojená s hnisavou otoreou."
+      - id: "c"
+        text: "Vždy náhlá maximální bolest s bezvědomím."
+    correct_option_id: "a"
+    explanation: "Tenzní bolest může souviset se stresem a přetížením."
+    source_pages:
+      - 11
+  - id: "vybrane_kapitoly_pediatrie_023"
+    section_id: "somatika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co se při vyšetření skoliózy hodnotí kromě stranové odchylky?"
+    options:
+      - id: "a"
+        text: "Pouze barva kůže na zádech."
+      - id: "b"
+        text: "Rotace obratlů a hrb hrudníku."
+      - id: "c"
+        text: "Jen síla stisku ruky."
+    correct_option_id: "b"
+    explanation: "Skolióza je komplexní deformita, nikoli jen úklon."
+    source_pages:
+      - 12
+  - id: "vybrane_kapitoly_pediatrie_024"
+    section_id: "somatika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký nález je typický pro Scheuermannovu nemoc?"
+    options:
+      - id: "a"
+        text: "Izolovaná symetrická artritida drobných kloubů."
+      - id: "b"
+        text: "Pouze ruptura Achillovy šlachy."
+      - id: "c"
+        text: "Hyperkyfóza s klínovitými obratli a Schmorlovými uzly."
+    correct_option_id: "c"
+    explanation: "Jde o specifické onemocnění dospívající páteře."
+    source_pages:
+      - 12
+  - id: "vybrane_kapitoly_pediatrie_025"
+    section_id: "somatika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kde typicky bolí Osgoodova-Schlatterova nemoc?"
+    options:
+      - id: "a"
+        text: "V oblasti tuberositas tibiae při zatížení."
+      - id: "b"
+        text: "V oblasti sternoklavikulárního kloubu při polykání."
+      - id: "c"
+        text: "Výhradně v zápěstí v noci."
+    correct_option_id: "a"
+    explanation: "Bolest souvisí s úponem extenzorového aparátu kolena."
+    source_pages:
+      - 12
+  - id: "vybrane_kapitoly_pediatrie_026"
+    section_id: "somatika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupovat při podezřelém progresivním uzlinovém syndromu s úbytkem hmotnosti?"
+    options:
+      - id: "a"
+        text: "Považovat stav automaticky za běžnou pubertu."
+      - id: "b"
+        text: "Rychle zahájit diagnostiku a zajistit specializované vyšetření."
+      - id: "c"
+        text: "Odložit kontrolu na konec školního roku."
+    correct_option_id: "b"
+    explanation: "Nádory dorostového věku mohou mít rychlý vývoj."
+    source_pages:
+      - 12
+  - id: "vybrane_kapitoly_pediatrie_027"
+    section_id: "somatika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které testy hodnotí funkci štítné žlázy?"
+    options:
+      - id: "a"
+        text: "CEA a AFP."
+      - id: "b"
+        text: "D-dimer a INR."
+      - id: "c"
+        text: "TSH a fT4."
+    correct_option_id: "c"
+    explanation: "Ultrazvuk hodnotí především strukturu a velikost."
+    source_pages:
+      - 13
+  - id: "vybrane_kapitoly_pediatrie_028"
+    section_id: "somatika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který nález na štítné žláze vyžaduje endokrinologické vyšetření?"
+    options:
+      - id: "a"
+        text: "Rostoucí struma nebo hmatná rezistence."
+      - id: "b"
+        text: "Pouze normální, symetrická žláza bez obtíží."
+      - id: "c"
+        text: "Normální TSH bez klinického nálezu jako jediný důvod."
+    correct_option_id: "a"
+    explanation: "Indikací jsou také funkční poruchy a výrazná asymetrie."
+    source_pages:
+      - 13
+  - id: "vybrane_kapitoly_pediatrie_029"
+    section_id: "somatika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdo má vyšetřit poruchu puberty?"
+    options:
+      - id: "a"
+        text: "Výhradně ortoped."
+      - id: "b"
+        text: "Dětský endokrinolog."
+      - id: "c"
+        text: "Výhradně oftalmolog."
+    correct_option_id: "b"
+    explanation: "Porucha může signalizovat sekundární závažné onemocnění."
+    source_pages:
+      - 13
+  - id: "vybrane_kapitoly_pediatrie_030"
+    section_id: "somatika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak se podávají celkové retinoidy u těžkého akné podle postupu?"
+    options:
+      - id: "a"
+        text: "Rutinně bez kontrol jako doplněk stravy."
+      - id: "b"
+        text: "Pouze jednorázově při horečce."
+      - id: "c"
+        text: "Pod dohledem dermatologa."
+    correct_option_id: "c"
+    explanation: "Systémová léčba patří k odborně vedeným možnostem těžkého akné."
+    source_pages:
+      - 13
+  - id: "vybrane_kapitoly_pediatrie_031"
+    section_id: "somatika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co má být součástí péče o obézního adolescenta?"
+    options:
+      - id: "a"
+        text: "Sledování vývoje hmotnosti, režimu a metabolických komplikací."
+      - id: "b"
+        text: "Pouze odhad hmotnosti pohledem."
+      - id: "c"
+        text: "Pouze jednorázové doporučení bez kontrol."
+    correct_option_id: "a"
+    explanation: "Text zdůrazňuje dlouhodobou edukaci i záchyt komplikací."
+    source_pages:
+      - 13
+      - 14
+  - id: "vybrane_kapitoly_pediatrie_032"
+    section_id: "psychika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který soubor projevů může ukazovat na poruchu příjmu potravy?"
+    options:
+      - id: "a"
+        text: "Stabilní růst a přiměřený jídelní režim bez potíží."
+      - id: "b"
+        text: "Pokles hmotnosti, nadměrná kontrola kalorií a amenorea."
+      - id: "c"
+        text: "Samotná krátkodobá rýma."
+    correct_option_id: "b"
+    explanation: "Poruchy příjmu potravy mají psychické i somatické projevy."
+    source_pages:
+      - 14
+  - id: "vybrane_kapitoly_pediatrie_033"
+    section_id: "psychika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak zahájit intervenci při podezření na poruchu příjmu potravy?"
+    options:
+      - id: "a"
+        text: "Výsměchem vzhledu a srovnáváním s vrstevníky."
+      - id: "b"
+        text: "Pouze předáním tabulky kalorií bez rozhovoru."
+      - id: "c"
+        text: "Vstřícným rozhovorem, rozborem stravy a pravidelným sledováním."
+    correct_option_id: "c"
+    explanation: "Nutná je návazná psychoterapeutická, případně psychiatrická péče."
+    source_pages:
+      - 14
+  - id: "vybrane_kapitoly_pediatrie_034"
+    section_id: "psychika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co znamená škodlivé užívání návykové látky?"
+    options:
+      - id: "a"
+        text: "Vzorec užívání poškozující zdraví."
+      - id: "b"
+        text: "Jakákoli jediná myšlenka na látku."
+      - id: "c"
+        text: "Každý předepsaný lék ve správné dávce."
+    correct_option_id: "a"
+    explanation: "Odlišuje se od přechodné akutní intoxikace."
+    source_pages:
+      - 14
+  - id: "vybrane_kapitoly_pediatrie_035"
+    section_id: "psychika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co má zahrnout anamnéza adolescenta s úzkostí či změnou nálady?"
+    options:
+      - id: "a"
+        text: "Pouze poslední tělesnou teplotu."
+      - id: "b"
+        text: "Rodinu, školu, vztahy, spánek a obsah sledovaný na sítích."
+      - id: "c"
+        text: "Pouze dotaz na dávné operace."
+    correct_option_id: "b"
+    explanation: "Kontext pomáhá určit druh a závažnost potíží."
+    source_pages:
+      - 15
+  - id: "vybrane_kapitoly_pediatrie_036"
+    section_id: "psychika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je vhodné při komunikaci o psychických obtížích adolescenta?"
+    options:
+      - id: "a"
+        text: "Vždy nechat mluvit pouze rodiče."
+      - id: "b"
+        text: "Vyloučit jakoukoli rodinnou anamnézu."
+      - id: "c"
+        text: "Vedle společného rozhovoru využít i oddělený rozhovor s adolescentem a rodičem."
+    correct_option_id: "c"
+    explanation: "Oddělený rozhovor může zpřístupnit citlivé informace."
+    source_pages:
+      - 15
+  - id: "vybrane_kapitoly_pediatrie_037"
+    section_id: "psychika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak se může deprese v adolescenci projevit?"
+    options:
+      - id: "a"
+        text: "Podrážděností, ztrátou zájmů a zhoršením školního fungování."
+      - id: "b"
+        text: "Výhradně euforií a zrychlenou řečí."
+      - id: "c"
+        text: "Pouze izolovanou svědivou vyrážkou."
+    correct_option_id: "a"
+    explanation: "Deprese nemusí být vyjádřena jen smutkem."
+    source_pages:
+      - 16
+  - id: "vybrane_kapitoly_pediatrie_038"
+    section_id: "psychika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak hodnotit sebepoškozování u adolescenta?"
+    options:
+      - id: "a"
+        text: "Jako bezpečné jednání, pokud jsou rány povrchové."
+      - id: "b"
+        text: "Jako závažný příznak vyžadující posouzení psychického stavu a suicidálního rizika."
+      - id: "c"
+        text: "Jako spolehlivý důkaz nepřítomnosti deprese."
+    correct_option_id: "b"
+    explanation: "Sebepoškozování může doprovázet různé psychické poruchy."
+    source_pages:
+      - 16
+  - id: "vybrane_kapitoly_pediatrie_039"
+    section_id: "akutni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká příčina dětské zástavy oběhu je podle textu nejčastější?"
+    options:
+      - id: "a"
+        text: "Primární aterosklerotický infarkt u všech dětí."
+      - id: "b"
+        text: "Izolovaná stabilní hypertenze."
+      - id: "c"
+        text: "Sekundární postasfyktická zástava."
+    correct_option_id: "c"
+    explanation: "U dětí je proto mimořádně důležitá ventilace a oxygenace."
+    source_pages:
+      - 16
+  - id: "vybrane_kapitoly_pediatrie_040"
+    section_id: "akutni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která anamnéza zvyšuje rizikovost astmatického záchvatu?"
+    options:
+      - id: "a"
+        text: "Předchozí hospitalizace pro astma a častá potřeba úlevových beta-agonistů."
+      - id: "b"
+        text: "Pouze jednorázová nekomplikovaná rýma."
+      - id: "c"
+        text: "Dávná fraktura zápěstí bez následků."
+    correct_option_id: "a"
+    explanation: "Předchozí těžké záchvaty a vysoká potřeba úlevové léčby jsou rizikové."
+    source_pages:
+      - 16
+  - id: "vybrane_kapitoly_pediatrie_041"
+    section_id: "akutni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký lék má prioritu při anafylaxi s oběhovou či ventilační dekompenzací?"
+    options:
+      - id: "a"
+        text: "Samotné perorální antihistaminikum."
+      - id: "b"
+        text: "Intramuskulární adrenalin."
+      - id: "c"
+        text: "Samotné perorální kalcium."
+    correct_option_id: "b"
+    explanation: "Adrenalin je u závažné anafylaxe léčbou první volby."
+    source_pages:
+      - 17
+  - id: "vybrane_kapitoly_pediatrie_042"
+    section_id: "akutni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká je uvedená intramuskulární dávka adrenalinu u dítěte při závažné anafylaxi?"
+    options:
+      - id: "a"
+        text: "1 mg/kg bez maxima."
+      - id: "b"
+        text: "0,001 mg/kg, maximálně 0,01 mg."
+      - id: "c"
+        text: "0,01 mg/kg, maximálně 0,5 mg."
+    correct_option_id: "c"
+    explanation: "Text uvádí ekvivalent 0,1 mg na 10 kg hmotnosti."
+    source_pages:
+      - 17
+  - id: "vybrane_kapitoly_pediatrie_043"
+    section_id: "akutni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký je první krok při podezření na intoxikaci se závažnými příznaky?"
+    options:
+      - id: "a"
+        text: "Zajištění a stabilizace životních funkcí."
+      - id: "b"
+        text: "Nejdříve dlouhý rozhovor bez vyšetření vitálních funkcí."
+      - id: "c"
+        text: "Automaticky vyvolat zvracení u bezvědomého."
+    correct_option_id: "a"
+    explanation: "Po stabilizaci následuje cílená toxikologická konzultace a observace."
+    source_pages:
+      - 17
+  - id: "vybrane_kapitoly_pediatrie_044"
+    section_id: "akutni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč při intoxikaci zajistit zbytky látky a biologický materiál?"
+    options:
+      - id: "a"
+        text: "Aby nebylo nutné sledovat vitální funkce."
+      - id: "b"
+        text: "Anamnestické údaje nemusí být spolehlivé a materiál pomůže identifikaci."
+      - id: "c"
+        text: "Protože negativní anamnéza otravu vždy vylučuje."
+    correct_option_id: "b"
+    explanation: "Stopy a vzorky podporují toxikologickou diagnostiku."
+    source_pages:
+      - 17
+  - id: "vybrane_kapitoly_pediatrie_045"
+    section_id: "akutni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co má VPL udělat po akutním ošetření adolescenta registrovaného u PLDD?"
+    options:
+      - id: "a"
+        text: "Informaci si ponechat bez návaznosti péče."
+      - id: "b"
+        text: "Automaticky zrušit registraci u PLDD."
+      - id: "c"
+        text: "Předat registrujícímu lékaři písemnou nebo elektronickou zprávu."
+    correct_option_id: "c"
+    explanation: "Předání zprávy zajišťuje kontinuitu péče."
+    source_pages:
+      - 18

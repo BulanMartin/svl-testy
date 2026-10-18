@@ -1,0 +1,538 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "prediabetes"
+  title: "Prediabetes"
+  source:
+    file: "prediabetes-2022.pdf"
+    year: 2022
+coverage:
+  proposed_question_count: 32
+  rationale: "32 otázek pokrývá diagnostické prahy, vyhledávání, komplikace, sledování, léčbu a organizaci péče bez opakovaných formulací."
+  sections:
+    - id: "diagnostika"
+      title: "Definice, diagnostika a vyhledávání"
+      planned_question_count: 13
+    - id: "sledovani"
+      title: "Komplikace a sledování"
+      planned_question_count: 7
+    - id: "lecba"
+      title: "Léčba a prevence"
+      planned_question_count: 10
+    - id: "pece"
+      title: "Organizace péče"
+      planned_question_count: 2
+questions:
+  - id: "prediabetes_001"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký je vztah prediabetu k diabetu 2. typu?"
+    options:
+      - id: "a"
+        text: "Jde o rizikový stav, který může být reverzibilní."
+      - id: "b"
+        text: "Jde vždy o nevratnou formu manifestního diabetu."
+      - id: "c"
+        text: "Jde o stav s nižším kardiovaskulárním rizikem než normoglykemie."
+    correct_option_id: "a"
+    explanation: "Prediabetes může předcházet diabetu několik let a poskytuje prostor pro intervenci."
+    source_pages:
+      - 5
+  - id: "prediabetes_002"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaké rozmezí glykemie nalačno v žilní plazmě definuje IFG?"
+    options:
+      - id: "a"
+        text: "4,0–5,0 mmol/l."
+      - id: "b"
+        text: "5,6–6,9 mmol/l."
+      - id: "c"
+        text: "7,0–8,5 mmol/l."
+    correct_option_id: "b"
+    explanation: "IFG je hraničně zvýšená glykemie nalačno v uvedeném pásmu."
+    source_pages:
+      - 5
+  - id: "prediabetes_003"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká hodnota ve 120. minutě standardního oGTT odpovídá IGT?"
+    options:
+      - id: "a"
+        text: "5,0–6,0 mmol/l."
+      - id: "b"
+        text: "11,1–13,0 mmol/l."
+      - id: "c"
+        text: "7,8–11,0 mmol/l."
+    correct_option_id: "c"
+    explanation: "IGT je porušená glukózová tolerance pod diabetickým prahem."
+    source_pages:
+      - 5
+  - id: "prediabetes_004"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká dávka glukózy se používá při standardním oGTT u dospělého?"
+    options:
+      - id: "a"
+        text: "75 g."
+      - id: "b"
+        text: "25 g."
+      - id: "c"
+        text: "150 g."
+    correct_option_id: "a"
+    explanation: "Dokument vymezuje IGT pomocí testu se 75 g glukózy."
+    source_pages:
+      - 5
+  - id: "prediabetes_005"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Musí být pro diagnózu prediabetu současně přítomny IFG i IGT?"
+    options:
+      - id: "a"
+        text: "Ano, obě jsou vždy nezbytné."
+      - id: "b"
+        text: "Ne, postačí jedna z těchto abnormalit."
+      - id: "c"
+        text: "Ano, navíc je nutná glykosurie."
+    correct_option_id: "b"
+    explanation: "Jednotlivé kategorie mohou existovat samostatně."
+    source_pages:
+      - 5
+      - 7
+  - id: "prediabetes_006"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč doplnit oGTT při IFG?"
+    options:
+      - id: "a"
+        text: "K průkazu autoimunitní tyreoiditidy."
+      - id: "b"
+        text: "K rozlišení typu dyslipidemie."
+      - id: "c"
+        text: "K odhalení souběžné IGT nebo diabetu."
+    correct_option_id: "c"
+    explanation: "Glykemie nalačno nemusí zachytit všechny poruchy tolerance glukózy."
+    source_pages:
+      - 6
+  - id: "prediabetes_007"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký klinický obraz je pro prediabetes obvyklý?"
+    options:
+      - id: "a"
+        text: "Asymptomatický průběh."
+      - id: "b"
+        text: "Pravidelné ketoacidotické ataky."
+      - id: "c"
+        text: "Vždy výrazná polyurie a hubnutí."
+    correct_option_id: "a"
+    explanation: "Proto je třeba aktivní vyhledávání."
+    source_pages:
+      - 6
+  - id: "prediabetes_008"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které dvě poruchy se podílejí na patogenezi prediabetu?"
+    options:
+      - id: "a"
+        text: "Izolovaný deficit glukagonu a nadbytek inzulinu."
+      - id: "b"
+        text: "Inzulinová rezistence a porucha sekrece inzulinu."
+      - id: "c"
+        text: "Pouze zvýšené vylučování glukózy ledvinami."
+    correct_option_id: "b"
+    explanation: "Jde o stejné základní mechanismy jako u diabetu 2. typu."
+    source_pages:
+      - 6
+  - id: "prediabetes_009"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak ověřit patologickou náhodnou glykemii při screeningu?"
+    options:
+      - id: "a"
+        text: "Pouze opakováním močového proužku."
+      - id: "b"
+        text: "Pouze pohledem na tělesnou hmotnost."
+      - id: "c"
+        text: "Glykemií nalačno v žilní plazmě nebo oGTT."
+    correct_option_id: "c"
+    explanation: "Screeningový nález vyžaduje diagnostické ověření."
+    source_pages:
+      - 6
+  - id: "prediabetes_010"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak dlouhé lačnění uvádí dokument před diagnostickým odběrem?"
+    options:
+      - id: "a"
+        text: "8 hodin."
+      - id: "b"
+        text: "2 hodiny."
+      - id: "c"
+        text: "24 hodin."
+    correct_option_id: "a"
+    explanation: "Vyšetření glykemie nalačno je definováno po předchozím osmihodinovém lačnění."
+    source_pages:
+      - 6
+  - id: "prediabetes_011"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Vylučuje u vysoce rizikové osoby jediná glykemie nalačno pod 5,6 mmol/l prediabetes?"
+    options:
+      - id: "a"
+        text: "Ano, s jistotou na následujících pět let."
+      - id: "b"
+        text: "Ne, může být vhodné doplnit oGTT."
+      - id: "c"
+        text: "Ano, pokud je zároveň normální krevní tlak."
+    correct_option_id: "b"
+    explanation: "Izolovaná normální hodnota nevylučuje poruchu glukózové tolerance."
+    source_pages:
+      - 7
+  - id: "prediabetes_012"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak často text doporučuje kontrolovat glykemii u rizikových osob nezávisle na věku?"
+    options:
+      - id: "a"
+        text: "Jednou za deset let."
+      - id: "b"
+        text: "Pouze při příznacích hyperglykemie."
+      - id: "c"
+        text: "Jednou ročně."
+    correct_option_id: "c"
+    explanation: "Rizikové skupiny vyžadují každoroční vyhledávání poruch glykoregulace."
+    source_pages:
+      - 7
+  - id: "prediabetes_013"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která anamnéza je důvodem k pravidelnému vyhledávání prediabetu?"
+    options:
+      - id: "a"
+        text: "Gestační diabetes."
+      - id: "b"
+        text: "Nekomplikovaná apendektomie."
+      - id: "c"
+        text: "Krátkozrakost bez dalších rizik."
+    correct_option_id: "a"
+    explanation: "Gestační diabetes představuje rizikový faktor pozdější poruchy glykoregulace."
+    source_pages:
+      - 7
+  - id: "prediabetes_014"
+    section_id: "sledovani"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Může se renální poškození objevit ještě před vznikem diabetu?"
+    options:
+      - id: "a"
+        text: "Ne, vždy až po deseti letech diabetu."
+      - id: "b"
+        text: "Ano, zejména u rizikových fenotypů prediabetu."
+      - id: "c"
+        text: "Ne, prediabetes chrání ledviny před poškozením."
+    correct_option_id: "b"
+    explanation: "Dokument zdůrazňuje renální riziko již v prediabetické fázi."
+    source_pages:
+      - 7
+  - id: "prediabetes_015"
+    section_id: "sledovani"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který fenotyp prediabetu patří podle textu k zvláště rizikovým?"
+    options:
+      - id: "a"
+        text: "Izolovaná nízká tělesná výška."
+      - id: "b"
+        text: "Normální glykemie bez metabolických rizik."
+      - id: "c"
+        text: "Viscerální obezita s inzulinovou rezistencí."
+    correct_option_id: "c"
+    explanation: "Rozložení tuku i inzulinová rezistence ovlivňují riziko komplikací."
+    source_pages:
+      - 7
+  - id: "prediabetes_016"
+    section_id: "sledovani"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak často se podle postupu kontroluje hmotnost, tlak a glykemie nalačno u prediabetu?"
+    options:
+      - id: "a"
+        text: "Jednou za šest měsíců."
+      - id: "b"
+        text: "Jednou za pět let."
+      - id: "c"
+        text: "Rutinně každý den v ordinaci."
+    correct_option_id: "a"
+    explanation: "Jde o základní půlroční dispenzární kontroly."
+    source_pages:
+      - 8
+  - id: "prediabetes_017"
+    section_id: "sledovani"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co doplňuje samotný kreatinin při sledování ledvin?"
+    options:
+      - id: "a"
+        text: "Pouze stanovení amylázy."
+      - id: "b"
+        text: "Odhad glomerulární filtrace a vyšetření albuminurie/proteinurie."
+      - id: "c"
+        text: "Pouze vyšetření bilirubinu."
+    correct_option_id: "b"
+    explanation: "Funkce ledvin a známky jejich poškození se hodnotí společně."
+    source_pages:
+      - 8
+  - id: "prediabetes_018"
+    section_id: "sledovani"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co udělat při pozitivním nálezu albuminurie/proteinurie?"
+    options:
+      - id: "a"
+        text: "Automaticky jej považovat za trvalý bez kontroly."
+      - id: "b"
+        text: "Vyloučit prediabetes jako možnou souvislost."
+      - id: "c"
+        text: "Nález opakovaným vyšetřením ověřit."
+    correct_option_id: "c"
+    explanation: "Tabulka doporučuje pozitivní nález ještě jednou opakovat."
+    source_pages:
+      - 8
+  - id: "prediabetes_019"
+    section_id: "sledovani"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaké pomůcky dokument uvádí k orientačnímu screeningu neuropatie nohou?"
+    options:
+      - id: "a"
+        text: "Monofilamentum a ladičku."
+      - id: "b"
+        text: "Otoskop a tonometr."
+      - id: "c"
+        text: "Spirometr a peak-flowmetr."
+    correct_option_id: "a"
+    explanation: "Kombinace jednoduchých testů hodnotí citlivost a vibrační čití."
+    source_pages:
+      - 8
+  - id: "prediabetes_020"
+    section_id: "sledovani"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký interval oGTT text navrhuje u dříve zjištěného prediabetu?"
+    options:
+      - id: "a"
+        text: "Každé dva týdny."
+      - id: "b"
+        text: "Každé dva roky."
+      - id: "c"
+        text: "Pouze jednou za život."
+    correct_option_id: "b"
+    explanation: "Kontrola má ověřit přetrvávání prediabetu a vyloučit diabetes."
+    source_pages:
+      - 7
+  - id: "prediabetes_021"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co je hlavním cílem léčby prediabetu?"
+    options:
+      - id: "a"
+        text: "Dosáhnout glykosurie za každou cenu."
+      - id: "b"
+        text: "Nahradit všechna režimová opatření léky."
+      - id: "c"
+        text: "Normalizovat glykemii a oddálit nebo zabránit diabetu 2. typu."
+    correct_option_id: "c"
+    explanation: "Léčba směřuje ke snížení metabolického rizika."
+    source_pages:
+      - 9
+  - id: "prediabetes_022"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký přístup k pohybu doporučuje text?"
+    options:
+      - id: "a"
+        text: "Pravidelnou aktivitu přizpůsobenou toleranci a postupné zvyšování zátěže."
+      - id: "b"
+        text: "Nárazovou maximální zátěž jednou měsíčně."
+      - id: "c"
+        text: "Zákaz silového cvičení všem pacientům."
+    correct_option_id: "a"
+    explanation: "I menší pravidelná aktivita má přínos a význam má také silové cvičení."
+    source_pages:
+      - 9
+  - id: "prediabetes_023"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jakou minimální redukci hmotnosti zdůrazňuje dietní tabulka u obézních s prediabetem?"
+    options:
+      - id: "a"
+        text: "Alespoň 30 % během jednoho měsíce."
+      - id: "b"
+        text: "Alespoň 5 % s udržením poklesu."
+      - id: "c"
+        text: "Žádnou, pokud není manifestní diabetes."
+    correct_option_id: "b"
+    explanation: "Udržitelná redukce hmotnosti snižuje riziko progrese."
+    source_pages:
+      - 9
+  - id: "prediabetes_024"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Která úprava jídelníčku odpovídá doporučení?"
+    options:
+      - id: "a"
+        text: "Nahrazení zeleniny uzeninami."
+      - id: "b"
+        text: "Navýšení přepalovaných tuků při stejné energii."
+      - id: "c"
+        text: "Více vlákniny a méně energeticky bohatých zpracovaných potravin."
+    correct_option_id: "c"
+    explanation: "Text zdůrazňuje racionální stravu, vlákninu a omezení nevhodných tuků."
+    source_pages:
+      - 9
+  - id: "prediabetes_025"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který lék dokument doporučuje za vymezených podmínek ve farmakoterapii prediabetu?"
+    options:
+      - id: "a"
+        text: "Metformin."
+      - id: "b"
+        text: "Glibenklamid u každého pacienta."
+      - id: "c"
+        text: "Prandiální inzulin u každého pacienta."
+    correct_option_id: "a"
+    explanation: "Metformin má v textu oporu v konsenzu a nákladové efektivitě."
+    source_pages:
+      - 9
+  - id: "prediabetes_026"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "U koho text zvlášť podporuje zvážení metforminu?"
+    options:
+      - id: "a"
+        text: "U každého člověka s normální glykemií."
+      - id: "b"
+        text: "U obézního pacienta s prediabetem mladšího 60 let."
+      - id: "c"
+        text: "U každého seniora bez ohledu na renální funkci."
+    correct_option_id: "b"
+    explanation: "V této skupině je podání metforminu silně doporučeno."
+    source_pages:
+      - 9
+  - id: "prediabetes_027"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč při léčbě metforminem sledovat ledviny a dehydrataci?"
+    options:
+      - id: "a"
+        text: "Kvůli časté akutní tyreotoxikóze."
+      - id: "b"
+        text: "Kvůli povinnému rozvoji hypokalcemie."
+      - id: "c"
+        text: "Kvůli riziku kumulace a laktátové acidózy při těžké renální poruše."
+    correct_option_id: "c"
+    explanation: "Riziko se zvyšuje při zhoršení renálních funkcí."
+    source_pages:
+      - 9
+  - id: "prediabetes_028"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký princip zahájení metforminu uvádí text?"
+    options:
+      - id: "a"
+        text: "Nízkou úvodní dávku s postupnou titrací podle tolerance."
+      - id: "b"
+        text: "Ihned maximální dávku bez titrace."
+      - id: "c"
+        text: "Výhradně jednorázovou dávku jednou týdně."
+    correct_option_id: "a"
+    explanation: "Postupné navyšování zlepšuje snášenlivost."
+    source_pages:
+      - 9
+  - id: "prediabetes_029"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co lze využít při gastrointestinální intoleranci běžného metforminu?"
+    options:
+      - id: "a"
+        text: "Povinně ihned dlouhodobý inzulin."
+      - id: "b"
+        text: "Formu s prodlouženým uvolňováním XR."
+      - id: "c"
+        text: "Zdvojnásobení dávky bez změny formy."
+    correct_option_id: "b"
+    explanation: "XR může mít méně dyspeptických nežádoucích účinků."
+    source_pages:
+      - 10
+  - id: "prediabetes_030"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak interpretovat mírné zvýšení rizika diabetu při statinech?"
+    options:
+      - id: "a"
+        text: "Statiny jsou proto u prediabetu vždy kontraindikovány."
+      - id: "b"
+        text: "Jde o důvod neléčit žádnou dyslipidemii."
+      - id: "c"
+        text: "Kardiovaskulární přínos obvykle převažuje nad tímto rizikem."
+    correct_option_id: "c"
+    explanation: "Dokument zdůrazňuje převahu celkového kardiovaskulárního přínosu."
+    source_pages:
+      - 10
+  - id: "prediabetes_031"
+    section_id: "pece"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Kdo obvykle dispenzarizuje pacienta s prediabetem?"
+    options:
+      - id: "a"
+        text: "Všeobecný praktický lékař s možností konziliární spolupráce."
+      - id: "b"
+        text: "Výhradně hospitalizační diabetologické oddělení."
+      - id: "c"
+        text: "Výhradně chirurg."
+    correct_option_id: "a"
+    explanation: "Specialisté se zapojují podle komplikací a polymorbidity."
+    source_pages:
+      - 10
+  - id: "prediabetes_032"
+    section_id: "pece"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký je obvyklý dopad samotného prediabetu na pracovní schopnost?"
+    options:
+      - id: "a"
+        text: "Vždy znamená úplnou pracovní neschopnost."
+      - id: "b"
+        text: "U většiny profesí ji sám o sobě nemění."
+      - id: "c"
+        text: "Vždy zakazuje práci vsedě."
+    correct_option_id: "b"
+    explanation: "Posouzení musí zohlednit přidružené choroby a konkrétní práci."
+    source_pages:
+      - 10

@@ -1,0 +1,995 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "zaklady_nefrologie"
+  title: "Základy nefrologie"
+  source:
+    file: "dp-nefrologie-2024.pdf"
+    year: 2024
+coverage:
+  proposed_question_count: 60
+  rationale: "60 otázek pokrývá močové syndromy, akutní a chronické poškození ledvin, komplikace, hypertenzi a diabetické onemocnění ledvin. Překrývající se informace jsou sloučeny; sporné formulace zdroje nejsou testovány."
+  sections:
+    - id: "priznaky"
+      title: "Močové příznaky a laboratorní nálezy"
+      planned_question_count: 15
+    - id: "aki"
+      title: "Akutní poškození ledvin"
+      planned_question_count: 10
+    - id: "ckd"
+      title: "Chronické onemocnění a jeho léčba"
+      planned_question_count: 18
+    - id: "hypertenze"
+      title: "Hypertenze a cévní postižení"
+      planned_question_count: 8
+    - id: "diabetes"
+      title: "Diabetické onemocnění ledvin"
+      planned_question_count: 9
+questions:
+  - id: "zaklady_nefrologie_001"
+    section_id: "priznaky"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký denní objem moči odpovídá podle dokumentu oligurii dospělého?"
+    options:
+      - id: "a"
+        text: "Méně než 500 ml."
+      - id: "b"
+        text: "Více než 3500 ml."
+      - id: "c"
+        text: "1500 až 2000 ml."
+    correct_option_id: "a"
+    explanation: "Oligurie je definována diurézou pod 500 ml za 24 hodin."
+    source_pages:
+      - 5
+  - id: "zaklady_nefrologie_002"
+    section_id: "priznaky"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký denní objem moči odpovídá anurii?"
+    options:
+      - id: "a"
+        text: "Méně než 1000 ml."
+      - id: "b"
+        text: "Méně než 100 ml."
+      - id: "c"
+        text: "Více než 3000 ml."
+    correct_option_id: "b"
+    explanation: "Hranicí anurie je podle textu 100 ml za den."
+    source_pages:
+      - 5
+  - id: "zaklady_nefrologie_003"
+    section_id: "priznaky"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký nález podporuje funkční prerenální oligurii při dehydrataci?"
+    options:
+      - id: "a"
+        text: "Izostenurická moč s erytrocytárními válci."
+      - id: "b"
+        text: "Výrazná glukosurie s vysokou diurézou."
+      - id: "c"
+        text: "Koncentrovaná moč s nízkou koncentrací sodíku."
+    correct_option_id: "c"
+    explanation: "Při prerenálním postižení se zachovává schopnost koncentrovat moč a šetřit sodík."
+    source_pages:
+      - 5
+  - id: "zaklady_nefrologie_004"
+    section_id: "priznaky"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Které vyšetření je základní při podezření na obstrukci močových cest?"
+    options:
+      - id: "a"
+        text: "Ultrazvuk močových cest."
+      - id: "b"
+        text: "Elektroencefalografie."
+      - id: "c"
+        text: "Spirometrie."
+    correct_option_id: "a"
+    explanation: "Ultrazvuk může zobrazit retenci a městnání v močových cestách."
+    source_pages:
+      - 5
+  - id: "zaklady_nefrologie_005"
+    section_id: "priznaky"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je nutné odlišit od skutečné polyurie u pacienta se srdeční nedostatečností?"
+    options:
+      - id: "a"
+        text: "Denní diurézu nad 3500 ml."
+      - id: "b"
+        text: "Nykturii bez zvýšení celkové denní diurézy."
+      - id: "c"
+        text: "Osmotickou diurézu při hyperglykemii."
+    correct_option_id: "b"
+    explanation: "Častější noční močení samo o sobě neznamená zvýšený denní objem moči."
+    source_pages:
+      - 5
+      - 6
+  - id: "zaklady_nefrologie_006"
+    section_id: "priznaky"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co charakterizuje polakisurii?"
+    options:
+      - id: "a"
+        text: "Úplná zástava tvorby moči."
+      - id: "b"
+        text: "Nadměrný denní objem moči s velkými porcemi."
+      - id: "c"
+        text: "Časté močení malých porcí při normálním denním objemu."
+    correct_option_id: "c"
+    explanation: "Polakisurie označuje frekvenci močení, nikoli polyurii."
+    source_pages:
+      - 6
+  - id: "zaklady_nefrologie_007"
+    section_id: "priznaky"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Která příčina typicky vyvolává kolikovitou bolest v bederní krajině?"
+    options:
+      - id: "a"
+        text: "Nefrolitiáza."
+      - id: "b"
+        text: "Asymptomatická albuminurie."
+      - id: "c"
+        text: "Benigní ortostatická proteinurie."
+    correct_option_id: "a"
+    explanation: "Kolikovitá bolest ukazuje zejména na pohyb konkrementu močovými cestami."
+    source_pages:
+      - 7
+  - id: "zaklady_nefrologie_008"
+    section_id: "priznaky"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co prokazují erytrocytární válce v močovém sedimentu?"
+    options:
+      - id: "a"
+        text: "Izolované vaginální krvácení."
+      - id: "b"
+        text: "Glomerulární původ krvácení."
+      - id: "c"
+        text: "Pouhé zbarvení moči po červené řepě."
+    correct_option_id: "b"
+    explanation: "Erytrocytární válce vznikají v ledvině a podporují glomerulární hematurii."
+    source_pages:
+      - 8
+  - id: "zaklady_nefrologie_009"
+    section_id: "priznaky"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Na kterou závažnou příčinu je nutné myslet při nebolestivé hematurii?"
+    options:
+      - id: "a"
+        text: "Pouze fyziologickou změnu barvy."
+      - id: "b"
+        text: "Výhradně akutní cystitidu."
+      - id: "c"
+        text: "Nádor močového systému."
+    correct_option_id: "c"
+    explanation: "Dokument požaduje při nebolestivé hematurii vyloučení tumoru."
+    source_pages:
+      - 8
+  - id: "zaklady_nefrologie_010"
+    section_id: "priznaky"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak interpretovat pozitivní proužek na krev bez erytrocytů v sedimentu?"
+    options:
+      - id: "a"
+        text: "Zvážit hemoglobinurii nebo myoglobinurii."
+      - id: "b"
+        text: "Považovat jej vždy za průkaz cystitidy."
+      - id: "c"
+        text: "Považovat jej vždy za glomerulonefritidu."
+    correct_option_id: "a"
+    explanation: "Proužek reaguje i na volný hemoglobin a myoglobin."
+    source_pages:
+      - 8
+  - id: "zaklady_nefrologie_011"
+    section_id: "priznaky"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Vylučuje negativní nitritový test bakteriurii?"
+    options:
+      - id: "a"
+        text: "Vylučuje u všech močových patogenů."
+      - id: "b"
+        text: "Nevylučuje."
+      - id: "c"
+        text: "Vylučuje pouze při současné leukocyturii."
+    correct_option_id: "b"
+    explanation: "Ne všechny bakterie redukují nitráty na nitrity."
+    source_pages:
+      - 9
+  - id: "zaklady_nefrologie_012"
+    section_id: "priznaky"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který vzorek je preferován pro stanovení ACR?"
+    options:
+      - id: "a"
+        text: "Výhradně moč sbíraná dvě hodiny po obědě."
+      - id: "b"
+        text: "Výhradně katetrizovaná moč."
+      - id: "c"
+        text: "První ranní moč."
+    correct_option_id: "c"
+    explanation: "Ranní vzorek má menší variabilitu a umožňuje stanovit poměr albuminu ke kreatininu."
+    source_pages:
+      - 9
+      - 10
+  - id: "zaklady_nefrologie_013"
+    section_id: "priznaky"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká proteinurie je v dokumentu označena za nefrotickou?"
+    options:
+      - id: "a"
+        text: "Nejméně 3,5 g za 24 hodin."
+      - id: "b"
+        text: "Nejméně 0,15 g za 24 hodin."
+      - id: "c"
+        text: "Nejméně 0,5 g za 24 hodin."
+    correct_option_id: "a"
+    explanation: "Nefrotická proteinurie dosahuje alespoň 3,5 g denně."
+    source_pages:
+      - 9
+  - id: "zaklady_nefrologie_014"
+    section_id: "priznaky"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co má následovat po pozitivním proužku na bílkovinu?"
+    options:
+      - id: "a"
+        text: "Automatické stanovení diagnózy myelomu."
+      - id: "b"
+        text: "Kvantifikace poměrem ACR nebo PCR."
+      - id: "c"
+        text: "Ukončení vyšetřování bez kontroly."
+    correct_option_id: "b"
+    explanation: "Proužkové vyšetření je orientační a výsledek má být ověřen kvantitativně."
+    source_pages:
+      - 10
+  - id: "zaklady_nefrologie_015"
+    section_id: "priznaky"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Která situace je příkladem přetékající proteinurie?"
+    options:
+      - id: "a"
+        text: "Ortostatická proteinurie při lordóze."
+      - id: "b"
+        text: "Izolované krvácení z močového měchýře."
+      - id: "c"
+        text: "Nadměrná produkce lehkých řetězců u mnohočetného myelomu."
+    correct_option_id: "c"
+    explanation: "Nadprodukce filtrovaných proteinů překračuje resorpční kapacitu tubulů."
+    source_pages:
+      - 9
+  - id: "zaklady_nefrologie_016"
+    section_id: "aki"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Které dvě veličiny tvoří základ klasifikace AKI?"
+    options:
+      - id: "a"
+        text: "Změna kreatininu a diuréza."
+      - id: "b"
+        text: "Cholesterol a počet trombocytů."
+      - id: "c"
+        text: "Albumin a bilirubin."
+    correct_option_id: "a"
+    explanation: "AKI se klasifikuje podle změn sérového kreatininu a poklesu diurézy."
+    source_pages:
+      - 10
+  - id: "zaklady_nefrologie_017"
+    section_id: "aki"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč nejsou běžné výpočty eGFR spolehlivé při rychle vznikajícím AKI?"
+    options:
+      - id: "a"
+        text: "Kreatinin se v akutním stavu přestává tvořit."
+      - id: "b"
+        text: "Koncentrace kreatininu není v ustáleném stavu."
+      - id: "c"
+        text: "Rovnice vyžadují vždy renální biopsii."
+    correct_option_id: "b"
+    explanation: "Odhad eGFR předpokládá relativně stabilní kreatinin."
+    source_pages:
+      - 10
+  - id: "zaklady_nefrologie_018"
+    section_id: "aki"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Do kterého stadia AKIN patří pacient s AKI léčený dialýzou?"
+    options:
+      - id: "a"
+        text: "Stadium 1."
+      - id: "b"
+        text: "Stadium 2 pouze při anurii."
+      - id: "c"
+        text: "Stadium 3."
+    correct_option_id: "c"
+    explanation: "Potřeba náhrady funkce ledvin řadí pacienta automaticky do stadia 3."
+    source_pages:
+      - 10
+      - 11
+  - id: "zaklady_nefrologie_019"
+    section_id: "aki"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Která situace je typicky prerenální příčinou AKI?"
+    options:
+      - id: "a"
+        text: "Hypovolemie při ztrátě tekutin."
+      - id: "b"
+        text: "Obstrukce ureteru kamenem."
+      - id: "c"
+        text: "Rychle progredující glomerulonefritida."
+    correct_option_id: "a"
+    explanation: "Prerenální AKI souvisí s nedostatečnou perfuzí ledvin."
+    source_pages:
+      - 11
+  - id: "zaklady_nefrologie_020"
+    section_id: "aki"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který stav představuje postrenální příčinu AKI?"
+    options:
+      - id: "a"
+        text: "Toxická akutní tubulární nekróza."
+      - id: "b"
+        text: "Obstrukce při hypertrofii prostaty."
+      - id: "c"
+        text: "Alergická tubulointersticiální nefritida."
+    correct_option_id: "b"
+    explanation: "Postrenální příčiny brání odtoku moči."
+    source_pages:
+      - 11
+  - id: "zaklady_nefrologie_021"
+    section_id: "aki"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaké riziko vyžaduje sledování v polyurické fázi AKI?"
+    options:
+      - id: "a"
+        text: "Výhradně retence tekutin při anurii."
+      - id: "b"
+        text: "Pouze izolovaná hypercholesterolemie."
+      - id: "c"
+        text: "Ztráty tekutin a elektrolytů."
+    correct_option_id: "c"
+    explanation: "Obnovující se diuréza může předbíhat návrat koncentrační schopnosti."
+    source_pages:
+      - 12
+  - id: "zaklady_nefrologie_022"
+    section_id: "aki"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který soubor nálezů podporuje chronické spíše než čistě akutní poškození?"
+    options:
+      - id: "a"
+        text: "Malé ledviny, anémie a vysoký parathormon."
+      - id: "b"
+        text: "Náhlá retence moči po operaci."
+      - id: "c"
+        text: "Izolovaný vzestup kreatininu během jediného dne."
+    correct_option_id: "a"
+    explanation: "Morfologické a metabolické známky chronicity pomáhají odlišit CKD."
+    source_pages:
+      - 12
+  - id: "zaklady_nefrologie_023"
+    section_id: "aki"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kterou napravitelnou příčinu je při AKI mimořádně důležité časně vyloučit?"
+    options:
+      - id: "a"
+        text: "Primární hypercholesterolemii."
+      - id: "b"
+        text: "Obstrukci močových cest."
+      - id: "c"
+        text: "Presbyopii."
+    correct_option_id: "b"
+    explanation: "Uvolnění obstrukce může zabránit dalšímu poškození ledvin."
+    source_pages:
+      - 12
+      - 13
+  - id: "zaklady_nefrologie_024"
+    section_id: "aki"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který nález patří mezi důvody k dialyzační léčbě akutního selhání?"
+    options:
+      - id: "a"
+        text: "Izolovaná stopová proteinurie při normální filtraci."
+      - id: "b"
+        text: "Přechodná polakisurie bez dalších abnormalit."
+      - id: "c"
+        text: "Konzervativně nezvládnutelná acidóza."
+    correct_option_id: "c"
+    explanation: "Refrakterní acidóza je závažnou komplikací vyžadující náhradu funkce ledvin."
+    source_pages:
+      - 13
+  - id: "zaklady_nefrologie_025"
+    section_id: "aki"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupovat po zdánlivě úplném zotavení z AKI?"
+    options:
+      - id: "a"
+        text: "Dále sledovat vzhledem k vyššímu riziku dalšího AKI a CKD."
+      - id: "b"
+        text: "Ukončit všechny kontroly ledvin."
+      - id: "c"
+        text: "Zavést automaticky trvalou dialýzu."
+    correct_option_id: "a"
+    explanation: "Prodělané AKI zvyšuje budoucí renální riziko i po úpravě laboratorních hodnot."
+    source_pages:
+      - 14
+  - id: "zaklady_nefrologie_026"
+    section_id: "ckd"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak dlouhé trvání strukturální či funkční abnormality je potřebné pro definici CKD?"
+    options:
+      - id: "a"
+        text: "Alespoň tři dny."
+      - id: "b"
+        text: "Alespoň tři měsíce."
+      - id: "c"
+        text: "Alespoň tři týdny."
+    correct_option_id: "b"
+    explanation: "Definice CKD vyžaduje dlouhodobé poškození s dopadem na zdraví."
+    source_pages:
+      - 14
+  - id: "zaklady_nefrologie_027"
+    section_id: "ckd"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Které tři parametry tvoří klasifikaci CKD?"
+    options:
+      - id: "a"
+        text: "Věk, hmotnost a tepová frekvence."
+      - id: "b"
+        text: "Diuréza, glykemie a bilirubin."
+      - id: "c"
+        text: "Příčina, kategorie GFR a kategorie albuminurie."
+    correct_option_id: "c"
+    explanation: "Klasifikace zahrnuje etiologii a kategorie G a A."
+    source_pages:
+      - 14
+  - id: "zaklady_nefrologie_028"
+    section_id: "ckd"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Do které kategorie spadá eGFR 0,6 ml/s/1,73 m²?"
+    options:
+      - id: "a"
+        text: "G3b."
+      - id: "b"
+        text: "G1."
+      - id: "c"
+        text: "G5."
+    correct_option_id: "a"
+    explanation: "Hodnota 0,6 leží v rozmezí 0,5–0,75 ml/s kategorie G3b."
+    source_pages:
+      - 15
+  - id: "zaklady_nefrologie_029"
+    section_id: "ckd"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Do které kategorie albuminurie spadá ACR 10 g/mol?"
+    options:
+      - id: "a"
+        text: "A1."
+      - id: "b"
+        text: "A2."
+      - id: "c"
+        text: "A3."
+    correct_option_id: "b"
+    explanation: "Kategorie A2 zahrnuje ACR 3–30 g/mol."
+    source_pages:
+      - 15
+  - id: "zaklady_nefrologie_030"
+    section_id: "ckd"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co označuje preemptivní transplantace ledviny?"
+    options:
+      - id: "a"
+        text: "Transplantaci až po selhání dvou štěpů."
+      - id: "b"
+        text: "Dočasnou dialýzu po transplantaci."
+      - id: "c"
+        text: "Transplantaci ještě před zahájením dialýzy."
+    correct_option_id: "c"
+    explanation: "Preemptivní postup předchází potřebě dialyzační léčby."
+    source_pages:
+      - 16
+  - id: "zaklady_nefrologie_031"
+    section_id: "ckd"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy může být alternativou dialýzy konzervativní podpůrná péče?"
+    options:
+      - id: "a"
+        text: "U vybraných křehkých nemocných, jimž RRT nepřinese podstatný prospěch."
+      - id: "b"
+        text: "Automaticky u každého člověka nad 60 let."
+      - id: "c"
+        text: "U každé izolované albuminurie A1."
+    correct_option_id: "a"
+    explanation: "Rozhoduje přínos pro délku a kvalitu života, komorbidity a preference pacienta."
+    source_pages:
+      - 16
+  - id: "zaklady_nefrologie_032"
+    section_id: "ckd"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které nálezy významně určují riziko progrese CKD?"
+    options:
+      - id: "a"
+        text: "Výška a barva očí."
+      - id: "b"
+        text: "Nízká GFR a vysoká proteinurie."
+      - id: "c"
+        text: "Pouze pohlaví bez laboratorních údajů."
+    correct_option_id: "b"
+    explanation: "GFR a albuminurie jsou součástí prognostické klasifikace."
+    source_pages:
+      - 16
+  - id: "zaklady_nefrologie_033"
+    section_id: "ckd"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je vhodné při náhodně zjištěném ACR alespoň 3 g/mol?"
+    options:
+      - id: "a"
+        text: "Bez kontroly uzavřít terminální selhání."
+      - id: "b"
+        text: "Převést pacienta rovnou na hemodialýzu."
+      - id: "c"
+        text: "Opakovat vyšetření ideálně z první ranní moči."
+    correct_option_id: "c"
+    explanation: "Opakování ověřuje perzistenci nálezu a omezuje biologickou variabilitu."
+    source_pages:
+      - 17
+  - id: "zaklady_nefrologie_034"
+    section_id: "ckd"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Jak ACE inhibitory snižují intraglomerulární tlak?"
+    options:
+      - id: "a"
+        text: "Dilatací eferentní arterioly."
+      - id: "b"
+        text: "Selektivní vazokonstrikcí eferentní arterioly."
+      - id: "c"
+        text: "Zvýšením produkce reninu bez změny cévního tonu."
+    correct_option_id: "a"
+    explanation: "Vazodilatace odvodné arterioly snižuje tlak v glomerulu."
+    source_pages:
+      - 18
+  - id: "zaklady_nefrologie_035"
+    section_id: "ckd"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které laboratorní komplikace je nutné sledovat při léčbě ACEi nebo ARB u CKD?"
+    options:
+      - id: "a"
+        text: "Výhradně hypokalcemii a hypernatremii."
+      - id: "b"
+        text: "Hyperkalemii a pokles GFR."
+      - id: "c"
+        text: "Pouze bilirubin bez kontroly ledvin."
+    correct_option_id: "b"
+    explanation: "Blokáda RAAS může zvýšit kalemii a změnit renální hemodynamiku."
+    source_pages:
+      - 18
+  - id: "zaklady_nefrologie_036"
+    section_id: "ckd"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký příjem bílkovin zdroj uvádí pro CKD G4–G5 bez dialýzy?"
+    options:
+      - id: "a"
+        text: "2,5–3 g/kg/den u všech."
+      - id: "b"
+        text: "Úplné vyloučení bílkovin."
+      - id: "c"
+        text: "0,6–0,8 g/kg/den s individuálním nutričním vedením."
+    correct_option_id: "c"
+    explanation: "Omezení snižuje metabolickou zátěž, ale musí respektovat výživu a ztráty bílkovin."
+    source_pages:
+      - 18
+  - id: "zaklady_nefrologie_037"
+    section_id: "ckd"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je renoprotektivní účinek SGLT2 inhibitorů omezen pouze na diabetiky?"
+    options:
+      - id: "a"
+        text: "Není, byl prokázán i u CKD bez diabetu."
+      - id: "b"
+        text: "Ano, bez diabetu nemají renální účinek."
+      - id: "c"
+        text: "Ano, působí jen při těžké hyperglykemii."
+    correct_option_id: "a"
+    explanation: "Studie DAPA-CKD a EMPA-KIDNEY zahrnovaly i nediabetiky."
+    source_pages:
+      - 19
+  - id: "zaklady_nefrologie_038"
+    section_id: "ckd"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Jak lze interpretovat mírný počáteční pokles eGFR po nasazení SGLT2 inhibitoru?"
+    options:
+      - id: "a"
+        text: "Vždy znamená nevratné selhání ledvin."
+      - id: "b"
+        text: "Může být očekávanou hemodynamickou změnou."
+      - id: "c"
+        text: "Dokazuje bakteriální pyelonefritidu."
+    correct_option_id: "b"
+    explanation: "Zdroj popisuje mírný převážně reverzibilní časný pokles bez horší dlouhodobé progrese."
+    source_pages:
+      - 19
+  - id: "zaklady_nefrologie_039"
+    section_id: "ckd"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Která hormonální porucha přispívá k renální anémii?"
+    options:
+      - id: "a"
+        text: "Nadměrná produkce inzulinu."
+      - id: "b"
+        text: "Nedostatek žaludečního gastrinu."
+      - id: "c"
+        text: "Snížená produkce erytropoetinu."
+    correct_option_id: "c"
+    explanation: "Ledviny s pokročilým CKD produkují méně erytropoetinu."
+    source_pages:
+      - 20
+  - id: "zaklady_nefrologie_040"
+    section_id: "ckd"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která dvojice patří k léčbě renální anémie?"
+    options:
+      - id: "a"
+        text: "Léky stimulující erytropoézu a suplementace železa."
+      - id: "b"
+        text: "Antihistaminikum a antitusikum."
+      - id: "c"
+        text: "Vazač fosfátů a antibiotikum bez vyšetření železa."
+    correct_option_id: "a"
+    explanation: "Léčba sleduje krevní obraz i zásoby a dostupnost železa."
+    source_pages:
+      - 20
+  - id: "zaklady_nefrologie_041"
+    section_id: "ckd"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "K čemu slouží vazače fosfátů u CKD?"
+    options:
+      - id: "a"
+        text: "K přímému zvýšení hemoglobinu."
+      - id: "b"
+        text: "Ke snížení fosfatémie a ovlivnění minerálové a kostní poruchy."
+      - id: "c"
+        text: "K odstranění obstrukce ureteru."
+    correct_option_id: "b"
+    explanation: "Retence fosfátů přispívá k sekundární hyperparatyreóze."
+    source_pages:
+      - 20
+  - id: "zaklady_nefrologie_042"
+    section_id: "ckd"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který přípravek uvádí dokument pro korekci metabolické acidózy u CKD?"
+    options:
+      - id: "a"
+        text: "Kyselinu acetylsalicylovou."
+      - id: "b"
+        text: "Chlorid amonný."
+      - id: "c"
+        text: "Natrium bikarbonát."
+    correct_option_id: "c"
+    explanation: "Bikarbonát slouží k alkalizaci při metabolické acidóze."
+    source_pages:
+      - 20
+  - id: "zaklady_nefrologie_043"
+    section_id: "ckd"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je důležitým cílem včasné nefrologické dispenzarizace?"
+    options:
+      - id: "a"
+        text: "Připravit pacienta na vhodnou metodu RRT a snížit komplikace."
+      - id: "b"
+        text: "Odložit všechny kontroly do první uremické krize."
+      - id: "c"
+        text: "Zahájit dialýzu u každé izolované hematurie."
+    correct_option_id: "a"
+    explanation: "Předchozí odborné sledování zlepšuje výsledky po zahájení náhrady funkce ledvin."
+    source_pages:
+      - 21
+      - 22
+  - id: "zaklady_nefrologie_044"
+    section_id: "hypertenze"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký je vztah hypertenze a onemocnění ledvin?"
+    options:
+      - id: "a"
+        text: "Hypertenze ledviny nikdy nepoškozuje."
+      - id: "b"
+        text: "Obousměrný: ledviny mohou hypertenzi vyvolat a hypertenze je poškozuje."
+      - id: "c"
+        text: "Ledviny nemají na krevní tlak vliv."
+    correct_option_id: "b"
+    explanation: "Renální choroby jsou příčinou sekundární hypertenze a vysoký tlak podporuje progresi CKD."
+    source_pages:
+      - 22
+  - id: "zaklady_nefrologie_045"
+    section_id: "hypertenze"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je typické pro počáteční benigní nefrosklerózu?"
+    options:
+      - id: "a"
+        text: "Vždy náhlá anurie s horečkou."
+      - id: "b"
+        text: "Výhradně masivní krvácení z močového měchýře."
+      - id: "c"
+        text: "Malá proteinurie a porucha koncentrační schopnosti."
+    correct_option_id: "c"
+    explanation: "Zdroj uvádí nykturii, albuminurii či malou proteinurii a pozvolné změny filtrace."
+    source_pages:
+      - 23
+  - id: "zaklady_nefrologie_046"
+    section_id: "hypertenze"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kde má být zahájena léčba maligní hypertenze s nefrosklerózou?"
+    options:
+      - id: "a"
+        text: "Za hospitalizace, podle stavu na intenzivní péči."
+      - id: "b"
+        text: "Pouze při rutinní kontrole za půl roku."
+      - id: "c"
+        text: "Výhradně domácí samoléčbou."
+    correct_option_id: "a"
+    explanation: "Maligní hypertenze s orgánovým postižením vyžaduje monitorovanou léčbu."
+    source_pages:
+      - 23
+      - 24
+  - id: "zaklady_nefrologie_047"
+    section_id: "hypertenze"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která příčina stenózy renální tepny je typická u mladších dospělých?"
+    options:
+      - id: "a"
+        text: "Výhradně ostiální ateroskleróza."
+      - id: "b"
+        text: "Fibromuskulární dysplazie."
+      - id: "c"
+        text: "Benigní hypertrofie prostaty."
+    correct_option_id: "b"
+    explanation: "Zdroj uvádí vrchol výskytu fibromuskulární dysplazie mezi 20. a 30. rokem."
+    source_pages:
+      - 25
+  - id: "zaklady_nefrologie_048"
+    section_id: "hypertenze"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který nález vzbuzuje podezření na stenózu renální tepny?"
+    options:
+      - id: "a"
+        text: "Izolovaná rýma při normálním tlaku."
+      - id: "b"
+        text: "Pouze přechodná pyurie po cystitidě."
+      - id: "c"
+        text: "Prchavé plicní edémy a obtížně kontrolovaná hypertenze."
+    correct_option_id: "c"
+    explanation: "Opakované plicní edémy a rezistentní hypertenze patří k varovným situacím."
+    source_pages:
+      - 25
+  - id: "zaklady_nefrologie_049"
+    section_id: "hypertenze"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které vyšetření přímo hodnotí průtok v renálních tepnách bez kontrastní látky?"
+    options:
+      - id: "a"
+        text: "Duplexní sonografie."
+      - id: "b"
+        text: "Prostý snímek ruky."
+      - id: "c"
+        text: "Kolonoskopie."
+    correct_option_id: "a"
+    explanation: "Duplexní ultrazvuk je součástí diagnostiky renovaskulárního postižení."
+    source_pages:
+      - 26
+  - id: "zaklady_nefrologie_050"
+    section_id: "hypertenze"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Jaký přístup dokument zdůrazňuje u mnoha aterosklerotických stenóz renálních tepen?"
+    options:
+      - id: "a"
+        text: "Automatický stent každé stenózy."
+      - id: "b"
+        text: "Důslednou konzervativní léčbu a individuální indikaci intervence."
+      - id: "c"
+        text: "Rutinní nefrektomii obou ledvin."
+    correct_option_id: "b"
+    explanation: "Studie neprokázaly obecnou dlouhodobou převahu intervence nad konzervativním postupem."
+    source_pages:
+      - 26
+  - id: "zaklady_nefrologie_051"
+    section_id: "hypertenze"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Jaký nález podporuje ateroembolické poškození po výkonu na aortě?"
+    options:
+      - id: "a"
+        text: "Izolovaná glukosurie bez změny funkce."
+      - id: "b"
+        text: "Pouze pozitivní nitritový test."
+      - id: "c"
+        text: "Eosinofilie a cholesterolové krystaly v drobných renálních cévách."
+    correct_option_id: "c"
+    explanation: "Cholesterolová embolizace může způsobit zhoršení renální funkce po cévních výkonech."
+    source_pages:
+      - 27
+  - id: "zaklady_nefrologie_052"
+    section_id: "diabetes"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Která triáda charakterizuje typický průběh diabetického onemocnění ledvin?"
+    options:
+      - id: "a"
+        text: "Albuminurie, hypertenze a pokles eGFR."
+      - id: "b"
+        text: "Hemoptýza, hypotenze a leukopenie."
+      - id: "c"
+        text: "Dysurie, výtok z uretry a febrilie."
+    correct_option_id: "a"
+    explanation: "Typické DKD provází narůstající albuminurie a progrese renální dysfunkce."
+    source_pages:
+      - 27
+  - id: "zaklady_nefrologie_053"
+    section_id: "diabetes"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Může mít pacient s diabetem 2. typu DKD už při diagnóze diabetu?"
+    options:
+      - id: "a"
+        text: "Ne, vždy až přesně po deseti letech."
+      - id: "b"
+        text: "Ano, diabetes může být dlouho klinicky skrytý."
+      - id: "c"
+        text: "Ne, DKD postihuje jen diabetes 1. typu."
+    correct_option_id: "b"
+    explanation: "Neznámá délka trvání DM2 umožňuje přítomnost komplikací již při diagnóze."
+    source_pages:
+      - 27
+      - 28
+  - id: "zaklady_nefrologie_054"
+    section_id: "diabetes"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy zahájit každoroční screening DKD u diabetu 1. typu podle dokumentu?"
+    options:
+      - id: "a"
+        text: "Teprve po první dialýze."
+      - id: "b"
+        text: "Až po dvaceti letech bez výjimky."
+      - id: "c"
+        text: "Od pátého roku po vzniku diabetu."
+    correct_option_id: "c"
+    explanation: "Screening zahrnuje albuminurii či proteinurii a eGFR."
+    source_pages:
+      - 28
+  - id: "zaklady_nefrologie_055"
+    section_id: "diabetes"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy zahájit screening DKD u diabetu 2. typu?"
+    options:
+      - id: "a"
+        text: "Při stanovení diagnózy a dále alespoň ročně."
+      - id: "b"
+        text: "Až po pěti letech léčby inzulinem."
+      - id: "c"
+        text: "Až po vzniku otoků."
+    correct_option_id: "a"
+    explanation: "DM2 může probíhat dlouho nerozpoznán, proto se screening neodkládá."
+    source_pages:
+      - 28
+  - id: "zaklady_nefrologie_056"
+    section_id: "diabetes"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Který nález u diabetika vede k úvaze o jiné renální chorobě a biopsii?"
+    options:
+      - id: "a"
+        text: "Pozvolná albuminurie při dlouhodobém diabetu a retinopatii."
+      - id: "b"
+        text: "Rychlý vznik proteinurie s glomerulární erytrocyturií."
+      - id: "c"
+        text: "Stabilní normální močový nález."
+    correct_option_id: "b"
+    explanation: "Atypická dynamika a aktivní sediment mohou svědčit pro nediabetickou nefropatii."
+    source_pages:
+      - 28
+  - id: "zaklady_nefrologie_057"
+    section_id: "diabetes"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč při pokročilém CKD roste riziko hypoglykemie?"
+    options:
+      - id: "a"
+        text: "Ledviny začnou vytvářet nadbytek inzulinu."
+      - id: "b"
+        text: "HbA1c vždy přesně odráží okamžitou glykemii."
+      - id: "c"
+        text: "Klesá odbourávání inzulinu a renální glukoneogeneze."
+    correct_option_id: "c"
+    explanation: "Renální dysfunkce mění metabolismus inzulinu i tvorbu glukózy."
+    source_pages:
+      - 28
+  - id: "zaklady_nefrologie_058"
+    section_id: "diabetes"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Při jaké eGFR má být podle dokumentu metformin vysazen?"
+    options:
+      - id: "a"
+        text: "Pod 0,5 ml/s."
+      - id: "b"
+        text: "Pod 1,5 ml/s u všech."
+      - id: "c"
+        text: "Teprve při úplné anurii."
+    correct_option_id: "a"
+    explanation: "Hranice 0,5 ml/s odpovídá 30 ml/min a souvisí s rizikem laktátové acidózy."
+    source_pages:
+      - 29
+  - id: "zaklady_nefrologie_059"
+    section_id: "diabetes"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je renoprotektivita SGLT2 inhibitorů závislá pouze na poklesu HbA1c?"
+    options:
+      - id: "a"
+        text: "Ano, bez poklesu HbA1c zcela mizí."
+      - id: "b"
+        text: "Není, uplatňuje se i nezávisle na korekci glykemie."
+      - id: "c"
+        text: "Ano, vyžaduje vznik hypoglykemie."
+    correct_option_id: "b"
+    explanation: "Zdroj zdůrazňuje renální i kardiovaskulární účinky nezávislé na glykemii."
+    source_pages:
+      - 29
+  - id: "zaklady_nefrologie_060"
+    section_id: "diabetes"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jakou další výhodu mohou mít GLP-1 agonisté u diabetika s CKD?"
+    options:
+      - id: "a"
+        text: "Spolehlivé zvýšení eGFR na normu u každého."
+      - id: "b"
+        text: "Odstranění potřeby kontrol glykemie."
+      - id: "c"
+        text: "Redukci tělesné hmotnosti a kardiovaskulárního rizika."
+    correct_option_id: "c"
+    explanation: "GLP-1 agonisté mají metabolické a kardiovaskulární přínosy vedle účinků na albuminurii."
+    source_pages:
+      - 29

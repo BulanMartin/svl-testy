@@ -1,0 +1,502 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "vcasny_zachyt_jaternich_chorob"
+  title: "Včasný záchyt chronických pokročilých jaterních chorob"
+  source:
+    file: "dp-jaterni-choroby.pdf"
+    year: 2025
+coverage:
+  proposed_question_count: 30
+  rationale: "30 otázek pokrývá specifický přínos suplementa: etiologii, riziko HCC, neinvazivní diagnostiku a směrování pacientů. Adresáře a opakované závěry jsou vynechány."
+  sections:
+    - id: "riziko"
+      title: "Etiologie a riziko"
+      planned_question_count: 10
+    - id: "diagnostika"
+      title: "Diagnostický postup"
+      planned_question_count: 12
+    - id: "pece"
+      title: "HCC a návazná péče"
+      planned_question_count: 8
+questions:
+  - id: "vcasny_zachyt_jaternich_chorob_001"
+    section_id: "riziko"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Proč bývá včasný záchyt chronických jaterních chorob obtížný?"
+    options:
+      - id: "a"
+        text: "Mohou dlouho probíhat latentně"
+      - id: "b"
+        text: "Vždy vedou ihned k ikteru"
+      - id: "c"
+        text: "Laboratorní vyšetření jsou vždy normální až do úmrtí"
+    correct_option_id: "a"
+    explanation: "Dlouhá bezpříznaková fáze komplikuje záchyt."
+    source_pages:
+      - 5
+  - id: "vcasny_zachyt_jaternich_chorob_002"
+    section_id: "riziko"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Která trojice představuje nejčastější etiologie v ČR?"
+    options:
+      - id: "a"
+        text: "Výhradně autoimunitní hepatitida, Wilsonova nemoc a hemofilie"
+      - id: "b"
+        text: "Alkohol, metabolický syndrom a chronické virové hepatitidy"
+      - id: "c"
+        text: "Výhradně parazitární, bakteriální a mykotické infekce"
+    correct_option_id: "b"
+    explanation: "Na tyto časté etiologie se postup soustředí."
+    source_pages:
+      - 5
+  - id: "vcasny_zachyt_jaternich_chorob_003"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaké denní množství alkoholu označuje text za rizikové u žen?"
+    options:
+      - id: "a"
+        text: "Více než 100 g čistého alkoholu"
+      - id: "b"
+        text: "Až více než 200 g čistého alkoholu"
+      - id: "c"
+        text: "Více než 20 g čistého alkoholu"
+    correct_option_id: "c"
+    explanation: "U žen uvádí hranici nad 20 g denně; nejde o bezpečnou dávku."
+    source_pages:
+      - 5
+  - id: "vcasny_zachyt_jaternich_chorob_004"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak alkohol ovlivňuje jaterní choroby jiné etiologie?"
+    options:
+      - id: "a"
+        text: "Může urychlovat jejich progresi"
+      - id: "b"
+        text: "Chrání před fibrózou při MASLD"
+      - id: "c"
+        text: "Je významný jen při závislosti"
+    correct_option_id: "a"
+    explanation: "Příjem alkoholu je relevantní i bez syndromu závislosti."
+    source_pages:
+      - 5
+  - id: "vcasny_zachyt_jaternich_chorob_005"
+    section_id: "riziko"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co podporuje diagnózu MASLD?"
+    options:
+      - id: "a"
+        text: "Izolovaná pozitivita anti-HCV bez steatózy"
+      - id: "b"
+        text: "Steatóza spolu s komponentou metabolického syndromu"
+      - id: "c"
+        text: "Samotný nález žlučových kamenů"
+    correct_option_id: "b"
+    explanation: "MASLD kombinuje steatózu a metabolickou dysfunkci."
+    source_pages:
+      - 5
+  - id: "vcasny_zachyt_jaternich_chorob_006"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co označuje MASH?"
+    options:
+      - id: "a"
+        text: "Izolovanou cholestázu při obstrukci"
+      - id: "b"
+        text: "Akutní hepatitidu A"
+      - id: "c"
+        text: "Metabolicky podmíněnou steatohepatitidu"
+    correct_option_id: "c"
+    explanation: "MASH je progresivní zánětlivá forma steatotického onemocnění."
+    source_pages:
+      - 5
+  - id: "vcasny_zachyt_jaternich_chorob_007"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký význam má MASH pro další průběh?"
+    options:
+      - id: "a"
+        text: "Zvyšuje fibrotizaci a riziko HCC"
+      - id: "b"
+        text: "Vylučuje rozvoj cirhózy"
+      - id: "c"
+        text: "Je vždy benigní bez dlouhodobých následků"
+    correct_option_id: "a"
+    explanation: "Steatohepatitida má vyšší potenciál progrese."
+    source_pages:
+      - 5
+  - id: "vcasny_zachyt_jaternich_chorob_008"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "U koho častěji přechází HBV do chronicity?"
+    options:
+      - id: "a"
+        text: "U imunokompetentních dospělých"
+      - id: "b"
+        text: "U perinatálně infikovaných novorozenců"
+      - id: "c"
+        text: "Riziko je v obou skupinách stejné"
+    correct_option_id: "b"
+    explanation: "U novorozenců je chronicita výrazně častější."
+    source_pages:
+      - 6
+  - id: "vcasny_zachyt_jaternich_chorob_009"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Může HBV asociovaný HCC vzniknout bez cirhózy?"
+    options:
+      - id: "a"
+        text: "Ne, cirhóza je nutnou podmínkou"
+      - id: "b"
+        text: "Pouze po transplantaci jater"
+      - id: "c"
+        text: "Ano"
+    correct_option_id: "c"
+    explanation: "U HBV není cirhóza ve významné části případů HCC přítomna."
+    source_pages:
+      - 6
+  - id: "vcasny_zachyt_jaternich_chorob_010"
+    section_id: "riziko"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký význam má rodinná anamnéza jaterního onemocnění?"
+    options:
+      - id: "a"
+        text: "Patří mezi vodítka pro aktivní vyhledávání"
+      - id: "b"
+        text: "Je bez významu, pokud není ikterus"
+      - id: "c"
+        text: "Nahrazuje laboratorní diagnostiku"
+    correct_option_id: "a"
+    explanation: "Rodinná anamnéza doplňuje metabolická, alkoholová a infekční rizika."
+    source_pages:
+      - 7
+  - id: "vcasny_zachyt_jaternich_chorob_011"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které sérologické vyšetření patří do základního panelu při riziku virové hepatitidy?"
+    options:
+      - id: "a"
+        text: "Pouze anti-HAV IgG"
+      - id: "b"
+        text: "HBsAg, anti-HBs, anti-HBc a anti-HCV"
+      - id: "c"
+        text: "Pouze revmatoidní faktor"
+    correct_option_id: "b"
+    explanation: "Text doporučuje tento panel k posouzení HBV a HCV."
+    source_pages:
+      - 6
+  - id: "vcasny_zachyt_jaternich_chorob_012"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který nález je podle textu důvodem odeslání ke specialistovi?"
+    options:
+      - id: "a"
+        text: "Pouhá pozitivita anti-HBs po očkování"
+      - id: "b"
+        text: "Izolovaně negativní anti-HCV"
+      - id: "c"
+        text: "Pozitivní HBsAg nebo anti-HCV"
+    correct_option_id: "c"
+    explanation: "Pozitivní HBsAg či anti-HCV vyžadují došetření."
+    source_pages:
+      - 6
+  - id: "vcasny_zachyt_jaternich_chorob_013"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co následuje po zjištění rizika nebo relevantních laboratorních abnormalit?"
+    options:
+      - id: "a"
+        text: "Stanovení FIB-4"
+      - id: "b"
+        text: "Automaticky jaterní biopsie u všech"
+      - id: "c"
+        text: "Pouze opakování bilirubinu za deset let"
+    correct_option_id: "a"
+    explanation: "FIB-4 je prvním stupněm stratifikace."
+    source_pages:
+      - 7
+  - id: "vcasny_zachyt_jaternich_chorob_014"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Z jakých hodnot se počítá FIB-4?"
+    options:
+      - id: "a"
+        text: "Věk, albumin, INR a bilirubin"
+      - id: "b"
+        text: "Věk, AST, ALT a trombocyty"
+      - id: "c"
+        text: "BMI, GGT, cholesterol a kreatinin"
+    correct_option_id: "b"
+    explanation: "Index využívá snadno dostupná data."
+    source_pages:
+      - 8
+  - id: "vcasny_zachyt_jaternich_chorob_015"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupovat u nízkého rizika podle FIB-4?"
+    options:
+      - id: "a"
+        text: "Bez dalšího ukončit preventivní péči"
+      - id: "b"
+        text: "Odeslat všechny přímo k transplantaci"
+      - id: "c"
+        text: "Sledovat v primární péči a index v čase opakovat"
+    correct_option_id: "c"
+    explanation: "Nízké riziko umožňuje kontrolu u VPL."
+    source_pages:
+      - 7
+  - id: "vcasny_zachyt_jaternich_chorob_016"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký další krok je vhodný při středním riziku FIB-4?"
+    options:
+      - id: "a"
+        text: "Elastografie"
+      - id: "b"
+        text: "Pouze kontrola lipidogramu"
+      - id: "c"
+        text: "Rutinní urgentní ERCP"
+    correct_option_id: "a"
+    explanation: "Elastografie zpřesňuje odhad fibrózy."
+    source_pages:
+      - 7
+  - id: "vcasny_zachyt_jaternich_chorob_017"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupovat při vysokém riziku podle FIB-4?"
+    options:
+      - id: "a"
+        text: "Pouze doporučit kontrolu za deset let"
+      - id: "b"
+        text: "Odeslat přímo ke specializovanému vyšetření"
+      - id: "c"
+        text: "Považovat nález za fyziologický při absenci bolesti"
+    correct_option_id: "b"
+    explanation: "Vysoké riziko je důvodem přímého odeslání."
+    source_pages:
+      - 7
+  - id: "vcasny_zachyt_jaternich_chorob_018"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaké je omezení běžného ultrazvuku jater?"
+    options:
+      - id: "a"
+        text: "Nedokáže nikdy odhalit steatózu"
+      - id: "b"
+        text: "Vyžaduje vždy podání kontrastní látky"
+      - id: "c"
+        text: "Nedostatečná citlivost pro hodnocení stupně fibrózy"
+    correct_option_id: "c"
+    explanation: "Běžná sonografie spolehlivě nenahrazuje posouzení fibrózy."
+    source_pages:
+      - 8
+  - id: "vcasny_zachyt_jaternich_chorob_019"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co přímo hodnotí elastografie?"
+    options:
+      - id: "a"
+        text: "Jaterní tuhost"
+      - id: "b"
+        text: "Virovou nálož HCV"
+      - id: "c"
+        text: "Sekreci žlučových kyselin"
+    correct_option_id: "a"
+    explanation: "Tuhost slouží k neinvazivnímu odhadu fibrózy."
+    source_pages:
+      - 8
+  - id: "vcasny_zachyt_jaternich_chorob_020"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak se má pacient připravit k elastografii?"
+    options:
+      - id: "a"
+        text: "Bezprostředně předem vydatně jíst"
+      - id: "b"
+        text: "Přijít nalačno"
+      - id: "c"
+        text: "Vypít alkohol pro snížení napětí"
+    correct_option_id: "b"
+    explanation: "Jídlo může falešně zvýšit naměřenou tuhost."
+    source_pages:
+      - 8
+  - id: "vcasny_zachyt_jaternich_chorob_021"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč uvést v žádance k elastografii pravděpodobnou etiologii?"
+    options:
+      - id: "a"
+        text: "Etiologie nemá žádný význam pro interpretaci"
+      - id: "b"
+        text: "Bez ní nelze určit krevní skupinu"
+      - id: "c"
+        text: "Interpretace hodnot se může podle etiologie lišit"
+    correct_option_id: "c"
+    explanation: "Hranice odpovídající cirhóze nejsou mezi etiologiemi zcela totožné."
+    source_pages:
+      - 8
+  - id: "vcasny_zachyt_jaternich_chorob_022"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak věk nad 65 let ovlivňuje FIB-4?"
+    options:
+      - id: "a"
+        text: "Snižuje přesnost a vyžaduje kontextovou interpretaci"
+      - id: "b"
+        text: "Zaručuje maximální přesnost"
+      - id: "c"
+        text: "Odstraňuje potřebu znát trombocyty"
+    correct_option_id: "a"
+    explanation: "Výsledek nelze hodnotit bez ohledu na věk a klinický kontext."
+    source_pages:
+      - 8
+  - id: "vcasny_zachyt_jaternich_chorob_023"
+    section_id: "pece"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak se provádí surveillance HCC u definovaných rizikových skupin?"
+    options:
+      - id: "a"
+        text: "Gastroskopie jednou za pět let"
+      - id: "b"
+        text: "Ultrazvuk jater v šestiměsíčních intervalech"
+      - id: "c"
+        text: "Samotná ALT každý druhý rok"
+    correct_option_id: "b"
+    explanation: "Pravidelný ultrazvuk umožňuje časnější záchyt HCC."
+    source_pages:
+      - 6
+  - id: "vcasny_zachyt_jaternich_chorob_024"
+    section_id: "pece"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupovat při ložisku jater v terénu pokročilé fibrózy?"
+    options:
+      - id: "a"
+        text: "Počkat na rozvoj ikteru"
+      - id: "b"
+        text: "Považovat ložisko automaticky za hemangiom"
+      - id: "c"
+        text: "Bez většího odkladu odeslat na specializované pracoviště"
+    correct_option_id: "c"
+    explanation: "Kombinace zvyšuje podezření na HCC."
+    source_pages:
+      - 5
+  - id: "vcasny_zachyt_jaternich_chorob_025"
+    section_id: "pece"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká je výhoda časného záchytu HCC?"
+    options:
+      - id: "a"
+        text: "Umožňuje potenciálně kurativní léčbu"
+      - id: "b"
+        text: "Zajišťuje vždy spontánní regresi"
+      - id: "c"
+        text: "Vylučuje nutnost odborné péče"
+    correct_option_id: "a"
+    explanation: "Časná stadia mají více možností radikální léčby."
+    source_pages:
+      - 6
+  - id: "vcasny_zachyt_jaternich_chorob_026"
+    section_id: "pece"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jakou zvláštní výhodu má transplantace u vhodného pacienta s HCC a cirhózou?"
+    options:
+      - id: "a"
+        text: "Řeší pouze zvýšení ALT"
+      - id: "b"
+        text: "Řeší nádor i základní cirhózu"
+      - id: "c"
+        text: "Odstraňuje pouze metastázy mimo játra"
+    correct_option_id: "b"
+    explanation: "Transplantace může současně léčit obě onemocnění."
+    source_pages:
+      - 6
+  - id: "vcasny_zachyt_jaternich_chorob_027"
+    section_id: "pece"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kam směřovat chronickou HBV nebo HCV infekci bez ohledu na stadium fibrózy?"
+    options:
+      - id: "a"
+        text: "Pouze na fyzioterapii"
+      - id: "b"
+        text: "Pouze do diabetologické ambulance"
+      - id: "c"
+        text: "Do centra pro léčbu virových hepatitid"
+    correct_option_id: "c"
+    explanation: "Virové hepatitidy mají samostatnou návaznou odbornou péči."
+    source_pages:
+      - 8
+  - id: "vcasny_zachyt_jaternich_chorob_028"
+    section_id: "pece"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdo má dlouhodobě vést dekompenzované jaterní onemocnění?"
+    options:
+      - id: "a"
+        text: "Hepatogastroenterolog"
+      - id: "b"
+        text: "Výhradně VPL bez specialisty"
+      - id: "c"
+        text: "Výhradně pracovnělékařská služba"
+    correct_option_id: "a"
+    explanation: "Dekompenzace vyžaduje odborné sledování a léčbu."
+    source_pages:
+      - 8
+  - id: "vcasny_zachyt_jaternich_chorob_029"
+    section_id: "pece"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co má obsahovat závěr specialisty pro VPL u kompenzovaného onemocnění?"
+    options:
+      - id: "a"
+        text: "Pouze název diagnózy bez doporučení"
+      - id: "b"
+        text: "Plán sledování a podmínky opětovného odeslání"
+      - id: "c"
+        text: "Automatické ukončení všech kontrol"
+    correct_option_id: "b"
+    explanation: "Jasná návaznost umožňuje bezpečné sledování v primární péči."
+    source_pages:
+      - 8
+  - id: "vcasny_zachyt_jaternich_chorob_030"
+    section_id: "pece"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který parametr nejlépe koreluje s morbiditou a letalitou chronických jaterních chorob?"
+    options:
+      - id: "a"
+        text: "Pouze jednorázová GGT"
+      - id: "b"
+        text: "Pouze velikost žlučníku"
+      - id: "c"
+        text: "Pokročilost jaterní fibrózy"
+    correct_option_id: "c"
+    explanation: "Právě stratifikace fibrózy určuje prognostické riziko."
+    source_pages:
+      - 8

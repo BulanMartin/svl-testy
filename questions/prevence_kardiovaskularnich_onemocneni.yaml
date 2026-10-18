@@ -1,0 +1,505 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "prevence_kardiovaskularnich_onemocneni"
+  title: "Prevence kardiovaskulárních onemocnění"
+  source:
+    file: "prevence-kardiovaskularnich-onemocneni-2022.pdf"
+    year: 2022
+coverage:
+  proposed_question_count: 30
+  rationale: "30 otázek pokrývá principy prevence, nové skórování, rizikové kategorie, cíle léčby a spolupráci; nepřepisuje rozsáhlé číselné tabulky po jednotlivých buňkách."
+  sections:
+    - id: "principy"
+      title: "Principy prevence"
+      planned_question_count: 3
+    - id: "riziko"
+      title: "Hodnocení rizika"
+      planned_question_count: 14
+    - id: "cile"
+      title: "Cíle a intervence"
+      planned_question_count: 5
+    - id: "spoluprace"
+      title: "Klinické situace a spolupráce"
+      planned_question_count: 8
+questions:
+  - id: "prevence_kardiovaskularnich_onemocneni_001"
+    section_id: "principy"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Do jaké regionální kategorie řadí dokument Českou republiku pro odhad KV rizika?"
+    options:
+      - id: "a"
+        text: "Mezi země s vysokým rizikem."
+      - id: "b"
+        text: "Mezi země s nízkým rizikem."
+      - id: "c"
+        text: "Mezi země bez potřeby kalibrace rizika."
+    correct_option_id: "a"
+    explanation: "Pro ČR se mají použít algoritmy pro vysokorizikové regiony."
+    source_pages:
+      - 5
+  - id: "prevence_kardiovaskularnich_onemocneni_002"
+    section_id: "principy"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co je základem individuální kardiovaskulární prevence?"
+    options:
+      - id: "a"
+        text: "Stejná farmakoterapie pro všechny dospělé."
+      - id: "b"
+        text: "Odhad osobního rizika a intervence zjištěných rizikových faktorů."
+      - id: "c"
+        text: "Pouze vyšetření při bolesti na hrudi."
+    correct_option_id: "b"
+    explanation: "Individuální prevence vychází z konkrétního rizikového profilu."
+    source_pages:
+      - 6
+  - id: "prevence_kardiovaskularnich_onemocneni_003"
+    section_id: "principy"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které opatření patří k populační prevenci?"
+    options:
+      - id: "a"
+        text: "Pouze titrace statinu u jednoho nemocného."
+      - id: "b"
+        text: "Pouze stanovení troponinu po příhodě."
+      - id: "c"
+        text: "Podpora zdravého životního stylu a vhodná zdravotní politika."
+    correct_option_id: "c"
+    explanation: "Populační přístup mění podmínky a návyky celé společnosti."
+    source_pages:
+      - 6
+  - id: "prevence_kardiovaskularnich_onemocneni_004"
+    section_id: "riziko"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co odhaduje SCORE2?"
+    options:
+      - id: "a"
+        text: "Desetiletou pravděpodobnost fatální i nefatální KV příhody."
+      - id: "b"
+        text: "Pouze roční pravděpodobnost úmrtí na nádor."
+      - id: "c"
+        text: "Pouze výskyt žilní trombózy."
+    correct_option_id: "a"
+    explanation: "Nová metoda zahrnuje fatální i nefatální aterosklerotické příhody."
+    source_pages:
+      - 7
+  - id: "prevence_kardiovaskularnich_onemocneni_005"
+    section_id: "riziko"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který lipidový ukazatel používá SCORE2?"
+    options:
+      - id: "a"
+        text: "Pouze triglyceridy."
+      - id: "b"
+        text: "Non-HDL cholesterol."
+      - id: "c"
+        text: "Pouze lipoprotein(a)."
+    correct_option_id: "b"
+    explanation: "Non-HDL reprezentuje cholesterol v aterogenních částicích."
+    source_pages:
+      - 7
+  - id: "prevence_kardiovaskularnich_onemocneni_006"
+    section_id: "riziko"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak se vypočítá non-HDL cholesterol?"
+    options:
+      - id: "a"
+        text: "LDL cholesterol minus HDL cholesterol."
+      - id: "b"
+        text: "Celkový cholesterol plus HDL cholesterol."
+      - id: "c"
+        text: "Celkový cholesterol minus HDL cholesterol."
+    correct_option_id: "c"
+    explanation: "Jde o jednoduchý rozdíl dvou běžně dostupných hodnot."
+    source_pages:
+      - 7
+  - id: "prevence_kardiovaskularnich_onemocneni_007"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Pacient má celkový cholesterol 5,5 a HDL 1,3 mmol/l. Jaké je non-HDL?"
+    options:
+      - id: "a"
+        text: "4,2 mmol/l."
+      - id: "b"
+        text: "6,8 mmol/l."
+      - id: "c"
+        text: "1,3 mmol/l."
+    correct_option_id: "a"
+    explanation: "Výpočet je 5,5 minus 1,3."
+    source_pages:
+      - 7
+  - id: "prevence_kardiovaskularnich_onemocneni_008"
+    section_id: "riziko"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který faktor patří mezi vstupy SCORE2?"
+    options:
+      - id: "a"
+        text: "Sérová amyláza."
+      - id: "b"
+        text: "Kouření."
+      - id: "c"
+        text: "Počet krevních destiček."
+    correct_option_id: "b"
+    explanation: "Skóre zohledňuje věk, pohlaví, tlak, kouření a lipidový parametr."
+    source_pages:
+      - 7
+  - id: "prevence_kardiovaskularnich_onemocneni_009"
+    section_id: "riziko"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Pro jakou věkovou skupinu text uvádí SCORE2-OP?"
+    options:
+      - id: "a"
+        text: "18–29 let."
+      - id: "b"
+        text: "Pouze děti do 15 let."
+      - id: "c"
+        text: "70–89 let."
+    correct_option_id: "c"
+    explanation: "OP je verze pro starší asymptomatické osoby."
+    source_pages:
+      - 8
+  - id: "prevence_kardiovaskularnich_onemocneni_010"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč jsou hranice rizikových kategorií věkově odlišné?"
+    options:
+      - id: "a"
+        text: "Aby se omezilo nadhodnocování rizika u starších osob."
+      - id: "b"
+        text: "Aby se z výpočtu úplně odstranil věk."
+      - id: "c"
+        text: "Aby měli všichni mladí automaticky velmi vysoké riziko."
+    correct_option_id: "a"
+    explanation: "Věk ovlivňuje absolutní riziko i interpretaci léčebného přínosu."
+    source_pages:
+      - 8
+  - id: "prevence_kardiovaskularnich_onemocneni_011"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká hranice znamená velmi vysoké SCORE2 riziko u osob pod 50 let?"
+    options:
+      - id: "a"
+        text: "Alespoň 20 %."
+      - id: "b"
+        text: "Alespoň 7,5 %."
+      - id: "c"
+        text: "Alespoň 1 %."
+    correct_option_id: "b"
+    explanation: "Tabulka stanoví pro tuto věkovou skupinu hranici 7,5 %."
+    source_pages:
+      - 8
+  - id: "prevence_kardiovaskularnich_onemocneni_012"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká hranice znamená velmi vysoké riziko ve věku 50–69 let?"
+    options:
+      - id: "a"
+        text: "Alespoň 3 %."
+      - id: "b"
+        text: "Alespoň 25 %."
+      - id: "c"
+        text: "Alespoň 10 %."
+    correct_option_id: "c"
+    explanation: "Pro střední věkovou kategorii je hranice 10 %."
+    source_pages:
+      - 8
+  - id: "prevence_kardiovaskularnich_onemocneni_013"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká hranice znamená velmi vysoké riziko od 70 let?"
+    options:
+      - id: "a"
+        text: "Alespoň 15 %."
+      - id: "b"
+        text: "Alespoň 5 %."
+      - id: "c"
+        text: "Alespoň 30 %."
+    correct_option_id: "a"
+    explanation: "Starší osoby mají vyšší kategorizační prahy."
+    source_pages:
+      - 8
+  - id: "prevence_kardiovaskularnich_onemocneni_014"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je běžné SCORE2 určeno k novému zařazení pacienta s již manifestním ASKVO do nízkého rizika?"
+    options:
+      - id: "a"
+        text: "Ano, pokud právě nekouří."
+      - id: "b"
+        text: "Ne, manifestní ASKVO jej řadí do velmi vysokého rizika."
+      - id: "c"
+        text: "Ano, pokud má normální systolický tlak."
+    correct_option_id: "b"
+    explanation: "Sekundární prevence se neřídí stejným postupem jako zdravá asymptomatická populace."
+    source_pages:
+      - 9
+  - id: "prevence_kardiovaskularnich_onemocneni_015"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který nález patří mezi dokumentované ASKVO?"
+    options:
+      - id: "a"
+        text: "Samotná izolovaná hyperurikemie."
+      - id: "b"
+        text: "Samotná rodinná anamnéza bez osobního nálezu."
+      - id: "c"
+        text: "Prodělaný infarkt myokardu."
+    correct_option_id: "c"
+    explanation: "Infarkt je přímým důkazem manifestního aterosklerotického onemocnění."
+    source_pages:
+      - 9
+  - id: "prevence_kardiovaskularnich_onemocneni_016"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak se obecně hodnotí familiární hypercholesterolemie s výrazně zvýšenými lipidy?"
+    options:
+      - id: "a"
+        text: "Jako vysoké riziko bez potřeby běžného SCORE2."
+      - id: "b"
+        text: "Vždy jako nízké riziko při absenci bolesti."
+      - id: "c"
+        text: "Jako stav bez vztahu k ateroskleróze."
+    correct_option_id: "a"
+    explanation: "FH je samostatná riziková diagnóza."
+    source_pages:
+      - 9
+  - id: "prevence_kardiovaskularnich_onemocneni_017"
+    section_id: "riziko"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Který pacient s DM2 odpovídá střednímu riziku podle tabulky?"
+    options:
+      - id: "a"
+        text: "Diabetes s manifestním ASKVO."
+      - id: "b"
+        text: "Dobře kompenzovaný diabetes kratší než deset let bez komplikací a dalších rizik."
+      - id: "c"
+        text: "Diabetes se závažným orgánovým poškozením."
+    correct_option_id: "b"
+    explanation: "Střední kategorie vyžaduje souběh příznivých charakteristik."
+    source_pages:
+      - 9
+  - id: "prevence_kardiovaskularnich_onemocneni_018"
+    section_id: "cile"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Které opatření patří mezi cíle prevence napříč rizikovými kategoriemi?"
+    options:
+      - id: "a"
+        text: "Rutinní dvojitá antiagregace všem osobám."
+      - id: "b"
+        text: "Plošné vysazení pohybové aktivity."
+      - id: "c"
+        text: "Zanechání kouření a úprava životního stylu."
+    correct_option_id: "c"
+    explanation: "Režimová prevence se týká všech kategorií."
+    source_pages:
+      - 10
+  - id: "prevence_kardiovaskularnich_onemocneni_019"
+    section_id: "cile"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký intenzifikovaný cíl LDL-C uvádí dokument u vysokého rizika?"
+    options:
+      - id: "a"
+        text: "Pod 1,8 mmol/l a snížení o více než 50 %."
+      - id: "b"
+        text: "Pod 4,0 mmol/l bez ohledu na výchozí hodnotu."
+      - id: "c"
+        text: "Pod 3,5 mmol/l pouze při obtížích."
+    correct_option_id: "a"
+    explanation: "Cíl kombinuje absolutní hodnotu a relativní pokles."
+    source_pages:
+      - 10
+  - id: "prevence_kardiovaskularnich_onemocneni_020"
+    section_id: "cile"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký intenzifikovaný cíl LDL-C uvádí dokument u velmi vysokého rizika?"
+    options:
+      - id: "a"
+        text: "Pod 2,6 mmol/l bez dalšího požadavku."
+      - id: "b"
+        text: "Pod 1,4 mmol/l a snížení o více než 50 %."
+      - id: "c"
+        text: "Pod 3,0 mmol/l a zvýšení HDL."
+    correct_option_id: "b"
+    explanation: "Velmi vysoké riziko vyžaduje přísnější lipidový cíl."
+    source_pages:
+      - 10
+  - id: "prevence_kardiovaskularnich_onemocneni_021"
+    section_id: "cile"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak je formulován intenzifikovaný systolický tlakový cíl v uvedených skupinách?"
+    options:
+      - id: "a"
+        text: "Pod 90 mmHg bez ohledu na toleranci."
+      - id: "b"
+        text: "Nad 160 mmHg kvůli perfuzi."
+      - id: "c"
+        text: "Pod 130 mmHg, je-li tolerován."
+    correct_option_id: "c"
+    explanation: "Tolerance je důležitou součástí cíle léčby."
+    source_pages:
+      - 10
+  - id: "prevence_kardiovaskularnich_onemocneni_022"
+    section_id: "cile"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "K čemu slouží stratifikace KV rizika při léčbě?"
+    options:
+      - id: "a"
+        text: "K určení intenzity intervence a cílových hodnot."
+      - id: "b"
+        text: "Pouze k určení data další preventivní prohlídky."
+      - id: "c"
+        text: "K úplnému nahrazení klinického úsudku."
+    correct_option_id: "a"
+    explanation: "Vyšší riziko vede zpravidla k přísnějším cílům."
+    source_pages:
+      - 10
+  - id: "prevence_kardiovaskularnich_onemocneni_023"
+    section_id: "spoluprace"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Do jaké rizikové skupiny patří pacient po infarktu myokardu?"
+    options:
+      - id: "a"
+        text: "Nízké riziko, pokud je bez bolesti."
+      - id: "b"
+        text: "Velmi vysoké riziko."
+      - id: "c"
+        text: "Střední riziko pouze podle věku."
+    correct_option_id: "b"
+    explanation: "Prodělaný infarkt sám určuje kategorii sekundární prevence."
+    source_pages:
+      - 11
+  - id: "prevence_kardiovaskularnich_onemocneni_024"
+    section_id: "spoluprace"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Jaký LDL cíl text uvádí při další koronární příhodě do 24 měsíců na maximálně tolerovaných statinech?"
+    options:
+      - id: "a"
+        text: "Pod 3,0 mmol/l."
+      - id: "b"
+        text: "Pod 2,6 mmol/l."
+      - id: "c"
+        text: "Pod 1,0 mmol/l."
+    correct_option_id: "c"
+    explanation: "Tato situace je v dokumentu označena jako extrémní riziko."
+    source_pages:
+      - 11
+  - id: "prevence_kardiovaskularnich_onemocneni_025"
+    section_id: "spoluprace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupovat při nedosažení lipidového cíle po IM přes maximální tolerovaný statin a ezetimib?"
+    options:
+      - id: "a"
+        text: "Zvážit referování do specializovaného KV centra."
+      - id: "b"
+        text: "Ukončit hypolipidemickou léčbu."
+      - id: "c"
+        text: "Vyčkat na další infarkt bez změny péče."
+    correct_option_id: "a"
+    explanation: "Centrum může posoudit další možnosti včetně PCSK9 inhibitorů."
+    source_pages:
+      - 11
+  - id: "prevence_kardiovaskularnich_onemocneni_026"
+    section_id: "spoluprace"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Kam lze odeslat pacienta při podezření na familiární hypercholesterolemii?"
+    options:
+      - id: "a"
+        text: "Výhradně do spánkové laboratoře."
+      - id: "b"
+        text: "Do centra sítě MedPed."
+      - id: "c"
+        text: "Výhradně na chirurgii ruky."
+    correct_option_id: "b"
+    explanation: "MedPed je síť specializovaná na familiární dyslipidemie."
+    source_pages:
+      - 11
+  - id: "prevence_kardiovaskularnich_onemocneni_027"
+    section_id: "spoluprace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jakou roli mají SGLT2 inhibitory u DM2 s manifestním ASKVO podle souhrnu?"
+    options:
+      - id: "a"
+        text: "Slouží výhradně ke zvýšení tělesné hmotnosti."
+      - id: "b"
+        text: "Nahrazují veškerou antihypertenzní léčbu."
+      - id: "c"
+        text: "Snižují riziko kardiovaskulárních a renálních příhod."
+    correct_option_id: "c"
+    explanation: "Jejich přínos přesahuje samotnou úpravu glykemie."
+    source_pages:
+      - 11
+  - id: "prevence_kardiovaskularnich_onemocneni_028"
+    section_id: "spoluprace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký přínos text zdůrazňuje u SGLT2 inhibitorů při DM2 a srdečním selhání se sníženou EF?"
+    options:
+      - id: "a"
+        text: "Snížení hospitalizací pro selhání a KV úmrtí."
+      - id: "b"
+        text: "Zvýšení potřeby hospitalizace."
+      - id: "c"
+        text: "Pouze léčbu akutní tachykardie."
+    correct_option_id: "a"
+    explanation: "Jde o prognostický přínos této lékové skupiny."
+    source_pages:
+      - 11
+  - id: "prevence_kardiovaskularnich_onemocneni_029"
+    section_id: "spoluprace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je nízkodávkovaná ASA v primární prevenci doporučena automaticky všem diabetikům?"
+    options:
+      - id: "a"
+        text: "Ano, bez ohledu na riziko."
+      - id: "b"
+        text: "Ne, text uvádí možnost zvážení u vysokého či velmi vysokého rizika."
+      - id: "c"
+        text: "Ano, i při nízkém riziku a aktivním krvácení."
+    correct_option_id: "b"
+    explanation: "Formulace je selektivní a vyžaduje individuální posouzení."
+    source_pages:
+      - 11
+  - id: "prevence_kardiovaskularnich_onemocneni_030"
+    section_id: "spoluprace"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký je vztah péče o komorbidity ke KV prevenci?"
+    options:
+      - id: "a"
+        text: "Je relevantní až po opakovaném infarktu."
+      - id: "b"
+        text: "Týká se pouze hladiny cholesterolu."
+      - id: "c"
+        text: "Je její nedílnou součástí."
+    correct_option_id: "c"
+    explanation: "Prevence zahrnuje mimo jiné hypertenzi, diabetes, CKD a srdeční selhání."
+    source_pages:
+      - 11

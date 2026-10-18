@@ -1,0 +1,535 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "ischemicka_choroba_dolnich_koncetin"
+  title: "Ischemická choroba dolních končetin"
+  source:
+    file: "ischemicka-choroba-dolnich-koncetin-2022.pdf"
+    year: 2022
+coverage:
+  proposed_question_count: 32
+  rationale: "32 otázek pokrývá akutní i chronickou ischemii, měření ABI, diferenciální diagnostiku a konzervativní i intervenční léčbu."
+  sections:
+    - id: "klinika"
+      title: "Klinika a rizika"
+      planned_question_count: 9
+    - id: "diag"
+      title: "Diagnostika"
+      planned_question_count: 11
+    - id: "lecba"
+      title: "Léčba"
+      planned_question_count: 12
+questions:
+  - id: "ischemicka_choroba_dolnich_koncetin_001"
+    section_id: "klinika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká je nejčastější příčina chronické ICHDK?"
+    options:
+      - id: "a"
+        text: "Ateroskleróza"
+      - id: "b"
+        text: "Akutní žilní trombóza"
+      - id: "c"
+        text: "Izolovaná neuropatie"
+    correct_option_id: "a"
+    explanation: "Chronická ischemie nejčastěji vzniká stenózou či uzávěrem aterosklerotické tepny."
+    source_pages:
+      - 5
+  - id: "ischemicka_choroba_dolnich_koncetin_002"
+    section_id: "klinika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Která dvojice představuje významné rizikové faktory ICHDK?"
+    options:
+      - id: "a"
+        text: "Myopie a alergická rýma"
+      - id: "b"
+        text: "Kouření a diabetes mellitus"
+      - id: "c"
+        text: "Hypotyreóza a akutní otitis jako hlavní dvojice"
+    correct_option_id: "b"
+    explanation: "Nikotinismus a diabetes jsou zásadními riziky periferní aterosklerózy."
+    source_pages:
+      - 5
+  - id: "ischemicka_choroba_dolnich_koncetin_003"
+    section_id: "klinika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který soubor nálezů podporuje akutní tepennou ischemii?"
+    options:
+      - id: "a"
+        text: "Teplá končetina s hmatnými pulzacemi a chronickým ekzémem"
+      - id: "b"
+        text: "Izolovaný otok při zachované teplotě a pulzacích"
+      - id: "c"
+        text: "Náhlá bolest, bledost, chlad a nepřítomnost pulzací"
+    correct_option_id: "c"
+    explanation: "Akutní ischemie ohrožuje končetinu a vyžaduje rychlé řešení."
+    source_pages:
+      - 5
+  - id: "ischemicka_choroba_dolnich_koncetin_004"
+    section_id: "klinika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co znamená nová necitlivost a nemožnost pohybu akutně ischemickou končetinou?"
+    options:
+      - id: "a"
+        text: "Pokročilou závažnou ischemii"
+      - id: "b"
+        text: "Známku spontánního zlepšení"
+      - id: "c"
+        text: "Běžný projev mírné klaudikace"
+    correct_option_id: "a"
+    explanation: "Neurologický deficit je závažným znakem ischemie."
+    source_pages:
+      - 5
+  - id: "ischemicka_choroba_dolnich_koncetin_005"
+    section_id: "klinika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co charakterizuje typickou intermitentní klaudikaci?"
+    options:
+      - id: "a"
+        text: "Bolest pouze při pasivním pohybu v kloubu"
+      - id: "b"
+        text: "Námahová svalová bolest ustupující během několika minut po zastavení"
+      - id: "c"
+        text: "Bolest ustupující výhradně po ulehnutí na záda"
+    correct_option_id: "b"
+    explanation: "Námaha zvyšuje potřebu prokrvení svalu nad možnosti stenotické tepny."
+    source_pages:
+      - 6
+  - id: "ischemicka_choroba_dolnich_koncetin_006"
+    section_id: "klinika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kde se mohou projevit klaudikace při postižení pánevních tepen?"
+    options:
+      - id: "a"
+        text: "Pouze v prstech ruky"
+      - id: "b"
+        text: "Výhradně v oblasti vnitřního kotníku jako kožní pálení"
+      - id: "c"
+        text: "V hýždi, kyčli nebo stehně"
+    correct_option_id: "c"
+    explanation: "Vysoké klaudikace mohou být u mužů spojeny s impotencí."
+    source_pages:
+      - 6
+  - id: "ischemicka_choroba_dolnich_koncetin_007"
+    section_id: "klinika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak se typicky chová ischemická klidová bolest nohy?"
+    options:
+      - id: "a"
+        text: "Zhoršuje se v horizontální poloze a zmírňuje svěšením"
+      - id: "b"
+        text: "Zcela mizí po elevaci nad úroveň srdce"
+      - id: "c"
+        text: "Je vázána výhradně na pohyb kolena"
+    correct_option_id: "a"
+    explanation: "Svěšení přechodně zvyšuje perfuzní tlak."
+    source_pages:
+      - 6
+  - id: "ischemicka_choroba_dolnich_koncetin_008"
+    section_id: "klinika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Čemu odpovídá Fontaineovo stadium III?"
+    options:
+      - id: "a"
+        text: "Asymptomatickému průběhu"
+      - id: "b"
+        text: "Klidovým ischemickým bolestem"
+      - id: "c"
+        text: "Pouze mírným klaudikacím"
+    correct_option_id: "b"
+    explanation: "Stadium IV znamená ulceraci nebo gangrénu."
+    source_pages:
+      - 6
+  - id: "ischemicka_choroba_dolnich_koncetin_009"
+    section_id: "klinika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak naléhavá je specialistická péče při chronické končetinu ohrožující ischemii?"
+    options:
+      - id: "a"
+        text: "Stačí běžná kontrola za rok"
+      - id: "b"
+        text: "Vyšetření až po selhání několikaměsíčního tréninku"
+      - id: "c"
+        text: "Neodkladná, k posouzení revaskularizace v řádu dnů"
+    correct_option_id: "c"
+    explanation: "Klidová bolest a trofické léze ohrožují zachování končetiny."
+    source_pages:
+      - 6
+  - id: "ischemicka_choroba_dolnich_koncetin_010"
+    section_id: "diag"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak se vypočítává ABI?"
+    options:
+      - id: "a"
+        text: "Systolický tlak u kotníku dělený systolickým tlakem na paži"
+      - id: "b"
+        text: "Diastolický tlak na paži dělený pulzní frekvencí"
+      - id: "c"
+        text: "Systolický tlak na paži dělený tlakem v žíle"
+    correct_option_id: "a"
+    explanation: "Jde o kotníkopažní tlakový index."
+    source_pages:
+      - 7
+      - 8
+  - id: "ischemicka_choroba_dolnich_koncetin_011"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která hodnota ABI podporuje diagnózu ICHDK?"
+    options:
+      - id: "a"
+        text: "1,05"
+      - id: "b"
+        text: "0,65"
+      - id: "c"
+        text: "1,20"
+    correct_option_id: "b"
+    explanation: "Hodnota pod 0,9 svědčí pro ICHDK."
+    source_pages:
+      - 7
+  - id: "ischemicka_choroba_dolnich_koncetin_012"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co může znamenat ABI nad 1,4?"
+    options:
+      - id: "a"
+        text: "Spolehlivé vyloučení tepenného postižení"
+      - id: "b"
+        text: "Izolovanou hlubokou žilní trombózu"
+      - id: "c"
+        text: "Špatně stlačitelné kalcifikované tepny"
+    correct_option_id: "c"
+    explanation: "Vysoký index bývá při mediokalcinóze, například u diabetiků."
+    source_pages:
+      - 7
+  - id: "ischemicka_choroba_dolnich_koncetin_013"
+    section_id: "diag"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Které doplňující měření je vhodné při nestlačitelných kotníkových tepnách?"
+    options:
+      - id: "a"
+        text: "Palcový tlak a TBI"
+      - id: "b"
+        text: "Pouze obvod lýtka"
+      - id: "c"
+        text: "Pouze diastolický tlak na paži"
+    correct_option_id: "a"
+    explanation: "TBI pod 0,7 podporuje přítomnost ICHDK."
+    source_pages:
+      - 7
+  - id: "ischemicka_choroba_dolnich_koncetin_014"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které tlaky vstupují do standardního výpočtu ABI?"
+    options:
+      - id: "a"
+        text: "Nižší kotníkový a nižší pažní tlak"
+      - id: "b"
+        text: "Vyšší kotníkový tlak dané končetiny a vyšší pažní tlak"
+      - id: "c"
+        text: "Průměr diastolických tlaků všech končetin"
+    correct_option_id: "b"
+    explanation: "ABI se vypočítává zvlášť pro každou dolní končetinu."
+    source_pages:
+      - 8
+  - id: "ischemicka_choroba_dolnich_koncetin_015"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč při prvním vyšetření měříme tlak na obou pažích?"
+    options:
+      - id: "a"
+        text: "Rozdíl potvrzuje žilní nedostatečnost"
+      - id: "b"
+        text: "Vyšetření nahrazuje měření ABI"
+      - id: "c"
+        text: "Výrazný rozdíl může ukazovat stenózu přívodné tepny"
+    correct_option_id: "c"
+    explanation: "Rozdíl nad 15 mmHg vzbuzuje podezření na tepenné postižení."
+    source_pages:
+      - 7
+  - id: "ischemicka_choroba_dolnich_koncetin_016"
+    section_id: "diag"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co lze objektivizovat testem na běhátku?"
+    options:
+      - id: "a"
+        text: "Bezbolestnou a maximální klaudikační vzdálenost"
+      - id: "b"
+        text: "Přímo stupeň žilního refluxu"
+      - id: "c"
+        text: "Přímo počet koronárních stenóz"
+    correct_option_id: "a"
+    explanation: "Standardizovaná zátěž měří funkční limitaci."
+    source_pages:
+      - 8
+  - id: "ischemicka_choroba_dolnich_koncetin_017"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který nález je typický pro neuropatický vřed?"
+    options:
+      - id: "a"
+        text: "Silně bolestivé chladné prsty bez pulzací"
+      - id: "b"
+        text: "Defekt na plosce se sníženým čitím a malou bolestivostí"
+      - id: "c"
+        text: "Mělký defekt u vnitřního kotníku se žilními změnami"
+    correct_option_id: "b"
+    explanation: "Neuropatie tlumí bolest a defekty vznikají v tlakových místech."
+    source_pages:
+      - 9
+  - id: "ischemicka_choroba_dolnich_koncetin_018"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kde je typická lokalizace žilního bércového vředu?"
+    options:
+      - id: "a"
+        text: "Na konečcích ischemických prstů"
+      - id: "b"
+        text: "Výhradně pod hlavičkami metatarzů"
+      - id: "c"
+        text: "V blízkosti vnitřního kotníku"
+    correct_option_id: "c"
+    explanation: "Žilní hypertenze typicky postihuje mediální oblast bérce."
+    source_pages:
+      - 9
+  - id: "ischemicka_choroba_dolnich_koncetin_019"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co poskytuje duplexní sonografie tepen?"
+    options:
+      - id: "a"
+        text: "Lokalizaci a významnost stenóz i kontrolu průchodnosti bypassu"
+      - id: "b"
+        text: "Pouze povrchovou teplotu"
+      - id: "c"
+        text: "Jen průkaz periferní neuropatie"
+    correct_option_id: "a"
+    explanation: "DUS je neinvazivní anatomické i hemodynamické vyšetření."
+    source_pages:
+      - 14
+  - id: "ischemicka_choroba_dolnich_koncetin_020"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká je významná výhoda digitální subtrakční angiografie?"
+    options:
+      - id: "a"
+        text: "Úplná absence invazivity"
+      - id: "b"
+        text: "Možnost spojit diagnostiku s intervencí"
+      - id: "c"
+        text: "Úplná absence ionizačního záření"
+    correct_option_id: "b"
+    explanation: "DSA umožňuje následné endovaskulární ošetření."
+    source_pages:
+      - 15
+  - id: "ischemicka_choroba_dolnich_koncetin_021"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak postupovat při podezření na akutní tepennou ischemii?"
+    options:
+      - id: "a"
+        text: "Objednat běžný ultrazvuk za měsíc"
+      - id: "b"
+        text: "Zahájit samotný chodecký trénink"
+      - id: "c"
+        text: "Zajistit bezodkladný transport do vaskulárního centra"
+    correct_option_id: "c"
+    explanation: "Časné obnovení perfuze může zachránit končetinu."
+    source_pages:
+      - 5
+  - id: "ischemicka_choroba_dolnich_koncetin_022"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaké opatření před transportem akutní ischemie uvádí postup při absenci kontraindikace?"
+    options:
+      - id: "a"
+        text: "Intravenózní heparin a analgezii bez intramuskulárního podání"
+      - id: "b"
+        text: "Intramuskulární analgetikum a vyčkávání"
+      - id: "c"
+        text: "Těsnou kompresi ischemické končetiny"
+    correct_option_id: "a"
+    explanation: "Postup uvádí heparinový bolus, ochranu končetiny a rychlý transport."
+    source_pages:
+      - 5
+  - id: "ischemicka_choroba_dolnich_koncetin_023"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co tvoří základ dlouhodobé léčby ICHDK?"
+    options:
+      - id: "a"
+        text: "Pouze symptomatické vazodilatans"
+      - id: "b"
+        text: "Intervence všech rizikových faktorů aterosklerózy"
+      - id: "c"
+        text: "Pouze lokální mast na končetinu"
+    correct_option_id: "b"
+    explanation: "Léčba míří i na vysoké celkové kardiovaskulární riziko."
+    source_pages:
+      - 10
+  - id: "ischemicka_choroba_dolnich_koncetin_024"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která péče pomáhá diabetikovi předcházet ulceraci?"
+    options:
+      - id: "a"
+        text: "Chůze naboso pro otužování kůže"
+      - id: "b"
+        text: "Ošetření až po vzniku bolestivého defektu"
+      - id: "c"
+        text: "Denní kontrola nohou, hygiena a vhodná obuv"
+    correct_option_id: "c"
+    explanation: "Neuropatie může vést k nepozorovaným poraněním."
+    source_pages:
+      - 10
+  - id: "ischemicka_choroba_dolnich_koncetin_025"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která antiagregační možnost se běžně používá u symptomatické ICHDK?"
+    options:
+      - id: "a"
+        text: "ASA nebo klopidogrel v monoterapii"
+      - id: "b"
+        text: "Rutinně celoživotní trojkombinace antiagregancií"
+      - id: "c"
+        text: "Pouze prasugrel u každého pacienta"
+    correct_option_id: "a"
+    explanation: "Trvalá duální antiagregace není běžně indikována."
+    source_pages:
+      - 10
+  - id: "ischemicka_choroba_dolnich_koncetin_026"
+    section_id: "lecba"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "U koho lze podle postupu zvažovat ASA s rivaroxabanem 2,5 mg dvakrát denně?"
+    options:
+      - id: "a"
+        text: "U každého zdravého člověka s normálním ABI"
+      - id: "b"
+        text: "U vysoce rizikového pacienta s polyvaskulárním postižením po posouzení rizik"
+      - id: "c"
+        text: "Jako náhradu plné antikoagulace při fibrilaci síní"
+    correct_option_id: "b"
+    explanation: "Jde o vybranou strategii vaskulární ochrany, nikoli univerzální antikoagulační dávku."
+    source_pages:
+      - 10
+  - id: "ischemicka_choroba_dolnich_koncetin_027"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká léčba má být primárním přístupem u klaudikací?"
+    options:
+      - id: "a"
+        text: "Dlouhodobý úplný klid na lůžku"
+      - id: "b"
+        text: "Pouze pasivní prohřívání nohou"
+      - id: "c"
+        text: "Pravidelný intervalový svalový trénink"
+    correct_option_id: "c"
+    explanation: "Trénink chůze zlepšuje toleranci námahy."
+    source_pages:
+      - 11
+  - id: "ischemicka_choroba_dolnich_koncetin_028"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaké je hlavní očekávání od symptomatické vazoaktivní léčby?"
+    options:
+      - id: "a"
+        text: "Prodloužení klaudikační vzdálenosti"
+      - id: "b"
+        text: "Prokázané odstranění celkové aterosklerózy"
+      - id: "c"
+        text: "Náhrada revaskularizace při každé gangréně"
+    correct_option_id: "a"
+    explanation: "Symptomatická léčba sama nezlepšuje celkovou prognózu."
+    source_pages:
+      - 11
+  - id: "ischemicka_choroba_dolnich_koncetin_029"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který stav je kontraindikací cilostazolu?"
+    options:
+      - id: "a"
+        text: "Stabilní klaudikace bez komorbidit"
+      - id: "b"
+        text: "Městnavé srdeční selhání"
+      - id: "c"
+        text: "Samotná léčená dyslipidémie"
+    correct_option_id: "b"
+    explanation: "Cilostazol má významná kardiální bezpečnostní omezení."
+    source_pages:
+      - 11
+  - id: "ischemicka_choroba_dolnich_koncetin_030"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy se používá alprostadil v kontextu tohoto postupu?"
+    options:
+      - id: "a"
+        text: "Jako první léčba asymptomatického normálního ABI"
+      - id: "b"
+        text: "Jako náhrada léčby akutní embolie bez transportu"
+      - id: "c"
+        text: "U kritické ischemie bez možnosti revaskularizace"
+    correct_option_id: "c"
+    explanation: "Parenterální léčba může u části pacientů zmírnit obtíže a zlepšit trofiku."
+    source_pages:
+      - 12
+  - id: "ischemicka_choroba_dolnich_koncetin_031"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který nález patří mezi indikace k posouzení revaskularizace?"
+    options:
+      - id: "a"
+        text: "Nehojící se ischemický defekt nebo klidová ischemická bolest"
+      - id: "b"
+        text: "Pouze asymptomatický normální ABI"
+      - id: "c"
+        text: "Izolovaná onychomykóza s normálním prokrvením"
+    correct_option_id: "a"
+    explanation: "Revaskularizace se zvažuje také u limitujících klaudikací."
+    source_pages:
+      - 12
+  - id: "ischemicka_choroba_dolnich_koncetin_032"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co označuje hybridní revaskularizace?"
+    options:
+      - id: "a"
+        text: "Kombinaci dvou kožních mastí"
+      - id: "b"
+        text: "Kombinaci chirurgického a endovaskulárního postupu"
+      - id: "c"
+        text: "Výhradně systémovou trombolýzu bez výkonu"
+    correct_option_id: "b"
+    explanation: "Způsob léčby volí multidisciplinární vaskulární tým."
+    source_pages:
+      - 12

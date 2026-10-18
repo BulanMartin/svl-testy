@@ -1,0 +1,598 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "chronicka_zilni_onemocneni"
+  title: "Chronická žilní onemocnění"
+  source:
+    file: "dp-chzo-2024.pdf"
+    year: 2024
+coverage:
+  proposed_question_count: 36
+  rationale: "36 otázek pokrývá patofyziologii, diferenciální diagnostiku, CEAP, konzervativní i intervenční léčbu a akutní komplikace bez opakování závěrů."
+  sections:
+    - id: "diag"
+      title: "Projevy a diagnostika"
+      planned_question_count: 14
+    - id: "konz"
+      title: "Konzervativní léčba"
+      planned_question_count: 12
+    - id: "intervence"
+      title: "Intervence a komplikace"
+      planned_question_count: 10
+questions:
+  - id: "chronicka_zilni_onemocneni_001"
+    section_id: "diag"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co je základním hemodynamickým problémem chronické žilní choroby?"
+    options:
+      - id: "a"
+        text: "Žilní hypertenze"
+      - id: "b"
+        text: "Trvale snížený tlak v žilách"
+      - id: "c"
+        text: "Primární arteriální vazospasmus"
+    correct_option_id: "a"
+    explanation: "Žilní hypertenze poškozuje mikrocirkulaci a trofiku."
+    source_pages:
+      - 5
+  - id: "chronicka_zilni_onemocneni_002"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká kombinace je typická pro závažné potrombotické stavy?"
+    options:
+      - id: "a"
+        text: "Pouze arteriální stenóza"
+      - id: "b"
+        text: "Reflux a obstrukce"
+      - id: "c"
+        text: "Pouze kapilární vazospasmus"
+    correct_option_id: "b"
+    explanation: "Po trombóze mohou přetrvávat překážka toku i chlopenní nedostatečnost."
+    source_pages:
+      - 5
+  - id: "chronicka_zilni_onemocneni_003"
+    section_id: "diag"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Které riziko CHŽO lze aktivně ovlivnit?"
+    options:
+      - id: "a"
+        text: "Věk"
+      - id: "b"
+        text: "Hereditu"
+      - id: "c"
+        text: "Obezitu a nedostatek pohybu"
+    correct_option_id: "c"
+    explanation: "Režimová opatření cílí na ovlivnitelné faktory."
+    source_pages:
+      - 5
+  - id: "chronicka_zilni_onemocneni_004"
+    section_id: "diag"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak se typicky mění chronický žilní otok během dne?"
+    options:
+      - id: "a"
+        text: "Narůstá a po nočním odpočinku regreduje"
+      - id: "b"
+        text: "Je největší ráno a při stání vždy mizí"
+      - id: "c"
+        text: "Nemá žádnou vazbu na polohu"
+    correct_option_id: "a"
+    explanation: "Poloha a denní zátěž typicky ovlivňují žilní otok."
+    source_pages:
+      - 6
+  - id: "chronicka_zilni_onemocneni_005"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kde je typická lokalizace žilního bércového vředu?"
+    options:
+      - id: "a"
+        text: "Na špičkách prstů"
+      - id: "b"
+        text: "Nad vnitřním kotníkem"
+      - id: "c"
+        text: "Na patě jako výhradní lokalizaci"
+    correct_option_id: "b"
+    explanation: "Mediální dolní třetina bérce je typickou lokalizací."
+    source_pages:
+      - 6
+  - id: "chronicka_zilni_onemocneni_006"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který charakter bolesti svědčí spíše pro ischemii než pro žilní nemoc?"
+    options:
+      - id: "a"
+        text: "Tíha večer s úlevou po elevaci"
+      - id: "b"
+        text: "Diskomfort zhoršený dlouhým stáním"
+      - id: "c"
+        text: "Námahová bolest ustupující po zastavení"
+    correct_option_id: "c"
+    explanation: "Intermitentní klaudikace je typická pro arteriální postižení."
+    source_pages:
+      - 6
+  - id: "chronicka_zilni_onemocneni_007"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co podporuje lymfedém v diferenciální diagnostice otoku?"
+    options:
+      - id: "a"
+        text: "Tuhý otok dorza nohy a Stemmerovo znamení"
+      - id: "b"
+        text: "Samotná večerní tíha bez otoku nohy"
+      - id: "c"
+        text: "Izolovaná bolest při námaze bez otoku"
+    correct_option_id: "a"
+    explanation: "Lymfedém může postihovat prsty a hřbet nohy."
+    source_pages:
+      - 7
+  - id: "chronicka_zilni_onemocneni_008"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která léková skupina může přispívat k otokům?"
+    options:
+      - id: "a"
+        text: "Inhalační bronchodilatancia jako typická příčina"
+      - id: "b"
+        text: "Blokátory kalciových kanálů"
+      - id: "c"
+        text: "Lokální anestetika jako typická chronická příčina"
+    correct_option_id: "b"
+    explanation: "Vazodilatační léčba patří do diferenciální diagnostiky."
+    source_pages:
+      - 7
+  - id: "chronicka_zilni_onemocneni_009"
+    section_id: "diag"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co v CEAP znamená C3?"
+    options:
+      - id: "a"
+        text: "Aktivní vřed"
+      - id: "b"
+        text: "Teleangiektazie"
+      - id: "c"
+        text: "Edém"
+    correct_option_id: "c"
+    explanation: "C3 vyjadřuje přítomnost otoku."
+    source_pages:
+      - 8
+  - id: "chronicka_zilni_onemocneni_010"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co odlišuje C5 od C6?"
+    options:
+      - id: "a"
+        text: "C5 je zhojený a C6 aktivní vřed"
+      - id: "b"
+        text: "C5 je otok a C6 varixy"
+      - id: "c"
+        text: "C5 je reflux a C6 obstrukce"
+    correct_option_id: "a"
+    explanation: "Klinická stadia rozlišují zhojenou a aktivní ulceraci."
+    source_pages:
+      - 8
+  - id: "chronicka_zilni_onemocneni_011"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co znamená přípona s v C2s?"
+    options:
+      - id: "a"
+        text: "Sekundární anatomii"
+      - id: "b"
+        text: "Symptomatický stav"
+      - id: "c"
+        text: "Současnou sepsi"
+    correct_option_id: "b"
+    explanation: "Přípona popisuje symptomatičnost klinického nálezu."
+    source_pages:
+      - 8
+  - id: "chronicka_zilni_onemocneni_012"
+    section_id: "diag"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Které vyšetření je základní pro mapování refluxu a průchodnosti žil?"
+    options:
+      - id: "a"
+        text: "Prostý rentgen bérce"
+      - id: "b"
+        text: "Samotný D-dimer"
+      - id: "c"
+        text: "Duplexní ultrasonografie"
+    correct_option_id: "c"
+    explanation: "DUS posuzuje anatomii i funkci žilního systému."
+    source_pages:
+      - 8
+  - id: "chronicka_zilni_onemocneni_013"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "V jaké poloze má probíhat fyzikální vyšetření varixů?"
+    options:
+      - id: "a"
+        text: "Ve stoji"
+      - id: "b"
+        text: "Výhradně vleže s elevovanými končetinami"
+      - id: "c"
+        text: "Výhradně v hlubokém dřepu"
+    correct_option_id: "a"
+    explanation: "Ve stoji je žilní nález lépe hodnotitelný."
+    source_pages:
+      - 8
+  - id: "chronicka_zilni_onemocneni_014"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč u bércového vředu vyšetřit periferní tepny a ABI?"
+    options:
+      - id: "a"
+        text: "K potvrzení hluboké žilní trombózy"
+      - id: "b"
+        text: "K posouzení ischemické složky"
+      - id: "c"
+        text: "K určení funkce jater"
+    correct_option_id: "b"
+    explanation: "Smíšená etiologie ovlivňuje léčbu i bezpečnost komprese."
+    source_pages:
+      - 9
+  - id: "chronicka_zilni_onemocneni_015"
+    section_id: "konz"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký pohyb podporuje svalovou žilní pumpu?"
+    options:
+      - id: "a"
+        text: "Dlouhé nehybné stání"
+      - id: "b"
+        text: "Dlouhé sezení bez pohybu kotníků"
+      - id: "c"
+        text: "Pravidelná chůze"
+    correct_option_id: "c"
+    explanation: "Pohyb aktivuje lýtkovou a pedální pumpu."
+    source_pages:
+      - 9
+  - id: "chronicka_zilni_onemocneni_016"
+    section_id: "konz"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak má být odstupňován tlak komprese?"
+    options:
+      - id: "a"
+        text: "Nejvyšší u kotníku a klesající proximálně"
+      - id: "b"
+        text: "Nejvyšší v třísle a klesající distálně"
+      - id: "c"
+        text: "Stejný bez ohledu na anatomii"
+    correct_option_id: "a"
+    explanation: "Graduovaná komprese podporuje žilní návrat."
+    source_pages:
+      - 9
+  - id: "chronicka_zilni_onemocneni_017"
+    section_id: "konz"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je důležité při volbě kompresivních punčoch?"
+    options:
+      - id: "a"
+        text: "Pouze jejich barva"
+      - id: "b"
+        text: "Schopnost pacienta punčochy navléci a skutečně používat"
+      - id: "c"
+        text: "Výhradně nejvyšší dostupná třída"
+    correct_option_id: "b"
+    explanation: "Účinnost vyžaduje realizovatelnou a správně prováděnou terapii."
+    source_pages:
+      - 9
+  - id: "chronicka_zilni_onemocneni_018"
+    section_id: "konz"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká je obvyklá role obinadel a punčoch?"
+    options:
+      - id: "a"
+        text: "Punčochy pouze při operaci, obinadla nikdy"
+      - id: "b"
+        text: "Obinadla pouze pro zdravé osoby"
+      - id: "c"
+        text: "Obinadla častěji v akutní fázi, punčochy při stabilizovaném stavu"
+    correct_option_id: "c"
+    explanation: "Volba závisí na fázi a stavu končetiny."
+    source_pages:
+      - 9
+  - id: "chronicka_zilni_onemocneni_019"
+    section_id: "konz"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který stav vyžaduje zásadní opatrnost či omezení komprese?"
+    options:
+      - id: "a"
+        text: "Pokročilá ischemická choroba dolních končetin"
+      - id: "b"
+        text: "Nekomplikované varixy"
+      - id: "c"
+        text: "Mírné večerní otoky při žilní chorobě"
+    correct_option_id: "a"
+    explanation: "Při těžké ischemii může komprese poškodit perfuzi."
+    source_pages:
+      - 10
+  - id: "chronicka_zilni_onemocneni_020"
+    section_id: "konz"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč může být komprese riziková při pokročilé kardiální nedostatečnosti?"
+    options:
+      - id: "a"
+        text: "Zastavuje tvorbu erytrocytů"
+      - id: "b"
+        text: "Zvyšuje centrální krevní objem"
+      - id: "c"
+        text: "Vyvolává vždy akutní anémii"
+    correct_option_id: "b"
+    explanation: "Přesun krve může přetížit selhávající srdce."
+    source_pages:
+      - 10
+  - id: "chronicka_zilni_onemocneni_021"
+    section_id: "konz"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká péče prospívá kůži při žilní insuficienci?"
+    options:
+      - id: "a"
+        text: "Rutinní vysušování lihem"
+      - id: "b"
+        text: "Trvalé ponechání mokvání bez ošetření"
+      - id: "c"
+        text: "Pravidelná emoliencia"
+    correct_option_id: "c"
+    explanation: "Emoliencia obnovují kožní bariéru a hydrataci."
+    source_pages:
+      - 10
+  - id: "chronicka_zilni_onemocneni_022"
+    section_id: "konz"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Podle čeho se volí krytí žilního vředu?"
+    options:
+      - id: "a"
+        text: "Podle spodiny rány, sekrece a fáze hojení"
+      - id: "b"
+        text: "Pouze podle ceny bez ohledu na ránu"
+      - id: "c"
+        text: "Jedním typem pro všechny rány"
+    correct_option_id: "a"
+    explanation: "Fázové hojení vyžaduje vhodné krytí."
+    source_pages:
+      - 10
+  - id: "chronicka_zilni_onemocneni_023"
+    section_id: "konz"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "K čemu slouží debridement?"
+    options:
+      - id: "a"
+        text: "Uzavření všech ran bez čištění"
+      - id: "b"
+        text: "Odstranění odumřelé tkáně bránící hojení"
+      - id: "c"
+        text: "Vyvolání arteriálního spasmu"
+    correct_option_id: "b"
+    explanation: "Nekróza a povlaky mohou udržovat zánět."
+    source_pages:
+      - 10
+  - id: "chronicka_zilni_onemocneni_024"
+    section_id: "konz"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které krytí text nedoporučuje na infikovanou ránu?"
+    options:
+      - id: "a"
+        text: "Vhodně zvolené neadherentní krytí"
+      - id: "b"
+        text: "Krytí přizpůsobené sekreci a infekci"
+      - id: "c"
+        text: "Hydrokoloid"
+    correct_option_id: "c"
+    explanation: "Hydrokoloidy text řadí spíše k doléčení a epitelizaci."
+    source_pages:
+      - 10
+  - id: "chronicka_zilni_onemocneni_025"
+    section_id: "konz"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak hodnotit přínos venofarmaka při nejasně žilních symptomech?"
+    options:
+      - id: "a"
+        text: "Po několika týdnech zhodnotit efekt a další preskripci"
+      - id: "b"
+        text: "Pokračovat automaticky bez hodnocení"
+      - id: "c"
+        text: "Posoudit účinek pouze podle barvy tablet"
+    correct_option_id: "a"
+    explanation: "Dokument vyžaduje zpětné vyhodnocení symptomatického efektu."
+    source_pages:
+      - 12
+  - id: "chronicka_zilni_onemocneni_026"
+    section_id: "konz"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jakou roli má MPFF při žilním vředu podle dokumentu?"
+    options:
+      - id: "a"
+        text: "Nahrazuje veškerou lokální léčbu"
+      - id: "b"
+        text: "Přídatnou ke kompresi a lokální léčbě"
+      - id: "c"
+        text: "Nahrazuje arteriální vyšetření"
+    correct_option_id: "b"
+    explanation: "Farmakoterapie je součástí komplexní péče."
+    source_pages:
+      - 12
+  - id: "chronicka_zilni_onemocneni_027"
+    section_id: "intervence"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký je princip skleroterapie?"
+    options:
+      - id: "a"
+        text: "Rozšíření žíly balonkem bez uzávěru"
+      - id: "b"
+        text: "Odstranění tepenného trombu"
+      - id: "c"
+        text: "Chemické poškození vedoucí k fibrotizaci a obliteraci žíly"
+    correct_option_id: "c"
+    explanation: "Cílem je uzavření patologické povrchové žíly."
+    source_pages:
+      - 12
+  - id: "chronicka_zilni_onemocneni_028"
+    section_id: "intervence"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co se doporučuje po skleroterapii?"
+    options:
+      - id: "a"
+        text: "Komprese a aktivní pohyb"
+      - id: "b"
+        text: "Dlouhodobý absolutní klid na lůžku"
+      - id: "c"
+        text: "Výhradně lokální zahřívání"
+    correct_option_id: "a"
+    explanation: "Komprese a zachovaný pohyb jsou součástí následné péče."
+    source_pages:
+      - 12
+  - id: "chronicka_zilni_onemocneni_029"
+    section_id: "intervence"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co musí předcházet plánované intervenci na varixech?"
+    options:
+      - id: "a"
+        text: "Pouze pohled na viditelné varixy"
+      - id: "b"
+        text: "Duplexní mapování povrchového i hlubokého systému"
+      - id: "c"
+        text: "Pouze změření krevního tlaku"
+    correct_option_id: "b"
+    explanation: "Mapování určí zdroj a rozsah refluxu."
+    source_pages:
+      - 13
+  - id: "chronicka_zilni_onemocneni_030"
+    section_id: "intervence"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která intervence je metodou volby při symptomatickém povrchovém refluxu podle textu?"
+    options:
+      - id: "a"
+        text: "Rutinní odstranění hlubokých žil"
+      - id: "b"
+        text: "Samotná antibiotická léčba"
+      - id: "c"
+        text: "Termální endovenózní ablace"
+    correct_option_id: "c"
+    explanation: "Text preferuje termální endovenózní řešení."
+    source_pages:
+      - 13
+  - id: "chronicka_zilni_onemocneni_031"
+    section_id: "intervence"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která metoda patří mezi netermální endovenózní postupy?"
+    options:
+      - id: "a"
+        text: "Mechano-chemická ablace"
+      - id: "b"
+        text: "Radiofrekvenční ablace"
+      - id: "c"
+        text: "Laserová ablace"
+    correct_option_id: "a"
+    explanation: "MOCA kombinuje mechanický a chemický účinek bez tepla."
+    source_pages:
+      - 13
+  - id: "chronicka_zilni_onemocneni_032"
+    section_id: "intervence"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak se typicky projevuje varikoflebitida?"
+    options:
+      - id: "a"
+        text: "Bezbolestné vyblednutí celé končetiny"
+      - id: "b"
+        text: "Zarudlý, tuhý a palpačně bolestivý průběh žíly"
+      - id: "c"
+        text: "Pouze izolační parestezie prstů bez místního nálezu"
+    correct_option_id: "b"
+    explanation: "Jde o trombózu se zánětem povrchové žíly."
+    source_pages:
+      - 14
+  - id: "chronicka_zilni_onemocneni_033"
+    section_id: "intervence"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč je při varikoflebitidě důležitý ultrazvuk?"
+    options:
+      - id: "a"
+        text: "Protože vždy prokáže bakteriální etiologii"
+      - id: "b"
+        text: "Pro určení hladiny antikoagulancia"
+      - id: "c"
+        text: "Klinický nález neurčí spolehlivě rozsah a vztah k hlubokým žilám"
+    correct_option_id: "c"
+    explanation: "DUS hodnotí rozsah a riziko propagace."
+    source_pages:
+      - 14
+  - id: "chronicka_zilni_onemocneni_034"
+    section_id: "intervence"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jsou antibiotika rutinní součástí léčby varikoflebitidy?"
+    options:
+      - id: "a"
+        text: "Ne, obvykle jde o sterilní zánět"
+      - id: "b"
+        text: "Ano, vždy ve dvojkombinaci"
+      - id: "c"
+        text: "Ano, vždy celoživotně"
+    correct_option_id: "a"
+    explanation: "Bakteriální infekce je vzácná."
+    source_pages:
+      - 14
+  - id: "chronicka_zilni_onemocneni_035"
+    section_id: "intervence"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká je první pomoc při krvácení z varixu?"
+    options:
+      - id: "a"
+        text: "Svěšení končetiny a zahřívání"
+      - id: "b"
+        text: "Lokální komprese, bandáž a elevace"
+      - id: "c"
+        text: "Masáž krvácejícího místa"
+    correct_option_id: "b"
+    explanation: "Tlak a elevace omezují krvácení."
+    source_pages:
+      - 14
+  - id: "chronicka_zilni_onemocneni_036"
+    section_id: "intervence"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kam patří pacient s měsíce se nehojícím žilním vředem?"
+    options:
+      - id: "a"
+        text: "Pouze k opakované výměně krytí bez došetření"
+      - id: "b"
+        text: "Pouze na kosmetické ošetření"
+      - id: "c"
+        text: "K odborníkovi na hojení ran s cévním došetřením"
+    correct_option_id: "c"
+    explanation: "Komplikované rány vyžadují mezioborovou léčbu příčiny i defektu."
+    source_pages:
+      - 14

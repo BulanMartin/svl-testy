@@ -1,0 +1,504 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "tromboza_povrchove_veny"
+  title: "Trombóza povrchové vény"
+  source:
+    file: "suplementumtromboza-povrchove-veny-2025.pdf"
+    year: 2025
+coverage:
+  proposed_question_count: 30
+  rationale: "30 otázek pokrývá krátké suplementum včetně etiologie, klinických forem, ultrazvukového hodnocení, rizikové stratifikace a léčebných scénářů."
+  sections:
+    - id: "zaklady"
+      title: "Etiologie a klinické formy"
+      planned_question_count: 10
+    - id: "diagnostika"
+      title: "Diagnostika a riziko"
+      planned_question_count: 7
+    - id: "lecba"
+      title: "Léčba a následná péče"
+      planned_question_count: 13
+questions:
+  - id: "tromboza_povrchove_veny_001"
+    section_id: "zaklady"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co charakterizuje povrchovou žilní trombózu?"
+    options:
+      - id: "a"
+        text: "Trombotizace povrchové žíly se zánětlivou reakcí stěny."
+      - id: "b"
+        text: "Výhradně bakteriální infekce bez trombu."
+      - id: "c"
+        text: "Uzávěr tepny aterosklerotickým plátem."
+    correct_option_id: "a"
+    explanation: "Zánět bývá sekundární k trombotizaci a nemusí být infekční."
+    source_pages:
+      - 5
+  - id: "tromboza_povrchove_veny_002"
+    section_id: "zaklady"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Na jakých žilách vzniká nejběžnější forma SVT?"
+    options:
+      - id: "a"
+        text: "Výhradně na mozkových splavech."
+      - id: "b"
+        text: "Na varikózních žilách."
+      - id: "c"
+        text: "Výhradně na zdravých plicních žilách."
+    correct_option_id: "b"
+    explanation: "Varikoflebitida tvoří většinu případů."
+    source_pages:
+      - 5
+  - id: "tromboza_povrchove_veny_003"
+    section_id: "zaklady"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč nelze SVT vždy považovat za benigní lokální stav?"
+    options:
+      - id: "a"
+        text: "Protože vždy vede k tepenné gangréně."
+      - id: "b"
+        text: "Protože je vždy známkou bakteriální sepse."
+      - id: "c"
+        text: "Může se šířit do hlubokých žil a vést k plicní embolii."
+    correct_option_id: "c"
+    explanation: "Riziko závisí na rozsahu, lokalizaci a pacientovi."
+    source_pages:
+      - 5
+  - id: "tromboza_povrchove_veny_004"
+    section_id: "zaklady"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak může souběžná hluboká trombóza vzniknout při SVT?"
+    options:
+      - id: "a"
+        text: "Propagací trombu nebo paralelně při hyperkoagulaci."
+      - id: "b"
+        text: "Pouze zevním přenosem přes kůži."
+      - id: "c"
+        text: "Pouze po nasazení komprese."
+    correct_option_id: "a"
+    explanation: "Nejde vždy o přímé šíření ze stejného místa."
+    source_pages:
+      - 5
+  - id: "tromboza_povrchove_veny_005"
+    section_id: "zaklady"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Která trojice mechanismů odpovídá trombotickému riziku?"
+    options:
+      - id: "a"
+        text: "Pouze hyperventilace, myopie a hypoglykemie."
+      - id: "b"
+        text: "Stáza, hyperkoagulace a poškození endotelu."
+      - id: "c"
+        text: "Pouze vazodilatace bez dalších faktorů."
+    correct_option_id: "b"
+    explanation: "Uplatňují se obdobné mechanismy jako u hluboké trombózy."
+    source_pages:
+      - 5
+  - id: "tromboza_povrchove_veny_006"
+    section_id: "zaklady"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak obvykle vypadá varikoflebitida?"
+    options:
+      - id: "a"
+        text: "Nebolestivá bledá skvrna bez hmatného nálezu."
+      - id: "b"
+        text: "Pouze generalizovaný exantém."
+      - id: "c"
+        text: "Bolestivé zarudlé teplé místo nad nestlačitelnou žílou."
+    correct_option_id: "c"
+    explanation: "Jde o lokální projevy zánětu a trombotizace."
+    source_pages:
+      - 5
+  - id: "tromboza_povrchove_veny_007"
+    section_id: "zaklady"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co bývá příčinou povrchové flebitidy na horní končetině?"
+    options:
+      - id: "a"
+        text: "Iritace zavedeným katétrem nebo podaným roztokem."
+      - id: "b"
+        text: "Výhradně uzávěr femorální tepny."
+      - id: "c"
+        text: "Výhradně chronická hypokalcemie."
+    correct_option_id: "a"
+    explanation: "Postkanylační flebitida je typická mechanická či chemická forma."
+    source_pages:
+      - 5
+  - id: "tromboza_povrchove_veny_008"
+    section_id: "zaklady"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co má vyvolat migrující tromboflebitida?"
+    options:
+      - id: "a"
+        text: "Jistotu neškodného nálezu bez vyšetření."
+      - id: "b"
+        text: "Pátrání po možné malignitě podle klinického kontextu."
+      - id: "c"
+        text: "Automatickou diagnózu erysipelu."
+    correct_option_id: "b"
+    explanation: "Migrace a recidivy mohou být paraneoplastickým projevem."
+    source_pages:
+      - 6
+  - id: "tromboza_povrchove_veny_009"
+    section_id: "zaklady"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je typické pro Mondorovu chorobu?"
+    options:
+      - id: "a"
+        text: "Difuzní tepenný šelest bez podkožního nálezu."
+      - id: "b"
+        text: "Výhradně otok všech čtyř končetin."
+      - id: "c"
+        text: "Tuhý podkožní pruh podobný provázku, často na hrudníku."
+    correct_option_id: "c"
+    explanation: "Jde o zvláštní aseptickou formu s fibroprodukcí."
+    source_pages:
+      - 6
+  - id: "tromboza_povrchove_veny_010"
+    section_id: "zaklady"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co charakterizuje supurativní tromboflebitidu?"
+    options:
+      - id: "a"
+        text: "Infekce žíly s výraznou bolestí a celkovými známkami zánětu."
+      - id: "b"
+        text: "Vždy zcela asymptomatická trombóza."
+      - id: "c"
+        text: "Pouze chronická pigmentace bez akutních příznaků."
+    correct_option_id: "a"
+    explanation: "Infekce může přestupovat z abscesu nebo flegmóny."
+    source_pages:
+      - 6
+  - id: "tromboza_povrchove_veny_011"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaké vyšetření určuje rozsah SVT kmenových žil?"
+    options:
+      - id: "a"
+        text: "Prostý RTG hrudníku."
+      - id: "b"
+        text: "Duplexní sonografie."
+      - id: "c"
+        text: "Samotná sedimentace erytrocytů."
+    correct_option_id: "b"
+    explanation: "Ultrazvuk určí délku, lokalizaci a vztah k hlubokému systému."
+    source_pages:
+      - 6
+  - id: "tromboza_povrchove_veny_012"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který ultrazvukový znak podporuje žilní trombózu?"
+    options:
+      - id: "a"
+        text: "Plná stlačitelnost bez trombu jako jediný znak."
+      - id: "b"
+        text: "Pouze zvýšená tloušťka tepenné intimy."
+      - id: "c"
+        text: "Úplná či částečná nestlačitelnost žíly."
+    correct_option_id: "c"
+    explanation: "DUS zároveň hodnotí průtok a rozsah trombu."
+    source_pages:
+      - 6
+  - id: "tromboza_povrchove_veny_013"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč měřit vzdálenost hlavy trombu od junkce?"
+    options:
+      - id: "a"
+        text: "Ovlivňuje rizikovou kategorii a intenzitu antikoagulace."
+      - id: "b"
+        text: "Určuje pouze barvu kompresní punčochy."
+      - id: "c"
+        text: "Nahrazuje nutnost zjistit délku trombu."
+    correct_option_id: "a"
+    explanation: "Blízkost hlubokého systému zvyšuje riziko propagace."
+    source_pages:
+      - 6
+  - id: "tromboza_povrchove_veny_014"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která vyšetření jsou vhodná před antikoagulací?"
+    options:
+      - id: "a"
+        text: "Pouze alergologické kožní testy."
+      - id: "b"
+        text: "Krevní obraz, renální a jaterní testy a základní koagulace."
+      - id: "c"
+        text: "Pouze spirometrie."
+    correct_option_id: "b"
+    explanation: "Laboratorní vstup pomáhá posoudit bezpečnost léčby."
+    source_pages:
+      - 6
+  - id: "tromboza_povrchove_veny_015"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který stav patří do diferenciální diagnózy lokálního zarudnutí?"
+    options:
+      - id: "a"
+        text: "Izolovaná krátkozrakost."
+      - id: "b"
+        text: "Nekomplikovaná presbyakuze."
+      - id: "c"
+        text: "Erysipel nebo lymfangoitida."
+    correct_option_id: "c"
+    explanation: "Lokální kožní záněty mohou SVT připomínat."
+    source_pages:
+      - 6
+  - id: "tromboza_povrchove_veny_016"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký nález odpovídá nízkorizikové SVT podle přehledu?"
+    options:
+      - id: "a"
+        text: "Úsek kratší než 5 cm daleko od hluboké junkce."
+      - id: "b"
+        text: "Trombus 1 cm od safenofemorální junkce."
+      - id: "c"
+        text: "Progrese trombu přes adekvátní léčbu."
+    correct_option_id: "a"
+    explanation: "Krátký vzdálený trombus má nižší riziko komplikací."
+    source_pages:
+      - 8
+  - id: "tromboza_povrchove_veny_017"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co zvyšuje riziko i mimo samotné rozměry trombu?"
+    options:
+      - id: "a"
+        text: "Pouze světlá barva kůže."
+      - id: "b"
+        text: "Recidivy, progrese při léčbě nebo trombofilní stav."
+      - id: "c"
+        text: "Pouze normální tělesná teplota."
+    correct_option_id: "b"
+    explanation: "Stratifikace zahrnuje i individuální klinické riziko."
+    source_pages:
+      - 8
+  - id: "tromboza_povrchove_veny_018"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak léčit malou nízkorizikovou iritační postkanylační SVT podle textu?"
+    options:
+      - id: "a"
+        text: "Vždy plnou antikoagulací na celý život."
+      - id: "b"
+        text: "Vždy dlouhodobými intravenózními antibiotiky."
+      - id: "c"
+        text: "Symptomaticky NSAID, případně lokálními heparinoidy."
+    correct_option_id: "c"
+    explanation: "U omezeného nízkorizikového nálezu postačuje protizánětlivá léčba."
+    source_pages:
+      - 6
+  - id: "tromboza_povrchove_veny_019"
+    section_id: "lecba"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Jaký režim uvádí text při SVT dlouhé alespoň 5 cm a více než 3 cm od junkce?"
+    options:
+      - id: "a"
+        text: "Fondaparinux 2,5 mg podkožně denně po 45 dnů."
+      - id: "b"
+        text: "Fondaparinux 2,5 mg jednou měsíčně po šest měsíců."
+      - id: "c"
+        text: "Pouze jednorázovou dávku aspirinu."
+    correct_option_id: "a"
+    explanation: "Tento scénář odpovídá středně rizikové povrchové trombóze."
+    source_pages:
+      - 6
+  - id: "tromboza_povrchove_veny_020"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká je uvedená alternativa k fondaparinuxu u středně rizikové SVT?"
+    options:
+      - id: "a"
+        text: "Samotné antibiotikum bez infekce."
+      - id: "b"
+        text: "Nízkomolekulární heparin."
+      - id: "c"
+        text: "Pouze systémový kortikosteroid."
+    correct_option_id: "b"
+    explanation: "LMWH jsou alternativní antikoagulancia, dávka se řídí rizikem."
+    source_pages:
+      - 6
+      - 8
+  - id: "tromboza_povrchove_veny_021"
+    section_id: "lecba"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Co je indikováno při trombu do 3 cm od safenofemorální či safenopopliteální junkce?"
+    options:
+      - id: "a"
+        text: "Pouze lokální mast dva dny."
+      - id: "b"
+        text: "Povinné úplné vysazení veškeré medikace."
+      - id: "c"
+        text: "Plná antikoagulační léčba obvykle celkem tři měsíce."
+    correct_option_id: "c"
+    explanation: "Blízkost hlubokého systému znamená vysoké riziko."
+    source_pages:
+      - 6
+      - 7
+  - id: "tromboza_povrchove_veny_022"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký pohybový režim je obecně doporučen?"
+    options:
+      - id: "a"
+        text: "Zachovat mobilitu."
+      - id: "b"
+        text: "Povinný dlouhodobý klid na lůžku."
+      - id: "c"
+        text: "Znehybnit obě končetiny sádrou."
+    correct_option_id: "a"
+    explanation: "Imobilita zhoršuje žilní stázu."
+    source_pages:
+      - 7
+  - id: "tromboza_povrchove_veny_023"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jakou roli má komprese?"
+    options:
+      - id: "a"
+        text: "Nahrazuje vždy indikovanou antikoagulaci."
+      - id: "b"
+        text: "Zmírňuje žilní tlak a přináší symptomatickou úlevu."
+      - id: "c"
+        text: "Slouží pouze k diagnostice."
+    correct_option_id: "b"
+    explanation: "Komprese je podpůrná součást léčby."
+    source_pages:
+      - 7
+  - id: "tromboza_povrchove_veny_024"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Kdy jsou u SVT indikována antibiotika?"
+    options:
+      - id: "a"
+        text: "Rutinně u každého zarudlého varixu."
+      - id: "b"
+        text: "Nikdy ani při hnisavé infekci."
+      - id: "c"
+        text: "Při podezření na vzácnou bakteriální infekci s celkovými známkami zánětu."
+    correct_option_id: "c"
+    explanation: "Běžná SVT je obvykle sterilní proces."
+    source_pages:
+      - 7
+  - id: "tromboza_povrchove_veny_025"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký je běžný přístup k akutní chirurgické léčbě SVT?"
+    options:
+      - id: "a"
+        text: "Konzervativní léčba má přednost, chirurgie je výjimečná."
+      - id: "b"
+        text: "Okamžitá operace je povinná u všech pacientů."
+      - id: "c"
+        text: "Chirurgie vždy nahrazuje ultrazvukové vyšetření."
+    correct_option_id: "a"
+    explanation: "Akutní incize či odstranění žíly jsou vyhrazeny ojedinělým situacím."
+    source_pages:
+      - 7
+  - id: "tromboza_povrchove_veny_026"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy lze zvažovat eliminační léčbu varixů při recidivách SVT?"
+    options:
+      - id: "a"
+        text: "Vždy před prvním ultrazvukem v akutní fázi."
+      - id: "b"
+        text: "Po zklidnění akutního stavu."
+      - id: "c"
+        text: "Pouze pokud vznikne tepenný uzávěr."
+    correct_option_id: "b"
+    explanation: "Následná léčba varixů může řešit podklad recidiv."
+    source_pages:
+      - 7
+  - id: "tromboza_povrchove_veny_027"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaké postavení mají venofarmaka u SVT?"
+    options:
+      - id: "a"
+        text: "Nahrazují plnou antikoagulaci u trombu v junkci."
+      - id: "b"
+        text: "Jsou povinná jako jediný lék každého pacienta."
+      - id: "c"
+        text: "Nejsou rutinní léčbou, někdy pomohou symptomům žilní nedostatečnosti."
+    correct_option_id: "c"
+    explanation: "Jejich role je případně symptomatická."
+    source_pages:
+      - 7
+  - id: "tromboza_povrchove_veny_028"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co vyžaduje recidivující SVT na nevarikózních žilách?"
+    options:
+      - id: "a"
+        text: "Pátrání po systémové příčině, například trombofilii či malignitě."
+      - id: "b"
+        text: "Automatické uzavření jako prosté varixy."
+      - id: "c"
+        text: "Pouze změnu barvy kompresní punčochy."
+    correct_option_id: "a"
+    explanation: "Neobvyklé a recidivující nálezy mohou signalizovat celkové onemocnění."
+    source_pages:
+      - 7
+  - id: "tromboza_povrchove_veny_029"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Kdo má dále sledovat komplikované či rizikové případy vyžadující antikoagulaci?"
+    options:
+      - id: "a"
+        text: "Výhradně dermatolog bez zhodnocení žil."
+      - id: "b"
+        text: "Angiolog nebo internista ve spolupráci s VPL."
+      - id: "c"
+        text: "Pouze fyzioterapeut."
+    correct_option_id: "b"
+    explanation: "Dokument doporučuje specialistu pro rizikové a komplikované stavy."
+    source_pages:
+      - 7
+  - id: "tromboza_povrchove_veny_030"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak dlouhou symptomatickou terapii NSAID uvádí přehled pro nízkorizikovou SVT?"
+    options:
+      - id: "a"
+        text: "Jedinou dávku vždy bez dalšího sledování."
+      - id: "b"
+        text: "Nejméně dva roky bez kontroly."
+      - id: "c"
+        text: "7–14 dnů."
+    correct_option_id: "c"
+    explanation: "Krátkodobá protizánětlivá léčba cílí na akutní obtíže."
+    source_pages:
+      - 8

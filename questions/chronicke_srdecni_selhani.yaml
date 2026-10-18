@@ -1,0 +1,855 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "chronicke_srdecni_selhani"
+  title: "Chronické srdeční selhání"
+  source:
+    file: "chronicke-srdecni-selhani-2023.pdf"
+    year: 2023
+coverage:
+  proposed_question_count: 51
+  rationale: "Sada zahrnuje terminologii, klinickou diagnostiku, interpretaci peptidů, všechny hlavní lékové skupiny, přístrojovou léčbu, HFmrEF/HFpEF a dlouhodobou i paliativní péči. Hraniční EF 40 % není testována, protože text a tabulka nejsou v zápisu hranice shodné."
+  sections:
+    - id: "zaklady"
+      title: "Definice, etiologie a klasifikace"
+      planned_question_count: 9
+    - id: "diagnostika"
+      title: "Diagnostický postup"
+      planned_question_count: 11
+    - id: "farmakoterapie"
+      title: "Farmakoterapie HFrEF"
+      planned_question_count: 12
+    - id: "pristroje"
+      title: "Přístrojová a pokročilá léčba"
+      planned_question_count: 6
+    - id: "fenotypy"
+      title: "HFmrEF a HFpEF"
+      planned_question_count: 5
+    - id: "sledovani"
+      title: "Sledování, edukace a paliativní péče"
+      planned_question_count: 8
+questions:
+  - id: "chronicke_srdecni_selhani_001"
+    section_id: "zaklady"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co charakterizuje srdeční selhání?"
+    options:
+      - id: "a"
+        text: "Klinický syndrom způsobený strukturální nebo funkční abnormalitou srdce."
+      - id: "b"
+        text: "Jakákoli dušnost bez nutnosti srdeční abnormality."
+      - id: "c"
+        text: "Pouze nízký krevní tlak u zdravého člověka."
+    correct_option_id: "a"
+    explanation: "Syndrom souvisí se zvýšenými srdečními tlaky nebo nedostatečným výdejem."
+    source_pages:
+      - 5
+  - id: "chronicke_srdecni_selhani_002"
+    section_id: "zaklady"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč je třeba určit příčinu srdeční dysfunkce?"
+    options:
+      - id: "a"
+        text: "Etiologie nemá na léčbu vliv."
+      - id: "b"
+        text: "Může rozhodovat o specifické léčbě."
+      - id: "c"
+        text: "Příčina se vyšetřuje pouze po transplantaci."
+    correct_option_id: "b"
+    explanation: "Chlopenní, ischemické, rytmové a další příčiny vyžadují rozdílný přístup."
+    source_pages:
+      - 5
+  - id: "chronicke_srdecni_selhani_003"
+    section_id: "zaklady"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Do které kategorie patří symptomatický pacient s EF LK 30 %?"
+    options:
+      - id: "a"
+        text: "HFmrEF."
+      - id: "b"
+        text: "HFpEF."
+      - id: "c"
+        text: "HFrEF."
+    correct_option_id: "c"
+    explanation: "Hodnota je jasně v pásmu snížené ejekční frakce."
+    source_pages:
+      - 5
+  - id: "chronicke_srdecni_selhani_004"
+    section_id: "zaklady"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaké rozmezí EF LK odpovídá HFmrEF?"
+    options:
+      - id: "a"
+        text: "41–49 %."
+      - id: "b"
+        text: "20–30 %."
+      - id: "c"
+        text: "60–70 %."
+    correct_option_id: "a"
+    explanation: "Jde o srdeční selhání s mírně sníženou ejekční frakcí."
+    source_pages:
+      - 5
+      - 14
+  - id: "chronicke_srdecni_selhani_005"
+    section_id: "zaklady"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co označuje dekompenzace srdečního selhání?"
+    options:
+      - id: "a"
+        text: "Definitivní vyléčení základní choroby."
+      - id: "b"
+        text: "Náhlé nebo postupné zhoršení stavu."
+      - id: "c"
+        text: "Výhradně normalizaci EF."
+    correct_option_id: "b"
+    explanation: "Dekompensace může vyžadovat hospitalizaci nebo intenzifikaci léčby."
+    source_pages:
+      - 5
+  - id: "chronicke_srdecni_selhani_006"
+    section_id: "zaklady"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Z čeho vychází funkční klasifikace NYHA?"
+    options:
+      - id: "a"
+        text: "Jen z koncentrace kreatininu."
+      - id: "b"
+        text: "Pouze z hodnoty cholesterolu."
+      - id: "c"
+        text: "Z příznaků a omezení tělesné aktivity."
+    correct_option_id: "c"
+    explanation: "NYHA je symptomová funkční klasifikace."
+    source_pages:
+      - 6
+  - id: "chronicke_srdecni_selhani_007"
+    section_id: "zaklady"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Pacient má dušnost a obtíže již v klidu. Které třídě NYHA to odpovídá?"
+    options:
+      - id: "a"
+        text: "IV."
+      - id: "b"
+        text: "I."
+      - id: "c"
+        text: "II."
+    correct_option_id: "a"
+    explanation: "Třída IV zahrnuje klidové obtíže a výrazné omezení."
+    source_pages:
+      - 6
+  - id: "chronicke_srdecni_selhani_008"
+    section_id: "zaklady"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Zaručují mírné příznaky nízké riziko hospitalizace či úmrtí?"
+    options:
+      - id: "a"
+        text: "Ano, bez ohledu na objektivní nález."
+      - id: "b"
+        text: "Ne."
+      - id: "c"
+        text: "Ano, pokud pacient neudává otoky."
+    correct_option_id: "b"
+    explanation: "Text upozorňuje, že symptomová tíže nevyjadřuje plně prognózu."
+    source_pages:
+      - 6
+  - id: "chronicke_srdecni_selhani_009"
+    section_id: "zaklady"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Které příčiny srdečního selhání převládají ve vyspělých západoevropských zemích?"
+    options:
+      - id: "a"
+        text: "Výhradně vrozené zkraty."
+      - id: "b"
+        text: "Výhradně bakteriální endokarditida."
+      - id: "c"
+        text: "Ischemická choroba srdeční a hypertenze."
+    correct_option_id: "c"
+    explanation: "Tyto dvě příčiny patří k nejčastějším."
+    source_pages:
+      - 6
+  - id: "chronicke_srdecni_selhani_010"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co je potřebné k diagnóze chronického srdečního selhání?"
+    options:
+      - id: "a"
+        text: "Symptomy či známky a objektivní průkaz srdeční dysfunkce."
+      - id: "b"
+        text: "Pouze únava po námaze."
+      - id: "c"
+        text: "Pouze izolované periferní otoky."
+    correct_option_id: "a"
+    explanation: "Klinický obraz musí být podložen srdeční abnormalitou."
+    source_pages:
+      - 8
+      - 9
+  - id: "chronicke_srdecni_selhani_011"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který příznak je typický pro srdeční selhání?"
+    options:
+      - id: "a"
+        text: "Izolované svědění zvukovodu."
+      - id: "b"
+        text: "Ortopnoe."
+      - id: "c"
+        text: "Výhradně bolest při mikci."
+    correct_option_id: "b"
+    explanation: "Dušnost vleže patří mezi typické příznaky kongesce."
+    source_pages:
+      - 9
+  - id: "chronicke_srdecni_selhani_012"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co může zachytit EKG při podezření na srdeční selhání?"
+    options:
+      - id: "a"
+        text: "Přímo přesnou ejekční frakci."
+      - id: "b"
+        text: "Přímo koncentraci natriuretických peptidů."
+      - id: "c"
+        text: "Fibrilaci síní, patologické Q či rozšíření QRS."
+    correct_option_id: "c"
+    explanation: "EKG podporuje diagnózu a pomáhá volit další postup."
+    source_pages:
+      - 9
+  - id: "chronicke_srdecni_selhani_013"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký význam má NT-proBNP pod 125 pg/ml při neakutním podezření na CHSS?"
+    options:
+      - id: "a"
+        text: "Činí diagnózu méně pravděpodobnou v klinickém kontextu."
+      - id: "b"
+        text: "Samo potvrzuje těžké CHSS."
+      - id: "c"
+        text: "Určuje přesnou příčinu srdečního selhání."
+    correct_option_id: "a"
+    explanation: "Nízká hodnota se používá hlavně k vylučování diagnózy."
+    source_pages:
+      - 9
+  - id: "chronicke_srdecni_selhani_014"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak se může projevit výrazná obezita na natriuretických peptidech?"
+    options:
+      - id: "a"
+        text: "Vždy jsou nejméně desetinásobné."
+      - id: "b"
+        text: "Mohou být neúměrně nízké."
+      - id: "c"
+        text: "Nemá žádný možný vliv."
+    correct_option_id: "b"
+    explanation: "Nízké hodnoty u obézního pacienta vyžadují opatrnou interpretaci."
+    source_pages:
+      - 9
+  - id: "chronicke_srdecni_selhani_015"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které okolnosti mohou zvýšit NT-proBNP i mimo samotnou tíži srdečního selhání?"
+    options:
+      - id: "a"
+        text: "Jen nízká výška pacienta."
+      - id: "b"
+        text: "Pouze hyperopie."
+      - id: "c"
+        text: "Fibrilace síní, vyšší věk a renální dysfunkce."
+    correct_option_id: "c"
+    explanation: "Zvýšený peptid není etiologicky specifický."
+    source_pages:
+      - 9
+      - 10
+  - id: "chronicke_srdecni_selhani_016"
+    section_id: "diagnostika"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Jakou hodnotu NT-proBNP uvádí tabulka pro vylučování akutního srdečního selhání?"
+    options:
+      - id: "a"
+        text: "Pod 300 pg/ml."
+      - id: "b"
+        text: "Pod 3000 pg/ml."
+      - id: "c"
+        text: "Nad 1800 pg/ml."
+    correct_option_id: "a"
+    explanation: "Akutní a chronická situace mají rozdílné rozhodovací hodnoty."
+    source_pages:
+      - 10
+  - id: "chronicke_srdecni_selhani_017"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Které vyšetření je klíčové k posouzení funkce myokardu a chlopní?"
+    options:
+      - id: "a"
+        text: "Samotný skiagram páteře."
+      - id: "b"
+        text: "Echokardiografie."
+      - id: "c"
+        text: "Pouze sedimentace erytrocytů."
+    correct_option_id: "b"
+    explanation: "Echokardiografie posoudí EF, komory, chlopně i diastolickou funkci."
+    source_pages:
+      - 9
+  - id: "chronicke_srdecni_selhani_018"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jakou roli má skiagram hrudníku?"
+    options:
+      - id: "a"
+        text: "Sám spolehlivě určuje všechny fenotypy podle EF."
+      - id: "b"
+        text: "Nahrazuje kompletní echokardiografii."
+      - id: "c"
+        text: "Pomáhá hledat plicní kongesci a jiné příčiny dušnosti."
+    correct_option_id: "c"
+    explanation: "Skiagram má podpůrnou a diferenciálně diagnostickou roli."
+    source_pages:
+      - 9
+  - id: "chronicke_srdecni_selhani_019"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč vyšetřovat kreatinin, ionty, krevní obraz a funkci štítné žlázy?"
+    options:
+      - id: "a"
+        text: "K diferenciální diagnostice, hodnocení prognózy a vedení léčby."
+      - id: "b"
+        text: "Jen pro výběr velikosti manžety."
+      - id: "c"
+        text: "Pouze před implantací kloubní náhrady."
+    correct_option_id: "a"
+    explanation: "Laboratorní nález může ukázat komorbidity i ovlivnit bezpečnost terapie."
+    source_pages:
+      - 9
+  - id: "chronicke_srdecni_selhani_020"
+    section_id: "diagnostika"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Která metoda umožňuje charakterizovat jizvu, fibrózu či infiltrativní změny myokardu?"
+    options:
+      - id: "a"
+        text: "Pouze běžný pulzní oxymetr."
+      - id: "b"
+        text: "Srdeční magnetická rezonance."
+      - id: "c"
+        text: "Kultivace sputa."
+    correct_option_id: "b"
+    explanation: "CMR poskytuje tkáňovou charakteristiku při řadě kardiomyopatií."
+    source_pages:
+      - 10
+  - id: "chronicke_srdecni_selhani_021"
+    section_id: "farmakoterapie"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaké jsou tři hlavní cíle léčby HFrEF?"
+    options:
+      - id: "a"
+        text: "Pouze normalizovat jednu laboratorní hodnotu."
+      - id: "b"
+        text: "Pouze odstranit otoky bez ohledu na prognózu."
+      - id: "c"
+        text: "Snížit mortalitu a hospitalizace a zlepšit kvalitu života."
+    correct_option_id: "c"
+    explanation: "Terapie má symptomatické i prognostické cíle."
+    source_pages:
+      - 11
+  - id: "chronicke_srdecni_selhani_022"
+    section_id: "farmakoterapie"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které skupiny tvoří základ prognostické léčby HFrEF?"
+    options:
+      - id: "a"
+        text: "ACEI/ARNI, betablokátor, MRA a inhibitor SGLT2."
+      - id: "b"
+        text: "Jen kličkové diuretikum a analgetikum."
+      - id: "c"
+        text: "Pouze digoxin a antibiotikum."
+    correct_option_id: "a"
+    explanation: "Postup zdůrazňuje kombinaci čtyř hlavních léčebných pilířů."
+    source_pages:
+      - 11
+      - 12
+  - id: "chronicke_srdecni_selhani_023"
+    section_id: "farmakoterapie"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "U jakého pacienta se má zahajovat betablokátor pro HFrEF?"
+    options:
+      - id: "a"
+        text: "Výhradně během neléčeného šoku."
+      - id: "b"
+        text: "U klinicky stabilního nemocného."
+      - id: "c"
+        text: "Pouze při normální EF a bez příznaků."
+    correct_option_id: "b"
+    explanation: "Stabilita je důležitá pro bezpečné nasazení a titraci."
+    source_pages:
+      - 11
+  - id: "chronicke_srdecni_selhani_024"
+    section_id: "farmakoterapie"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které léky jsou MRA?"
+    options:
+      - id: "a"
+        text: "Bisoprolol a carvedilol."
+      - id: "b"
+        text: "Dapagliflozin a empagliflozin."
+      - id: "c"
+        text: "Spironolakton a eplerenon."
+    correct_option_id: "c"
+    explanation: "MRA blokují mineralokortikoidní receptor."
+    source_pages:
+      - 11
+      - 12
+  - id: "chronicke_srdecni_selhani_025"
+    section_id: "farmakoterapie"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která kombinace je zástupcem ARNI?"
+    options:
+      - id: "a"
+        text: "Sakubitril/valsartan."
+      - id: "b"
+        text: "Enalapril/hydrochlorothiazid."
+      - id: "c"
+        text: "Bisoprolol/amlodipin."
+    correct_option_id: "a"
+    explanation: "ARNI spojuje inhibici neprilysinu s blokádou angiotenzinového receptoru."
+    source_pages:
+      - 12
+  - id: "chronicke_srdecni_selhani_026"
+    section_id: "farmakoterapie"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký nežádoucí účinek ARNI text zdůrazňuje?"
+    options:
+      - id: "a"
+        text: "Vždy těžkou hypertenzi."
+      - id: "b"
+        text: "Hypotenzi."
+      - id: "c"
+        text: "Trvalé zvýšení tělesné teploty."
+    correct_option_id: "b"
+    explanation: "Krevní tlak je důležitý pro toleranci léčby."
+    source_pages:
+      - 12
+  - id: "chronicke_srdecni_selhani_027"
+    section_id: "farmakoterapie"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy přichází v úvahu sartan při HFrEF?"
+    options:
+      - id: "a"
+        text: "Jako povinný doplněk ACEI i ARNI současně."
+      - id: "b"
+        text: "Jen u pacientů bez srdeční dysfunkce."
+      - id: "c"
+        text: "Při intoleranci ACEI či ARNI."
+    correct_option_id: "c"
+    explanation: "ARB jsou alternativou při netolerování uvedených léků."
+    source_pages:
+      - 11
+      - 12
+  - id: "chronicke_srdecni_selhani_028"
+    section_id: "farmakoterapie"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Na jakou komplikaci upozornit při léčbě gliflozinem?"
+    options:
+      - id: "a"
+        text: "Zvýšené riziko genitálních infekcí."
+      - id: "b"
+        text: "Nutný vznik hluchoty."
+      - id: "c"
+        text: "Jistý rozvoj bakteriální endokarditidy."
+    correct_option_id: "a"
+    explanation: "Edukace hygieny a rozpoznání infekce je součástí léčby."
+    source_pages:
+      - 12
+  - id: "chronicke_srdecni_selhani_029"
+    section_id: "farmakoterapie"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "K čemu jsou u HFrEF indikována kličková diuretika?"
+    options:
+      - id: "a"
+        text: "K přímému odstranění koronární stenózy."
+      - id: "b"
+        text: "K léčbě známek a symptomů kongesce."
+      - id: "c"
+        text: "K nahrazení všech prognostických léků."
+    correct_option_id: "b"
+    explanation: "Diuretika řeší objemové přetížení."
+    source_pages:
+      - 11
+      - 12
+  - id: "chronicke_srdecni_selhani_030"
+    section_id: "farmakoterapie"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "U jaké rytmové situace lze podle textu zvažovat ivabradin při splnění dalších kritérií?"
+    options:
+      - id: "a"
+        text: "Při každé fibrilaci síní bez ohledu na frekvenci."
+      - id: "b"
+        text: "Při kompletním AV bloku bez stimulace."
+      - id: "c"
+        text: "Při sinusovém rytmu a zvýšené srdeční frekvenci."
+    correct_option_id: "c"
+    explanation: "Popsaná indikace vyžaduje sinusový rytmus."
+    source_pages:
+      - 12
+  - id: "chronicke_srdecni_selhani_031"
+    section_id: "farmakoterapie"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jakou denní dávku dapagliflozinu či empagliflozinu uvádí tabulka léčby srdečního selhání?"
+    options:
+      - id: "a"
+        text: "10 mg jednou denně."
+      - id: "b"
+        text: "100 mg třikrát denně."
+      - id: "c"
+        text: "1 mg jednou týdně."
+    correct_option_id: "a"
+    explanation: "V tabulce je stejná úvodní i cílová dávka 10 mg denně."
+    source_pages:
+      - 12
+  - id: "chronicke_srdecni_selhani_032"
+    section_id: "farmakoterapie"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký je princip titrace prognostické medikace?"
+    options:
+      - id: "a"
+        text: "Ponechat každému trvale nejnižší dávku bez kontroly účinku."
+      - id: "b"
+        text: "Směřovat k dávkám ověřeným studiemi s ohledem na toleranci."
+      - id: "c"
+        text: "Zvyšovat bez ohledu na nežádoucí účinky."
+    correct_option_id: "b"
+    explanation: "Cílem je účinná a tolerovaná léčba."
+    source_pages:
+      - 11
+  - id: "chronicke_srdecni_selhani_033"
+    section_id: "pristroje"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký je hlavní účel implantabilního kardioverteru-defibrilátoru?"
+    options:
+      - id: "a"
+        text: "Odstranění každé příčiny otoků."
+      - id: "b"
+        text: "Náhrada funkce ledvin."
+      - id: "c"
+        text: "Prevence náhlé arytmické smrti u vybraných pacientů."
+    correct_option_id: "c"
+    explanation: "ICD léčí život ohrožující arytmie."
+    source_pages:
+      - 13
+  - id: "chronicke_srdecni_selhani_034"
+    section_id: "pristroje"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co znamená sekundární prevence pomocí ICD?"
+    options:
+      - id: "a"
+        text: "Implantace po prodělané závažné arytmické příhodě."
+      - id: "b"
+        text: "Implantace pouze kvůli rodinné anamnéze bez vyšetření."
+      - id: "c"
+        text: "Pouhé opakování EKG jednou za rok."
+    correct_option_id: "a"
+    explanation: "Sekundární prevence navazuje na již prodělanou příhodu."
+    source_pages:
+      - 13
+  - id: "chronicke_srdecni_selhani_035"
+    section_id: "pristroje"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Který nález podporuje očekávání lepší odpovědi na resynchronizaci?"
+    options:
+      - id: "a"
+        text: "Vždy úzký QRS a normální funkce komor."
+      - id: "b"
+        text: "Výrazně rozšířený QRS s morfologií LBBB u vhodně indikovaného pacienta."
+      - id: "c"
+        text: "Pouze izolovaná dyslipidémie."
+    correct_option_id: "b"
+    explanation: "Elektrická dyssynchronie s LBBB je významným předpokladem účinku."
+    source_pages:
+      - 13
+  - id: "chronicke_srdecni_selhani_036"
+    section_id: "pristroje"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je účinek resynchronizační léčby stejný u všech nemocných?"
+    options:
+      - id: "a"
+        text: "Ano, vždy úplně normalizuje funkci."
+      - id: "b"
+        text: "Ano, vždy nemá žádný vliv na prognózu."
+      - id: "c"
+        text: "Ne, existují superrespondéři i pacienti bez významné odpovědi."
+    correct_option_id: "c"
+    explanation: "Odpověď na CRT tvoří spektrum."
+    source_pages:
+      - 13
+  - id: "chronicke_srdecni_selhani_037"
+    section_id: "pristroje"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak může být využita dlouhodobá mechanická srdeční podpora?"
+    options:
+      - id: "a"
+        text: "Jako přemostění k transplantaci nebo destinační léčba u vybraných pacientů."
+      - id: "b"
+        text: "Pouze jako léčba lehké hypertenze."
+      - id: "c"
+        text: "Výhradně pro diagnostiku arytmie."
+    correct_option_id: "a"
+    explanation: "Indikaci posuzuje specializované centrum."
+    source_pages:
+      - 13
+  - id: "chronicke_srdecni_selhani_038"
+    section_id: "pristroje"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Na jakém principu pracuje modulace srdeční kontraktility popsaná v textu?"
+    options:
+      - id: "a"
+        text: "Mechanické rozšíření koronární tepny balonkem."
+      - id: "b"
+        text: "Stimulace v absolutní refrakterní periodě ovlivňující kontraktilitu."
+      - id: "c"
+        text: "Odstranění všech srdečních chlopní."
+    correct_option_id: "b"
+    explanation: "CCM ovlivňuje funkci myokardu elektrickými impulzy v refrakterní fázi."
+    source_pages:
+      - 13
+  - id: "chronicke_srdecni_selhani_039"
+    section_id: "fenotypy"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Stačí EF 60 % samotná k diagnóze HFpEF?"
+    options:
+      - id: "a"
+        text: "Ano, každý člověk s EF 60 % má srdeční selhání."
+      - id: "b"
+        text: "Ano, i bez jakýchkoli obtíží nebo změn."
+      - id: "c"
+        text: "Ne, potřebné jsou příznaky a objektivní strukturální či funkční abnormality."
+    correct_option_id: "c"
+    explanation: "Zachovaná EF není sama o sobě důkaz selhání."
+    source_pages:
+      - 14
+  - id: "chronicke_srdecni_selhani_040"
+    section_id: "fenotypy"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký profil bývá častý u HFpEF?"
+    options:
+      - id: "a"
+        text: "Vyšší věk, častěji žena, fibrilace síní a komorbidity."
+      - id: "b"
+        text: "Výhradně zdravý adolescent bez obtíží."
+      - id: "c"
+        text: "Pouze sportovec s izolovanou bradykardií."
+    correct_option_id: "a"
+    explanation: "HFpEF má typicky vysokou zátěž přidruženými nemocemi."
+    source_pages:
+      - 14
+  - id: "chronicke_srdecni_selhani_041"
+    section_id: "fenotypy"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je užití gliflozinů u HFpEF v tomto postupu omezeno jen na diabetiky?"
+    options:
+      - id: "a"
+        text: "Ano, výhradně na diabetes 1. typu."
+      - id: "b"
+        text: "Ne, i na nemocné bez diabetu."
+      - id: "c"
+        text: "Ano, pouze při akutní ketoacidóze."
+    correct_option_id: "b"
+    explanation: "Text popisuje přínos nezávisle na přítomnosti diabetu."
+    source_pages:
+      - 14
+  - id: "chronicke_srdecni_selhani_042"
+    section_id: "fenotypy"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký význam mají diuretika u HFmrEF či HFpEF se známkami kongesce?"
+    options:
+      - id: "a"
+        text: "Jsou kontraindikována kvůli zachované či mírně snížené EF."
+      - id: "b"
+        text: "Nahrazují nutnost léčby příčin."
+      - id: "c"
+        text: "Snižují symptomy a známky městnání."
+    correct_option_id: "c"
+    explanation: "Indikace souvisí s kongescí, ne jen kategorií EF."
+    source_pages:
+      - 14
+      - 15
+  - id: "chronicke_srdecni_selhani_043"
+    section_id: "fenotypy"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co patří k managementu obézního hypertonika s HFpEF?"
+    options:
+      - id: "a"
+        text: "Redukce hmotnosti a dobrá kontrola tlaku."
+      - id: "b"
+        text: "Záměrné zvyšování hmotnosti."
+      - id: "c"
+        text: "Zanedbání tlaku při zachované EF."
+    correct_option_id: "a"
+    explanation: "Přidružené rizikové faktory je třeba aktivně ovlivňovat."
+    source_pages:
+      - 15
+  - id: "chronicke_srdecni_selhani_044"
+    section_id: "sledovani"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký přínos má individuální edukace a self-management?"
+    options:
+      - id: "a"
+        text: "Nahrazuje veškerou odbornou péči."
+      - id: "b"
+        text: "Pomáhá sledování, spoluúčasti na léčbě a kvalitě života."
+      - id: "c"
+        text: "Má význam pouze při normální EF."
+    correct_option_id: "b"
+    explanation: "Pacient má rozumět svému stavu a vědět, jak reagovat na změny."
+    source_pages:
+      - 15
+  - id: "chronicke_srdecni_selhani_045"
+    section_id: "sledovani"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký efekt má vhodný fyzický trénink u srdečního selhání?"
+    options:
+      - id: "a"
+        text: "Musí být vždy zakázán všem stabilním pacientům."
+      - id: "b"
+        text: "Vždy vede k poklesu srdeční funkce."
+      - id: "c"
+        text: "Zlepšuje toleranci zátěže a kvalitu života."
+    correct_option_id: "c"
+    explanation: "Pohyb se přizpůsobuje klinickému stavu."
+    source_pages:
+      - 15
+  - id: "chronicke_srdecni_selhani_046"
+    section_id: "sledovani"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč se doporučuje pravidelné EKG?"
+    options:
+      - id: "a"
+        text: "K záchytu změn QRS, poruch vedení a fibrilace síní."
+      - id: "b"
+        text: "K přímému měření glomerulární filtrace."
+      - id: "c"
+        text: "K nahrazení všech laboratorních kontrol."
+    correct_option_id: "a"
+    explanation: "Změny mohou ovlivnit indikaci přístrojové i farmakologické léčby."
+    source_pages:
+      - 15
+  - id: "chronicke_srdecni_selhani_047"
+    section_id: "sledovani"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy zopakovat echokardiografii po optimalizaci standardní léčby HFrEF podle textu?"
+    options:
+      - id: "a"
+        text: "Až za deset let bez ohledu na stav."
+      - id: "b"
+        text: "Za 3–6 měsíců."
+      - id: "c"
+        text: "Každé dvě hodiny u všech stabilních pacientů."
+    correct_option_id: "b"
+    explanation: "Kontrola pomáhá rozhodnout o další léčbě včetně přístrojové."
+    source_pages:
+      - 15
+  - id: "chronicke_srdecni_selhani_048"
+    section_id: "sledovani"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Podporuje dokument rutinní titraci léčby jen podle opakovaných BNP či NT-proBNP?"
+    options:
+      - id: "a"
+        text: "Ano, klinický stav se při titraci nezohledňuje."
+      - id: "b"
+        text: "Ano, peptidy zcela nahrazují sledování tolerance."
+      - id: "c"
+        text: "Ne, důkazy pro tento rutinní postup nejsou přesvědčivé."
+    correct_option_id: "c"
+    explanation: "Prognostická hodnota biomarkeru neznamená automaticky přínos biomarkerem řízené titrace."
+    source_pages:
+      - 15
+  - id: "chronicke_srdecni_selhani_049"
+    section_id: "sledovani"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaké údaje lze využívat při domácím telemonitoringu?"
+    options:
+      - id: "a"
+        text: "Příznaky, hmotnost, tep a krevní tlak."
+      - id: "b"
+        text: "Pouze krevní skupinu."
+      - id: "c"
+        text: "Výhradně výšku z dospívání."
+    correct_option_id: "a"
+    explanation: "Průběžné údaje mohou podpořit včasné zachycení zhoršení."
+    source_pages:
+      - 15
+  - id: "chronicke_srdecni_selhani_050"
+    section_id: "sledovani"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je hlavním přínosem paliativní péče u terminálního srdečního selhání?"
+    options:
+      - id: "a"
+        text: "Zaručená normalizace EF."
+      - id: "b"
+        text: "Úleva od symptomů a podpora kvality života."
+      - id: "c"
+        text: "Povinné vysazení veškeré komunikace s rodinou."
+    correct_option_id: "b"
+    explanation: "Paliativní přístup se zaměřuje na potřeby pacienta a jeho blízkých."
+    source_pages:
+      - 16
+  - id: "chronicke_srdecni_selhani_051"
+    section_id: "sledovani"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co má být součástí plánování paliativní péče?"
+    options:
+      - id: "a"
+        text: "Rozhodování bez pacienta, i když je schopen vyjádřit preference."
+      - id: "b"
+        text: "Pouze jednorázové laboratorní vyšetření."
+      - id: "c"
+        text: "Dokumentace, pravidelná revize, komunikace týmu a respekt k přáním pacienta."
+    correct_option_id: "c"
+    explanation: "Postup zdůrazňuje koordinaci a individuální preference."
+    source_pages:
+      - 16

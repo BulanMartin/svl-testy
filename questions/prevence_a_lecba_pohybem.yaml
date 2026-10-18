@@ -1,0 +1,508 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "prevence_a_lecba_pohybem"
+  title: "Prevence a léčba pohybovou aktivitou"
+  source:
+    file: "dp-prevence-a-lecba-pohybu_2026.pdf"
+    year: 2026
+coverage:
+  proposed_question_count: 30
+  rationale: "30 otázek pokrývá dávku pohybu, všechny kroky START, bezpečnost, FITT, sledování a domácí cvičení. Opakované letáky nepřidávají duplicity."
+  sections:
+    - id: "davka"
+      title: "Přínosy a dávka pohybu"
+      planned_question_count: 7
+    - id: "start"
+      title: "Preskripce START a FITT"
+      planned_question_count: 8
+    - id: "bezpecnost"
+      title: "Bezpečnost a intenzita"
+      planned_question_count: 8
+    - id: "cviceni"
+      title: "Posilování a sledování"
+      planned_question_count: 7
+questions:
+  - id: "prevence_a_lecba_pohybem_001"
+    section_id: "davka"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Pro jakou populaci je postup především určen?"
+    options:
+      - id: "a"
+        text: "Jinak zdravou populaci ohroženou civilizačními chorobami."
+      - id: "b"
+        text: "Výhradně pacienty v akutním kardiogenním šoku."
+      - id: "c"
+        text: "Pouze profesionální vrcholové sportovce."
+    correct_option_id: "a"
+    explanation: "Specifické diagnózy mají mít vlastní individualizovaná doporučení."
+    source_pages:
+      - 5
+  - id: "prevence_a_lecba_pohybem_002"
+    section_id: "davka"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká týdenní dávka aerobní aktivity střední intenzity je doporučena dospělým?"
+    options:
+      - id: "a"
+        text: "15–30 minut."
+      - id: "b"
+        text: "150–300 minut."
+      - id: "c"
+        text: "1500–3000 minut jako minimum."
+    correct_option_id: "b"
+    explanation: "Alternativou je menší časový objem intenzivnější aktivity."
+    source_pages:
+      - 5
+  - id: "prevence_a_lecba_pohybem_003"
+    section_id: "davka"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká týdenní dávka vysoké intenzity je alternativou k 150–300 minutám střední aktivity?"
+    options:
+      - id: "a"
+        text: "5–10 minut."
+      - id: "b"
+        text: "600–900 minut."
+      - id: "c"
+        text: "75–150 minut."
+    correct_option_id: "c"
+    explanation: "Intenzity lze také kombinovat."
+    source_pages:
+      - 5
+  - id: "prevence_a_lecba_pohybem_004"
+    section_id: "davka"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak často má zdravý dospělý zařadit posilování?"
+    options:
+      - id: "a"
+        text: "Minimálně dvakrát týdně."
+      - id: "b"
+        text: "Pouze jednou ročně."
+      - id: "c"
+        text: "Výhradně každý den do svalového selhání."
+    correct_option_id: "a"
+    explanation: "Silová složka doplňuje aerobní aktivitu."
+    source_pages:
+      - 5
+  - id: "prevence_a_lecba_pohybem_005"
+    section_id: "davka"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký další důraz platí u osob nad 65 let?"
+    options:
+      - id: "a"
+        text: "Plošný zákaz silových cvičení."
+      - id: "b"
+        text: "Trénink rovnováhy k prevenci pádů."
+      - id: "c"
+        text: "Náhrada veškerého pohybu pasivní masáží."
+    correct_option_id: "b"
+    explanation: "U seniorů se k aerobnímu a silovému pohybu přidává rovnováha."
+    source_pages:
+      - 12
+  - id: "prevence_a_lecba_pohybem_006"
+    section_id: "davka"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kolik pohybu střední až vysoké intenzity doporučuje uvedený přehled dětem 5–17 let?"
+    options:
+      - id: "a"
+        text: "Pouze 60 minut měsíčně."
+      - id: "b"
+        text: "Nejméně šest hodin denně."
+      - id: "c"
+        text: "Nejméně 60 minut denně."
+    correct_option_id: "c"
+    explanation: "Dětská doporučení se liší od týdenního cíle dospělých."
+    source_pages:
+      - 12
+  - id: "prevence_a_lecba_pohybem_007"
+    section_id: "davka"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak přistupovat k dlouhému sezení i u člověka, který pravidelně cvičí?"
+    options:
+      - id: "a"
+        text: "Sezení pravidelně přerušovat krátkou chůzí."
+      - id: "b"
+        text: "Považovat další sedavost za zcela bez rizika."
+      - id: "c"
+        text: "Přerušovat sezení pouze jednou týdně."
+    correct_option_id: "a"
+    explanation: "Samotná jedna dávka cvičení nemusí kompenzovat celodenní sezení."
+    source_pages:
+      - 6
+  - id: "prevence_a_lecba_pohybem_008"
+    section_id: "start"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co znamená první S v metodice START?"
+    options:
+      - id: "a"
+        text: "Spánek: automatický předpis hypnotika."
+      - id: "b"
+        text: "Stav: zjištění návyků, kondice a ochoty ke změně."
+      - id: "c"
+        text: "Sprint: okamžitý maximální test pro všechny."
+    correct_option_id: "b"
+    explanation: "Preskripce začíná zmapováním aktuální situace."
+    source_pages:
+      - 6
+  - id: "prevence_a_lecba_pohybem_009"
+    section_id: "start"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co je cílem kroku Téma?"
+    options:
+      - id: "a"
+        text: "Pouze vyjmenovat názvy sportů."
+      - id: "b"
+        text: "Přeskočit vysvětlení a přikázat sport."
+      - id: "c"
+        text: "Propojit přínosy pohybu s konkrétními potřebami pacienta."
+    correct_option_id: "c"
+    explanation: "Personalizované zdůvodnění podporuje motivaci."
+    source_pages:
+      - 7
+  - id: "prevence_a_lecba_pohybem_010"
+    section_id: "start"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak má probíhat krok Ambice?"
+    options:
+      - id: "a"
+        text: "Dohodou o realistickém a měřitelném cíli."
+      - id: "b"
+        text: "Jednostranným příkazem bez ohledu na možnosti."
+      - id: "c"
+        text: "Stanovením cíle bez termínu a měření."
+    correct_option_id: "a"
+    explanation: "SMART cíl má být specifický, měřitelný, dosažitelný, realistický a časově ohraničený."
+    source_pages:
+      - 7
+  - id: "prevence_a_lecba_pohybem_011"
+    section_id: "start"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který příklad nejlépe odpovídá konkrétní dohodnuté ambici?"
+    options:
+      - id: "a"
+        text: "Někdy se více hýbat."
+      - id: "b"
+        text: "Patnáct minut chůze cestou z práce třikrát týdně."
+      - id: "c"
+        text: "Co nejrychleji být dokonale fit."
+    correct_option_id: "b"
+    explanation: "Konkrétní cíl lze uskutečnit a následně zhodnotit."
+    source_pages:
+      - 7
+  - id: "prevence_a_lecba_pohybem_012"
+    section_id: "start"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co znamená FITT v receptu na pohyb?"
+    options:
+      - id: "a"
+        text: "Fibrinogen, inzulin, troponin a teplota."
+      - id: "b"
+        text: "Flexibilita, imunita, tlak a tuk."
+      - id: "c"
+        text: "Frekvence, intenzita, trvání a typ."
+    correct_option_id: "c"
+    explanation: "Čtyři parametry konkretizují pohybovou dávku."
+    source_pages:
+      - 7
+  - id: "prevence_a_lecba_pohybem_013"
+    section_id: "start"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co má kromě vlastní dávky pohybu obsahovat předpisový formulář?"
+    options:
+      - id: "a"
+        text: "Výchozí aktivitu, cíl a datum kontroly."
+      - id: "b"
+        text: "Pouze jméno sportovce bez plánu."
+      - id: "c"
+        text: "Pouze razítko bez jakéhokoli doporučení."
+    correct_option_id: "a"
+    explanation: "Formulář propojuje výchozí stav, předpis a vyhodnocení."
+    source_pages:
+      - 9
+  - id: "prevence_a_lecba_pohybem_014"
+    section_id: "start"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je u vhodného pacienta možná i ústní preskripce pohybu?"
+    options:
+      - id: "a"
+        text: "Ne, bez tiskopisu pohyb nemá účinek."
+      - id: "b"
+        text: "Ano, pokud srozumitelně stanoví účinnou dávku."
+      - id: "c"
+        text: "Ano, ale nesmí uvést intenzitu."
+    correct_option_id: "b"
+    explanation: "Při horší adherenci lze přejít k podrobnějšímu písemnému plánu."
+    source_pages:
+      - 10
+  - id: "prevence_a_lecba_pohybem_015"
+    section_id: "start"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co vyjadřuje poslední T v START?"
+    options:
+      - id: "a"
+        text: "Trvalý zákaz úpravy plánu."
+      - id: "b"
+        text: "Týdenní automatickou hospitalizaci."
+      - id: "c"
+        text: "Termín následné kontroly."
+    correct_option_id: "c"
+    explanation: "Kontrola podporuje adherenci a umožňuje úpravu dávky."
+    source_pages:
+      - 12
+  - id: "prevence_a_lecba_pohybem_016"
+    section_id: "bezpecnost"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který stav je absolutní kontraindikací zahájení střední či vysoké zátěže podle textu?"
+    options:
+      - id: "a"
+        text: "Nestabilní angina pectoris."
+      - id: "b"
+        text: "Samotná nízká kondice bez jiného onemocnění."
+      - id: "c"
+        text: "Pouhá nechuť k běhání."
+    correct_option_id: "a"
+    explanation: "Nejdříve je nutné vyřešit akutní či nestabilní onemocnění."
+    source_pages:
+      - 6
+  - id: "prevence_a_lecba_pohybem_017"
+    section_id: "bezpecnost"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která chlopenní vada je uvedena mezi kontraindikacemi?"
+    options:
+      - id: "a"
+        text: "Každý nevinný systolický šelest."
+      - id: "b"
+        text: "Závažná symptomatická aortální stenóza."
+      - id: "c"
+        text: "Každá stopová regurgitace bez potíží."
+    correct_option_id: "b"
+    explanation: "Přítomnost závažné symptomatické vady mění bezpečnost zátěže."
+    source_pages:
+      - 6
+  - id: "prevence_a_lecba_pohybem_018"
+    section_id: "bezpecnost"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co měří Borgova škála RPE?"
+    options:
+      - id: "a"
+        text: "Koncentraci laktátu z krevního odběru."
+      - id: "b"
+        text: "Pouze počet denních kroků."
+      - id: "c"
+        text: "Subjektivně vnímanou intenzitu úsilí."
+    correct_option_id: "c"
+    explanation: "Jde o nástroj dávkování podle vnímané námahy."
+    source_pages:
+      - 13
+  - id: "prevence_a_lecba_pohybem_019"
+    section_id: "bezpecnost"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký rozsah má standardní Borgova škála uvedená v postupu?"
+    options:
+      - id: "a"
+        text: "6–20."
+      - id: "b"
+        text: "0–3."
+      - id: "c"
+        text: "50–100."
+    correct_option_id: "a"
+    explanation: "Nejde o jiné zkrácené varianty škál."
+    source_pages:
+      - 13
+  - id: "prevence_a_lecba_pohybem_020"
+    section_id: "bezpecnost"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak se typicky projevuje střední intenzita RPE 12–13?"
+    options:
+      - id: "a"
+        text: "Neschopnost říci jediné slovo pro vyčerpání."
+      - id: "b"
+        text: "Mírné zadýchání s možností mluvit v celých větách."
+      - id: "c"
+        text: "Úplný klid bez jakékoli zátěže."
+    correct_option_id: "b"
+    explanation: "Hovorový test pomáhá praktické orientaci v intenzitě."
+    source_pages:
+      - 6
+      - 13
+  - id: "prevence_a_lecba_pohybem_021"
+    section_id: "bezpecnost"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč je RPE užitečné u pacienta na beta-blokátoru?"
+    options:
+      - id: "a"
+        text: "Lék ruší všechny vjemy námahy."
+      - id: "b"
+        text: "Beta-blokátor znemožňuje každou chůzi."
+      - id: "c"
+        text: "Srdeční frekvence je léčbou ovlivněna."
+    correct_option_id: "c"
+    explanation: "Subjektivní námaha může být praktičtější než samotný tep."
+    source_pages:
+      - 13
+  - id: "prevence_a_lecba_pohybem_022"
+    section_id: "bezpecnost"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co má pacient udělat při bolesti na hrudi nebo silné závrati během pohybu?"
+    options:
+      - id: "a"
+        text: "Přerušit aktivitu a kontaktovat lékaře."
+      - id: "b"
+        text: "Zvýšit intenzitu, aby příznak přetlačil."
+      - id: "c"
+        text: "Pokračovat až do splnění denního cíle."
+    correct_option_id: "a"
+    explanation: "Jde o varovné příznaky vyžadující reakci."
+    source_pages:
+      - 10
+  - id: "prevence_a_lecba_pohybem_023"
+    section_id: "bezpecnost"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak zahájit režim u dosud neaktivního člověka?"
+    options:
+      - id: "a"
+        text: "Okamžitě maximální intenzitou každý den."
+      - id: "b"
+        text: "Nižší zátěží s postupným zvyšováním."
+      - id: "c"
+        text: "Několik měsíců bez pohybu a pak nárazovým závodem."
+    correct_option_id: "b"
+    explanation: "Pozvolný začátek snižuje únavu a úrazové riziko."
+    source_pages:
+      - 10
+  - id: "prevence_a_lecba_pohybem_024"
+    section_id: "cviceni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč při redukci hmotnosti zařadit odporové cvičení?"
+    options:
+      - id: "a"
+        text: "Aby se záměrně urychlila ztráta svalů."
+      - id: "b"
+        text: "Jen ke zvýšení klidové tepové frekvence."
+      - id: "c"
+        text: "K ochraně svalové hmoty a prevenci sarkopenie."
+    correct_option_id: "c"
+    explanation: "Zvláště u seniorů dieta bez posilování ohrožuje svalovou hmotu."
+    source_pages:
+      - 8
+      - 10
+  - id: "prevence_a_lecba_pohybem_025"
+    section_id: "cviceni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak má být při posilování řízen dech?"
+    options:
+      - id: "a"
+        text: "Nezadržovat dech a vydechovat při námaze."
+      - id: "b"
+        text: "Zadržovat dech po celou sérii."
+      - id: "c"
+        text: "Dýchat pouze mezi jednotlivými tréninky."
+    correct_option_id: "a"
+    explanation: "Zadržování dechu zvyšuje krevní tlak."
+    source_pages:
+      - 15
+  - id: "prevence_a_lecba_pohybem_026"
+    section_id: "cviceni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které svaly primárně posiluje hýžďový most?"
+    options:
+      - id: "a"
+        text: "Pouze prsty rukou."
+      - id: "b"
+        text: "Hýžďové svaly a zadní stranu stehen."
+      - id: "c"
+        text: "Výhradně mimické svaly."
+    correct_option_id: "b"
+    explanation: "Most podporuje také funkci pánve a bederní páteře."
+    source_pages:
+      - 15
+  - id: "prevence_a_lecba_pohybem_027"
+    section_id: "cviceni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký cíl má prkno v domácí sestavě?"
+    options:
+      - id: "a"
+        text: "Izolovaný trénink očních svalů."
+      - id: "b"
+        text: "Pouze protažení prstů nohou."
+      - id: "c"
+        text: "Trénink hlubokého stabilizačního systému a trupu."
+    correct_option_id: "c"
+    explanation: "Jde o statický cvik pro břišní a zádové svaly."
+    source_pages:
+      - 15
+  - id: "prevence_a_lecba_pohybem_028"
+    section_id: "cviceni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká intenzita domácího posilování je uvedena?"
+    options:
+      - id: "a"
+        text: "Střední s rezervou 1–3 opakování, bez selhání."
+      - id: "b"
+        text: "Vždy až do úplného svalového selhání."
+      - id: "c"
+        text: "Jen zcela pasivní pohyb bez zapojení svalů."
+    correct_option_id: "a"
+    explanation: "Cílem je dlouhodobá síla a adherence."
+    source_pages:
+      - 15
+  - id: "prevence_a_lecba_pohybem_029"
+    section_id: "cviceni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak lze prakticky sledovat zlepšení kondice?"
+    options:
+      - id: "a"
+        text: "Měnit pokaždé zátěž bez záznamu a srovnání."
+      - id: "b"
+        text: "Porovnat vnímanou námahu při stejné trase a tempu."
+      - id: "c"
+        text: "Hodnotit pouze cenu sportovního vybavení."
+    correct_option_id: "b"
+    explanation: "Nižší RPE při stejné zátěži podporuje zlepšení tolerance."
+    source_pages:
+      - 12
+  - id: "prevence_a_lecba_pohybem_030"
+    section_id: "cviceni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co má pacient přinést na kontrolu pohybového režimu?"
+    options:
+      - id: "a"
+        text: "Pouze seznam zakoupených sportovních značek."
+      - id: "b"
+        text: "Jen jednorázovou fotografii bot."
+      - id: "c"
+        text: "Záznam dní a vykonané aktivity z deníku nebo aplikace."
+    correct_option_id: "c"
+    explanation: "Záznam umožňuje hodnotit skutečnou adherenci a upravit plán."
+    source_pages:
+      - 12
+      - 15

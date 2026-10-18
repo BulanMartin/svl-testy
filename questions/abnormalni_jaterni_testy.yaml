@@ -1,0 +1,680 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "abnormalni_jaterni_testy"
+  title: "Abnormální jaterní testy"
+  source:
+    file: "abnormalni-jaterni-testy-2023.pdf"
+    year: 2023
+coverage:
+  proposed_question_count: 40
+  rationale: "40 otázek pokrývá interpretaci testů, diferenciální diagnostiku obou typů léze, bilirubin a screening. Větší prostor dostávají rozhodovací situace než fyziologické detaily."
+  sections:
+    - id: "testy"
+      title: "Význam a omezení jaterních testů"
+      planned_question_count: 9
+    - id: "postup"
+      title: "Anamnéza a klasifikace nálezu"
+      planned_question_count: 6
+    - id: "hepatocelularni"
+      title: "Hepatocelulární léze"
+      planned_question_count: 12
+    - id: "cholestaza"
+      title: "Cholestáza"
+      planned_question_count: 7
+    - id: "bilirubin"
+      title: "Hyperbilirubinémie"
+      planned_question_count: 4
+    - id: "screening"
+      title: "Screening a další péče"
+      planned_question_count: 2
+questions:
+  - id: "abnormalni_jaterni_testy_001"
+    section_id: "testy"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co znamenají normální hodnoty jaterních testů?"
+    options:
+      - id: "a"
+        text: "Nevylučují jaterní onemocnění."
+      - id: "b"
+        text: "Spolehlivě vylučují chronickou hepatopatii."
+      - id: "c"
+        text: "Vylučují fibrózu, ale ne steatózu."
+    correct_option_id: "a"
+    explanation: "Normální biochemický nález nevylučuje jaterní nemoc."
+    source_pages:
+      - 5
+  - id: "abnormalni_jaterni_testy_002"
+    section_id: "testy"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co lze vyvodit z vysokých aminotransferáz samotných?"
+    options:
+      - id: "a"
+        text: "Dokazují selhání syntetické funkce jater."
+      - id: "b"
+        text: "Jde o známku poškození, nikoli automatický průkaz selhání jater."
+      - id: "c"
+        text: "Samy určují potřebu transplantace."
+    correct_option_id: "b"
+    explanation: "Poškození hepatocytů a funkční selhání nejsou totožné."
+    source_pages:
+      - 5
+  - id: "abnormalni_jaterni_testy_003"
+    section_id: "testy"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co charakterizují dynamické jaterní testy?"
+    options:
+      - id: "a"
+        text: "Pouze počet poškozených hepatocytů."
+      - id: "b"
+        text: "Výhradně průchodnost žlučových cest."
+      - id: "c"
+        text: "Funkční schopnost a rezervu jater."
+    correct_option_id: "c"
+    explanation: "Dynamické testy hodnotí funkci a její rezervu."
+    source_pages:
+      - 5
+  - id: "abnormalni_jaterni_testy_004"
+    section_id: "testy"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Která dvojice slouží k hodnocení syntetické funkce jater?"
+    options:
+      - id: "a"
+        text: "Albumin a protrombinový čas."
+      - id: "b"
+        text: "ALT a AST."
+      - id: "c"
+        text: "ALP a GGT."
+    correct_option_id: "a"
+    explanation: "Albumin i koagulační faktory vznikají v játrech."
+    source_pages:
+      - 5
+      - 7
+  - id: "abnormalni_jaterni_testy_005"
+    section_id: "testy"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který z uvedených enzymů má významný zdroj i v kosterním svalu?"
+    options:
+      - id: "a"
+        text: "ALT jako výlučný marker svalové nekrózy."
+      - id: "b"
+        text: "AST."
+      - id: "c"
+        text: "GGT jako hlavní svalový enzym."
+    correct_option_id: "b"
+    explanation: "AST se vyskytuje také ve svalech a myokardu."
+    source_pages:
+      - 6
+  - id: "abnormalni_jaterni_testy_006"
+    section_id: "testy"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které dvě složky především určují sérovou aktivitu ALP u zdravého člověka?"
+    options:
+      - id: "a"
+        text: "Jaterní a srdeční."
+      - id: "b"
+        text: "Svalová a ledvinná."
+      - id: "c"
+        text: "Jaterní a kostní."
+    correct_option_id: "c"
+    explanation: "ALP má více izoenzymů, zejména jaterní a kostní složku."
+    source_pages:
+      - 6
+  - id: "abnormalni_jaterni_testy_007"
+    section_id: "testy"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč je albumin méně vhodný k posouzení akutních změn funkce jater?"
+    options:
+      - id: "a"
+        text: "Má dlouhý poločas přibližně 21 dnů."
+      - id: "b"
+        text: "V játrech se netvoří."
+      - id: "c"
+        text: "Jeho poločas je kratší než jedna hodina."
+    correct_option_id: "a"
+    explanation: "Dlouhý poločas omezuje rychlou reakci albuminu na akutní změnu."
+    source_pages:
+      - 7
+  - id: "abnormalni_jaterni_testy_008"
+    section_id: "testy"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak interpretovat INR u nemocného s cirhózou?"
+    options:
+      - id: "a"
+        text: "Jako přesné samostatné měřítko rizika krvácení."
+      - id: "b"
+        text: "Se znalostí omezení; nepopisuje celou novou koagulační rovnováhu."
+      - id: "c"
+        text: "Jako důkaz, že trombóza nemůže nastat."
+    correct_option_id: "b"
+    explanation: "INR zachycuje pouze část koagulačního systému."
+    source_pages:
+      - 7
+  - id: "abnormalni_jaterni_testy_009"
+    section_id: "testy"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Jaké omezení globálních koagulačních testů uvádí dokument?"
+    options:
+      - id: "a"
+        text: "Nezohledňují žádnou buněčnou složku krve."
+      - id: "b"
+        text: "Měří pouze koncentraci albuminu."
+      - id: "c"
+        text: "Chybějí standardizované hranice zaručující bezpečnost invazivních výkonů."
+    correct_option_id: "c"
+    explanation: "TEG/ROTEM a další globální testy mají omezenou standardizaci a validaci hranic."
+    source_pages:
+      - 7
+  - id: "abnormalni_jaterni_testy_010"
+    section_id: "postup"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co tvoří základ diferenciální diagnostiky abnormálních jaterních testů?"
+    options:
+      - id: "a"
+        text: "Anamnéza a klinický kontext spolu s laboratorním nálezem."
+      - id: "b"
+        text: "Samotná nejvyšší hodnota enzymu."
+      - id: "c"
+        text: "Biopsie před odebráním anamnézy."
+    correct_option_id: "a"
+    explanation: "Biochemie obvykle sama etiologickou diagnózu neurčí."
+    source_pages:
+      - 7
+      - 8
+  - id: "abnormalni_jaterni_testy_011"
+    section_id: "postup"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Na co je nutné se cíleně ptát při podezření na lékové poškození jater?"
+    options:
+      - id: "a"
+        text: "Jen na intravenózně podávané léky."
+      - id: "b"
+        text: "Také na volně prodejné přípravky a užívání paracetamolu."
+      - id: "c"
+        text: "Pouze na léky předepsané hepatologem."
+    correct_option_id: "b"
+    explanation: "Pacient nemusí běžně dostupné přípravky považovat za léky s rizikem toxicity."
+    source_pages:
+      - 8
+  - id: "abnormalni_jaterni_testy_012"
+    section_id: "postup"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Elevace aminotransferáz souvisí s oběhovou nestabilitou. Kterou příčinu je třeba zvažovat?"
+    options:
+      - id: "a"
+        text: "Gilbertovu hyperbilirubinémii jako příčinu vysokých transamináz."
+      - id: "b"
+        text: "Izolovanou fyziologickou elevaci kostní ALP."
+      - id: "c"
+        text: "Hypoxickou hepatitidu."
+    correct_option_id: "c"
+    explanation: "Časová souvislost s poruchou oběhu podporuje hypoxické poškození."
+    source_pages:
+      - 8
+  - id: "abnormalni_jaterni_testy_013"
+    section_id: "postup"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který nález odpovídá hepatocelulárnímu typu léze?"
+    options:
+      - id: "a"
+        text: "Dominantní zvýšení ALT a AST."
+      - id: "b"
+        text: "Izolovaná elevace kostní ALP."
+      - id: "c"
+        text: "Pouze nekonjugovaný bilirubin při ostatních normálních testech."
+    correct_option_id: "a"
+    explanation: "Aminotransferázy odrážejí poškození hepatocytů."
+    source_pages:
+      - 8
+  - id: "abnormalni_jaterni_testy_014"
+    section_id: "postup"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak dokument klasifikuje elevaci aminotransferáz menší než pětinásobek horní meze normy?"
+    options:
+      - id: "a"
+        text: "Střední."
+      - id: "b"
+        text: "Mírnou."
+      - id: "c"
+        text: "Významnou nad desetinásobek normy."
+    correct_option_id: "b"
+    explanation: "Text rozlišuje mírnou elevaci pod 5násobek, střední 5–10násobek a významnou nad 10násobek."
+    source_pages:
+      - 8
+  - id: "abnormalni_jaterni_testy_015"
+    section_id: "postup"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak má geografický kontext ovlivnit vyšetřování?"
+    options:
+      - id: "a"
+        text: "Nahrazuje sérologii u všech hepatitid."
+      - id: "b"
+        text: "Nemá žádný vliv na diferenciální diagnostiku."
+      - id: "c"
+        text: "Pomáhá upřednostnit lokálně časté příčiny před vzácnými."
+    correct_option_id: "c"
+    explanation: "Prevalence infekčních i genetických chorob se mezi oblastmi liší."
+    source_pages:
+      - 7
+      - 8
+  - id: "abnormalni_jaterni_testy_016"
+    section_id: "hepatocelularni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "U kterých lézí bývá AST vyšší než ALT?"
+    options:
+      - id: "a"
+        text: "U alkoholové a hypoxické léze."
+      - id: "b"
+        text: "Výhradně u Gilbertova syndromu."
+      - id: "c"
+        text: "Pouze při fyziologické graviditě."
+    correct_option_id: "a"
+    explanation: "Tyto léze mohou poškodit centrilobulární oblast s vyšším obsahem AST."
+    source_pages:
+      - 8
+  - id: "abnormalni_jaterni_testy_017"
+    section_id: "hepatocelularni"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Na co podle dokumentu ukazuje velmi vysoká elevace aminotransferáz nad 75násobek normy?"
+    options:
+      - id: "a"
+        text: "Typicky na izolovaný Gilbertův syndrom."
+      - id: "b"
+        text: "Především na toxické nebo ischemické poškození."
+      - id: "c"
+        text: "Spolehlivě na prostou steatózu bez další příčiny."
+    correct_option_id: "b"
+    explanation: "Takto extrémní zvýšení je v textu spojeno hlavně s toxicitou a ischemií."
+    source_pages:
+      - 8
+  - id: "abnormalni_jaterni_testy_018"
+    section_id: "hepatocelularni"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Proč nelze rychlý pokles aminotransferáz při hypoxické hepatitidě automaticky hodnotit jako zlepšení?"
+    options:
+      - id: "a"
+        text: "Vždy znamená laboratorní chybu."
+      - id: "b"
+        text: "Dokazuje neporušenou syntézu koagulačních faktorů."
+      - id: "c"
+        text: "Může doprovázet regeneraci i rozsáhlou nekrózu jater."
+    correct_option_id: "c"
+    explanation: "Prognózu je nutné hodnotit i pomocí funkčních parametrů a kliniky."
+    source_pages:
+      - 8
+      - 9
+  - id: "abnormalni_jaterni_testy_019"
+    section_id: "hepatocelularni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který vývoj při poklesu aminotransferáz varuje před selháním jater?"
+    options:
+      - id: "a"
+        text: "Prodloužení koagulačních časů, vzestup bilirubinu a pokles prealbuminu."
+      - id: "b"
+        text: "Normalizace koagulace a pokles bilirubinu."
+      - id: "c"
+        text: "Izolované snížení kostního izoenzymu ALP."
+    correct_option_id: "a"
+    explanation: "Zhoršení syntézy a bilirubinu svědčí pro insuficienci navzdory poklesu enzymů."
+    source_pages:
+      - 9
+  - id: "abnormalni_jaterni_testy_020"
+    section_id: "hepatocelularni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak postupovat při podezření na akutní virovou hepatitidu?"
+    options:
+      - id: "a"
+        text: "Vyčkat vždy půl roku bez dalšího vyšetření."
+      - id: "b"
+        text: "Co nejrychleji doplnit specifickou sérologii nebo molekulárně genetické vyšetření."
+      - id: "c"
+        text: "Určit virus pouze z poměru AST/ALT."
+    correct_option_id: "b"
+    explanation: "Etiologii je třeba potvrdit specifickými testy."
+    source_pages:
+      - 9
+  - id: "abnormalni_jaterni_testy_021"
+    section_id: "hepatocelularni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kam patří nemocný s těžkou intoxikací paracetamolem?"
+    options:
+      - id: "a"
+        text: "Pouze k plánované kontrole transamináz za rok."
+      - id: "b"
+        text: "Výhradně k ambulantnímu dietnímu poradenství."
+      - id: "c"
+        text: "K hospitalizaci ve specializovaném centru."
+    correct_option_id: "c"
+    explanation: "Může vzniknout selhání s potřebou urgentní transplantace."
+    source_pages:
+      - 9
+  - id: "abnormalni_jaterni_testy_022"
+    section_id: "hepatocelularni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Mladý muž má po intenzivním posilování izolovanou elevaci AST. Co je třeba nejprve zvažovat?"
+    options:
+      - id: "a"
+        text: "Svalový původ elevace."
+      - id: "b"
+        text: "Automaticky autoimunitní hepatitidu."
+      - id: "c"
+        text: "Jistou obstrukci žlučových cest."
+    correct_option_id: "a"
+    explanation: "Při dominanci AST je třeba vyloučit mimojaterní, zejména svalový zdroj."
+    source_pages:
+      - 9
+  - id: "abnormalni_jaterni_testy_023"
+    section_id: "hepatocelularni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která kombinace vede k podezření na hereditární hemochromatózu?"
+    options:
+      - id: "a"
+        text: "Nízký feritin a normální saturace transferinu."
+      - id: "b"
+        text: "Vysoká saturace transferinu a feritin."
+      - id: "c"
+        text: "Izolovaný nekonjugovaný bilirubin při normálních testech."
+    correct_option_id: "b"
+    explanation: "Algoritmus při zvýšených parametrech metabolismu železa uvádí vyšetření genu HFE."
+    source_pages:
+      - 9
+  - id: "abnormalni_jaterni_testy_024"
+    section_id: "hepatocelularni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které vyšetření patří do pátrání po autoimunitní hepatitidě?"
+    options:
+      - id: "a"
+        text: "Samotná glykémie nalačno."
+      - id: "b"
+        text: "Pouze vyšetření kostního izoenzymu ALP."
+      - id: "c"
+        text: "ANA, protilátky proti hladkému svalu a anti-LKM."
+    correct_option_id: "c"
+    explanation: "Algoritmus zahrnuje uvedené autoprotilátky."
+    source_pages:
+      - 9
+  - id: "abnormalni_jaterni_testy_025"
+    section_id: "hepatocelularni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká je podle dokumentu nejčastější příčina mírné elevace ALT/AST v běžné praxi?"
+    options:
+      - id: "a"
+        text: "Nealkoholová tuková choroba jater."
+      - id: "b"
+        text: "Wilsonova choroba."
+      - id: "c"
+        text: "Otrava muchomůrkou zelenou."
+    correct_option_id: "a"
+    explanation: "NAFLD je častá a spojená s metabolickými riziky."
+    source_pages:
+      - 10
+  - id: "abnormalni_jaterni_testy_026"
+    section_id: "hepatocelularni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kterou komplikaci může vyvolat progredující NASH?"
+    options:
+      - id: "a"
+        text: "Pouze přechodný vzestup bilirubinu bez fibrózy."
+      - id: "b"
+        text: "Cirhózu a hepatocelulární karcinom."
+      - id: "c"
+        text: "Výhradně extrahepatální obstrukci konkrementem."
+    correct_option_id: "b"
+    explanation: "Zánětlivá forma může postupovat přes fibrózu až k cirhóze."
+    source_pages:
+      - 10
+  - id: "abnormalni_jaterni_testy_027"
+    section_id: "hepatocelularni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co je základním dlouhodobým opatřením u NAFLD v tomto dokumentu?"
+    options:
+      - id: "a"
+        text: "Krátkodobé hladovění jako jediná léčba."
+      - id: "b"
+        text: "Přidání alkoholu k usnadnění metabolismu tuků."
+      - id: "c"
+        text: "Změna životního stylu se snahou o trvalou redukci hmotnosti."
+    correct_option_id: "c"
+    explanation: "Reverzibilita je spojena s trvalou změnou životního stylu."
+    source_pages:
+      - 10
+  - id: "abnormalni_jaterni_testy_028"
+    section_id: "cholestaza"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co je prvním krokem při vyšetřování cholestatického nálezu?"
+    options:
+      - id: "a"
+        text: "Vyloučit extrahepatální biliární obstrukci."
+      - id: "b"
+        text: "Stanovit PBC bez zobrazovacího vyšetření."
+      - id: "c"
+        text: "Připsat každý nález fyziologickému růstu kostí."
+    correct_option_id: "a"
+    explanation: "Obstrukci je třeba odlišit od intrahepatálních příčin."
+    source_pages:
+      - 10
+      - 11
+  - id: "abnormalni_jaterni_testy_029"
+    section_id: "cholestaza"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která metoda umožňuje i terapeutický zásah při biliární obstrukci?"
+    options:
+      - id: "a"
+        text: "Samotná MRCP."
+      - id: "b"
+        text: "ERCP."
+      - id: "c"
+        text: "Samotná běžná sonografie."
+    correct_option_id: "b"
+    explanation: "ERCP na rozdíl od čistě zobrazovacích metod může umožnit léčbu."
+    source_pages:
+      - 10
+  - id: "abnormalni_jaterni_testy_030"
+    section_id: "cholestaza"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Pacient s ulcerózní kolitidou má zvýšenou ALP. Na co je třeba myslet?"
+    options:
+      - id: "a"
+        text: "Gilbertovu anomálii jako vysvětlení zvýšené ALP."
+      - id: "b"
+        text: "Výhradně alkoholovou hepatitidu."
+      - id: "c"
+        text: "Primární sklerotizující cholangoitidu."
+    correct_option_id: "c"
+    explanation: "PSC má významnou asociaci s idiopatickými střevními záněty."
+    source_pages:
+      - 10
+  - id: "abnormalni_jaterni_testy_031"
+    section_id: "cholestaza"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Žena středního věku má pruritus, cholestázu a antimitochondriální protilátky. Která diagnóza je typická?"
+    options:
+      - id: "a"
+        text: "Primární biliární cholangoitida."
+      - id: "b"
+        text: "Hemolytická anémie."
+      - id: "c"
+        text: "Izolovaná svalová léze."
+    correct_option_id: "a"
+    explanation: "Tato kombinace je charakteristická pro PBC."
+    source_pages:
+      - 10
+  - id: "abnormalni_jaterni_testy_032"
+    section_id: "cholestaza"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Ve které situaci může být ALP zvýšena fyziologicky?"
+    options:
+      - id: "a"
+        text: "Pouze při obstrukčním ikteru."
+      - id: "b"
+        text: "V adolescenci a ve třetím trimestru gravidity."
+      - id: "c"
+        text: "Pouze při metastázách do jater."
+    correct_option_id: "b"
+    explanation: "Kostní a placentární složka mohou způsobovat fyziologickou elevaci."
+    source_pages:
+      - 10
+      - 11
+  - id: "abnormalni_jaterni_testy_033"
+    section_id: "cholestaza"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak hodnotit izolovanou zvýšenou GGT při užívání indukujících léků?"
+    options:
+      - id: "a"
+        text: "Vždy dokazuje jaterní selhání."
+      - id: "b"
+        text: "Vylučuje účinek alkoholu."
+      - id: "c"
+        text: "Nemusí sama znamenat jaterní poškození."
+    correct_option_id: "c"
+    explanation: "GGT je indukovatelný enzym a nález vyžaduje klinický kontext."
+    source_pages:
+      - 6
+      - 10
+  - id: "abnormalni_jaterni_testy_034"
+    section_id: "cholestaza"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Jaký další postup uvádí text u nejasné trvající elevace ALP po základním došetření?"
+    options:
+      - id: "a"
+        text: "Zvážení necílené jaterní biopsie."
+      - id: "b"
+        text: "Trvalé ukončení diagnostiky bez ohledu na kontext."
+      - id: "c"
+        text: "Léčbu Gilbertova syndromu."
+    correct_option_id: "a"
+    explanation: "Přetrvávající nevysvětlená elevace může vyžadovat histologické vyšetření."
+    source_pages:
+      - 10
+  - id: "abnormalni_jaterni_testy_035"
+    section_id: "bilirubin"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Která forma bilirubinu je rozpustná ve vodě?"
+    options:
+      - id: "a"
+        text: "Nekonjugovaná, nepřímá."
+      - id: "b"
+        text: "Konjugovaná, přímá."
+      - id: "c"
+        text: "Obě jsou stejně nerozpustné."
+    correct_option_id: "b"
+    explanation: "Konjugace vytváří ve vodě rozpustný bilirubin."
+    source_pages:
+      - 7
+  - id: "abnormalni_jaterni_testy_036"
+    section_id: "bilirubin"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co nejlépe odpovídá typickému Gilbertovu nálezu?"
+    options:
+      - id: "a"
+        text: "Trvale vysoká ALP a dilatované žlučovody."
+      - id: "b"
+        text: "Výrazně prodloužené INR s rychle klesajícím albuminem."
+      - id: "c"
+        text: "Kolísavá převážně nekonjugovaná hyperbilirubinémie při jinak normálních testech."
+    correct_option_id: "c"
+    explanation: "Gilbertova anomálie se projevuje izolovanou kolísavou nekonjugovanou hyperbilirubinémií."
+    source_pages:
+      - 10
+      - 11
+  - id: "abnormalni_jaterni_testy_037"
+    section_id: "bilirubin"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je při typickém klinickém a laboratorním obrazu Gilbertovy anomálie nutná biopsie či test hladověním?"
+    options:
+      - id: "a"
+        text: "Ne, další takové vyšetřování není indikováno."
+      - id: "b"
+        text: "Ano, biopsie je povinná u každého."
+      - id: "c"
+        text: "Ano, test hladověním musí předcházet každé diagnóze."
+    correct_option_id: "a"
+    explanation: "Typický nález umožňuje diagnózu bez těchto vyšetření."
+    source_pages:
+      - 11
+  - id: "abnormalni_jaterni_testy_038"
+    section_id: "bilirubin"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co podporuje hemolýzu jako příčinu nekonjugované hyperbilirubinémie?"
+    options:
+      - id: "a"
+        text: "Izolovaná dilatace žlučovodů."
+      - id: "b"
+        text: "Snížený hemoglobin a haptoglobin."
+      - id: "c"
+        text: "Výhradně zvýšená kostní ALP."
+    correct_option_id: "b"
+    explanation: "Tabulka uvádí pokles hemoglobinu a haptoglobinu jako známky hemolýzy."
+    source_pages:
+      - 12
+  - id: "abnormalni_jaterni_testy_039"
+    section_id: "screening"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které neinvazivní skóre uvádí dokument pro odhad jaterní fibrózy?"
+    options:
+      - id: "a"
+        text: "CHA2DS2-VASc."
+      - id: "b"
+        text: "Wellsovo skóre."
+      - id: "c"
+        text: "FIB-4 nebo NAFLD fibrosis score."
+    correct_option_id: "c"
+    explanation: "Schéma screeningu používá FIB-4 a NFS pro stratifikaci fibrózy."
+    source_pages:
+      - 12
+      - 13
+  - id: "abnormalni_jaterni_testy_040"
+    section_id: "screening"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Na co je nutné dát pozor při zadávání aminotransferáz do kalkulátoru fibrózy?"
+    options:
+      - id: "a"
+        text: "Na rozdíl mezi U/l a μkat/l."
+      - id: "b"
+        text: "Pouze na barvu zkumavky."
+      - id: "c"
+        text: "Na povinné dosazení hodnoty AST místo věku."
+    correct_option_id: "a"
+    explanation: "Nesprávné jednotky vedou k chybnému výsledku kalkulovaného skóre."
+    source_pages:
+      - 12

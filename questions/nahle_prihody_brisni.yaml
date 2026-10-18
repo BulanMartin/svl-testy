@@ -1,0 +1,535 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "nahle_prihody_brisni"
+  title: "Náhlé příhody břišní"
+  source:
+    file: "nahle-prihody-brisni-2023.pdf"
+    year: 2023
+coverage:
+  proposed_question_count: 32
+  rationale: "32 otázek pokrývá rozpoznání a třídění příhod, urgentní postup, dokumentaci i hlavní gynekologické příčiny."
+  sections:
+    - id: "postup"
+      title: "Vyšetření a organizace péče"
+      planned_question_count: 11
+    - id: "priciny"
+      title: "Příčiny a diferenciální diagnostika"
+      planned_question_count: 11
+    - id: "gynekologie"
+      title: "Gynekologické příhody"
+      planned_question_count: 10
+questions:
+  - id: "nahle_prihody_brisni_001"
+    section_id: "postup"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Proč vyžadují náhlé příhody břišní rychlou diagnostiku a léčbu?"
+    options:
+      - id: "a"
+        text: "Mohou rychle vést k závažným až život ohrožujícím komplikacím"
+      - id: "b"
+        text: "Vždy spontánně odezní do hodiny"
+      - id: "c"
+        text: "Postihují pouze mladé jinak zdravé osoby"
+    correct_option_id: "a"
+    explanation: "Spektrum sahá od lehkých stavů po bezprostřední ohrožení života."
+    source_pages:
+      - 5
+  - id: "nahle_prihody_brisni_002"
+    section_id: "postup"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co může zastírat typické projevy NPB?"
+    options:
+      - id: "a"
+        text: "Pouze denní doba"
+      - id: "b"
+        text: "Věk, komorbidity, medikace a těhotenství"
+      - id: "c"
+        text: "Pouze předchozí délka čekání v ordinaci"
+    correct_option_id: "b"
+    explanation: "Klinický obraz je proměnlivý a může se měnit v čase."
+    source_pages:
+      - 5
+  - id: "nahle_prihody_brisni_003"
+    section_id: "postup"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký je klíčový úkol VPL při podezření na NPB?"
+    options:
+      - id: "a"
+        text: "Vždy určit definitivní histologickou diagnózu"
+      - id: "b"
+        text: "Dokončit veškerou ambulantní diagnostiku před odesláním"
+      - id: "c"
+        text: "Včas rozpoznat potřebu neodkladné nemocniční péče"
+    correct_option_id: "c"
+    explanation: "Rámcová diagnóza nesmí oddálit bezpečné předání."
+    source_pages:
+      - 8
+  - id: "nahle_prihody_brisni_004"
+    section_id: "postup"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které základní hodnoty je nutné při vyšetření zaznamenat?"
+    options:
+      - id: "a"
+        text: "Krevní tlak, srdeční frekvenci a teplotu"
+      - id: "b"
+        text: "Jen tělesnou výšku"
+      - id: "c"
+        text: "Jen výsledek testu na okultní krvácení"
+    correct_option_id: "a"
+    explanation: "Základní parametry pomáhají posoudit celkovou závažnost."
+    source_pages:
+      - 7
+  - id: "nahle_prihody_brisni_005"
+    section_id: "postup"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký údaj je důležitý v anamnéze ženy v reprodukčním věku?"
+    options:
+      - id: "a"
+        text: "Pouze počet porodů bez aktuálního cyklu"
+      - id: "b"
+        text: "Poslední menstruace a antikoncepce"
+      - id: "c"
+        text: "Jen věk při první návštěvě gynekologa"
+    correct_option_id: "b"
+    explanation: "Gynekologická anamnéza pomáhá odlišit těhotenské a jiné pánevní příčiny."
+    source_pages:
+      - 8
+  - id: "nahle_prihody_brisni_006"
+    section_id: "postup"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy je vhodná ultrasonografie dostupná ambulantně?"
+    options:
+      - id: "a"
+        text: "Vždy před transportem i za cenu několika dnů"
+      - id: "b"
+        text: "Jen po úplném vymizení bolesti"
+      - id: "c"
+        text: "Pokud neoddálí potřebné nemocniční vyšetření"
+    correct_option_id: "c"
+    explanation: "Prioritou je včasné odeslání ohroženého pacienta."
+    source_pages:
+      - 8
+  - id: "nahle_prihody_brisni_007"
+    section_id: "postup"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co musí být v dokumentaci po podání analgetika?"
+    options:
+      - id: "a"
+        text: "Název, dávka, čas podání a reakce pacienta"
+      - id: "b"
+        text: "Pouze poznámka léčen"
+      - id: "c"
+        text: "Jen cena přípravku"
+    correct_option_id: "a"
+    explanation: "Přesný záznam umožňuje návaznost péče a interpretaci nálezu."
+    source_pages:
+      - 8
+  - id: "nahle_prihody_brisni_008"
+    section_id: "postup"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je nezbytné, pokud pacient s bolestí břicha není odeslán?"
+    options:
+      - id: "a"
+        text: "Uzavřít stav bez dalšího sledování"
+      - id: "b"
+        text: "Poučení a konkrétní plán kontrol s dostupností pomoci"
+      - id: "c"
+        text: "Doporučit kontrolu pouze při plánované prevenci"
+    correct_option_id: "b"
+    explanation: "Časový vývoj může odhalit dosud nevýraznou NPB."
+    source_pages:
+      - 8
+  - id: "nahle_prihody_brisni_009"
+    section_id: "postup"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký režim se doporučuje při podezření na NPB před transportem?"
+    options:
+      - id: "a"
+        text: "Vydatné jídlo k ověření tolerance"
+      - id: "b"
+        text: "Velké množství perorálních tekutin u zvracejícího pacienta"
+      - id: "c"
+        text: "Klid a nic ústy"
+    correct_option_id: "c"
+    explanation: "Pacient má zůstat v klidu, bez perorálního příjmu."
+    source_pages:
+      - 10
+  - id: "nahle_prihody_brisni_010"
+    section_id: "postup"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak uložit ležícího pacienta, který zvrací?"
+    options:
+      - id: "a"
+        text: "Na bok kvůli omezení aspirace"
+      - id: "b"
+        text: "Vždy naplocho na záda bez dozoru"
+      - id: "c"
+        text: "S hlavou pevně zakloněnou dozadu"
+    correct_option_id: "a"
+    explanation: "Poloha má chránit dýchací cesty."
+    source_pages:
+      - 10
+  - id: "nahle_prihody_brisni_011"
+    section_id: "postup"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je před chirurgickým vyšetřením možné podat analgezii?"
+    options:
+      - id: "a"
+        text: "Ne, všechna analgetika jsou absolutně zakázána"
+      - id: "b"
+        text: "Ano, uvážlivě a s přesným záznamem"
+      - id: "c"
+        text: "Pouze po definitivní operaci"
+    correct_option_id: "b"
+    explanation: "Současný postup nepodporuje zbytečné ponechání pacienta v bolesti."
+    source_pages:
+      - 10
+  - id: "nahle_prihody_brisni_012"
+    section_id: "priciny"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Odkud vychází somatická bolest při peritoneálním dráždění?"
+    options:
+      - id: "a"
+        text: "Výhradně z jaterního parenchymu"
+      - id: "b"
+        text: "Pouze z ledvinné pánvičky"
+      - id: "c"
+        text: "Z parietálního peritonea"
+    correct_option_id: "c"
+    explanation: "Somatická bolest může signalizovat pokročilé postižení."
+    source_pages:
+      - 6
+  - id: "nahle_prihody_brisni_013"
+    section_id: "priciny"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký začátek bolesti je typický pro perforaci GIT?"
+    options:
+      - id: "a"
+        text: "Prudký nástup a přetrvávání bolesti"
+      - id: "b"
+        text: "Pouze mírné svědění kůže"
+      - id: "c"
+        text: "Pozvolná bezbolestná únava bez břišního nálezu"
+    correct_option_id: "a"
+    explanation: "Perforace vyvolává peritoneální dráždění."
+    source_pages:
+      - 6
+      - 9
+  - id: "nahle_prihody_brisni_014"
+    section_id: "priciny"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Vylučuje nepřítomnost leukocytózy zánětlivou NPB?"
+    options:
+      - id: "a"
+        text: "Spolehlivě vylučuje apendicitidu"
+      - id: "b"
+        text: "Nevylučuje"
+      - id: "c"
+        text: "Vylučuje všechny zánětlivé příčiny"
+    correct_option_id: "b"
+    explanation: "Laboratorní nález musí být hodnocen v klinickém kontextu."
+    source_pages:
+      - 8
+  - id: "nahle_prihody_brisni_015"
+    section_id: "priciny"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co znamená negativní prostý snímek bez pneumoperitonea při podezření na perforaci?"
+    options:
+      - id: "a"
+        text: "Perforace je definitivně vyloučena"
+      - id: "b"
+        text: "Potvrzuje se funkční porucha"
+      - id: "c"
+        text: "Perforace tím není vyloučena"
+    correct_option_id: "c"
+    explanation: "Nepřítomnost volného plynu není dostatečně citlivá k vyloučení."
+    source_pages:
+      - 9
+  - id: "nahle_prihody_brisni_016"
+    section_id: "priciny"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy se může projevit komplikace po endoskopické intervenci?"
+    options:
+      - id: "a"
+        text: "I s odstupem hodin či dnů"
+      - id: "b"
+        text: "Pouze během samotného výkonu"
+      - id: "c"
+        text: "Až po několika letech bez časové vazby"
+    correct_option_id: "a"
+    explanation: "Perforace i krvácení mohou mít opožděný nástup."
+    source_pages:
+      - 9
+  - id: "nahle_prihody_brisni_017"
+    section_id: "priciny"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která kombinace podporuje významné krvácení do GIT?"
+    options:
+      - id: "a"
+        text: "Izolovaná dlouhodobá zácpa bez změny oběhu"
+      - id: "b"
+        text: "Meléna nebo hematemeze s hypotenzí a tachykardií"
+      - id: "c"
+        text: "Pouze svědění kolem pupku"
+    correct_option_id: "b"
+    explanation: "Známky krevní ztráty vyžadují urgentní péči."
+    source_pages:
+      - 9
+  - id: "nahle_prihody_brisni_018"
+    section_id: "priciny"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč je u podezření na krvácivou NPB důležitá léková anamnéza?"
+    options:
+      - id: "a"
+        text: "Medikace nemá žádný vztah ke krvácení"
+      - id: "b"
+        text: "Umožňuje nahradit měření tlaku"
+      - id: "c"
+        text: "Antikoagulancia, antiagregancia a další léky mohou přispívat ke krvácení"
+    correct_option_id: "c"
+    explanation: "Krvácení může být komplikací farmakoterapie."
+    source_pages:
+      - 9
+  - id: "nahle_prihody_brisni_019"
+    section_id: "priciny"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Na co myslet při kruté náhlé bolesti břicha u pacienta s fibrilací síní?"
+    options:
+      - id: "a"
+        text: "Mezenterickou embolii"
+      - id: "b"
+        text: "Pouze funkční dyspepsii"
+      - id: "c"
+        text: "Výhradně virovou rýmu"
+    correct_option_id: "a"
+    explanation: "Fibrilace síní je rizikem embolizace do mezenterického řečiště."
+    source_pages:
+      - 9
+  - id: "nahle_prihody_brisni_020"
+    section_id: "priciny"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Vylučuje přechodný ústup kruté bolesti mezenterickou ischemii?"
+    options:
+      - id: "a"
+        text: "Ano, vždy jde o benigní koliku"
+      - id: "b"
+        text: "Ne, může být součástí jejího průběhu"
+      - id: "c"
+        text: "Ano, pokud pacient dříve neměl operaci"
+    correct_option_id: "b"
+    explanation: "U cévní NPB může po úvodu následovat zdánlivé zlepšení."
+    source_pages:
+      - 9
+  - id: "nahle_prihody_brisni_021"
+    section_id: "priciny"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kam obvykle směřovat pacienta s podezřením na pooperační NPB?"
+    options:
+      - id: "a"
+        text: "Pouze na rutinní rehabilitaci"
+      - id: "b"
+        text: "Na preventivní kontrolu za rok"
+      - id: "c"
+        text: "Zpět na pracoviště, kde byl hospitalizován, podle naléhavosti stavu"
+    correct_option_id: "c"
+    explanation: "Operační pracoviště zná výkon a možné komplikace."
+    source_pages:
+      - 10
+  - id: "nahle_prihody_brisni_022"
+    section_id: "priciny"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které mimobřišní onemocnění může napodobit NPB?"
+    options:
+      - id: "a"
+        text: "Akutní infarkt myokardu"
+      - id: "b"
+        text: "Izolovaná presbyopie"
+      - id: "c"
+        text: "Chronická onychomykóza"
+    correct_option_id: "a"
+    explanation: "Diferenciální diagnostika zahrnuje i pneumonii, embolii či metabolické příčiny."
+    source_pages:
+      - 10
+  - id: "nahle_prihody_brisni_023"
+    section_id: "gynekologie"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co je nutné vyloučit u každé ženy ve fertilním věku s akutní bolestí podbřišku?"
+    options:
+      - id: "a"
+        text: "Pouze menopauzu"
+      - id: "b"
+        text: "Těhotenství"
+      - id: "c"
+        text: "Pouze hyperlipidémii"
+    correct_option_id: "b"
+    explanation: "Gravidita zásadně mění diferenciální diagnostiku."
+    source_pages:
+      - 11
+  - id: "nahle_prihody_brisni_024"
+    section_id: "gynekologie"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který faktor zvyšuje riziko ektopické gravidity?"
+    options:
+      - id: "a"
+        text: "Pouze myopie"
+      - id: "b"
+        text: "Pouze izolovaná rýma"
+      - id: "c"
+        text: "Předchozí ektopická gravidita nebo operace vejcovodu"
+    correct_option_id: "c"
+    explanation: "Riziko zvyšují i pánevní záněty a asistovaná reprodukce."
+    source_pages:
+      - 11
+  - id: "nahle_prihody_brisni_025"
+    section_id: "gynekologie"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Vylučuje absence úplné triády amenorea, krvácení a bolest ektopickou graviditu?"
+    options:
+      - id: "a"
+        text: "Ne, úplná triáda se vyskytuje jen asi u poloviny případů"
+      - id: "b"
+        text: "Ano, triáda musí být vždy úplná"
+      - id: "c"
+        text: "Ano, pokud pacientka užívá antikoncepci"
+    correct_option_id: "a"
+    explanation: "Ektopická gravidita může mít neúplné nebo zpočátku žádné příznaky."
+    source_pages:
+      - 11
+  - id: "nahle_prihody_brisni_026"
+    section_id: "gynekologie"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Co může znamenat bolest ramene při ruptuře ektopické gravidity?"
+    options:
+      - id: "a"
+        text: "Spolehlivý důkaz izolované ortopedické příčiny"
+      - id: "b"
+        text: "Dráždění bránice při hemoperitoneu"
+      - id: "c"
+        text: "Vyloučení nitrobřišního krvácení"
+    correct_option_id: "b"
+    explanation: "Frenikový příznak může provázet velké hemoperitoneum."
+    source_pages:
+      - 11
+  - id: "nahle_prihody_brisni_027"
+    section_id: "gynekologie"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která vyšetření jsou základní pro diagnostiku ektopické gravidity?"
+    options:
+      - id: "a"
+        text: "Pouze lipidogram"
+      - id: "b"
+        text: "Pouze spirometrie"
+      - id: "c"
+        text: "hCG a ultrazvuk pánve"
+    correct_option_id: "c"
+    explanation: "Definitivní diagnostika a léčba patří na gynekologické pracoviště."
+    source_pages:
+      - 11
+  - id: "nahle_prihody_brisni_028"
+    section_id: "gynekologie"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co může následovat po ruptuře hemoragického žlutého tělíska?"
+    options:
+      - id: "a"
+        text: "Hemoperitoneum, vzácně hemoragický šok"
+      - id: "b"
+        text: "Výhradně bezbolestná amenorea"
+      - id: "c"
+        text: "Pouze zvýšení TSH"
+    correct_option_id: "a"
+    explanation: "Krvácení do dutiny břišní může připomínat rupturu ektopické gravidity."
+    source_pages:
+      - 12
+  - id: "nahle_prihody_brisni_029"
+    section_id: "gynekologie"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který soubor příznaků podporuje pánevní zánětlivé onemocnění?"
+    options:
+      - id: "a"
+        text: "Pouze bolest lokte při námaze"
+      - id: "b"
+        text: "Bolest podbřišku, výtok, nepravidelné krvácení a teplota"
+      - id: "c"
+        text: "Izolovaná žízeň bez břišních obtíží"
+    correct_option_id: "b"
+    explanation: "Zánět může progredovat do abscesu a peritonitidy."
+    source_pages:
+      - 12
+  - id: "nahle_prihody_brisni_030"
+    section_id: "gynekologie"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Proč není zmírnění bolesti při neléčené torzi adnex spolehlivou známkou zlepšení?"
+    options:
+      - id: "a"
+        text: "Vždy potvrzuje spontánní detorzi"
+      - id: "b"
+        text: "Vždy vylučuje ischemii adnex"
+      - id: "c"
+        text: "Může nastat při rozvoji nekrózy"
+    correct_option_id: "c"
+    explanation: "Torze ohrožuje krevní zásobení a vyžaduje včasnou léčbu."
+    source_pages:
+      - 12
+  - id: "nahle_prihody_brisni_031"
+    section_id: "gynekologie"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který obraz odpovídá endometrióze?"
+    options:
+      - id: "a"
+        text: "Cyklické pánevní bolesti, dyspareunie a dyschezie"
+      - id: "b"
+        text: "Pouze kašel po jídle"
+      - id: "c"
+        text: "Pouze izolované krvácení z nosu"
+    correct_option_id: "a"
+    explanation: "Endometrióza může být i příčinou akutní bolesti podbřišku."
+    source_pages:
+      - 13
+  - id: "nahle_prihody_brisni_032"
+    section_id: "gynekologie"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Na co myslet u dívky s primární amenoreou, cyklickou pánevní bolestí a pánevní rezistencí?"
+    options:
+      - id: "a"
+        text: "Pouze na fyziologický stav bez potřeby vyšetření"
+      - id: "b"
+        text: "Na překážku odtoku menstruační krve při vývojové anomálii"
+      - id: "c"
+        text: "Na jistou postmenopauzální atrofii"
+    correct_option_id: "b"
+    explanation: "Gynatrézie může vést k hematokolpu či hematometře."
+    source_pages:
+      - 13

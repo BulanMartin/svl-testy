@@ -1,0 +1,499 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "dyslipidemie"
+  title: "Dyslipidémie – aktualizace doporučení"
+  source:
+    file: "dp-dyslipidemie_2026.pdf"
+    year: 2026
+coverage:
+  proposed_question_count: 30
+  rationale: "30 otázek pokrývá obsah stručné novelizace včetně obrazových tabulek: riziko, léčebné cíle, Lp(a), kombinační léčbu a zvláštní skupiny. Nejde o náhradu plného staršího postupu, na který zdroj odkazuje."
+  sections:
+    - id: "riziko"
+      title: "Riziko a cíle"
+      planned_question_count: 15
+    - id: "lecba"
+      title: "Léčba a zvláštní situace"
+      planned_question_count: 15
+questions:
+  - id: "dyslipidemie_001"
+    section_id: "riziko"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký charakter má novelizace dyslipidémií z roku 2026?"
+    options:
+      - id: "a"
+        text: "Aktualizace novinek a změn navazující na dřívější postupy"
+      - id: "b"
+        text: "Úplné zrušení všech dřívějších doporučení"
+      - id: "c"
+        text: "Výhradně návod pro léčbu dětí"
+    correct_option_id: "a"
+    explanation: "Zdroj výslovně není úplným přehledem celé lipidologie."
+    source_pages:
+      - 5
+  - id: "dyslipidemie_002"
+    section_id: "riziko"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který lipidový parametr je primárním léčebným cílem?"
+    options:
+      - id: "a"
+        text: "Samotný HDL-cholesterol"
+      - id: "b"
+        text: "LDL-cholesterol"
+      - id: "c"
+        text: "Pouze celkový cholesterol bez frakcí"
+    correct_option_id: "b"
+    explanation: "LDL-C je hlavní kauzální faktor a primární cíl."
+    source_pages:
+      - 5
+  - id: "dyslipidemie_003"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které parametry jsou sekundárními léčebnými cíli?"
+    options:
+      - id: "a"
+        text: "Albumin a bilirubin"
+      - id: "b"
+        text: "Sodík a draslík"
+      - id: "c"
+        text: "ApoB a non-HDL-cholesterol"
+    correct_option_id: "c"
+    explanation: "Doplňují hodnocení aterogenních lipoproteinů."
+    source_pages:
+      - 5
+  - id: "dyslipidemie_004"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký LDL-C cíl uvádí tabulka pro velmi vysoké riziko?"
+    options:
+      - id: "a"
+        text: "Pod 1,4 mmol/l a snížení nejméně o 50 %"
+      - id: "b"
+        text: "Pod 3,0 mmol/l bez požadavku poklesu"
+      - id: "c"
+        text: "Pod 4,0 mmol/l"
+    correct_option_id: "a"
+    explanation: "Velmi vysoké riziko vyžaduje intenzivní redukci."
+    source_pages:
+      - 5
+  - id: "dyslipidemie_005"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký LDL-C cíl uvádí tabulka pro vysoké riziko?"
+    options:
+      - id: "a"
+        text: "Pod 3,8 mmol/l"
+      - id: "b"
+        text: "Pod 1,8 mmol/l a snížení nejméně o 50 %"
+      - id: "c"
+        text: "Pod 5,0 mmol/l"
+    correct_option_id: "b"
+    explanation: "Cíl je přísnější než ve středním či nízkém riziku."
+    source_pages:
+      - 5
+  - id: "dyslipidemie_006"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký LDL-C cíl je v tabulce uveden pro extrémní riziko?"
+    options:
+      - id: "a"
+        text: "Pod 2,6 mmol/l"
+      - id: "b"
+        text: "Pod 3,0 mmol/l"
+      - id: "c"
+        text: "Pod 1,0 mmol/l"
+    correct_option_id: "c"
+    explanation: "Zdroj zahrnuje i kategorii extrémního rizika."
+    source_pages:
+      - 5
+  - id: "dyslipidemie_007"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který pacient patří mezi velmi vysoce rizikové?"
+    options:
+      - id: "a"
+        text: "S dokumentovaným aterosklerotickým KV onemocněním"
+      - id: "b"
+        text: "Každý s normálním LDL bez jiného rizika"
+      - id: "c"
+        text: "Každý zdravý nekuřák ve 20 letech"
+    correct_option_id: "a"
+    explanation: "Manifestní ASKVO je zásadní determinant rizika."
+    source_pages:
+      - 5
+  - id: "dyslipidemie_008"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy zvlášť pomáhají modifikátory rizika?"
+    options:
+      - id: "a"
+        text: "Pouze při akutní hypoglykemii"
+      - id: "b"
+        text: "Na hranici mezi kategoriemi KV rizika"
+      - id: "c"
+        text: "Pouze při normálním krevním obrazu"
+    correct_option_id: "b"
+    explanation: "Mohou změnit rozhodnutí o intenzitě léčby."
+    source_pages:
+      - 6
+  - id: "dyslipidemie_009"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která anamnestická okolnost je modifikátorem KV rizika?"
+    options:
+      - id: "a"
+        text: "Izolovaná krátkozrakost"
+      - id: "b"
+        text: "Prodělaná apendektomie bez komplikací"
+      - id: "c"
+        text: "Předčasné KVO v rodině"
+    correct_option_id: "c"
+    explanation: "Rodinný výskyt časných příhod přispívá k hodnocení rizika."
+    source_pages:
+      - 6
+  - id: "dyslipidemie_010"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "S čím je spojeno zvýšené Lp(a)?"
+    options:
+      - id: "a"
+        text: "S ASKVO i progresí aortální stenózy"
+      - id: "b"
+        text: "Pouze s mitrální regurgitací po endokarditidě"
+      - id: "c"
+        text: "Pouze s hlubokou žilní trombózou"
+    correct_option_id: "a"
+    explanation: "Lp(a) je nezávislý rizikový faktor obou uvedených stavů."
+    source_pages:
+      - 6
+  - id: "dyslipidemie_011"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jakou rizikovou hranici Lp(a) uvádí hlavní text?"
+    options:
+      - id: "a"
+        text: "Více než 105 mmol/l"
+      - id: "b"
+        text: "Více než 105 nmol/l"
+      - id: "c"
+        text: "Více než 105 mol/l"
+    correct_option_id: "b"
+    explanation: "Hlavní text i seznam biomarkerů používají nmol/l; popisek jiného obrázku má chybu jednotky."
+    source_pages:
+      - 6
+  - id: "dyslipidemie_012"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak často má být podle textu Lp(a) běžně stanoveno v preventivní péči?"
+    options:
+      - id: "a"
+        text: "Při každé návštěvě"
+      - id: "b"
+        text: "Každý týden"
+      - id: "c"
+        text: "Jednou za život s uložením výsledku do dokumentace"
+    correct_option_id: "c"
+    explanation: "Zdroj popisuje jednorázové stanovení."
+    source_pages:
+      - 6
+  - id: "dyslipidemie_013"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "U koho má stanovení Lp(a) zvláštní význam?"
+    options:
+      - id: "a"
+        text: "U nevysvětlitelné časné manifestace ASKVO nebo familiární hypercholesterolemie"
+      - id: "b"
+        text: "Pouze u akutní apendicitidy"
+      - id: "c"
+        text: "Pouze u izolované rýmy"
+    correct_option_id: "a"
+    explanation: "Vyšší Lp(a) může pomoci vysvětlit časné příhody."
+    source_pages:
+      - 6
+  - id: "dyslipidemie_014"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které vyšetření může v praxi pomoci odhalit subklinickou aterosklerózu?"
+    options:
+      - id: "a"
+        text: "Spirometrie"
+      - id: "b"
+        text: "Sonografie karotid či femorálních tepen"
+      - id: "c"
+        text: "Gastroskopie"
+    correct_option_id: "b"
+    explanation: "Přítomnost plaků může upřesnit riziko."
+    source_pages:
+      - 7
+  - id: "dyslipidemie_015"
+    section_id: "riziko"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co má předcházet volbě intenzity hypolipidemické léčby?"
+    options:
+      - id: "a"
+        text: "Pouze izolované zhodnocení HDL"
+      - id: "b"
+        text: "Pouze věk bez dalších údajů"
+      - id: "c"
+        text: "Celkové zhodnocení KV rizika"
+    correct_option_id: "c"
+    explanation: "Léčebný cíl vychází z celkového rizika."
+    source_pages:
+      - 7
+  - id: "dyslipidemie_016"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co patří do nefarmakologické léčby DLP?"
+    options:
+      - id: "a"
+        text: "Dieta, pohyb a nekuřáctví"
+      - id: "b"
+        text: "Pouze multivitaminy"
+      - id: "c"
+        text: "Výhradně klid na lůžku"
+    correct_option_id: "a"
+    explanation: "Změny životního stylu zůstávají základem léčby."
+    source_pages:
+      - 7
+  - id: "dyslipidemie_017"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaké je stanovisko textu k potravinovým doplňkům jako léčbě DLP?"
+    options:
+      - id: "a"
+        text: "Jsou standardní náhradou statinů u všech"
+      - id: "b"
+        text: "Nejsou doporučeny pro chybění dostatečných klinických důkazů"
+      - id: "c"
+        text: "Mají prokázanou převahu nad kombinovanou léčbou"
+    correct_option_id: "b"
+    explanation: "Dokument vyžaduje důkazy morbidity a mortality."
+    source_pages:
+      - 7
+  - id: "dyslipidemie_018"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaké postavení si zachovávají statiny?"
+    options:
+      - id: "a"
+        text: "Byly novelizací úplně opuštěny"
+      - id: "b"
+        text: "Jsou určeny jen pro homozygotní FH"
+      - id: "c"
+        text: "Zůstávají nejvýznamnějšími hypolipidemiky"
+    correct_option_id: "c"
+    explanation: "Menší prostor v aktualizaci neznamená menší význam."
+    source_pages:
+      - 5
+  - id: "dyslipidemie_019"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které látky jsou monoklonální protilátky proti PCSK9?"
+    options:
+      - id: "a"
+        text: "Alirocumab a evolocumab"
+      - id: "b"
+        text: "Fenofibrát a bezafibrát"
+      - id: "c"
+        text: "Simvastatin a atorvastatin"
+    correct_option_id: "a"
+    explanation: "Jde o biologickou léčbu cílenou na PCSK9."
+    source_pages:
+      - 7
+  - id: "dyslipidemie_020"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který lék využívá siRNA k ovlivnění PCSK9?"
+    options:
+      - id: "a"
+        text: "Ezetimib"
+      - id: "b"
+        text: "Inclisiran"
+      - id: "c"
+        text: "Lomitapid"
+    correct_option_id: "b"
+    explanation: "Inclisiran je odlišný od monoklonálních protilátek."
+    source_pages:
+      - 7
+  - id: "dyslipidemie_021"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "U koho text zvlášť uvádí kyselinu bempedoovou s ezetimibem?"
+    options:
+      - id: "a"
+        text: "Výhradně u pacientů bez dyslipidemie"
+      - id: "b"
+        text: "Pouze při akutní infekci"
+      - id: "c"
+        text: "U nemocných netolerujících statiny"
+    correct_option_id: "c"
+    explanation: "Kombinace rozšiřuje možnosti při statinové intoleranci."
+    source_pages:
+      - 7
+  - id: "dyslipidemie_022"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Pro jakou skupinu jsou uváděny lomitapid a evinacumab?"
+    options:
+      - id: "a"
+        text: "Homozygotní familiární hypercholesterolemii"
+      - id: "b"
+        text: "Běžnou izolovanou nízkou hodnotu HDL"
+      - id: "c"
+        text: "Akutní hlubokou žilní trombózu"
+    correct_option_id: "a"
+    explanation: "Jde o léčbu vzácné závažné genetické dyslipidemie."
+    source_pages:
+      - 7
+  - id: "dyslipidemie_023"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "S jakou komplikací je spojena těžká familiární chylomikronemie v textu?"
+    options:
+      - id: "a"
+        text: "Opakované pneumotoraxy"
+      - id: "b"
+        text: "Opakované pankreatitidy"
+      - id: "c"
+        text: "Opakované záchvaty glaukomu"
+    correct_option_id: "b"
+    explanation: "Těžká hypertriglyceridemie může vyvolávat pankreatitidy."
+    source_pages:
+      - 7
+  - id: "dyslipidemie_024"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký je hlavní důvod kombinační hypolipidemické léčby?"
+    options:
+      - id: "a"
+        text: "Záměrné zvýšení LDL-C"
+      - id: "b"
+        text: "Odstranění potřeby hodnotit riziko"
+      - id: "c"
+        text: "Zesílení účinku a dosažení cíle"
+    correct_option_id: "c"
+    explanation: "Více mechanismů může zajistit potřebný pokles."
+    source_pages:
+      - 8
+  - id: "dyslipidemie_025"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak může kombinace nižších dávek dvou léků ovlivnit toleranci?"
+    options:
+      - id: "a"
+        text: "Může být lépe tolerována než maximální monoterapie"
+      - id: "b"
+        text: "Vždy je toxičtější bez ohledu na dávky"
+      - id: "c"
+        text: "Vždy vylučuje nežádoucí účinky"
+    correct_option_id: "a"
+    explanation: "Zdroj uvádí toleranci jako jeden z důvodů kombinací."
+    source_pages:
+      - 8
+  - id: "dyslipidemie_026"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký pokles LDL-C zhruba ukazuje graf pro vysoce intenzivní statin?"
+    options:
+      - id: "a"
+        text: "Asi 5 %"
+      - id: "b"
+        text: "Asi 50 %"
+      - id: "c"
+        text: "Asi 95 %"
+    correct_option_id: "b"
+    explanation: "Graf srovnává orientační účinnost léčebných strategií."
+    source_pages:
+      - 8
+  - id: "dyslipidemie_027"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Na co se péče o DLP nemá omezit?"
+    options:
+      - id: "a"
+        text: "Na komplexní prevenci"
+      - id: "b"
+        text: "Na podporu nekuřáctví"
+      - id: "c"
+        text: "Pouze na lipidové hodnoty bez ovlivnění ostatních rizik"
+    correct_option_id: "c"
+    explanation: "Je třeba ovlivnit všechny relevantní rizikové faktory."
+    source_pages:
+      - 9
+  - id: "dyslipidemie_028"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký přístup se zdůrazňuje po akutním koronárním syndromu?"
+    options:
+      - id: "a"
+        text: "Časná intenzivní hypolipidemická léčba"
+      - id: "b"
+        text: "Odklad léčby do další příhody"
+      - id: "c"
+        text: "Pouze potravinové doplňky"
+    correct_option_id: "a"
+    explanation: "Po AKS je prioritou rychlé snížení rizika."
+    source_pages:
+      - 9
+  - id: "dyslipidemie_029"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupovat u neléčeného pacienta s AKS, u něhož samotný statin zřejmě nedosáhne cíle?"
+    options:
+      - id: "a"
+        text: "Počkat rok bez léčby"
+      - id: "b"
+        text: "Zvážit už za hospitalizace statin s ezetimibem"
+      - id: "c"
+        text: "Podat pouze nízkou dávku fibrátu bez ohledu na LDL"
+    correct_option_id: "b"
+    explanation: "Obrázek 8 doporučuje včasnou kombinaci."
+    source_pages:
+      - 9
+  - id: "dyslipidemie_030"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy doporučuje propouštěcí schéma po AKS kontrolu lipidogramu?"
+    options:
+      - id: "a"
+        text: "Až za 5 let"
+      - id: "b"
+        text: "Každý den po celý rok"
+      - id: "c"
+        text: "Za 4–6 týdnů"
+    correct_option_id: "c"
+    explanation: "Časná kontrola umožní intenzifikovat léčbu podle odpovědi."
+    source_pages:
+      - 9

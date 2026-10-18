@@ -1,0 +1,671 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "deprese"
+  title: "Deprese"
+  source:
+    file: "deprese-2023.pdf"
+    year: 2023
+coverage:
+  proposed_question_count: 40
+  rationale: "40 otázek pokrývá rozpoznání a diferenciální diagnostiku, riziko suicidia, nefarmakologickou léčbu, farmakoterapii a zvláštní skupiny; opakované algoritmy nejsou testovány podruhé."
+  sections:
+    - id: "diagnostika"
+      title: "Diagnostika a klasifikace"
+      planned_question_count: 8
+    - id: "riziko"
+      title: "Rozpoznání, riziko a diferenciální diagnostika"
+      planned_question_count: 7
+    - id: "lecba"
+      title: "Léčebná strategie"
+      planned_question_count: 6
+    - id: "farmaka"
+      title: "Farmakoterapie a sledování"
+      planned_question_count: 13
+    - id: "situace"
+      title: "Zvláštní situace"
+      planned_question_count: 6
+questions:
+  - id: "deprese_001"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který příznak patří mezi hlavní příznaky depresivní epizody?"
+    options:
+      - id: "a"
+        text: "Ztráta zájmu a schopnosti prožívat potěšení."
+      - id: "b"
+        text: "Zvýšená potřeba mluvit a zrychlené myšlení."
+      - id: "c"
+        text: "Izolované nutkavé kontrolování zámku."
+    correct_option_id: "a"
+    explanation: "Anhedonie patří mezi tři hlavní příznaky společně s pokleslou náladou a úbytkem energie."
+    source_pages:
+      - 5
+  - id: "deprese_002"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak dlouho mají obvykle trvat příznaky, aby odpovídaly depresivní epizodě?"
+    options:
+      - id: "a"
+        text: "Alespoň dva dny."
+      - id: "b"
+        text: "Alespoň dva týdny."
+      - id: "c"
+        text: "Nejméně dva roky."
+    correct_option_id: "b"
+    explanation: "Postup uvádí nejméně dva týdny s příznaky po většinu dne a dnů."
+    source_pages:
+      - 5
+  - id: "deprese_003"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který soubor projevů odpovídá somatickým příznakům deprese?"
+    options:
+      - id: "a"
+        text: "Večerní euforie, zrychlené myšlení a zvýšené libido."
+      - id: "b"
+        text: "Nutkavé rituály, tiky a izolovaná specifická fobie."
+      - id: "c"
+        text: "Časné ranní probouzení, ranní zhoršení nálady a ztráta libida."
+    correct_option_id: "c"
+    explanation: "Somatické příznaky zahrnují také anhedonii, psychomotorické změny a pokles chuti k jídlu."
+    source_pages:
+      - 6
+  - id: "deprese_004"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký je obecný počet příznaků požadovaný v textu pro somatický syndrom?"
+    options:
+      - id: "a"
+        text: "Alespoň čtyři."
+      - id: "b"
+        text: "Právě jeden."
+      - id: "c"
+        text: "Alespoň deset."
+    correct_option_id: "a"
+    explanation: "Definice somatického syndromu v kapitole 3.3 stanovuje alespoň čtyři uvedené příznaky."
+    source_pages:
+      - 6
+  - id: "deprese_005"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který kód se vztahuje k první izolované depresivní epizodě?"
+    options:
+      - id: "a"
+        text: "F33."
+      - id: "b"
+        text: "F32."
+      - id: "c"
+        text: "F34.0."
+    correct_option_id: "b"
+    explanation: "F32 označuje první depresivní epizodu, zatímco opakované epizody se řadí pod F33."
+    source_pages:
+      - 6
+  - id: "deprese_006"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak mění prodělaná manická epizoda diagnostické uvažování u opakované deprese?"
+    options:
+      - id: "a"
+        text: "Potvrzuje unipolární rekurentní depresi."
+      - id: "b"
+        text: "Vylučuje jakoukoli poruchu nálady."
+      - id: "c"
+        text: "Směřuje k bipolární afektivní poruše."
+    correct_option_id: "c"
+    explanation: "Rekurentní unipolární porucha předpokládá nepřítomnost mánie či hypománie v anamnéze."
+    source_pages:
+      - 6
+      - 7
+  - id: "deprese_007"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je typické pro dystymii?"
+    options:
+      - id: "a"
+        text: "Depresivní nálada trvající nebo se vracející nejméně dva roky."
+      - id: "b"
+        text: "Jednorázový několikahodinový smutek."
+      - id: "c"
+        text: "Povinný výskyt psychotických příznaků."
+    correct_option_id: "a"
+    explanation: "Dystymie je dlouhodobá porucha obvykle mírnější než depresivní epizoda."
+    source_pages:
+      - 7
+  - id: "deprese_008"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co charakterizuje cyklotymii?"
+    options:
+      - id: "a"
+        text: "Pouze izolovaná těžká depresivní epizoda."
+      - id: "b"
+        text: "Dlouhodobé střídání mírných depresivních a mírně povznesených nálad."
+      - id: "c"
+        text: "Náhlá porucha vědomí při infekci."
+    correct_option_id: "b"
+    explanation: "Cyklotymie zahrnuje alespoň dva roky nestability nálady."
+    source_pages:
+      - 7
+  - id: "deprese_009"
+    section_id: "riziko"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co následuje po kladné odpovědi na jednu ze dvou screeningových otázek na náladu a zájem?"
+    options:
+      - id: "a"
+        text: "Automatická diagnóza těžké deprese."
+      - id: "b"
+        text: "Vyloučení deprese bez dalšího rozhovoru."
+      - id: "c"
+        text: "Doplnění dalších příznaků a komplexní posouzení."
+    correct_option_id: "c"
+    explanation: "Screening upozorňuje na možnost poruchy; diagnózu sám nestanoví."
+    source_pages:
+      - 9
+  - id: "deprese_010"
+    section_id: "riziko"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Kdy se má u depresivního pacienta zvažovat riziko suicidia?"
+    options:
+      - id: "a"
+        text: "Při každém kontaktu."
+      - id: "b"
+        text: "Pouze před prvním předpisem léku."
+      - id: "c"
+        text: "Pouze při dosažení remise."
+    correct_option_id: "a"
+    explanation: "Riziko se může v průběhu onemocnění i léčby měnit."
+    source_pages:
+      - 9
+  - id: "deprese_011"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký postup vyžaduje depresivní pacient s bezprostředním ohrožením sebe sama?"
+    options:
+      - id: "a"
+        text: "Rutinní kontrolu za tři měsíce."
+      - id: "b"
+        text: "Neodkladné psychiatrické vyšetření, případně hospitalizaci."
+      - id: "c"
+        text: "Pouze předání dotazníku domů."
+    correct_option_id: "b"
+    explanation: "Přímé ohrožení patří mezi důvody neodkladného předání do specializované péče."
+    source_pages:
+      - 9
+      - 10
+  - id: "deprese_012"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je vhodné zvážit při předepisování léků pacientovi s rizikem suicidia?"
+    options:
+      - id: "a"
+        text: "Vydání maximální zásoby bez dalšího sledování."
+      - id: "b"
+        text: "Hodnocení pouze ceny léku."
+      - id: "c"
+        text: "Toxicitu při předávkování a množství dostupných léků."
+    correct_option_id: "c"
+    explanation: "Postup doporučuje zohlednit toxicitu všech užívaných léků a posílit kontakt a podporu."
+    source_pages:
+      - 9
+  - id: "deprese_013"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která endokrinní porucha může imitovat depresi?"
+    options:
+      - id: "a"
+        text: "Hypotyreóza."
+      - id: "b"
+        text: "Izolovaná hyperurikemie."
+      - id: "c"
+        text: "Nekomplikovaná dyslipidemie."
+    correct_option_id: "a"
+    explanation: "Hypotyreóza může vyvolat zpomalení, poruchu koncentrace a pokles zájmu."
+    source_pages:
+      - 10
+  - id: "deprese_014"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy se používá diagnóza smíšené úzkostné a depresivní poruchy?"
+    options:
+      - id: "a"
+        text: "Vždy při současné plně rozvinuté depresi a úzkostné poruše."
+      - id: "b"
+        text: "Když ani jedna skupina příznaků samostatně nesplní kritéria vlastní poruchy."
+      - id: "c"
+        text: "Pouze při přítomnosti mánie."
+    correct_option_id: "b"
+    explanation: "Při splnění kritérií obou samostatných poruch se mají stanovit oddělené diagnózy."
+    source_pages:
+      - 10
+  - id: "deprese_015"
+    section_id: "riziko"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč je důležité rozpoznat bipolární depresi?"
+    options:
+      - id: "a"
+        text: "Léčí se vždy stejně jako unipolární deprese."
+      - id: "b"
+        text: "Nevyžaduje posouzení předchozí mánie."
+      - id: "c"
+        text: "Její léčba se liší a monoterapie antidepresivem je problematická."
+    correct_option_id: "c"
+    explanation: "Postup zdůrazňuje stabilizátory nálady a psychiatrickou péči."
+    source_pages:
+      - 10
+  - id: "deprese_016"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který nález podporuje odeslání do specializované psychiatrické péče?"
+    options:
+      - id: "a"
+        text: "Hypomanická epizoda v anamnéze."
+      - id: "b"
+        text: "Mírné obtíže kratší než dva týdny s dobrou podporou."
+      - id: "c"
+        text: "Úplná remise bez nežádoucích účinků."
+    correct_option_id: "a"
+    explanation: "Anamnéza hypománie vyžaduje přehodnocení diagnózy i léčby."
+    source_pages:
+      - 10
+  - id: "deprese_017"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká je role podpůrné psychoterapie?"
+    options:
+      - id: "a"
+        text: "Je určena výhradně pro psychotické deprese."
+      - id: "b"
+        text: "Má být součástí léčby každého pacienta."
+      - id: "c"
+        text: "Spolehlivě nahrazuje veškerou aktivní léčbu těžké deprese."
+    correct_option_id: "b"
+    explanation: "Empatie, naslouchání a realistické cíle podporují spolupráci, samy však nemusí stačit."
+    source_pages:
+      - 11
+  - id: "deprese_018"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak se u mírné až středně těžké deprese hodnotí specifická psychoterapie?"
+    options:
+      - id: "a"
+        text: "Je účinná pouze při současné psychóze."
+      - id: "b"
+        text: "Nemá prokázanou účinnost."
+      - id: "c"
+        text: "Je rovnocennou možností první volby s účinností srovnatelnou s farmakoterapií u většiny pacientů."
+    correct_option_id: "c"
+    explanation: "Postup jmenuje zejména interpersonální, kognitivně-behaviorální a krátkou dynamickou psychoterapii."
+    source_pages:
+      - 11
+  - id: "deprese_019"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "U které poruchy patří fototerapie mezi metody první volby?"
+    options:
+      - id: "a"
+        text: "Sezónní afektivní porucha."
+      - id: "b"
+        text: "Akutní delirium."
+      - id: "c"
+        text: "Obsedantně kompulzivní porucha."
+    correct_option_id: "a"
+    explanation: "Fototerapie má zvláštní místo u sezónních depresivních obtíží."
+    source_pages:
+      - 11
+  - id: "deprese_020"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která metoda má podle postupu nejrychlejší intenzivní účinek zejména u těžké deprese se suicidálními sklony?"
+    options:
+      - id: "a"
+        text: "Samotná úprava stravy."
+      - id: "b"
+        text: "Elektrokonvulzivní terapie."
+      - id: "c"
+        text: "Samotná podpůrná psychoterapie."
+    correct_option_id: "b"
+    explanation: "EKT je specializovanou léčbou těžkých stavů."
+    source_pages:
+      - 11
+  - id: "deprese_021"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jakou pohybovou aktivitu text podporuje jako doplněk léčby?"
+    options:
+      - id: "a"
+        text: "Dlouhodobý klid na lůžku."
+      - id: "b"
+        text: "Výlučně jednorázový maximální výkon."
+      - id: "c"
+        text: "Pravidelné aerobní cvičení."
+    correct_option_id: "c"
+    explanation: "Pravidelné cvičení má doložený příznivý vliv na depresivní příznaky."
+    source_pages:
+      - 11
+  - id: "deprese_022"
+    section_id: "farmaka"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký je hlavní cíl akutní etapy léčby?"
+    options:
+      - id: "a"
+        text: "Dosažení remise akutních příznaků."
+      - id: "b"
+        text: "Pouze prevence čtvrté epizody."
+      - id: "c"
+        text: "Okamžité vysazení po prvním zlepšení."
+    correct_option_id: "a"
+    explanation: "Akutní etapa trvá do odeznění akutních příznaků."
+    source_pages:
+      - 12
+  - id: "deprese_023"
+    section_id: "farmaka"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je hlavním cílem pokračovací léčby?"
+    options:
+      - id: "a"
+        text: "Vyvolání krátkodobé aktivace."
+      - id: "b"
+        text: "Prevence relapsu po odeznění akutních příznaků."
+      - id: "c"
+        text: "Potvrzení bipolární poruchy."
+    correct_option_id: "b"
+    explanation: "Pokračovací etapa navazuje na úspěšnou akutní léčbu."
+    source_pages:
+      - 12
+  - id: "deprese_024"
+    section_id: "farmaka"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká dávka se používá při udržovací léčbě?"
+    options:
+      - id: "a"
+        text: "Vždy desetina účinné dávky."
+      - id: "b"
+        text: "Vždy dvojnásobek maximální dávky."
+      - id: "c"
+        text: "Dávka, která vedla k dosažení remise."
+    correct_option_id: "c"
+    explanation: "Udržovací dávka má odpovídat dávce účinné v akutní léčbě."
+    source_pages:
+      - 12
+      - 13
+  - id: "deprese_025"
+    section_id: "farmaka"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak dlouhou léčbu po remisi první epizody uvádí tabulka postupu?"
+    options:
+      - id: "a"
+        text: "Devět měsíců."
+      - id: "b"
+        text: "Devět dnů."
+      - id: "c"
+        text: "Dva týdny."
+    correct_option_id: "a"
+    explanation: "Tabulka doporučuje po první epizodě devět měsíců; u rekurencí delší léčbu."
+    source_pages:
+      - 12
+  - id: "deprese_026"
+    section_id: "farmaka"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Která skupina je první farmakologickou volbou v primární péči?"
+    options:
+      - id: "a"
+        text: "Tricyklická antidepresiva pro všechny pacienty."
+      - id: "b"
+        text: "SSRI."
+      - id: "c"
+        text: "Antipsychotika bez antidepresiva pro všechny pacienty."
+    correct_option_id: "b"
+    explanation: "SSRI jsou preferována s ohledem na účinnost, bezpečnost a snášenlivost."
+    source_pages:
+      - 14
+  - id: "deprese_027"
+    section_id: "farmaka"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které riziko souvisí s dávkou citalopramu a escitalopramu?"
+    options:
+      - id: "a"
+        text: "Zkrácení QT jako hlavní toxický účinek."
+      - id: "b"
+        text: "Nezvratná hluchota."
+      - id: "c"
+        text: "Prodloužení QT intervalu."
+    correct_option_id: "c"
+    explanation: "U rizikových pacientů je vhodné EKG a respektování dávkových limitů uvedených v textu."
+    source_pages:
+      - 13
+  - id: "deprese_028"
+    section_id: "farmaka"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která kombinace zvyšuje riziko gastrointestinálního krvácení?"
+    options:
+      - id: "a"
+        text: "SSRI a nesteroidní antiflogistikum."
+      - id: "b"
+        text: "SSRI a lokální fyziologický roztok."
+      - id: "c"
+        text: "SSRI a samotná psychoterapie."
+    correct_option_id: "a"
+    explanation: "Postup upozorňuje na krvácivé riziko kombinace SSRI s NSA."
+    source_pages:
+      - 14
+  - id: "deprese_029"
+    section_id: "farmaka"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Na kterou laboratorní komplikaci SSRI je třeba myslet zvláště u seniorů?"
+    options:
+      - id: "a"
+        text: "Výlučně hyperkalcemie."
+      - id: "b"
+        text: "Hyponatremie."
+      - id: "c"
+        text: "Výlučně hyperfosfatemie."
+    correct_option_id: "b"
+    explanation: "Text uvádí hyponatremii v souvislosti se SIADH."
+    source_pages:
+      - 14
+  - id: "deprese_030"
+    section_id: "farmaka"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co se má ověřit při chybějícím zlepšení po 3–4 týdnech obvyklé léčby?"
+    options:
+      - id: "a"
+        text: "Pouze barva balení léku."
+      - id: "b"
+        text: "Automaticky definitivní nevyléčitelnost."
+      - id: "c"
+        text: "Adherence a dostatečnost dávky."
+    correct_option_id: "c"
+    explanation: "Nedostatečná adherence a nízká dávka mohou vysvětlit selhání."
+    source_pages:
+      - 15
+  - id: "deprese_031"
+    section_id: "farmaka"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co označuje augmentace antidepresivní léčby?"
+    options:
+      - id: "a"
+        text: "Přidání prostředku bez primárního antidepresivního účinku, například lithia."
+      - id: "b"
+        text: "Vždy současné podávání dvou SSRI."
+      - id: "c"
+        text: "Pouhé přejmenování stejného léku."
+    correct_option_id: "a"
+    explanation: "Augmentace se liší od kombinace dvou či více antidepresiv."
+    source_pages:
+      - 15
+  - id: "deprese_032"
+    section_id: "farmaka"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak lze omezit syndrom z vysazení antidepresiva?"
+    options:
+      - id: "a"
+        text: "Náhlým ukončením vysoké dávky."
+      - id: "b"
+        text: "Postupným snižováním dávky."
+      - id: "c"
+        text: "Vynecháváním náhodně zvolených týdnů."
+    correct_option_id: "b"
+    explanation: "Náhlé přerušení může způsobit závratě, pocení, nauzeu a další obtíže."
+    source_pages:
+      - 15
+  - id: "deprese_033"
+    section_id: "farmaka"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč má fluoxetin relativně nízké riziko syndromu z vysazení?"
+    options:
+      - id: "a"
+        text: "Nemá žádný účinek na serotonin."
+      - id: "b"
+        text: "Vylučuje se během několika minut."
+      - id: "c"
+        text: "Má dlouhý eliminační poločas."
+    correct_option_id: "c"
+    explanation: "Dlouhý poločas vede k pozvolnému poklesu koncentrace."
+    source_pages:
+      - 15
+  - id: "deprese_034"
+    section_id: "farmaka"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co patří mezi cíle časných kontrol při léčbě?"
+    options:
+      - id: "a"
+        text: "Sledování aktivace, adherence, nežádoucích účinků a suicidálních tendencí."
+      - id: "b"
+        text: "Pouze kontrola tělesné výšky."
+      - id: "c"
+        text: "Výlučně administrativní ověření zaměstnavatele."
+    correct_option_id: "a"
+    explanation: "Časné kontroly mají zachytit účinek i možná rizika léčby."
+    source_pages:
+      - 15
+  - id: "deprese_035"
+    section_id: "situace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co text doporučuje jako první krok při relapsu za zavedené antidepresivní léčby?"
+    options:
+      - id: "a"
+        text: "Okamžité ukončení veškeré léčby."
+      - id: "b"
+        text: "Zvýšení dávky stejného antidepresiva."
+      - id: "c"
+        text: "Automatickou monoterapii benzodiazepinem na rok."
+    correct_option_id: "b"
+    explanation: "Postup odlišuje relaps za léčby od návratu po jejím ukončení."
+    source_pages:
+      - 17
+  - id: "deprese_036"
+    section_id: "situace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký princip platí při zahajování antidepresiv u seniorů?"
+    options:
+      - id: "a"
+        text: "Nejvyšší dávka od prvního dne."
+      - id: "b"
+        text: "Povinná volba tricyklického antidepresiva."
+      - id: "c"
+        text: "Nízká počáteční dávka a pomalejší titrace."
+    correct_option_id: "c"
+    explanation: "Senioři mají vyšší riziko nežádoucích účinků a interakcí."
+    source_pages:
+      - 17
+  - id: "deprese_037"
+    section_id: "situace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Čemu se má přednostně vyhnout léčba deprese při demenci?"
+    options:
+      - id: "a"
+        text: "Výrazně anticholinergním a sedativním lékům a benzodiazepinům."
+      - id: "b"
+        text: "Jakékoli edukaci pečovatele."
+      - id: "c"
+        text: "Veškeré léčbě SSRI bez individuálního posouzení."
+    correct_option_id: "a"
+    explanation: "Tyto léky mohou prohlubovat kognitivní deficit."
+    source_pages:
+      - 17
+  - id: "deprese_038"
+    section_id: "situace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak se má rozhodovat o antidepresivu v těhotenství a při kojení?"
+    options:
+      - id: "a"
+        text: "Automaticky bez ohledu na závažnost poruchy."
+      - id: "b"
+        text: "Individuálně a multidisciplinárně podle poměru přínosu a rizika."
+      - id: "c"
+        text: "Pouze podle názvu přípravku."
+    correct_option_id: "b"
+    explanation: "Postup zdůrazňuje zvažování rizika nemoci i léčby."
+    source_pages:
+      - 17
+  - id: "deprese_039"
+    section_id: "situace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak se posuzuje řízení vozidla při antidepresivní léčbě?"
+    options:
+      - id: "a"
+        text: "Je vždy absolutně zakázáno u všech antidepresiv."
+      - id: "b"
+        text: "Je vždy bez omezení i při výrazné sedaci."
+      - id: "c"
+        text: "Individuálně s opatrností zejména při zahájení a zvyšování dávky."
+    correct_option_id: "c"
+    explanation: "Citlivost na léčbu je individuální a samotná deprese také zhoršuje kognici."
+    source_pages:
+      - 18
+  - id: "deprese_040"
+    section_id: "situace"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Za jaké období hodnotí PHQ-9 depresivní obtíže?"
+    options:
+      - id: "a"
+        text: "Poslední dva týdny."
+      - id: "b"
+        text: "Posledních dvacet čtyři hodin."
+      - id: "c"
+        text: "Celý dosavadní život bez časového vymezení."
+    correct_option_id: "a"
+    explanation: "Příloha uvádí frekvenci devíti příznaků v posledních dvou týdnech."
+    source_pages:
+      - 19

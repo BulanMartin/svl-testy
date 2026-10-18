@@ -1,0 +1,506 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "lecba_zavislosti_na_tabaku"
+  title: "Léčba závislosti na tabáku v ordinaci VPL"
+  source:
+    file: "lecba-zavislosti-na-tabaku-2022.pdf"
+    year: 2022
+coverage:
+  proposed_question_count: 30
+  rationale: "30 otázek zahrnuje anamnézu, závislost, krátkou intervenci, léky, prevenci relapsu a screening podle vydání 2022; opakované organizační pasáže jsou sloučeny."
+  sections:
+    - id: "diag"
+      title: "Rizika a diagnostika"
+      planned_question_count: 9
+    - id: "intervence"
+      title: "Intervence a sledování"
+      planned_question_count: 6
+    - id: "leky"
+      title: "Farmakoterapie"
+      planned_question_count: 12
+    - id: "screening"
+      title: "Screening plic"
+      planned_question_count: 3
+questions:
+  - id: "lecba_zavislosti_na_tabaku_001"
+    section_id: "diag"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký je vztah kouření k ateroskleróze?"
+    options:
+      - id: "a"
+        text: "Urychluje její rozvoj"
+      - id: "b"
+        text: "Chrání před ní při nízké spotřebě"
+      - id: "c"
+        text: "Ovlivňuje jen riziko nádorů"
+    correct_option_id: "a"
+    explanation: "Kouření zvyšuje kardiovaskulární i onkologické riziko."
+    source_pages:
+      - 5
+  - id: "lecba_zavislosti_na_tabaku_002"
+    section_id: "diag"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co platí o kouření během gravidity?"
+    options:
+      - id: "a"
+        text: "Je rizikové pouze v posledním týdnu"
+      - id: "b"
+        text: "Zvyšuje riziko potratu a nízké porodní hmotnosti"
+      - id: "c"
+        text: "Neovlivňuje plod při kouření mimo byt"
+    correct_option_id: "b"
+    explanation: "Expozice matky negativně ovlivňuje vývoj plodu."
+    source_pages:
+      - 5
+  - id: "lecba_zavislosti_na_tabaku_003"
+    section_id: "diag"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co označuje terciární kouření?"
+    options:
+      - id: "a"
+        text: "Kouření třetí cigarety během dne"
+      - id: "b"
+        text: "Pouze kouření ve třetím trimestru"
+      - id: "c"
+        text: "Expozici zbytkům kouře usazeným na površích a oblečení"
+    correct_option_id: "c"
+    explanation: "Zplodiny přetrvávají i mimo okamžik aktivního kouření."
+    source_pages:
+      - 6
+  - id: "lecba_zavislosti_na_tabaku_004"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je vhodné zjistit u pacienta, který odpoví, že nekouří?"
+    options:
+      - id: "a"
+        text: "Dřívější kouření a jiné formy užívání nikotinu"
+      - id: "b"
+        text: "Jen počet současných cigaret"
+      - id: "c"
+        text: "Pouze přítomnost kašle"
+    correct_option_id: "a"
+    explanation: "Odpověď ne nevylučuje bývalé kuřáctví ani e-cigarety či nikotinové sáčky."
+    source_pages:
+      - 7
+  - id: "lecba_zavislosti_na_tabaku_005"
+    section_id: "diag"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co je psycho-socio-behaviorální složka závislosti?"
+    options:
+      - id: "a"
+        text: "Výhradně laboratorní hladina nikotinu"
+      - id: "b"
+        text: "Vazba kouření na situace, činnosti a společnost"
+      - id: "c"
+        text: "Pouze dědičná porucha jater"
+    correct_option_id: "b"
+    explanation: "Naučené kuřácké stereotypy vyžadují změnu chování."
+    source_pages:
+      - 7
+  - id: "lecba_zavislosti_na_tabaku_006"
+    section_id: "diag"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co je klíčovým projevem fyzické závislosti?"
+    options:
+      - id: "a"
+        text: "Pouhá znalost značky cigaret"
+      - id: "b"
+        text: "Samotný souhlas s nekuřáckou legislativou"
+      - id: "c"
+        text: "Abstinenční příznaky po vysazení nikotinu"
+    correct_option_id: "c"
+    explanation: "Fyzická závislost souvisí s adaptací nikotinových receptorů."
+    source_pages:
+      - 7
+  - id: "lecba_zavislosti_na_tabaku_007"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak se interpretuje vyšší Fagerströmovo skóre?"
+    options:
+      - id: "a"
+        text: "Jako silnější závislost na nikotinu"
+      - id: "b"
+        text: "Jako menší potřeba podpory"
+      - id: "c"
+        text: "Jako počet balíčkoroků"
+    correct_option_id: "a"
+    explanation: "Test má maximálně 10 bodů."
+    source_pages:
+      - 7
+      - 8
+  - id: "lecba_zavislosti_na_tabaku_008"
+    section_id: "diag"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která odpověď získává v položce první ranní cigarety nejvíce bodů?"
+    options:
+      - id: "a"
+        text: "Zapálení až po více než hodině"
+      - id: "b"
+        text: "Zapálení do 5 minut po probuzení"
+      - id: "c"
+        text: "První cigareta pouze večer"
+    correct_option_id: "b"
+    explanation: "Krátký čas do první cigarety signalizuje silnější závislost."
+    source_pages:
+      - 7
+  - id: "lecba_zavislosti_na_tabaku_009"
+    section_id: "diag"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký kód MKN-10 označuje syndrom závislosti na tabáku?"
+    options:
+      - id: "a"
+        text: "Z72.0 jako specifický syndrom závislosti"
+      - id: "b"
+        text: "Z58.7 jako specifický syndrom závislosti"
+      - id: "c"
+        text: "F17.2"
+    correct_option_id: "c"
+    explanation: "F17.2 odlišuje závislost od prostého užívání a pasivní expozice."
+    source_pages:
+      - 8
+  - id: "lecba_zavislosti_na_tabaku_010"
+    section_id: "intervence"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co má obsahovat krátká intervence?"
+    options:
+      - id: "a"
+        text: "Dotaz, jasné doporučení přestat a nabídku pomoci"
+      - id: "b"
+        text: "Jen výtku bez nabídky léčby"
+      - id: "c"
+        text: "Pouze objednání spirometrie"
+    correct_option_id: "a"
+    explanation: "Intervence se má empaticky opakovat při klinických kontaktech."
+    source_pages:
+      - 8
+  - id: "lecba_zavislosti_na_tabaku_011"
+    section_id: "intervence"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co má VPL udělat, pokud nemá čas na intenzivní léčbu?"
+    options:
+      - id: "a"
+        text: "Téma odvykání zcela vynechat"
+      - id: "b"
+        text: "Předat kontakty na dostupnou odbornou podporu"
+      - id: "c"
+        text: "Doporučit samostatné odvykání bez informací"
+    correct_option_id: "b"
+    explanation: "Předání kontaktu zachovává návaznost péče."
+    source_pages:
+      - 8
+  - id: "lecba_zavislosti_na_tabaku_012"
+    section_id: "intervence"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je součástí psychobehaviorální intervence?"
+    options:
+      - id: "a"
+        text: "Ponechat všechny stereotypy a spoléhat jen na lék"
+      - id: "b"
+        text: "Doporučit vyhýbat se všem lidem natrvalo"
+      - id: "c"
+        text: "Připravit nekuřácké alternativy pro obvyklé spouštěče"
+    correct_option_id: "c"
+    explanation: "Náhradní činnosti pomáhají zvládnout naučené vazby."
+    source_pages:
+      - 8
+  - id: "lecba_zavislosti_na_tabaku_013"
+    section_id: "intervence"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak přistupovat k bývalému kuřákovi?"
+    options:
+      - id: "a"
+        text: "Podpořit abstinenci a prevenci relapsu"
+      - id: "b"
+        text: "Považovat relaps po roce za nemožný"
+      - id: "c"
+        text: "Doporučit občasnou cigaretu jako trénink kontroly"
+    correct_option_id: "a"
+    explanation: "Relaps se může objevit i po letech."
+    source_pages:
+      - 6
+  - id: "lecba_zavislosti_na_tabaku_014"
+    section_id: "intervence"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jakou úlohu může mít všeobecná sestra?"
+    options:
+      - id: "a"
+        text: "Pouze měřit tlak bez možnosti edukace"
+      - id: "b"
+        text: "Ptát se na kouření, doporučit abstinenci a edukovat"
+      - id: "c"
+        text: "Samostatně nahrazovat všechna lékařská vyšetření"
+    correct_option_id: "b"
+    explanation: "Sestra může významně podpořit odvykání."
+    source_pages:
+      - 12
+  - id: "lecba_zavislosti_na_tabaku_015"
+    section_id: "intervence"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co má zahrnovat kontrolní návštěva při odvykání?"
+    options:
+      - id: "a"
+        text: "Pouze vydání receptu bez rozhovoru"
+      - id: "b"
+        text: "Jen kontrolu počtu zakoupených krabiček"
+      - id: "c"
+        text: "Průběh abstinence, příznaky, vhodnost léčby a plán další kontroly"
+    correct_option_id: "c"
+    explanation: "Kontroly propojují behaviorální podporu a úpravu farmakoterapie."
+    source_pages:
+      - 13
+  - id: "lecba_zavislosti_na_tabaku_016"
+    section_id: "leky"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký je hlavní cíl léků pro odvykání kouření?"
+    options:
+      - id: "a"
+        text: "Tlumení abstinenčních příznaků spolu s intervencí"
+      - id: "b"
+        text: "Automatické odstranění všech kuřáckých stereotypů"
+      - id: "c"
+        text: "Léčba bronchogenního karcinomu"
+    correct_option_id: "a"
+    explanation: "Léky musí doprovázet aktivní změna chování."
+    source_pages:
+      - 9
+  - id: "lecba_zavislosti_na_tabaku_017"
+    section_id: "leky"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co se může stát s koncentrací klozapinu po ukončení kouření?"
+    options:
+      - id: "a"
+        text: "Musí vždy klesnout na polovinu"
+      - id: "b"
+        text: "Může vzrůst při ústupu enzymové indukce"
+      - id: "c"
+        text: "Nikdy se nemění"
+    correct_option_id: "b"
+    explanation: "Zanechání kouření může snížit clearance některých léčiv."
+    source_pages:
+      - 9
+  - id: "lecba_zavislosti_na_tabaku_018"
+    section_id: "leky"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co poskytuje náhradní nikotinová terapie?"
+    options:
+      - id: "a"
+        text: "Tabákový kouř bez nikotinu"
+      - id: "b"
+        text: "Stejnou směs produktů spalování jako cigareta"
+      - id: "c"
+        text: "Nikotin bez tisíců složek tabákového kouře"
+    correct_option_id: "c"
+    explanation: "Substituce omezuje abstinenční příznaky bez spalování tabáku."
+    source_pages:
+      - 9
+  - id: "lecba_zavislosti_na_tabaku_019"
+    section_id: "leky"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč kombinovat nikotinovou náplast s orální formou?"
+    options:
+      - id: "a"
+        text: "Náplast pokrývá základní potřebu a orální forma akutní nutkání"
+      - id: "b"
+        text: "Obě formy mají vždy stejný časový profil"
+      - id: "c"
+        text: "Orální forma ruší účinek náplasti"
+    correct_option_id: "a"
+    explanation: "Náplast působí pomalu a dlouhodobě, orální forma rychleji a kratší dobu."
+    source_pages:
+      - 9
+  - id: "lecba_zavislosti_na_tabaku_020"
+    section_id: "leky"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak správně používat nikotinovou žvýkačku?"
+    options:
+      - id: "a"
+        text: "Nepřetržitě rychle žvýkat a polykat sliny"
+      - id: "b"
+        text: "Střídat krátké žvýkání s ponecháním v ústech"
+      - id: "c"
+        text: "Spolknout ji po prvním skousnutí"
+    correct_option_id: "b"
+    explanation: "Příliš rychlé žvýkání zvyšuje polykání nikotinu a žaludeční obtíže."
+    source_pages:
+      - 9
+  - id: "lecba_zavislosti_na_tabaku_021"
+    section_id: "leky"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč během použití orálního nikotinu nejíst ani nepít zejména kyselé nápoje?"
+    options:
+      - id: "a"
+        text: "Kyselé nápoje způsobují přeměnu na vareniklin"
+      - id: "b"
+        text: "Jídlo úplně ruší nikotinovou závislost"
+      - id: "c"
+        text: "Kyselé prostředí zhoršuje bukální vstřebání nikotinu"
+    correct_option_id: "c"
+    explanation: "Nikotin se lépe vstřebává v lehce zásaditém prostředí."
+    source_pages:
+      - 9
+  - id: "lecba_zavislosti_na_tabaku_022"
+    section_id: "leky"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je důvodem časné kontroly po zanechání kouření při nikotinové substituci?"
+    options:
+      - id: "a"
+        text: "Posouzení abstinenčních příznaků a dostatečnosti dávky"
+      - id: "b"
+        text: "Povinné okamžité ukončení náplasti"
+      - id: "c"
+        text: "Povinné zvýšení dávky bez ohledu na stav"
+    correct_option_id: "a"
+    explanation: "Potřeba nikotinu je individuální."
+    source_pages:
+      - 10
+  - id: "lecba_zavislosti_na_tabaku_023"
+    section_id: "leky"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký je mechanismus vareniklinu?"
+    options:
+      - id: "a"
+        text: "Blokáda beta receptorů"
+      - id: "b"
+        text: "Parciální agonismus nikotinových acetylcholinových receptorů"
+      - id: "c"
+        text: "Náhrada dopaminu levodopou"
+    correct_option_id: "b"
+    explanation: "Snižuje abstinenční příznaky a odměňující efekt kouření."
+    source_pages:
+      - 11
+  - id: "lecba_zavislosti_na_tabaku_024"
+    section_id: "leky"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak lze omezit častou nauzeu při vareniklinu?"
+    options:
+      - id: "a"
+        text: "Užíváním výhradně nalačno bez vody"
+      - id: "b"
+        text: "Vždy vynecháním úvodní titrace"
+      - id: "c"
+        text: "Užíváním po jídle a dostatečným zapitím"
+    correct_option_id: "c"
+    explanation: "Postup doporučuje pozvolné zahájení a podání po jídle."
+    source_pages:
+      - 11
+  - id: "lecba_zavislosti_na_tabaku_025"
+    section_id: "leky"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy se obvykle zahajuje vareniklin vzhledem ke dni ukončení kouření?"
+    options:
+      - id: "a"
+        text: "1–2 týdny předem"
+      - id: "b"
+        text: "Až rok po ukončení"
+      - id: "c"
+        text: "Teprve při prvním nádorovém příznaku"
+    correct_option_id: "a"
+    explanation: "Předem stanovený den abstinence navazuje na úvodní titraci."
+    source_pages:
+      - 11
+  - id: "lecba_zavislosti_na_tabaku_026"
+    section_id: "leky"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Která komorbidita vyžaduje zvláštní pozornost vzhledem k eliminaci vareniklinu?"
+    options:
+      - id: "a"
+        text: "Lehká izolovaná krátkozrakost"
+      - id: "b"
+        text: "Těžké renální selhání"
+      - id: "c"
+        text: "Stabilní kontaktní ekzém bez léčby"
+    correct_option_id: "b"
+    explanation: "Vareniklin se převážně vylučuje nezměněný močí."
+    source_pages:
+      - 11
+  - id: "lecba_zavislosti_na_tabaku_027"
+    section_id: "leky"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co platí o alternativních nikotinových produktech podle postupu?"
+    options:
+      - id: "a"
+        text: "Jsou vhodnou prevencí závislosti u dětí"
+      - id: "b"
+        text: "Jejich dlouhodobé následky jsou ve všech směrech definitivně známy"
+      - id: "c"
+        text: "Nesmějí být doporučovány nekuřákům včetně dětí"
+    correct_option_id: "c"
+    explanation: "Snižování expozice u kuřáka nelze zaměňovat za doporučení nikotinu nekuřákům."
+    source_pages:
+      - 5
+  - id: "lecba_zavislosti_na_tabaku_028"
+    section_id: "screening"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kolik balíčkoroků představuje 20 cigaret denně po 20 let?"
+    options:
+      - id: "a"
+        text: "20"
+      - id: "b"
+        text: "10"
+      - id: "c"
+        text: "40"
+    correct_option_id: "a"
+    explanation: "Jeden balíčkorok odpovídá jedné krabičce denně po jeden rok."
+    source_pages:
+      - 6
+  - id: "lecba_zavislosti_na_tabaku_029"
+    section_id: "screening"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jakou metodu používá program časného záchytu karcinomu plic popsaný ve vydání 2022?"
+    options:
+      - id: "a"
+        text: "Pravidelnou bronchoskopii každého účastníka"
+      - id: "b"
+        text: "Nízkodávkové CT plic"
+      - id: "c"
+        text: "Pouze poslech plic"
+    correct_option_id: "b"
+    explanation: "LDCT umožňuje zachytit časné nádorové změny."
+    source_pages:
+      - 12
+  - id: "lecba_zavislosti_na_tabaku_030"
+    section_id: "screening"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která kombinace odpovídá věku a kuřácké náloži cílové populace programu ve vydání 2022?"
+    options:
+      - id: "a"
+        text: "20–35 let a alespoň 1 balíčkorok"
+      - id: "b"
+        text: "Pouze nekuřáci nad 80 let"
+      - id: "c"
+        text: "55–74 let a alespoň 20 balíčkoroků"
+    correct_option_id: "c"
+    explanation: "Program vyhledává současné či bývalé kuřáky s definovaným rizikem."
+    source_pages:
+      - 12

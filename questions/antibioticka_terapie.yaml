@@ -1,0 +1,1271 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "antibioticka_terapie"
+  title: "Antibiotická terapie respiračních, močových a kožních infekcí"
+  source:
+    file: "antibiotická-terapie_2025_web.pdf"
+    year: 2025
+coverage:
+  proposed_question_count: 77
+  rationale: "Rozsáhlý postup obsahuje tři klinické obory. Sada pokrývá všechny hlavní infekční syndromy, racionální preskripci, mikrobiologii, diferenciální diagnostiku a odesílání. Sporné rozdíly mezi dávkami v tabulkách a textu nejsou použity jako testové otázky."
+  sections:
+    - id: "principy"
+      title: "Racionální antibiotická léčba"
+      planned_question_count: 6
+    - id: "respiracni"
+      title: "Respirační infekce"
+      planned_question_count: 30
+    - id: "mocove"
+      title: "Močové a urogenitální infekce"
+      planned_question_count: 22
+    - id: "kozni"
+      title: "Kožní infekce"
+      planned_question_count: 10
+    - id: "borrelioza"
+      title: "Lymeská borrelióza"
+      planned_question_count: 9
+questions:
+  - id: "antibioticka_terapie_001"
+    section_id: "principy"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký populační důsledek má neindikované podávání antibiotik?"
+    options:
+      - id: "a"
+        text: "Selektuje rezistentní kmeny, které se mohou šířit na další osoby."
+      - id: "b"
+        text: "Snižuje rezistenci díky pravidelnému kontaktu bakterií s lékem."
+      - id: "c"
+        text: "Ovlivňuje pouze léčeného pacienta."
+    correct_option_id: "a"
+    explanation: "Selekční tlak antibiotik má dopad i mimo konkrétního pacienta."
+    source_pages:
+      - 5
+  - id: "antibioticka_terapie_002"
+    section_id: "principy"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak má být zvoleno spektrum empirické antibiotické léčby?"
+    options:
+      - id: "a"
+        text: "Vždy pokrýt všechna teoreticky možná agens."
+      - id: "b"
+        text: "Podle nejpravděpodobnějších původců a individuální situace."
+      - id: "c"
+        text: "Vždy začít dvěma záložními antibiotiky."
+    correct_option_id: "b"
+    explanation: "Empirická léčba má být cílená na obvyklé původce, nikoli bezdůvodně maximálně široká."
+    source_pages:
+      - 5
+  - id: "antibioticka_terapie_003"
+    section_id: "principy"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které antibiotikum řadí dokument mezi preferovaná Access?"
+    options:
+      - id: "a"
+        text: "Cefuroxim axetil."
+      - id: "b"
+        text: "Ciprofloxacin."
+      - id: "c"
+        text: "Fenoxymetylpenicilin."
+    correct_option_id: "c"
+    explanation: "Penicilin patří do Access, zatímco uvedené alternativy do rizikovější skupiny Watch."
+    source_pages:
+      - 5
+      - 6
+  - id: "antibioticka_terapie_004"
+    section_id: "principy"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co preferovat, pokud je pro danou infekci vhodný penicilin i makrolid a pacient nemá kontraindikaci?"
+    options:
+      - id: "a"
+        text: "Penicilinové antibiotikum."
+      - id: "b"
+        text: "Vždy azitromycin pro jeho širší použití."
+      - id: "c"
+        text: "Vždy kombinaci penicilinu s makrolidem."
+    correct_option_id: "a"
+    explanation: "Preference penicilinů omezuje selekční tlak na makrolidovou rezistenci."
+    source_pages:
+      - 6
+  - id: "antibioticka_terapie_005"
+    section_id: "principy"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je samotný nález S. aureus na sliznici horních cest dýchacích indikací k eradikaci?"
+    options:
+      - id: "a"
+        text: "Ano, vždy jde o bakteriální pneumonii."
+      - id: "b"
+        text: "Ne, je třeba odlišit kolonizaci od klinické infekce."
+      - id: "c"
+        text: "Ano, vždy je nutná kombinovaná léčba."
+    correct_option_id: "b"
+    explanation: "Stafylokok může být součástí kolonizující flóry."
+    source_pages:
+      - 7
+  - id: "antibioticka_terapie_006"
+    section_id: "principy"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je důležité pro empirickou léčbu močových infekcí?"
+    options:
+      - id: "a"
+        text: "Pouze cena antibiotika."
+      - id: "b"
+        text: "Zvolený lék při každé recidivě automaticky opakovat."
+      - id: "c"
+        text: "Znalost místní rezistence a předchozích mikrobiologických výsledků."
+    correct_option_id: "c"
+    explanation: "Lokální epidemiologie a anamnéza rezistence ovlivňují pravděpodobnost účinku."
+    source_pages:
+      - 20
+  - id: "antibioticka_terapie_007"
+    section_id: "respiracni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Znamená hustší nosní sekret po několika dnech běžné rýmy sám o sobě potřebu antibiotik?"
+    options:
+      - id: "a"
+        text: "Ne."
+      - id: "b"
+        text: "Ano, jde o spolehlivý průkaz bakteriální superinfekce."
+      - id: "c"
+        text: "Ano, ale pouze pokud chybí horečka."
+    correct_option_id: "a"
+    explanation: "Změna sekretu je běžnou součástí virové rinofaryngitidy."
+    source_pages:
+      - 7
+  - id: "antibioticka_terapie_008"
+    section_id: "respiracni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká je obvyklá léčba nekomplikované akutní rinofaryngitidy?"
+    options:
+      - id: "a"
+        text: "Preventivní antibiotikum proti sinusitidě."
+      - id: "b"
+        text: "Symptomatická léčba bez antibiotik."
+      - id: "c"
+        text: "Rutinní kombinace dvou antibiotik."
+    correct_option_id: "b"
+    explanation: "Antibiotika nepůsobí na běžné virové nachlazení a nesnižují riziko superinfekce."
+    source_pages:
+      - 7
+  - id: "antibioticka_terapie_009"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je u běžné akutní rinofaryngitidy indikován rutinní výtěr nosu nebo krku?"
+    options:
+      - id: "a"
+        text: "Ano, při každém zvýšení teploty."
+      - id: "b"
+        text: "Ano, i u asymptomatických kontaktů."
+      - id: "c"
+        text: "Ne."
+    correct_option_id: "c"
+    explanation: "Diagnóza je klinická a kultivace obvykle nepřináší užitek."
+    source_pages:
+      - 7
+  - id: "antibioticka_terapie_010"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Lze podle samotného vzhledu hrdla vždy odlišit virovou a bakteriální tonzilofaryngitidu?"
+    options:
+      - id: "a"
+        text: "Ne, v nejasných případech pomáhá další vyšetření."
+      - id: "b"
+        text: "Ano, povlak vždy znamená streptokoka."
+      - id: "c"
+        text: "Ano, zarudnutí vždy znamená virus."
+    correct_option_id: "a"
+    explanation: "Klinické projevy se překrývají, včetně infekční mononukleózy."
+    source_pages:
+      - 9
+  - id: "antibioticka_terapie_011"
+    section_id: "respiracni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co je lékem volby bakteriální tonzilofaryngitidy podle tohoto postupu?"
+    options:
+      - id: "a"
+        text: "Nitrofurantoin."
+      - id: "b"
+        text: "Fenoxymetylpenicilin."
+      - id: "c"
+        text: "Ciprofloxacin."
+    correct_option_id: "b"
+    explanation: "Postup preferuje úzkospektrý penicilin."
+    source_pages:
+      - 10
+  - id: "antibioticka_terapie_012"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jakou běžnou délku léčby penicilinem uvádí postup pro nekomplikovanou bakteriální tonzilofaryngitidu?"
+    options:
+      - id: "a"
+        text: "Jednu dávku perorálního penicilinu."
+      - id: "b"
+        text: "Nejméně šest týdnů."
+      - id: "c"
+        text: "5–7 dnů s individuální možností prodloužení."
+    correct_option_id: "c"
+    explanation: "Délka se může prodloužit podle rozsahu a ústupu nálezu."
+    source_pages:
+      - 10
+  - id: "antibioticka_terapie_013"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jakou roli má ASLO po klinicky odeznělé tonzilofaryngitidě?"
+    options:
+      - id: "a"
+        text: "Rutinně se nevyšetřuje; prokazuje prodělanou streptokokovou infekci."
+      - id: "b"
+        text: "Je povinným testem úspěchu každé léčby."
+      - id: "c"
+        text: "Určuje aktuální citlivost streptokoka na penicilin."
+    correct_option_id: "a"
+    explanation: "ASLO není test eradikace ani antibiogram."
+    source_pages:
+      - 10
+  - id: "antibioticka_terapie_014"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupovat při podezření na peritonzilární absces?"
+    options:
+      - id: "a"
+        text: "Pouze zopakovat ASLO za měsíc."
+      - id: "b"
+        text: "Zajistit ORL vyšetření a řešení komplikace."
+      - id: "c"
+        text: "Považovat absces za běžnou rekonvalescenci."
+    correct_option_id: "b"
+    explanation: "Komplikace může vyžadovat punkci či jiný lokální výkon a antibiotickou léčbu."
+    source_pages:
+      - 9
+      - 10
+  - id: "antibioticka_terapie_015"
+    section_id: "respiracni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který nález podporuje infekční mononukleózu?"
+    options:
+      - id: "a"
+        text: "Izolovaná dysurie bez systémových příznaků."
+      - id: "b"
+        text: "Pouze jednostranný erytém bérce."
+      - id: "c"
+        text: "Povlaková tonzilitida, generalizovaná lymfadenopatie a atypické lymfocyty."
+    correct_option_id: "c"
+    explanation: "Pro syndrom je typická aktivace lymforetikulární tkáně a změny krevního obrazu."
+    source_pages:
+      - 10
+  - id: "antibioticka_terapie_016"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak posoudit exantém po aminopenicilinu při EBV infekci podle dokumentu?"
+    options:
+      - id: "a"
+        text: "Sám o sobě neznamená trvalou alergii zakazující veškeré budoucí podání."
+      - id: "b"
+        text: "Vždy dokazuje celoživotní anafylaktickou alergii."
+      - id: "c"
+        text: "Je důkazem rezistence EBV na penicilin."
+    correct_option_id: "a"
+    explanation: "Postup odlišuje tuto reakci od alergie na aminopeniciliny."
+    source_pages:
+      - 11
+  - id: "antibioticka_terapie_017"
+    section_id: "respiracni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Kdy jsou antibiotika indikována u chřipky?"
+    options:
+      - id: "a"
+        text: "U každého pozitivního antigenního testu."
+      - id: "b"
+        text: "Při bakteriálních komplikacích."
+      - id: "c"
+        text: "Preventivně u každé horečky první den."
+    correct_option_id: "b"
+    explanation: "Nekomplikovaná chřipka je virové onemocnění."
+    source_pages:
+      - 11
+  - id: "antibioticka_terapie_018"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká je zásada antivirové léčby chřipky u rizikových nemocných?"
+    options:
+      - id: "a"
+        text: "Čekat na šestý týden nemoci."
+      - id: "b"
+        text: "Podávat ji až po vymizení teplot."
+      - id: "c"
+        text: "Zahájit ji časně, optimálně do 48 hodin od prvních příznaků podle postupu."
+    correct_option_id: "c"
+    explanation: "Časné podání je v dokumentu zdůrazněno pro rizikové nemocné."
+    source_pages:
+      - 11
+  - id: "antibioticka_terapie_019"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Antigenní test na covid je negativní, ale klinické podezření trvá. Co doporučuje text?"
+    options:
+      - id: "a"
+        text: "Opakovat test za 48 hodin nebo provést PCR."
+      - id: "b"
+        text: "Spolehlivě covid vyloučit."
+      - id: "c"
+        text: "Automaticky nasadit antibiotikum."
+    correct_option_id: "a"
+    explanation: "Jednorázově negativní antigen nemusí infekci vyloučit."
+    source_pages:
+      - 12
+  - id: "antibioticka_terapie_020"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je zásadní před nasazením nirmatrelviru s ritonavirem?"
+    options:
+      - id: "a"
+        text: "Vysadit bez kontroly všechny léky na měsíc."
+      - id: "b"
+        text: "Zkontrolovat lékové interakce a vhodnost léčby pro pacienta."
+      - id: "c"
+        text: "Předpokládat, že kombinace nemá interakce."
+    correct_option_id: "b"
+    explanation: "Ritonavir má významné interakce a může vyžadovat úpravu medikace."
+    source_pages:
+      - 12
+      - 13
+  - id: "antibioticka_terapie_021"
+    section_id: "respiracni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký test preferuje text při akutním podezření na pertusi?"
+    options:
+      - id: "a"
+        text: "Samotné ASLO."
+      - id: "b"
+        text: "Kultivaci středního proudu moči."
+      - id: "c"
+        text: "PCR z výtěru zadní stěny nosohltanu."
+    correct_option_id: "c"
+    explanation: "PCR přímo prokazuje bordetely; protilátky jsou pro akutní rozhodnutí méně přínosné."
+    source_pages:
+      - 13
+  - id: "antibioticka_terapie_022"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která skupina antibiotik je první volbou u pertuse?"
+    options:
+      - id: "a"
+        text: "Makrolidy."
+      - id: "b"
+        text: "Nitrofurany."
+      - id: "c"
+        text: "Samotný fenoxymetylpenicilin."
+    correct_option_id: "a"
+    explanation: "Postup uvádí klaritromycin nebo azitromycin."
+    source_pages:
+      - 13
+  - id: "antibioticka_terapie_023"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Za jak dlouho po zahájení antibiotik považuje text nemocného s pertusí za nenakažlivého?"
+    options:
+      - id: "a"
+        text: "Po první tabletě."
+      - id: "b"
+        text: "Po pěti dnech."
+      - id: "c"
+        text: "Teprve po šesti měsících."
+    correct_option_id: "b"
+    explanation: "Dokument uvádí pětidenní interval po zahájení léčby."
+    source_pages:
+      - 13
+  - id: "antibioticka_terapie_024"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co podporuje bakteriální sinusitidu více než samotná rýma?"
+    options:
+      - id: "a"
+        text: "Pouze vodnatá sekrece první den."
+      - id: "b"
+        text: "Izolované kýchání při kontaktu s alergenem."
+      - id: "c"
+        text: "Soubor příznaků včetně jednostranné purulence, bolesti a bifázického průběhu."
+    correct_option_id: "c"
+    explanation: "Rozhoduje kombinace příznaků, nikoli barva sekretu samotná."
+    source_pages:
+      - 13
+  - id: "antibioticka_terapie_025"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který materiál je vhodný ke kultivaci u sinusitidy?"
+    options:
+      - id: "a"
+        text: "Punktát z postižené dutiny nebo endoskopicky získaný sekret z jejího ústí."
+      - id: "b"
+        text: "Běžný výtěr přední části nosu."
+      - id: "c"
+        text: "Výtěr zdravé kůže tváře."
+    correct_option_id: "a"
+    explanation: "Běžný nosní výtěr nevypovídá spolehlivě o původci v dutině."
+    source_pages:
+      - 14
+  - id: "antibioticka_terapie_026"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je důležité při jednostranné maxilární sinusitidě?"
+    options:
+      - id: "a"
+        text: "Vyloučit zubní příčinu bez vyšetření."
+      - id: "b"
+        text: "Zvážit odontogenní původ."
+      - id: "c"
+        text: "Automaticky diagnostikovat chřipku."
+    correct_option_id: "b"
+    explanation: "Součástí posouzení je možný zdroj v chrupu."
+    source_pages:
+      - 14
+  - id: "antibioticka_terapie_027"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy je u laryngitidy zvlášť důležitá ORL konzultace?"
+    options:
+      - id: "a"
+        text: "Při každém jednorázovém zakašlání bez změny hlasu."
+      - id: "b"
+        text: "Pouze po třech letech obtíží."
+      - id: "c"
+        text: "Nelze-li bezpečně odlišit epiglotitidu nebo je průběh protrahovaný či atypický."
+    correct_option_id: "c"
+    explanation: "Epiglotitida i jiné příčiny dysfonie vyžadují odlišný přístup."
+    source_pages:
+      - 14
+      - 15
+  - id: "antibioticka_terapie_028"
+    section_id: "respiracni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká je obvyklá léčba nekomplikované akutní tracheobronchitidy?"
+    options:
+      - id: "a"
+        text: "Symptomatická, antibiotika obvykle nejsou indikována."
+      - id: "b"
+        text: "Vždy preventivní fluorochinolon."
+      - id: "c"
+        text: "Vždy nitrofurantoin."
+    correct_option_id: "a"
+    explanation: "Většina případů má virovou etiologii."
+    source_pages:
+      - 15
+  - id: "antibioticka_terapie_029"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč u závažnější exacerbace CHOPN doplnit skiagram hrudníku?"
+    options:
+      - id: "a"
+        text: "K potvrzení původce pertuse."
+      - id: "b"
+        text: "K odlišení pneumonie."
+      - id: "c"
+        text: "K určení citlivosti bakterie na antibiotika."
+    correct_option_id: "b"
+    explanation: "Pneumonie může exacerbaci napodobit nebo komplikovat."
+    source_pages:
+      - 16
+  - id: "antibioticka_terapie_030"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který údaj zvyšuje podezření na pseudomonádovou infekci u CHOPN?"
+    options:
+      - id: "a"
+        text: "Jedna nekomplikovaná rýma před pěti lety."
+      - id: "b"
+        text: "Samotná alergie na pyl."
+      - id: "c"
+        text: "Dřívější průkaz Pseudomonas aeruginosa nebo bronchiektazie."
+    correct_option_id: "c"
+    explanation: "Dokument uvádí kolonizaci, bronchiektazie a další rizikové faktory."
+    source_pages:
+      - 16
+  - id: "antibioticka_terapie_031"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co při exacerbaci CHOPN podporuje hospitalizaci?"
+    options:
+      - id: "a"
+        text: "Nová klidová dušnost, cyanóza nebo závažná celková alterace."
+      - id: "b"
+        text: "Pouze stabilní chronický kašel beze změny."
+      - id: "c"
+        text: "Výhradně pozitivní výtěr nosu bez obtíží."
+    correct_option_id: "a"
+    explanation: "Rozhoduje závažnost klinického stavu, vitální funkce a komorbidity."
+    source_pages:
+      - 17
+  - id: "antibioticka_terapie_032"
+    section_id: "respiracni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co patří k základní diagnostice pneumonie u dospělého podle postupu?"
+    options:
+      - id: "a"
+        text: "Samotná barva sputa bez vyšetření."
+      - id: "b"
+        text: "Skiagram hrudníku v klinickém kontextu."
+      - id: "c"
+        text: "Pouze sérologický průkaz prodělané chřipky."
+    correct_option_id: "b"
+    explanation: "Pneumonie je spojena s novým infiltrátem a klinickými příznaky."
+    source_pages:
+      - 17
+      - 19
+  - id: "antibioticka_terapie_033"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaké položky obsahuje CRB-65?"
+    options:
+      - id: "a"
+        text: "CRP, kreatinin, bilirubin a hmotnost."
+      - id: "b"
+        text: "Kašel, rýmu, bolest v krku a saturaci."
+      - id: "c"
+        text: "Zmatenost, dechovou frekvenci, krevní tlak a věk."
+    correct_option_id: "c"
+    explanation: "CRB-65 je klinická škála bez potřeby laboratorního vyšetření."
+    source_pages:
+      - 18
+  - id: "antibioticka_terapie_034"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak se může pneumonie projevit u seniora atypicky?"
+    options:
+      - id: "a"
+        text: "Zmateností, dehydratací a celkovým zhoršením."
+      - id: "b"
+        text: "Vždy musí být přítomna vysoká horečka a výrazné chrůpky."
+      - id: "c"
+        text: "Bez horečky je pneumonie vyloučena."
+    correct_option_id: "a"
+    explanation: "U starších osob mohou dominovat nespecifické projevy."
+    source_pages:
+      - 18
+  - id: "antibioticka_terapie_035"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký lék uvádí postup pro ambulantní komunitní pneumonii u nerizikového nemocného bez kontraindikací?"
+    options:
+      - id: "a"
+        text: "Nitrofurantoin."
+      - id: "b"
+        text: "Amoxicilin."
+      - id: "c"
+        text: "Metronidazol jako jediný lék."
+    correct_option_id: "b"
+    explanation: "Amoxicilin je základní empirickou volbou u nerizikových pacientů."
+    source_pages:
+      - 19
+  - id: "antibioticka_terapie_036"
+    section_id: "respiracni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy má proběhnout první kontakt ke kontrole ambulantní léčby pneumonie?"
+    options:
+      - id: "a"
+        text: "Až za šest měsíců."
+      - id: "b"
+        text: "Pouze pokud pacient sám dokončí druhé balení antibiotik."
+      - id: "c"
+        text: "Za 2–3 dny léčby."
+    correct_option_id: "c"
+    explanation: "Časná kontrola umožňuje zachytit neúčinnost či komplikace."
+    source_pages:
+      - 19
+  - id: "antibioticka_terapie_037"
+    section_id: "mocove"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Dokazuje samotná leukocyturie infekci močových cest?"
+    options:
+      - id: "a"
+        text: "Ne, hodnotí se s klinickým obrazem a dalšími nálezy."
+      - id: "b"
+        text: "Ano, bez ohledu na příznaky."
+      - id: "c"
+        text: "Ano, vždy určuje i druh bakterie."
+    correct_option_id: "a"
+    explanation: "Leukocyturie je nespecifická a sama diagnózu nepotvrzuje."
+    source_pages:
+      - 20
+  - id: "antibioticka_terapie_038"
+    section_id: "mocove"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co odebrat před zahájením antibiotik při podezření na pyelonefritidu?"
+    options:
+      - id: "a"
+        text: "Pouze výtěr krku."
+      - id: "b"
+        text: "Moč na kultivaci."
+      - id: "c"
+        text: "Pouze sérum na ASLO."
+    correct_option_id: "b"
+    explanation: "Odběr před léčbou umožňuje cílenou úpravu antibiotika."
+    source_pages:
+      - 20
+  - id: "antibioticka_terapie_039"
+    section_id: "mocove"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který údaj zvyšuje riziko multirezistentního původce IMC?"
+    options:
+      - id: "a"
+        text: "Pouhá krátkozrakost."
+      - id: "b"
+        text: "Jednorázová neinfekční bolest zad."
+      - id: "c"
+        text: "Nedávná hospitalizace, širokospektrá antibiotika či močový katétr."
+    correct_option_id: "c"
+    explanation: "Tyto okolnosti zvyšují pravděpodobnost kolonizace rezistentní flórou."
+    source_pages:
+      - 20
+  - id: "antibioticka_terapie_040"
+    section_id: "mocove"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Má se běžně léčit asymptomatická bakteriurie u pacienta s permanentním katétrem?"
+    options:
+      - id: "a"
+        text: "Ne, antibiotika se podávají při symptomatické infekci."
+      - id: "b"
+        text: "Ano, vždy do úplné sterilizace moči."
+      - id: "c"
+        text: "Ano, trvalým fluorochinolonem."
+    correct_option_id: "a"
+    explanation: "Léčba samotné kolonizace selektuje rezistenci a bakterie neeliminuje trvale."
+    source_pages:
+      - 21
+  - id: "antibioticka_terapie_041"
+    section_id: "mocove"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Ve které situaci je cílené pátrání po asymptomatické bakteriurii relevantní?"
+    options:
+      - id: "a"
+        text: "Před každým běžným měřením tlaku."
+      - id: "b"
+        text: "Před výkonem v močových cestách narušujícím jejich integritu."
+      - id: "c"
+        text: "Při každé preventivní prohlídce zdravého dospělého."
+    correct_option_id: "b"
+    explanation: "Urologické výkony s porušením sliznice vyžadují specifický postup podle kultivace."
+    source_pages:
+      - 21
+  - id: "antibioticka_terapie_042"
+    section_id: "mocove"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký postup uvádí dokument u gravidní ženy při první návštěvě?"
+    options:
+      - id: "a"
+        text: "Bakteriurii nikdy nevyšetřovat ani při příznacích."
+      - id: "b"
+        text: "Automaticky dlouhodobý tetracyklin."
+      - id: "c"
+        text: "Kultivaci moči a při pozitivním nálezu individuální posouzení přínosu a rizik léčby."
+    correct_option_id: "c"
+    explanation: "Gravidita je v textu posuzována zvlášť, včetně rizika pyelonefritidy."
+    source_pages:
+      - 21
+  - id: "antibioticka_terapie_043"
+    section_id: "mocove"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Které obtíže jsou typické pro akutní cystitidu?"
+    options:
+      - id: "a"
+        text: "Dysurie, polakisurie a obvykle afebrilní průběh."
+      - id: "b"
+        text: "Dominantně kašel a stridor."
+      - id: "c"
+        text: "Vždy vysoká horečka s pozitivním tapotementem."
+    correct_option_id: "a"
+    explanation: "Systémové příznaky mohou ukazovat na postižení horních močových cest."
+    source_pages:
+      - 21
+  - id: "antibioticka_terapie_044"
+    section_id: "mocove"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký lék je první volbou nekomplikované cystitidy u ženy podle dokumentu?"
+    options:
+      - id: "a"
+        text: "Norfloxacin."
+      - id: "b"
+        text: "Nitrofurantoin."
+      - id: "c"
+        text: "Doxycyklin."
+    correct_option_id: "b"
+    explanation: "Text preferuje nitrofurantoin a při jeho nevhodnosti pivmecilinam."
+    source_pages:
+      - 22
+  - id: "antibioticka_terapie_045"
+    section_id: "mocove"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč se u běžné cystitidy nemá preferovat norfloxacin?"
+    options:
+      - id: "a"
+        text: "Nemá žádný účinek na lidský mikrobiom."
+      - id: "b"
+        text: "Je antivirotikum."
+      - id: "c"
+        text: "Podporuje rozvoj fluorochinolonové rezistence."
+    correct_option_id: "c"
+    explanation: "Výběr léčby má šetřit fluorochinolony pro specifické indikace."
+    source_pages:
+      - 22
+  - id: "antibioticka_terapie_046"
+    section_id: "mocove"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Žena má dysurii a vaginální výtok, opakovaně negativní kultivaci moči. Co zvážit?"
+    options:
+      - id: "a"
+        text: "Vaginální infekci či pohlavně přenosnou infekci."
+      - id: "b"
+        text: "Jistou rezistentní pyelonefritidu bez dalších vyšetření."
+      - id: "c"
+        text: "Vždy další identickou kúru nitrofurantoinu."
+    correct_option_id: "a"
+    explanation: "Cystitis-like příznaky mají i mimoměchýřové příčiny."
+    source_pages:
+      - 21
+      - 22
+  - id: "antibioticka_terapie_047"
+    section_id: "mocove"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Lze gonokokovou a negonokokovou uretritidu bezpečně odlišit pouze klinicky?"
+    options:
+      - id: "a"
+        text: "Ano, jen podle intenzity pálení."
+      - id: "b"
+        text: "Ne, je třeba laboratorní průkaz."
+      - id: "c"
+        text: "Ano, pokud chybí horečka."
+    correct_option_id: "b"
+    explanation: "Projevy se překrývají; využívá se mikrobiologie a PCR."
+    source_pages:
+      - 22
+      - 23
+  - id: "antibioticka_terapie_048"
+    section_id: "mocove"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jsou samotné IgG či IgA protilátky proti agens STI důkazem aktuální uretritidy vyžadující antibiotika?"
+    options:
+      - id: "a"
+        text: "Ano, bez ohledu na kliniku a přímý průkaz."
+      - id: "b"
+        text: "Ano, pokud byly zjištěny po léčbě."
+      - id: "c"
+        text: "Ne."
+    correct_option_id: "c"
+    explanation: "Sérologie sama neprokazuje aktivně probíhající infekci."
+    source_pages:
+      - 23
+  - id: "antibioticka_terapie_049"
+    section_id: "mocove"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Komu patří léčba potvrzené kapavky podle textu?"
+    options:
+      - id: "a"
+        text: "Dermatovenerologovi."
+      - id: "b"
+        text: "Výhradně nefrologovi."
+      - id: "c"
+        text: "Pouze lékárníkovi bez lékařského vyšetření."
+    correct_option_id: "a"
+    explanation: "Specialista řeší také další STI a sexuální kontakty."
+    source_pages:
+      - 23
+  - id: "antibioticka_terapie_050"
+    section_id: "mocove"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je kromě léčby pacienta důležité při potvrzené STI?"
+    options:
+      - id: "a"
+        text: "Vyšetřovat jen moč bez zhodnocení kontaktů."
+      - id: "b"
+        text: "Vyšetření dalších STI a sexuálních partnerů."
+      - id: "c"
+        text: "Léčit bez doporučení sexuální abstinence během terapie."
+    correct_option_id: "b"
+    explanation: "Péče zahrnuje prevenci reinfekce a vyšetření kontaktů."
+    source_pages:
+      - 23
+  - id: "antibioticka_terapie_051"
+    section_id: "mocove"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupovat při podezření na akutní bakteriální prostatitidu?"
+    options:
+      - id: "a"
+        text: "Provést jen kontrolu za půl roku."
+      - id: "b"
+        text: "Považovat horečku a bolest perinea za běžnou nekomplikovanou cystitidu."
+      - id: "c"
+        text: "Neprodleně odeslat k urologovi, podle závažnosti k hospitalizaci."
+    correct_option_id: "c"
+    explanation: "Hrozí bakteriemie, retence i absces a léčbu řídí urolog."
+    source_pages:
+      - 24
+  - id: "antibioticka_terapie_052"
+    section_id: "mocove"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je důležité při volbě antibiotika pro bakteriální prostatitidu?"
+    options:
+      - id: "a"
+        text: "Dobré pronikání do tkáně prostaty a cílení podle původce."
+      - id: "b"
+        text: "Pouze vysoká koncentrace v moči bez tkáňového průniku."
+      - id: "c"
+        text: "Výhradně barva tablety."
+    correct_option_id: "a"
+    explanation: "Prostata je tkáňový cíl, proto nestačí zásady léčby povrchové cystitidy."
+    source_pages:
+      - 24
+  - id: "antibioticka_terapie_053"
+    section_id: "mocove"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jakou urgentní alternativu je nutné odlišit při bolestivém zduření skrota?"
+    options:
+      - id: "a"
+        text: "Nekomplikovanou alergickou rýmu."
+      - id: "b"
+        text: "Torzi varlete."
+      - id: "c"
+        text: "Izolovanou asymptomatickou bakteriurii."
+    correct_option_id: "b"
+    explanation: "Akutní bolest skrota vyžaduje vyloučení torze."
+    source_pages:
+      - 25
+  - id: "antibioticka_terapie_054"
+    section_id: "mocove"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je u parotické epididymoorchitidy samotné zvýšení CRP důvodem k antibiotikům?"
+    options:
+      - id: "a"
+        text: "Ano, vždy dokazuje bakterii."
+      - id: "b"
+        text: "Ano, vždy vyžaduje dva fluorochinolony."
+      - id: "c"
+        text: "Ne."
+    correct_option_id: "c"
+    explanation: "Virová etiologie není léčena antibiotiky ani dříve rutinně používanými kortikoidy."
+    source_pages:
+      - 25
+  - id: "antibioticka_terapie_055"
+    section_id: "mocove"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč je u pyelonefritidy důležité vyloučit obstrukci?"
+    options:
+      - id: "a"
+        text: "Obstrukční forma může rychle progredovat do sepse."
+      - id: "b"
+        text: "Obstrukce vylučuje infekci."
+      - id: "c"
+        text: "Při obstrukci nemůže vzniknout bakteriemie."
+    correct_option_id: "a"
+    explanation: "Infikovaný obstruovaný systém je komplikovaný stav."
+    source_pages:
+      - 25
+  - id: "antibioticka_terapie_056"
+    section_id: "mocove"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které zobrazovací vyšetření je součástí diagnostiky akutní pyelonefritidy?"
+    options:
+      - id: "a"
+        text: "Pouze skiagram vedlejších nosních dutin."
+      - id: "b"
+        text: "Ultrazvuk ledvin."
+      - id: "c"
+        text: "Rutinní PET mozku."
+    correct_option_id: "b"
+    explanation: "Sonografie pomáhá zjistit anatomické poměry a obstrukci."
+    source_pages:
+      - 25
+  - id: "antibioticka_terapie_057"
+    section_id: "mocove"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co podporuje hospitalizaci při pyelonefritidě?"
+    options:
+      - id: "a"
+        text: "Pouze pozitivní kultivace bez příznaků."
+      - id: "b"
+        text: "Každá izolovaná stopa leukocytů bez kliniky."
+      - id: "c"
+        text: "Komplikovaný průběh, dehydratace nebo těžká celková alterace."
+    correct_option_id: "c"
+    explanation: "Závažnost a rizikové faktory určují místo léčby."
+    source_pages:
+      - 26
+  - id: "antibioticka_terapie_058"
+    section_id: "mocove"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Mohou doplňky stravy nahradit potřebnou léčbu infekce horních močových cest?"
+    options:
+      - id: "a"
+        text: "Ne."
+      - id: "b"
+        text: "Ano, pokud obsahují brusinky."
+      - id: "c"
+        text: "Ano, pokud pacient nemá dysurii."
+    correct_option_id: "a"
+    explanation: "Text upozorňuje na nedoloženou účinnost řady doplňků a riziko komplikací."
+    source_pages:
+      - 26
+  - id: "antibioticka_terapie_059"
+    section_id: "kozni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Čím se ecthyma liší od impetiga?"
+    options:
+      - id: "a"
+        text: "Jde vždy pouze o virovou infekci sliznic."
+      - id: "b"
+        text: "Postihuje hlouběji i horní dermis."
+      - id: "c"
+        text: "Postihuje výhradně svalové fascie."
+    correct_option_id: "b"
+    explanation: "Impetigo je povrchnější, ecthyma tvoří hlubší ulcerace."
+    source_pages:
+      - 27
+  - id: "antibioticka_terapie_060"
+    section_id: "kozni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co obvykle postačí u lokalizovaného impetiga?"
+    options:
+      - id: "a"
+        text: "Vždy intravenózní karbapenem."
+      - id: "b"
+        text: "Vždy šestiměsíční systémová léčba."
+      - id: "c"
+        text: "Lokální antibiotická či antiseptická léčba."
+    correct_option_id: "c"
+    explanation: "Celková antibiotika se zvažují při rozsahu či recidivách."
+    source_pages:
+      - 27
+  - id: "antibioticka_terapie_061"
+    section_id: "kozni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak vypadá typická folikulitida?"
+    options:
+      - id: "a"
+        text: "Drobné papuly či pustuly vázané na vlasový folikul."
+      - id: "b"
+        text: "Ostře ohraničený erytém celého bérce bez folikulů."
+      - id: "c"
+        text: "Migrující nebolestivá skvrna po klíštěti."
+    correct_option_id: "a"
+    explanation: "Folikulární vazba je charakteristickým znakem."
+    source_pages:
+      - 27
+  - id: "antibioticka_terapie_062"
+    section_id: "kozni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je důležitou součástí léčby fluktuujícího furunklu či karbunklu?"
+    options:
+      - id: "a"
+        text: "Pouze překrytí bez řešení hnisu."
+      - id: "b"
+        text: "Evakuace obsahu incizí podle nálezu."
+      - id: "c"
+        text: "Výhradně antivirotikum."
+    correct_option_id: "b"
+    explanation: "U abscedujících lézí se uplatňuje chirurgické vypuštění."
+    source_pages:
+      - 28
+  - id: "antibioticka_terapie_063"
+    section_id: "kozni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Na co myslet u opakované furunkulózy?"
+    options:
+      - id: "a"
+        text: "Výhradně přetrvávající protilátky proti EBV."
+      - id: "b"
+        text: "Jistou lymeskou borreliózu."
+      - id: "c"
+        text: "Nosičství S. aureus včetně kmenů produkujících Pantonův–Valentinův leukocidin."
+    correct_option_id: "c"
+    explanation: "Dokument doporučuje kultivační vyšetření nosu a krku při recidivách."
+    source_pages:
+      - 28
+  - id: "antibioticka_terapie_064"
+    section_id: "kozni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který kožní nález je typický pro erysipel?"
+    options:
+      - id: "a"
+        text: "Živě červený ostře ohraničený erytém s vyvýšeným okrajem."
+      - id: "b"
+        text: "Pouze drobné nesvědivé komedony."
+      - id: "c"
+        text: "Vždy nebolestivý pomalu migrující terč bez celkových příznaků."
+    correct_option_id: "a"
+    explanation: "Erysipel často provázejí horečka a regionální lymfadenopatie."
+    source_pages:
+      - 28
+  - id: "antibioticka_terapie_065"
+    section_id: "kozni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co pomáhá předcházet recidivě erysipelu?"
+    options:
+      - id: "a"
+        text: "Ponechání porušené kožní bariéry bez péče."
+      - id: "b"
+        text: "Péče o kůži a léčba mykóz i drobných kožních poranění."
+      - id: "c"
+        text: "Dlouhodobé používání pouze antitusik."
+    correct_option_id: "b"
+    explanation: "Kožní defekty a mykózy mohou představovat vstupní bránu."
+    source_pages:
+      - 28
+  - id: "antibioticka_terapie_066"
+    section_id: "kozni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který lék je základní volbou při lehkém erysipelu bez kontraindikace?"
+    options:
+      - id: "a"
+        text: "Nitrofurantoin."
+      - id: "b"
+        text: "Samotný aciklovir."
+      - id: "c"
+        text: "Penicilin."
+    correct_option_id: "c"
+    explanation: "U běžné streptokokové etiologie je penicilin kauzální léčbou."
+    source_pages:
+      - 28
+  - id: "antibioticka_terapie_067"
+    section_id: "kozni"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Proč mohou být fasciitida a myonekróza přehlédnuty?"
+    options:
+      - id: "a"
+        text: "Kožní změny nemusí odpovídat rozsahu hlubokého postižení."
+      - id: "b"
+        text: "Vždy se projeví pouze bezbolestným svěděním."
+      - id: "c"
+        text: "Nemohou vyvolat šok."
+    correct_option_id: "a"
+    explanation: "Nenápadnější povrch nevylučuje závažnou hlubokou infekci."
+    source_pages:
+      - 28
+      - 29
+  - id: "antibioticka_terapie_068"
+    section_id: "kozni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupovat při podezření na nekrotizující fasciitidu?"
+    options:
+      - id: "a"
+        text: "Vyčkat týden na účinek lokální masti."
+      - id: "b"
+        text: "Urgentní hospitalizace a chirurgické řešení spolu s intravenózní léčbou."
+      - id: "c"
+        text: "Pouze ambulantní antihistaminikum."
+    correct_option_id: "b"
+    explanation: "Jde o rychle progredující život ohrožující infekci."
+    source_pages:
+      - 29
+  - id: "antibioticka_terapie_069"
+    section_id: "borrelioza"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který nález odpovídá erythema migrans?"
+    options:
+      - id: "a"
+        text: "Drobné svědivé zarudnutí ihned po vpichu, které rychle mizí."
+      - id: "b"
+        text: "Hnisavá folikulární pustula."
+      - id: "c"
+        text: "Zvětšující se zpravidla nebolestivá skvrna, obvykle nejméně 5 cm."
+    correct_option_id: "c"
+    explanation: "EM je typickým projevem časné lokalizované borreliózy."
+    source_pages:
+      - 29
+  - id: "antibioticka_terapie_070"
+    section_id: "borrelioza"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je třeba před léčbou typického erythema migrans čekat na sérologii?"
+    options:
+      - id: "a"
+        text: "Ne, diagnóza je klinická."
+      - id: "b"
+        text: "Ano, léčba je zakázána bez pozitivního IgM."
+      - id: "c"
+        text: "Ano, vždy jsou nutné tři pozitivní odběry."
+    correct_option_id: "a"
+    explanation: "Protilátky v časné fázi ještě nemusí být přítomny."
+    source_pages:
+      - 30
+      - 31
+  - id: "antibioticka_terapie_071"
+    section_id: "borrelioza"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Má vyšetření odstraněného klíštěte samo určovat léčbu člověka?"
+    options:
+      - id: "a"
+        text: "Ano, pozitivní PCR klíštěte vždy vyžaduje antibiotika."
+      - id: "b"
+        text: "Ne, rozhodují klinické projevy pacienta."
+      - id: "c"
+        text: "Ano, negativní test klíštěte vylučuje všechny budoucí obtíže."
+    correct_option_id: "b"
+    explanation: "Vyšetření klíštěte nemá podle textu klinický význam pro rozhodnutí o léčbě."
+    source_pages:
+      - 30
+  - id: "antibioticka_terapie_072"
+    section_id: "borrelioza"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je samotná séropozitivita bez příznaků důvodem k antibiotikům?"
+    options:
+      - id: "a"
+        text: "Ano, až do úplného vymizení IgG."
+      - id: "b"
+        text: "Ano, pokud přetrvává po správné léčbě."
+      - id: "c"
+        text: "Ne."
+    correct_option_id: "c"
+    explanation: "Protilátky mohou přetrvávat dlouhodobě a neprokazují aktivní infekci."
+    source_pages:
+      - 30
+      - 32
+  - id: "antibioticka_terapie_073"
+    section_id: "borrelioza"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak se hodnotí účinek antibiotické léčby borreliózy?"
+    options:
+      - id: "a"
+        text: "Klinickým ústupem projevů, nikoli samotnou hladinou protilátek."
+      - id: "b"
+        text: "Povinnou negativizací IgG do týdne."
+      - id: "c"
+        text: "Výhradně PCR původního klíštěte."
+    correct_option_id: "a"
+    explanation: "Spolehlivý laboratorní parametr vyléčení není k dispozici."
+    source_pages:
+      - 30
+  - id: "antibioticka_terapie_074"
+    section_id: "borrelioza"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je potřeba při podezření na neuroborreliózu?"
+    options:
+      - id: "a"
+        text: "Pouze opakovaná domácí léčba bez vyšetření."
+      - id: "b"
+        text: "Specializované vyšetření, zpravidla hospitalizace a vyšetření likvoru."
+      - id: "c"
+        text: "Vyšetřit jen odstraněné klíště."
+    correct_option_id: "b"
+    explanation: "Neurologická forma vyžaduje cílené vyšetření nervového systému a mozkomíšního moku."
+    source_pages:
+      - 30
+  - id: "antibioticka_terapie_075"
+    section_id: "borrelioza"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký kardiální projev může provázet diseminovanou borreliózu?"
+    options:
+      - id: "a"
+        text: "Výhradně izolovaná sinusová arytmie při dýchání."
+      - id: "b"
+        text: "Jen chronická hypertenze bez poruch vedení."
+      - id: "c"
+        text: "Atrioventrikulární blokáda."
+    correct_option_id: "c"
+    explanation: "Text uvádí poruchy atrioventrikulárního vedení."
+    source_pages:
+      - 30
+  - id: "antibioticka_terapie_076"
+    section_id: "borrelioza"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak přistupovat k přetrvávajícím obtížím po řádné léčbě bez průkazu nové aktivní infekce?"
+    options:
+      - id: "a"
+        text: "Rozlišit následné postižení a další příčiny; rutinní opakované antibiotické kúry nepřinášejí prospěch."
+      - id: "b"
+        text: "Podávat antibiotika až do negativní sérologie."
+      - id: "c"
+        text: "Automaticky zvyšovat dávky každý měsíc."
+    correct_option_id: "a"
+    explanation: "Postinfekční obtíže nejsou samy důkazem pokračující infekce."
+    source_pages:
+      - 30
+      - 32
+  - id: "antibioticka_terapie_077"
+    section_id: "borrelioza"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Na co upozornit při léčbě doxycyklinem?"
+    options:
+      - id: "a"
+        text: "Na doporučení intenzivního opalování."
+      - id: "b"
+        text: "Na fotosenzitivitu a potřebu dostatečného zapití."
+      - id: "c"
+        text: "Na užití bez tekutiny těsně před ulehnutím."
+    correct_option_id: "b"
+    explanation: "Text výslovně uvádí ochranu před UV a dostatek tekutin."
+    source_pages:
+      - 31

@@ -1,0 +1,662 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "astma_bronchiale"
+  title: "Astma bronchiale"
+  source:
+    file: "astma-bronchiale-2022.pdf"
+    year: 2022
+coverage:
+  proposed_question_count: 39
+  rationale: "Otázky pokrývají definici, potvrzení diagnózy, kontrolu a fenotyp, dlouhodobou léčbu, exacerbace, monitorování a zvláštní situace. Úhradová pravidla jsou výslovně vztažena k historické tabulce z února 2022."
+  sections:
+    - id: "diagnostika"
+      title: "Podstata a diagnostika"
+      planned_question_count: 9
+    - id: "kontrola"
+      title: "Kontrola a fenotyp"
+      planned_question_count: 5
+    - id: "lecba"
+      title: "Dlouhodobá léčba"
+      planned_question_count: 9
+    - id: "exacerbace"
+      title: "Akutní exacerbace"
+      planned_question_count: 8
+    - id: "pece"
+      title: "Monitorování, prevence a zvláštní situace"
+      planned_question_count: 8
+questions:
+  - id: "astma_bronchiale_001"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co je podstatou astmatu?"
+    options:
+      - id: "a"
+        text: "Chronický zánět průdušek s hyperreaktivitou a možnou remodelací."
+      - id: "b"
+        text: "Výhradně akutní bakteriální infekce alveolů."
+      - id: "c"
+        text: "Pouze mechanická překážka v horních cestách dýchacích."
+    correct_option_id: "a"
+    explanation: "Zánět vede k proměnlivému zúžení dýchacích cest."
+    source_pages:
+      - 5
+  - id: "astma_bronchiale_002"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Kdy se často objevují příznaky astmatu?"
+    options:
+      - id: "a"
+        text: "Výhradně ihned po požití mléka."
+      - id: "b"
+        text: "V noci a časně ráno."
+      - id: "c"
+        text: "Pouze při horečce."
+    correct_option_id: "b"
+    explanation: "Noční či ranní variabilní obtíže patří k typickému obrazu."
+    source_pages:
+      - 5
+  - id: "astma_bronchiale_003"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Vylučuje normální poslech při jedné návštěvě astma?"
+    options:
+      - id: "a"
+        text: "Ano, pokud chybějí pískoty."
+      - id: "b"
+        text: "Ano, pokud pacient v ordinaci nekašle."
+      - id: "c"
+        text: "Ne, nález může být mezi epizodami normální."
+    correct_option_id: "c"
+    explanation: "Proměnlivost kliniky je pro astma charakteristická."
+    source_pages:
+      - 5
+  - id: "astma_bronchiale_004"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Může být dráždivý kašel jediným projevem astmatu?"
+    options:
+      - id: "a"
+        text: "Ano."
+      - id: "b"
+        text: "Ne, vždy musí být přítomna cyanóza."
+      - id: "c"
+        text: "Ne, vždy musí být horečka."
+    correct_option_id: "a"
+    explanation: "Text uvádí kašel i jako dominující nebo jediný příznak."
+    source_pages:
+      - 5
+  - id: "astma_bronchiale_005"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co je klíčové pro objektivní potvrzení astmatu?"
+    options:
+      - id: "a"
+        text: "Samotný pocit sevření hrudníku."
+      - id: "b"
+        text: "Funkční vyšetření plic s průkazem variability či reverzibility obstrukce."
+      - id: "c"
+        text: "Pouze jednorázové změření pulzu."
+    correct_option_id: "b"
+    explanation: "Anamnéza budí podezření, diagnózu doplňuje objektivní funkční vyšetření."
+    source_pages:
+      - 5
+      - 6
+  - id: "astma_bronchiale_006"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co může signalizovat zvýšené FeNO?"
+    options:
+      - id: "a"
+        text: "Výhradně bakteriální pneumonii."
+      - id: "b"
+        text: "Jistou plicní embolii."
+      - id: "c"
+        text: "Eozinofilní zánět dýchacích cest."
+    correct_option_id: "c"
+    explanation: "FeNO je pomocným ukazatelem eozinofilního zánětu."
+    source_pages:
+      - 5
+  - id: "astma_bronchiale_007"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak může specialista došetřit podezření na astma při normální spirometrii?"
+    options:
+      - id: "a"
+        text: "Bronchokonstrikčním testem na hyperreaktivitu."
+      - id: "b"
+        text: "Stanovením ASLO jako definitivním testem."
+      - id: "c"
+        text: "Uzavřením případu bez ohledu na anamnézu."
+    correct_option_id: "a"
+    explanation: "Normální klidová spirometrie astma nevylučuje."
+    source_pages:
+      - 6
+  - id: "astma_bronchiale_008"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy má být pokud možno zdokumentována funkce plic a FeNO?"
+    options:
+      - id: "a"
+        text: "Až po pěti letech léčby."
+      - id: "b"
+        text: "Před nasazením protizánětlivé léčby."
+      - id: "c"
+        text: "Pouze po definitivním vysazení všech léků bez ohledu na stav."
+    correct_option_id: "b"
+    explanation: "Kortikosteroidy mohou změnit diagnostické nálezy."
+    source_pages:
+      - 6
+      - 13
+  - id: "astma_bronchiale_009"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Mohou se astma a CHOPN u jednoho člověka kombinovat?"
+    options:
+      - id: "a"
+        text: "Ne, obě diagnózy se vždy vylučují."
+      - id: "b"
+        text: "Pouze u dětí do pěti let."
+      - id: "c"
+        text: "Ano."
+    correct_option_id: "c"
+    explanation: "Text popisuje překryv astmatu a CHOPN."
+    source_pages:
+      - 6
+  - id: "astma_bronchiale_010"
+    section_id: "kontrola"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký je hlavní klinický cíl léčby astmatu?"
+    options:
+      - id: "a"
+        text: "Dosáhnout a udržet kontrolu onemocnění."
+      - id: "b"
+        text: "Pouze potlačit kašel bez ohledu na exacerbace."
+      - id: "c"
+        text: "Trvale maximalizovat dávky léků."
+    correct_option_id: "a"
+    explanation: "Kontrola zahrnuje příznaky, funkci i dlouhodobá rizika."
+    source_pages:
+      - 6
+  - id: "astma_bronchiale_011"
+    section_id: "kontrola"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaké dvě charakteristiky používá popsaná fenotypizace?"
+    options:
+      - id: "a"
+        text: "Jen věk a krevní skupinu."
+      - id: "b"
+        text: "Eozinofilii a alergii."
+      - id: "c"
+        text: "Jen BMI a délku hospitalizace."
+    correct_option_id: "b"
+    explanation: "Rozlišuje eozinofilní alergické, eozinofilní nealergické a neeozinofilní nealergické astma."
+    source_pages:
+      - 6
+      - 10
+  - id: "astma_bronchiale_012"
+    section_id: "kontrola"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Za jaké období hodnotí tabulka aktuální klinickou kontrolu?"
+    options:
+      - id: "a"
+        text: "Pouze poslední hodinu."
+      - id: "b"
+        text: "Výhradně prvních pět let života."
+      - id: "c"
+        text: "Poslední čtyři týdny."
+    correct_option_id: "c"
+    explanation: "Tabulka zohledňuje příznaky a potřebu úlevové léčby v posledních čtyřech týdnech."
+    source_pages:
+      - 10
+  - id: "astma_bronchiale_013"
+    section_id: "kontrola"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co kromě aktuálních příznaků patří do hodnocení budoucího rizika?"
+    options:
+      - id: "a"
+        text: "Exacerbace, pokles plicních funkcí a nežádoucí účinky léčby."
+      - id: "b"
+        text: "Pouze počet provedených rentgenů."
+      - id: "c"
+        text: "Jen roční náklady na inhalátor."
+    correct_option_id: "a"
+    explanation: "Budoucí rizika jsou samostatnou součástí posouzení."
+    source_pages:
+      - 6
+      - 10
+  - id: "astma_bronchiale_014"
+    section_id: "kontrola"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co signalizuje každodenní potřeba úlevového bronchodilatancia?"
+    options:
+      - id: "a"
+        text: "Vždy dobrou kontrolu díky častému užívání léku."
+      - id: "b"
+        text: "Nedostatečnou kontrolu a potřebu přehodnotit léčbu."
+      - id: "c"
+        text: "Definitivní vyléčení zánětu."
+    correct_option_id: "b"
+    explanation: "Častá úleva může maskovat nedostatečnou preventivní léčbu."
+    source_pages:
+      - 7
+      - 13
+  - id: "astma_bronchiale_015"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co tvoří základ protizánětlivé léčby astmatu?"
+    options:
+      - id: "a"
+        text: "Rutinní antibiotika."
+      - id: "b"
+        text: "Samotná mukolytika."
+      - id: "c"
+        text: "Inhalační kortikosteroidy."
+    correct_option_id: "c"
+    explanation: "IKS léčí zánětlivou složku nemoci."
+    source_pages:
+      - 6
+      - 7
+  - id: "astma_bronchiale_016"
+    section_id: "lecba"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Je samotná bronchodilatační léčba bez protizánětlivé léčby adekvátní dlouhodobou péčí?"
+    options:
+      - id: "a"
+        text: "Ne."
+      - id: "b"
+        text: "Ano, u každého astmatika."
+      - id: "c"
+        text: "Ano, pokud pacient kouří."
+    correct_option_id: "a"
+    explanation: "Text zdůrazňuje nutnost preventivní protizánětlivé složky."
+    source_pages:
+      - 7
+      - 13
+  - id: "astma_bronchiale_017"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co ověřit před navýšením léčby při nedostatečném účinku?"
+    options:
+      - id: "a"
+        text: "Pouze barvu inhalátoru."
+      - id: "b"
+        text: "Adherenci, inhalační techniku a nové expozice."
+      - id: "c"
+        text: "Jen to, zda pacient chce silnější lék."
+    correct_option_id: "b"
+    explanation: "Chybná technika či neužívání mohou vysvětlit zdánlivé selhání."
+    source_pages:
+      - 7
+  - id: "astma_bronchiale_018"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co znamená režim SMART v popsané kombinaci budesonid/formoterol?"
+    options:
+      - id: "a"
+        text: "Jde o pravidelné antibiotikum s bronchodilatanciem."
+      - id: "b"
+        text: "Jde o formoterol bez kortikosteroidu."
+      - id: "c"
+        text: "Jeden inhalátor slouží k udržovací i úlevové léčbě podle plánu."
+    correct_option_id: "c"
+    explanation: "Úlevová dávka přidává současně bronchodilatační i protizánětlivou složku."
+    source_pages:
+      - 7
+  - id: "astma_bronchiale_019"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak má být při astmatu používán formoterol?"
+    options:
+      - id: "a"
+        text: "Spolu s inhalačním kortikosteroidem."
+      - id: "b"
+        text: "Dlouhodobě jako jediný protizánětlivý lék."
+      - id: "c"
+        text: "Místo všech preventivních léků."
+    correct_option_id: "a"
+    explanation: "Text nepřipouští samotný formoterol jako náhradu IKS."
+    source_pages:
+      - 7
+  - id: "astma_bronchiale_020"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy lze podle dokumentu uvažovat o snížení intenzity léčby?"
+    options:
+      - id: "a"
+        text: "Po jediné noci bez kašle."
+      - id: "b"
+        text: "Při udržení kontroly alespoň tři měsíce."
+      - id: "c"
+        text: "Po první dávce úlevového léku."
+    correct_option_id: "b"
+    explanation: "Snížení je postupné a neznamená úplné vysazení všech léků."
+    source_pages:
+      - 7
+  - id: "astma_bronchiale_021"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co dělat, když správně užívané nízké či střední dávky IKS nestačí?"
+    options:
+      - id: "a"
+        text: "Bez kontroly dlouhodobě navyšovat systémové kortikoidy."
+      - id: "b"
+        text: "Trvale vysadit protizánětlivou léčbu."
+      - id: "c"
+        text: "Odeslat pacienta k respiračnímu specialistovi k revizi plánu."
+    correct_option_id: "c"
+    explanation: "Specialista přehodnotí diagnózu, fenotyp a léčbu."
+    source_pages:
+      - 7
+  - id: "astma_bronchiale_022"
+    section_id: "lecba"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Který pacient má být zvážen pro centrum těžkého astmatu?"
+    options:
+      - id: "a"
+        text: "Nemocný bez kontroly navzdory vysokým dávkám IKS s dalšími léky či s opakovanou systémovou kortikoterapií."
+      - id: "b"
+        text: "Každý pacient s jedním kýchnutím."
+      - id: "c"
+        text: "Pouze nemocný s negativním alergologickým vyšetřením bez obtíží."
+    correct_option_id: "a"
+    explanation: "Centra řeší obtížně léčitelné a těžké formy včetně cílené léčby."
+    source_pages:
+      - 13
+  - id: "astma_bronchiale_023"
+    section_id: "lecba"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Co znamenalo označení L v historické úhradové tabulce z února 2022?"
+    options:
+      - id: "a"
+        text: "Výhradně nemocniční podání bez možnosti delegace."
+      - id: "b"
+        text: "Možnost delegování předpisu specialistou jinému lékaři."
+      - id: "c"
+        text: "Automaticky neomezenou úhradu pro každého pacienta."
+    correct_option_id: "b"
+    explanation: "Význam je převzat z tabulky daného vydání, nikoli tvrzení o dnešních úhradách."
+    source_pages:
+      - 12
+  - id: "astma_bronchiale_024"
+    section_id: "exacerbace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co může znamenat tichý hrudník u těžce dušného astmatika?"
+    options:
+      - id: "a"
+        text: "Spolehlivé vyloučení exacerbace."
+      - id: "b"
+        text: "Vždy úspěšnou léčbu."
+      - id: "c"
+        text: "Život ohrožující obstrukci s velmi omezeným prouděním."
+    correct_option_id: "c"
+    explanation: "Absence pískotů při vyčerpání není uklidňujícím znakem."
+    source_pages:
+      - 5
+      - 8
+  - id: "astma_bronchiale_025"
+    section_id: "exacerbace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který stav vyžaduje přivolání zdravotnické záchranné služby?"
+    options:
+      - id: "a"
+        text: "Neschopnost mluvit ve větách, vyčerpání či saturace pod 90 %."
+      - id: "b"
+        text: "Samotný mírný kašel při normálním dýchání."
+      - id: "c"
+        text: "Pouze chrapot bez dušnosti."
+    correct_option_id: "a"
+    explanation: "Jde o známky závažné exacerbace."
+    source_pages:
+      - 8
+  - id: "astma_bronchiale_026"
+    section_id: "exacerbace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký cíl saturace při oxygenoterapii běžné exacerbace uvádí tento postup?"
+    options:
+      - id: "a"
+        text: "75–80 %."
+      - id: "b"
+        text: "93–95 %."
+      - id: "c"
+        text: "Trvale přesně 100 % bez ohledu na stav."
+    correct_option_id: "b"
+    explanation: "Cíl je převzat z kapitoly léčby exacerbace."
+    source_pages:
+      - 8
+  - id: "astma_bronchiale_027"
+    section_id: "exacerbace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je intravenózní syntofylin doporučen rutinně k léčbě exacerbace v tomto postupu?"
+    options:
+      - id: "a"
+        text: "Ano, jako povinný první krok u každého."
+      - id: "b"
+        text: "Ano, místo inhalační bronchodilatace."
+      - id: "c"
+        text: "Ne."
+    correct_option_id: "c"
+    explanation: "Text uvádí, že intravenózní syntofylin již doporučen není."
+    source_pages:
+      - 8
+  - id: "astma_bronchiale_028"
+    section_id: "exacerbace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Mají se při každé exacerbaci rutinně nasadit antibiotika?"
+    options:
+      - id: "a"
+        text: "Ne, jen při odpovídajícím podezření na infekční indikaci."
+      - id: "b"
+        text: "Ano, astmatický záchvat je vždy bakteriální."
+      - id: "c"
+        text: "Ano, zejména při normální teplotě bez infekce."
+    correct_option_id: "a"
+    explanation: "Samotná exacerbace není automatickou indikací antibiotik."
+    source_pages:
+      - 8
+  - id: "astma_bronchiale_029"
+    section_id: "exacerbace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která anamnéza upozorňuje na vysoké riziko úmrtí na astma?"
+    options:
+      - id: "a"
+        text: "Pouze rodinná anamnéza krátkozrakosti."
+      - id: "b"
+        text: "Předchozí téměř smrtelný záchvat vyžadující intubaci."
+      - id: "c"
+        text: "Jednorázová rýma před deseti lety."
+    correct_option_id: "b"
+    explanation: "Těžká předchozí exacerbace je významným rizikovým ukazatelem."
+    source_pages:
+      - 8
+  - id: "astma_bronchiale_030"
+    section_id: "exacerbace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co má následovat po akutní exacerbaci?"
+    options:
+      - id: "a"
+        text: "Automatické vysazení IKS."
+      - id: "b"
+        text: "Ukončení sledování, pokud se jednou uleví."
+      - id: "c"
+        text: "Rozbor příčin a revize preventivní léčby a expozic."
+    correct_option_id: "c"
+    explanation: "Je třeba hledat ztrátu adherence, spouštěče i další příčiny."
+    source_pages:
+      - 8
+  - id: "astma_bronchiale_031"
+    section_id: "exacerbace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co by mělo být v ordinaci pro iniciální ošetření exacerbace?"
+    options:
+      - id: "a"
+        text: "Oxymetr, spacer či nebulizátor, rychlé inhalační bronchodilatans a kortikosteroid."
+      - id: "b"
+        text: "Pouze antibiotikum a teploměr."
+      - id: "c"
+        text: "Výhradně sedativum."
+    correct_option_id: "a"
+    explanation: "Doporučené vybavení umožňuje sledování a základní akutní léčbu."
+    source_pages:
+      - 8
+  - id: "astma_bronchiale_032"
+    section_id: "pece"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co patří k pravidelnému monitorování astmatu?"
+    options:
+      - id: "a"
+        text: "Jen kontrola balení léků jednou za deset let."
+      - id: "b"
+        text: "Příznaky, exacerbace, technika inhalace, nežádoucí účinky a komorbidity."
+      - id: "c"
+        text: "Pouze CRP při každé návštěvě."
+    correct_option_id: "b"
+    explanation: "Monitorování má být klinické a zahrnovat správné používání léčby."
+    source_pages:
+      - 8
+  - id: "astma_bronchiale_033"
+    section_id: "pece"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč je užitečný osobní léčebný plán?"
+    options:
+      - id: "a"
+        text: "Nahrazuje jednou provždy všechna kontrolní vyšetření."
+      - id: "b"
+        text: "Slouží jen pro výběr značky inhalátoru."
+      - id: "c"
+        text: "Umožňuje pacientovi rozpoznat zhoršení a vhodně reagovat."
+    correct_option_id: "c"
+    explanation: "Partnerský přístup a sebesledování podporují kontrolu nemoci."
+    source_pages:
+      - 6
+      - 7
+  - id: "astma_bronchiale_034"
+    section_id: "pece"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupovat s kontrolou astmatu v těhotenství?"
+    options:
+      - id: "a"
+        text: "Pečlivě sledovat a včas řešit ztrátu kontroly."
+      - id: "b"
+        text: "Automaticky vysadit všechnu léčbu."
+      - id: "c"
+        text: "Ignorovat dušnost jako normální průběh každé gravidity."
+    correct_option_id: "a"
+    explanation: "Nedostatečně kontrolované astma ohrožuje matku i plod."
+    source_pages:
+      - 8
+      - 9
+  - id: "astma_bronchiale_035"
+    section_id: "pece"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jakou nejnižší saturaci doporučuje text u exacerbace v graviditě udržovat?"
+    options:
+      - id: "a"
+        text: "85 %."
+      - id: "b"
+        text: "95 %."
+      - id: "c"
+        text: "80 %."
+    correct_option_id: "b"
+    explanation: "Cílem je omezit hypoxické ohrožení plodu."
+    source_pages:
+      - 9
+  - id: "astma_bronchiale_036"
+    section_id: "pece"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdo má před plánovanou operací posoudit perioperační zajištění astmatu?"
+    options:
+      - id: "a"
+        text: "Pouze pacient podle momentálního pocitu."
+      - id: "b"
+        text: "Nikdo, astma nemá pro operaci význam."
+      - id: "c"
+        text: "Ošetřující respirační specialista."
+    correct_option_id: "c"
+    explanation: "Zajištění se řídí tíží a kontrolou nemoci."
+    source_pages:
+      - 8
+  - id: "astma_bronchiale_037"
+    section_id: "pece"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký vztah má chronická rýma k astmatu?"
+    options:
+      - id: "a"
+        text: "Často je provází nebo předchází; její léčba může astma zlepšit."
+      - id: "b"
+        text: "Vždy astma vylučuje."
+      - id: "c"
+        text: "Nemá s dýchacími cestami souvislost."
+    correct_option_id: "a"
+    explanation: "Postup zdůrazňuje společné postižení horních a dolních dýchacích cest."
+    source_pages:
+      - 9
+  - id: "astma_bronchiale_038"
+    section_id: "pece"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která kombinace podporuje podezření na NSAID indukované astma?"
+    options:
+      - id: "a"
+        text: "Astma a výhradně pozitivní močová kultivace."
+      - id: "b"
+        text: "Astma, nosní polypy a zhoršení po aspirinu."
+      - id: "c"
+        text: "Izolovaná anémie bez dechových obtíží."
+    correct_option_id: "b"
+    explanation: "NSAID mohou u predisponovaných nemocných vyvolat těžkou reakci."
+    source_pages:
+      - 9
+  - id: "astma_bronchiale_039"
+    section_id: "pece"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je základem nefarmakologické prevence zhoršování astmatu?"
+    options:
+      - id: "a"
+        text: "Záměrná opakovaná expozice tabákovému kouři."
+      - id: "b"
+        text: "Vynechání všech běžných aktivit u každého pacienta."
+      - id: "c"
+        text: "Omezení expozice spouštěčům včetně kouření a profesních nox."
+    correct_option_id: "c"
+    explanation: "Režimová opatření se mají zaměřit na konkrétní induktory a spouštěče."
+    source_pages:
+      - 9

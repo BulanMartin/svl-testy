@@ -1,0 +1,670 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "pece_o_onkologicka_onemocneni"
+  title: "Péče o vybraná onkologická onemocnění"
+  source:
+    file: "dp-pece-o-vybrana-onkologicka-onemocneni.pdf"
+    year: 2023
+coverage:
+  proposed_question_count: 40
+  rationale: "40 otázek pokrývá obecné předání a sledování i všech 15 uvedených nádorových skupin; podrobné intervaly jsou vybírány reprezentativně."
+  sections:
+    - id: "obecne"
+      title: "Organizace a cíle péče"
+      planned_question_count: 5
+    - id: "urologicke"
+      title: "Varlata, prostata a ledviny"
+      planned_question_count: 9
+    - id: "kuze_prs_plice"
+      title: "Melanom, prso a plíce"
+      planned_question_count: 9
+    - id: "gastro"
+      title: "Nádory trávicího traktu"
+      planned_question_count: 8
+    - id: "ostatni"
+      title: "Mozek, hlava a krk, gynekologické nádory"
+      planned_question_count: 9
+questions:
+  - id: "pece_o_onkologicka_onemocneni_001"
+    section_id: "obecne"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Kdo podle postupu rozhoduje o převedení onkologické dispenzarizace k VPL?"
+    options:
+      - id: "a"
+        text: "Onkolog znalý rizika recidivy a komplikací."
+      - id: "b"
+        text: "Pacient bez dohody s ošetřujícím lékařem."
+      - id: "c"
+        text: "Automaticky zdravotní pojišťovna po prvním roce."
+    correct_option_id: "a"
+    explanation: "Předání se individualizuje podle rizika a průběhu nemoci."
+    source_pages:
+      - 5
+  - id: "pece_o_onkologicka_onemocneni_002"
+    section_id: "obecne"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jakou podobu má mít předání pacienta do péče VPL?"
+    options:
+      - id: "a"
+        text: "Pouze ústní sdělení názvu nádoru pacientem."
+      - id: "b"
+        text: "Písemnou zprávu s diagnózou, TNM, léčbou a komplikacemi."
+      - id: "c"
+        text: "Pouze seznam aktuálních receptů."
+    correct_option_id: "b"
+    explanation: "Předávací zpráva má umožnit návaznost a zohlednit individuální rizika."
+    source_pages:
+      - 5
+  - id: "pece_o_onkologicka_onemocneni_003"
+    section_id: "obecne"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký je hlavní účel follow-up po onkologické léčbě?"
+    options:
+      - id: "a"
+        text: "Pouze každoročně opakovat všechny dostupné zobrazovací metody."
+      - id: "b"
+        text: "Pouze vystavovat pracovní neschopnost."
+      - id: "c"
+        text: "Zachytit relaps a předcházet či léčit dlouhodobé komplikace."
+    correct_option_id: "c"
+    explanation: "Sledování zahrnuje nádorové onemocnění i důsledky terapie."
+    source_pages:
+      - 5
+  - id: "pece_o_onkologicka_onemocneni_004"
+    section_id: "obecne"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupuje VPL při podezření na relaps po převzetí pacienta?"
+    options:
+      - id: "a"
+        text: "Po telefonické domluvě odešle na regionální onkologické pracoviště."
+      - id: "b"
+        text: "Vyčká na další plánovanou roční prohlídku."
+      - id: "c"
+        text: "Bez dalšího ukončí dispenzarizaci."
+    correct_option_id: "a"
+    explanation: "Podezření vyžaduje návaznou onkologickou konzultaci."
+    source_pages:
+      - 5
+  - id: "pece_o_onkologicka_onemocneni_005"
+    section_id: "obecne"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co je součástí obecné kontroly onkologického pacienta?"
+    options:
+      - id: "a"
+        text: "Jen nádorový marker bez anamnézy."
+      - id: "b"
+        text: "Kontrola očkování, rizik, fyzikální vyšetření a návazná prevence."
+      - id: "c"
+        text: "Jen kontrola jizvy bez hodnocení celkového stavu."
+    correct_option_id: "b"
+    explanation: "Dlouhodobě narůstá význam komorbidit a dalších malignit."
+    source_pages:
+      - 5
+  - id: "pece_o_onkologicka_onemocneni_006"
+    section_id: "urologicke"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy je po léčbě nádoru varlete vhodný ultrazvuk skrota?"
+    options:
+      - id: "a"
+        text: "Povinně každý týden u všech."
+      - id: "b"
+        text: "Pouze při zvýšení kreatininu."
+      - id: "c"
+        text: "Při nejasném klinickém nálezu nebo symptomech."
+    correct_option_id: "c"
+    explanation: "Součástí péče je též edukace o samovyšetřování varlete."
+    source_pages:
+      - 6
+  - id: "pece_o_onkologicka_onemocneni_007"
+    section_id: "urologicke"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká pozdní rizika sledovat po léčbě nádoru varlete?"
+    options:
+      - id: "a"
+        text: "Kardiovaskulární komplikace, gonadální toxicitu a sekundární nádory."
+      - id: "b"
+        text: "Jen infekci operační rány během prvního týdne."
+      - id: "c"
+        text: "Pouze krátkodobou alopecii."
+    correct_option_id: "a"
+    explanation: "Závažné pozdní následky se mohou objevit mnoho let po léčbě."
+    source_pages:
+      - 6
+  - id: "pece_o_onkologicka_onemocneni_008"
+    section_id: "urologicke"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy podle schématu nahradit RTG plic CT plic po léčbě pokročilejšího nádoru varlete?"
+    options:
+      - id: "a"
+        text: "U každého seminomu in situ bez dalších nálezů."
+      - id: "b"
+        text: "Pokud byly při diagnóze plicní metastázy."
+      - id: "c"
+        text: "Pouze při pozitivním testu stolice."
+    correct_option_id: "b"
+    explanation: "Výchozí plicní postižení mění zobrazovací sledování."
+    source_pages:
+      - 6
+  - id: "pece_o_onkologicka_onemocneni_009"
+    section_id: "urologicke"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy se po radikální prostatektomii očekává nedetekovatelné PSA?"
+    options:
+      - id: "a"
+        text: "Obvykle až za deset let."
+      - id: "b"
+        text: "Bezprostředně před operací u všech pacientů."
+      - id: "c"
+        text: "Do šesti týdnů."
+    correct_option_id: "c"
+    explanation: "Po radioterapii je naproti tomu pokles PSA pomalejší."
+    source_pages:
+      - 10
+  - id: "pece_o_onkologicka_onemocneni_010"
+    section_id: "urologicke"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co představuje biochemické selhání po kurativní radioterapii prostaty podle textu?"
+    options:
+      - id: "a"
+        text: "Vzestup PSA o 2 µg/l nad nadir."
+      - id: "b"
+        text: "Jakýkoli jednorázový pokles PSA."
+      - id: "c"
+        text: "Pouhá neměřitelnost PSA."
+    correct_option_id: "a"
+    explanation: "Definice vychází z růstu oproti nejnižší dosažené hodnotě."
+    source_pages:
+      - 10
+  - id: "pece_o_onkologicka_onemocneni_011"
+    section_id: "urologicke"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je u asymptomatického pacienta po lokální léčbě prostaty bez biochemického relapsu rutinně indikována scintigrafie skeletu?"
+    options:
+      - id: "a"
+        text: "Ano, každý měsíc."
+      - id: "b"
+        text: "Ne."
+      - id: "c"
+        text: "Ano, vždy místo PSA."
+    correct_option_id: "b"
+    explanation: "Zobrazování se bez příznaků a biochemického relapsu rutinně neprovádí."
+    source_pages:
+      - 10
+  - id: "pece_o_onkologicka_onemocneni_012"
+    section_id: "urologicke"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Na co zaměřit sledování při dlouhodobé androgendeprivační terapii?"
+    options:
+      - id: "a"
+        text: "Pouze kontaktní alergii."
+      - id: "b"
+        text: "Pouze krátkodobé kolísání tělesné teploty."
+      - id: "c"
+        text: "Osteoporózu, metabolický syndrom a kardiovaskulární riziko."
+    correct_option_id: "c"
+    explanation: "ADT má významné kostní a metabolické nežádoucí účinky."
+    source_pages:
+      - 10
+  - id: "pece_o_onkologicka_onemocneni_013"
+    section_id: "urologicke"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které funkce je nutné hodnotit po léčbě renálního karcinomu?"
+    options:
+      - id: "a"
+        text: "Renální funkce včetně GFR."
+      - id: "b"
+        text: "Pouze sluchové funkce."
+      - id: "c"
+        text: "Pouze noční sekreci melatoninu."
+    correct_option_id: "a"
+    explanation: "Kontroly sledují pooperační komplikace, renální funkci a rekurenci."
+    source_pages:
+      - 13
+  - id: "pece_o_onkologicka_onemocneni_014"
+    section_id: "urologicke"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "K čemu slouží nomogramy UISS a SSIGN u renálního karcinomu?"
+    options:
+      - id: "a"
+        text: "K výpočtu dávky radioterapie mozku."
+      - id: "b"
+        text: "Ke stratifikaci rizika rekurence a volbě intenzity sledování."
+      - id: "c"
+        text: "K průkazu akutní bakteriální pyelonefritidy."
+    correct_option_id: "b"
+    explanation: "Frekvence kontrol se odvíjí od nádorového rizika."
+    source_pages:
+      - 13
+  - id: "pece_o_onkologicka_onemocneni_015"
+    section_id: "kuze_prs_plice"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Na co se zaměřuje klinická kontrola po melanomu?"
+    options:
+      - id: "a"
+        text: "Pouze krevní tlak."
+      - id: "b"
+        text: "Pouze vyšetření břicha bez kůže."
+      - id: "c"
+        text: "Kůže, jizva, uzliny a intransitní metastázy."
+    correct_option_id: "c"
+    explanation: "Kožní kontroly ideálně probíhají ve spolupráci s dermatologem."
+    source_pages:
+      - 7
+  - id: "pece_o_onkologicka_onemocneni_016"
+    section_id: "kuze_prs_plice"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký je přístup k rutinním laboratořím u asymptomatického pacienta po melanomu?"
+    options:
+      - id: "a"
+        text: "Nejsou obecně doporučeny."
+      - id: "b"
+        text: "Jsou nutné každý týden."
+      - id: "c"
+        text: "Nahrazují kompletní vyšetření kůže."
+    correct_option_id: "a"
+    explanation: "Přínos rutinních laboratorních kontrol není jednoznačný."
+    source_pages:
+      - 7
+  - id: "pece_o_onkologicka_onemocneni_017"
+    section_id: "kuze_prs_plice"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy se po operaci melanomu vyskytuje nejvíce relapsů a bývají vhodné častější kontroly?"
+    options:
+      - id: "a"
+        text: "Až po dvaceti letech."
+      - id: "b"
+        text: "V prvních dvou až třech letech."
+      - id: "c"
+        text: "Výhradně první den po operaci."
+    correct_option_id: "b"
+    explanation: "Intenzita sledování závisí také na stadiu a rizikových znacích."
+    source_pages:
+      - 7
+  - id: "pece_o_onkologicka_onemocneni_018"
+    section_id: "kuze_prs_plice"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak často je v tabulce doporučena mamografie po léčbě karcinomu prsu stadia I–III?"
+    options:
+      - id: "a"
+        text: "Jednou za deset let."
+      - id: "b"
+        text: "Každý týden."
+      - id: "c"
+        text: "Jednou ročně."
+    correct_option_id: "c"
+    explanation: "Mamografie je výjimkou mezi zobrazovacími metodami u asymptomatické pacientky."
+    source_pages:
+      - 8
+  - id: "pece_o_onkologicka_onemocneni_019"
+    section_id: "kuze_prs_plice"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy doplnit denzitometrii u pacientky po léčbě karcinomu prsu?"
+    options:
+      - id: "a"
+        text: "Při arteficiální menopauze nebo po léčbě inhibitorem aromatázy."
+      - id: "b"
+        text: "Jen při současné akutní pneumonii."
+      - id: "c"
+        text: "Pouze při opakovaně negativní mamografii."
+    correct_option_id: "a"
+    explanation: "Tyto léčebné okolnosti zvyšují význam sledování kostního zdraví."
+    source_pages:
+      - 8
+  - id: "pece_o_onkologicka_onemocneni_020"
+    section_id: "kuze_prs_plice"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaké dlouhodobé riziko zvyšují antracykliny?"
+    options:
+      - id: "a"
+        text: "Především katarální rýmu."
+      - id: "b"
+        text: "Kardiotoxicitu."
+      - id: "c"
+        text: "Výhradně žlučníkové konkrementy."
+    correct_option_id: "b"
+    explanation: "Anamnéza antracyklinů je důležitá pro kardiální sledování."
+    source_pages:
+      - 8
+  - id: "pece_o_onkologicka_onemocneni_021"
+    section_id: "kuze_prs_plice"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které laboratorní kontroly jsou doporučeny po ozáření nadklíčku u karcinomu prsu?"
+    options:
+      - id: "a"
+        text: "Týdenní D-dimery u všech."
+      - id: "b"
+        text: "Denní CEA bez dalších indikací."
+      - id: "c"
+        text: "Roční TSH a fT4."
+    correct_option_id: "c"
+    explanation: "Ozáření této oblasti může ovlivnit funkci štítné žlázy."
+    source_pages:
+      - 8
+  - id: "pece_o_onkologicka_onemocneni_022"
+    section_id: "kuze_prs_plice"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak často probíhají klinické kontroly v prvním roce po kurativní léčbě plicního karcinomu podle textu?"
+    options:
+      - id: "a"
+        text: "Ve tříměsíčních intervalech."
+      - id: "b"
+        text: "Jednou za pět let."
+      - id: "c"
+        text: "Denně po celý rok."
+    correct_option_id: "a"
+    explanation: "První rok je sledování intenzivnější než v pozdějších letech."
+    source_pages:
+      - 8
+  - id: "pece_o_onkologicka_onemocneni_023"
+    section_id: "kuze_prs_plice"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co kromě relapsu sledujeme po radikální léčbě karcinomu plic?"
+    options:
+      - id: "a"
+        text: "Pouze známky akutní otitidy."
+      - id: "b"
+        text: "Komplikace léčby a metachronní bronchogenní nádory."
+      - id: "c"
+        text: "Výhradně lokální stav kůže na bércích."
+    correct_option_id: "b"
+    explanation: "Sledování má několik cílů včetně nového primárního nádoru."
+    source_pages:
+      - 8
+  - id: "pece_o_onkologicka_onemocneni_024"
+    section_id: "gastro"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kde nejčastěji recidivuje GIST?"
+    options:
+      - id: "a"
+        text: "Výhradně ve štítné žláze."
+      - id: "b"
+        text: "Převážně v prostatě."
+      - id: "c"
+        text: "V játrech a peritoneu."
+    correct_option_id: "c"
+    explanation: "Tyto lokalizace vysvětlují zaměření zobrazování břicha a pánve."
+    source_pages:
+      - 9
+  - id: "pece_o_onkologicka_onemocneni_025"
+    section_id: "gastro"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak hodnotí text přínos rutinního sledování velmi nízkorizikového GIST?"
+    options:
+      - id: "a"
+        text: "Pravděpodobně není nutné, ale riziko není nulové."
+      - id: "b"
+        text: "Je prokázána nutnost týdenního CT doživotně."
+      - id: "c"
+        text: "Je nutná měsíční bronchoskopie."
+    correct_option_id: "a"
+    explanation: "Při individualizaci se zvažuje i radiační zátěž."
+    source_pages:
+      - 9
+  - id: "pece_o_onkologicka_onemocneni_026"
+    section_id: "gastro"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy je po léčbě kolorektálního karcinomu stadia I uvedena kolonoskopie při nepřítomnosti rizikového adenomu?"
+    options:
+      - id: "a"
+        text: "Pouze jednou za dvacet let."
+      - id: "b"
+        text: "V prvním a třetím roce, poté každých pět let."
+      - id: "c"
+        text: "Každý měsíc bez ohledu na nález."
+    correct_option_id: "b"
+    explanation: "Interval se zkracuje při rizikovém adenomu."
+    source_pages:
+      - 11
+  - id: "pece_o_onkologicka_onemocneni_027"
+    section_id: "gastro"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který nález je v textu rizikovým adenomem?"
+    options:
+      - id: "a"
+        text: "Každá drobná hyperplastická léze bez dalších znaků."
+      - id: "b"
+        text: "Pouze zánětlivá změna bez adenomu."
+      - id: "c"
+        text: "Polyp větší než 1 cm nebo s high-grade dysplazií."
+    correct_option_id: "c"
+    explanation: "Rizikový je také vilózní adenom; kontrola se opakuje za rok."
+    source_pages:
+      - 11
+  - id: "pece_o_onkologicka_onemocneni_028"
+    section_id: "gastro"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který marker je hlavní součástí tabulky sledování kolorektálního karcinomu stadia II–III?"
+    options:
+      - id: "a"
+        text: "CEA."
+      - id: "b"
+        text: "PSA."
+      - id: "c"
+        text: "AFP jako jediný marker u všech."
+    correct_option_id: "a"
+    explanation: "Jiné laboratorní parametry nemají plošně prokázaný přínos."
+    source_pages:
+      - 11
+  - id: "pece_o_onkologicka_onemocneni_029"
+    section_id: "gastro"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je důležité při sledování análního karcinomu po chemoradioterapii?"
+    options:
+      - id: "a"
+        text: "Pouze mamografie."
+      - id: "b"
+        text: "Rekto- či anoskopie, per rectum a palpace tříselných uzlin."
+      - id: "c"
+        text: "Pouze vyšetření očního pozadí."
+    correct_option_id: "b"
+    explanation: "Regionální relaps je častější než vzdálené metastázy."
+    source_pages:
+      - 11
+  - id: "pece_o_onkologicka_onemocneni_030"
+    section_id: "gastro"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které deficity monitorovat po totální gastrektomii?"
+    options:
+      - id: "a"
+        text: "Výhradně vitamin K bez krevního obrazu."
+      - id: "b"
+        text: "Pouze nadbytek sodíku."
+      - id: "c"
+        text: "Vitamin B12 a železo."
+    correct_option_id: "c"
+    explanation: "Při deficitu je indikována substituce a je nutné zvážit nutriční podporu."
+    source_pages:
+      - 12
+  - id: "pece_o_onkologicka_onemocneni_031"
+    section_id: "gastro"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký je přístup k PET/CT po totální gastrektomii?"
+    options:
+      - id: "a"
+        text: "Lze je využít při klinickém podezření na relaps."
+      - id: "b"
+        text: "Je povinné každých sedm dní."
+      - id: "c"
+        text: "Nemá indikaci ani při podezření na recidivu."
+    correct_option_id: "a"
+    explanation: "Rutinní univerzální follow-up schéma nemá konsenzus."
+    source_pages:
+      - 12
+  - id: "pece_o_onkologicka_onemocneni_032"
+    section_id: "ostatni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "S kterým specialistou se koordinují kontroly mozkových nádorů kvůli EEG a antiepileptické léčbě?"
+    options:
+      - id: "a"
+        text: "Výhradně s dermatologem."
+      - id: "b"
+        text: "S neurologem."
+      - id: "c"
+        text: "Výhradně s revmatologem."
+    correct_option_id: "b"
+    explanation: "Dispenzarizace je víceoborová."
+    source_pages:
+      - 10
+      - 11
+  - id: "pece_o_onkologicka_onemocneni_033"
+    section_id: "ostatni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co sledovat laboratorně při kortikoterapii u nádoru mozku?"
+    options:
+      - id: "a"
+        text: "Jen PSA."
+      - id: "b"
+        text: "Jen CA 125."
+      - id: "c"
+        text: "Glykémii a kalémii."
+    correct_option_id: "c"
+    explanation: "Kortikoidy mohou ovlivňovat metabolismus glukózy a draslíku."
+    source_pages:
+      - 11
+  - id: "pece_o_onkologicka_onemocneni_034"
+    section_id: "ostatni"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Kdy doplnit MR páteřního kanálu při sledování ependymomu či meduloblastomu?"
+    options:
+      - id: "a"
+        text: "Pokud byl páteřní kanál postižen již vstupně."
+      - id: "b"
+        text: "U všech pacientů pouze při zvýšeném PSA."
+      - id: "c"
+        text: "Jen při anamnéze karcinomu prsu v rodině."
+    correct_option_id: "a"
+    explanation: "Příloha váže toto rozšíření MR na výchozí postižení."
+    source_pages:
+      - 10
+  - id: "pece_o_onkologicka_onemocneni_035"
+    section_id: "ostatni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč po ozáření krku pravidelně kontrolovat TSH?"
+    options:
+      - id: "a"
+        text: "K přímému průkazu relapsu každého karcinomu."
+      - id: "b"
+        text: "Pro riziko postradiační hypotyreózy."
+      - id: "c"
+        text: "K výpočtu glomerulární filtrace."
+    correct_option_id: "b"
+    explanation: "Doporučené odběry jsou obvykle jednou až dvakrát ročně."
+    source_pages:
+      - 12
+  - id: "pece_o_onkologicka_onemocneni_036"
+    section_id: "ostatni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která péče má dlouhodobý význam po léčbě nádorů hlavy a krku?"
+    options:
+      - id: "a"
+        text: "Pouze očkování proti hepatitidě A bez jiné péče."
+      - id: "b"
+        text: "Výhradně opakované krevní nádorové markery."
+      - id: "c"
+        text: "Nutriční a stomatologická péče."
+    correct_option_id: "c"
+    explanation: "Komplexní léčba může zanechat závažné lokální a nutriční následky."
+    source_pages:
+      - 12
+      - 13
+  - id: "pece_o_onkologicka_onemocneni_037"
+    section_id: "ostatni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "U kterých pacientek po ovariálním karcinomu text preferuje sledování CA 125?"
+    options:
+      - id: "a"
+        text: "U těch, které jej měly na začátku zvýšený."
+      - id: "b"
+        text: "U všech pouze při bolesti hlavy."
+      - id: "c"
+        text: "Pouze u těch, které měly vždy nulovou hodnotu."
+    correct_option_id: "a"
+    explanation: "Text zároveň uvádí, že jednotný konsenzus o markerech neexistuje."
+    source_pages:
+      - 14
+  - id: "pece_o_onkologicka_onemocneni_038"
+    section_id: "ostatni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy jsou u sledování karcinomu děložního čípku indikovány laboratorní a zobrazovací testy?"
+    options:
+      - id: "a"
+        text: "Povinně každý den bez příznaků."
+      - id: "b"
+        text: "Při podezření na relaps."
+      - id: "c"
+        text: "Pouze po uplynutí deseti let."
+    correct_option_id: "b"
+    explanation: "Základ tvoří klinické a gynekologické vyšetření se sonografií malé pánve."
+    source_pages:
+      - 14
+  - id: "pece_o_onkologicka_onemocneni_039"
+    section_id: "ostatni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy sledovat CEA a CA 125 po léčbě karcinomu děložního těla?"
+    options:
+      - id: "a"
+        text: "Vždy týdně u všech pacientek."
+      - id: "b"
+        text: "Pouze při současné hypertenzi."
+      - id: "c"
+        text: "Pokud byly zvýšené na začátku."
+    correct_option_id: "c"
+    explanation: "Tabulka výslovně omezuje markery na původně pozitivní pacientky."
+    source_pages:
+      - 14
+  - id: "pece_o_onkologicka_onemocneni_040"
+    section_id: "ostatni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které vyšetření patří ke kontrole po karcinomu děložního těla?"
+    options:
+      - id: "a"
+        text: "Komplexní gynekologické vyšetření a vaginální ultrazvuk."
+      - id: "b"
+        text: "Samotná spirometrie."
+      - id: "c"
+        text: "Samotná gastroskopie."
+    correct_option_id: "a"
+    explanation: "Follow-up kombinuje fyzikální a gynekologické hodnocení."
+    source_pages:
+      - 14

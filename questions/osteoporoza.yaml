@@ -1,0 +1,534 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "osteoporoza"
+  title: "Osteoporóza – doplněk"
+  source:
+    file: "dp-osteoporoza-2024.pdf"
+    year: 2024
+coverage:
+  proposed_question_count: 32
+  rationale: "32 otázek pokrývá interpretaci DXA, sekundární příčiny, režim, léčbu a sledování. Opakované přílohy jsou sloučeny s hlavním textem."
+  sections:
+    - id: "diagnostika"
+      title: "Diagnostika a sekundární příčiny"
+      planned_question_count: 13
+    - id: "prevence"
+      title: "Prevence a suplementace"
+      planned_question_count: 6
+    - id: "lecba"
+      title: "Léčba a sledování"
+      planned_question_count: 13
+questions:
+  - id: "osteoporoza_001"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Patří pacient s již diagnostikovanou a léčenou osteoporózou do screeningového programu popsaného v doplňku?"
+    options:
+      - id: "a"
+        text: "Ne, jde již o sledování známého onemocnění."
+      - id: "b"
+        text: "Ano, při každé preventivní prohlídce."
+      - id: "c"
+        text: "Ano, pokud je bez nové zlomeniny."
+    correct_option_id: "a"
+    explanation: "Program je určen pro časný záchyt, nikoli opakovaný screening již léčené osteoporózy."
+    source_pages:
+      - 5
+  - id: "osteoporoza_002"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "S čím porovnává Z-skóre kostní denzitu pacienta?"
+    options:
+      - id: "a"
+        text: "Pouze s mladými zdravými dospělými."
+      - id: "b"
+        text: "S populací stejného věku a pohlaví."
+      - id: "c"
+        text: "S předchozím vyšetřením téhož pacienta."
+    correct_option_id: "b"
+    explanation: "Z-skóre zohledňuje věkovou kategorii, na rozdíl od T-skóre."
+    source_pages:
+      - 5
+  - id: "osteoporoza_003"
+    section_id: "diagnostika"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Které Z-skóre má vést k opatrnosti a podrobnějšímu vyšetření sekundárních příčin?"
+    options:
+      - id: "a"
+        text: "Vyšší než +1,0."
+      - id: "b"
+        text: "Mezi −0,5 a +0,5."
+      - id: "c"
+        text: "Nižší než −2,0."
+    correct_option_id: "c"
+    explanation: "Hodnota pod −2,0 svědčí pro věku nepřiměřeně nízkou denzitu."
+    source_pages:
+      - 5
+  - id: "osteoporoza_004"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kterou informaci má obsahovat žádanka na DXA?"
+    options:
+      - id: "a"
+        text: "Prodělané zlomeniny a operace páteře či kyčlí."
+      - id: "b"
+        text: "Pouze aktuální koncentraci kalcia."
+      - id: "c"
+        text: "Pouze aktuální tělesnou hmotnost."
+    correct_option_id: "a"
+    explanation: "Anamnéza zlomenin a operací ovlivňuje provedení a interpretaci DXA."
+    source_pages:
+      - 5
+  - id: "osteoporoza_005"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "U kterého onemocnění doporučuje text doplnit měření BMD v zápěstí?"
+    options:
+      - id: "a"
+        text: "Nekomplikovaná esenciální hypertenze."
+      - id: "b"
+        text: "Primární hyperparatyreóza."
+      - id: "c"
+        text: "Sezónní alergická rýma."
+    correct_option_id: "b"
+    explanation: "Hyperparatyreóza a renální insuficience jsou uvedeny jako důvody pro měření zápěstí."
+    source_pages:
+      - 5
+  - id: "osteoporoza_006"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je hlavním účelem základního laboratorního souboru u nově zjištěné osteoporózy?"
+    options:
+      - id: "a"
+        text: "Nahradit denzitometrii při stanovení BMD."
+      - id: "b"
+        text: "Přímo určit riziko pádu z jednoho odběru."
+      - id: "c"
+        text: "Odhalit možné sekundární onemocnění."
+    correct_option_id: "c"
+    explanation: "Primární osteoporóza obvykle nemá výrazné změny v tomto základním souboru."
+    source_pages:
+      - 7
+  - id: "osteoporoza_007"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co představuje Nordinův index v uvedeném vyšetřovacím souboru?"
+    options:
+      - id: "a"
+        text: "Poměr kalcia a kreatininu ve druhém vzorku ranní moči."
+      - id: "b"
+        text: "Poměr sérového fosforu a albuminu."
+      - id: "c"
+        text: "Poměr kostní ALP a sérového kalcia."
+    correct_option_id: "a"
+    explanation: "Text jej uvádí jako U-Ca/krea ve druhé ranní moči."
+    source_pages:
+      - 7
+  - id: "osteoporoza_008"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaké vyšetření doplnit při hyperkalcémii, hypofosfatémii a hyperkalciurii?"
+    options:
+      - id: "a"
+        text: "Troponin."
+      - id: "b"
+        text: "Parathormon."
+      - id: "c"
+        text: "D-dimery."
+    correct_option_id: "b"
+    explanation: "Tato kombinace vede k podezření na primární hyperparatyreózu."
+    source_pages:
+      - 7
+  - id: "osteoporoza_009"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Na co pomýšlet při vysoké FW, patologickém krevním obrazu a renální dysfunkci s hyperkalcémií?"
+    options:
+      - id: "a"
+        text: "Izolovanou primární osteoporózu bez dalšího vyšetřování."
+      - id: "b"
+        text: "Nekomplikovanou osteoartrózu."
+      - id: "c"
+        text: "Mnohočetný myelom."
+    correct_option_id: "c"
+    explanation: "Doplněk doporučuje elektroforézu a imunofixaci séra a moči."
+    source_pages:
+      - 7
+  - id: "osteoporoza_010"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která kombinace podporuje podezření na osteomalacii?"
+    options:
+      - id: "a"
+        text: "Vysoká ALP a hypokalcémie."
+      - id: "b"
+        text: "Nízká FW a normální kalcémie."
+      - id: "c"
+        text: "Izolovaná hypercholesterolémie."
+    correct_option_id: "a"
+    explanation: "Je vhodné doplnit stanovení vitaminu D."
+    source_pages:
+      - 7
+  - id: "osteoporoza_011"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaké využití mají CTx a P1NP v běžné praxi VPL podle doplňku?"
+    options:
+      - id: "a"
+        text: "Spolehlivě nahrazují DXA."
+      - id: "b"
+        text: "Nejsou diagnostickým testem osteoporózy a rutinní využití není doporučeno."
+      - id: "c"
+        text: "Samy určují diagnózu sekundární osteoporózy."
+    correct_option_id: "b"
+    explanation: "Jde o markery kostního obratu s omezeným přínosem pro rutinní rozhodování VPL."
+    source_pages:
+      - 7
+  - id: "osteoporoza_012"
+    section_id: "diagnostika"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "U koho je vhodné výběrové stanovení 25-OH vitaminu D?"
+    options:
+      - id: "a"
+        text: "Povinně u každého před doporučením pohybu."
+      - id: "b"
+        text: "Pouze u pacienta s izolovanou hypertenzí."
+      - id: "c"
+        text: "U pacienta s malabsorpcí a podezřením na osteomalacii."
+    correct_option_id: "c"
+    explanation: "Malabsorpce, průjmy a některé léky zvyšují důvod k cílenému vyšetření."
+    source_pages:
+      - 7
+  - id: "osteoporoza_013"
+    section_id: "diagnostika"
+    difficulty: "pokrocila"
+    type: "single_choice"
+    question: "Jak se při bilaterálním DXA proximálních femurů určuje diagnostická klasifikace?"
+    options:
+      - id: "a"
+        text: "Použije se nejnižší relevantní T-skóre krčku nebo Total Hip."
+      - id: "b"
+        text: "Použije se pouze průměr pravého a levého T-skóre."
+      - id: "c"
+        text: "Použije se vždy vyšší hodnota obou krčků."
+    correct_option_id: "a"
+    explanation: "Příloha odlišuje nejnižší skóre pro diagnózu od průměrné BMD Total Hip pro monitoring."
+    source_pages:
+      - 13
+  - id: "osteoporoza_014"
+    section_id: "prevence"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Kdy se podle doplňku vytváří vrcholová kostní hmota?"
+    options:
+      - id: "a"
+        text: "Až po 60. roce."
+      - id: "b"
+        text: "Do mladé dospělosti přibližně 25–30 let."
+      - id: "c"
+        text: "Převážně po menopauze."
+    correct_option_id: "b"
+    explanation: "Prevence proto začíná dávno před typickým věkem osteoporózy."
+    source_pages:
+      - 6
+  - id: "osteoporoza_015"
+    section_id: "prevence"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká pohybová složka má význam pro prevenci osteoporózy?"
+    options:
+      - id: "a"
+        text: "Výhradně dechová cvičení bez pohybu končetin."
+      - id: "b"
+        text: "Dlouhodobý klid na lůžku."
+      - id: "c"
+        text: "Zátěž kostí a balanční cvičení."
+    correct_option_id: "c"
+    explanation: "Zatěžování skeletu a trénink rovnováhy podporují kostní zdraví i prevenci pádů."
+    source_pages:
+      - 6
+  - id: "osteoporoza_016"
+    section_id: "prevence"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Které opatření snižuje riziko pádů v domácnosti?"
+    options:
+      - id: "a"
+        text: "Odstranění nebezpečných koberců a prahů."
+      - id: "b"
+        text: "Přidání volně položených koberců k lůžku."
+      - id: "c"
+        text: "Omezení používání vhodných pomůcek."
+    correct_option_id: "a"
+    explanation: "Úprava prostředí, obuv a pomůcky patří k prevenci pádů."
+    source_pages:
+      - 8
+  - id: "osteoporoza_017"
+    section_id: "prevence"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký celkový denní příjem vápníku uvádí hlavní text pro pacienty s osteoporózou?"
+    options:
+      - id: "a"
+        text: "200–400 mg."
+      - id: "b"
+        text: "1200–1500 mg."
+      - id: "c"
+        text: "4000–5000 mg."
+    correct_option_id: "b"
+    explanation: "Jde o celkový příjem, tedy stravu i případnou suplementaci."
+    source_pages:
+      - 8
+  - id: "osteoporoza_018"
+    section_id: "prevence"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jakou denní dávku vitaminu D doporučuje hlavní text populaci nad 50 let?"
+    options:
+      - id: "a"
+        text: "80–100 IU."
+      - id: "b"
+        text: "8000–10000 IU."
+      - id: "c"
+        text: "800–1000 IU."
+    correct_option_id: "c"
+    explanation: "Hlavní text uvádí dávku v mezinárodních jednotkách IU."
+    source_pages:
+      - 8
+  - id: "osteoporoza_019"
+    section_id: "prevence"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Kdy je podle textu vhodná suplementace vápníku a vitaminu D?"
+    options:
+      - id: "a"
+        text: "Pokud příjem ve stravě není dostatečný."
+      - id: "b"
+        text: "Výhradně při čerstvé zlomenině."
+      - id: "c"
+        text: "Pouze při pozitivním nádorovém markeru."
+    correct_option_id: "a"
+    explanation: "Suplementace doplňuje režimovou léčbu osteoporózy."
+    source_pages:
+      - 8
+  - id: "osteoporoza_020"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký režim perorálního alendronátu uvádí doplněk?"
+    options:
+      - id: "a"
+        text: "70 mg třikrát denně."
+      - id: "b"
+        text: "70 mg jednou týdně."
+      - id: "c"
+        text: "7 mg jednou za měsíc."
+    correct_option_id: "b"
+    explanation: "Uvedené týdenní dávkování patří k možnostem antiresorpční léčby."
+    source_pages:
+      - 9
+  - id: "osteoporoza_021"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je zásadní při užívání perorálního bisfosfonátu?"
+    options:
+      - id: "a"
+        text: "Zapít mlékem a ihned si lehnout."
+      - id: "b"
+        text: "Rozkousat současně s tabletou vápníku."
+      - id: "c"
+        text: "Zapít vodou a poté zůstat ve vzpřímené poloze."
+    correct_option_id: "c"
+    explanation: "Správná aplikace nalačno a vzpřímená poloha snižují problémy s horním GIT."
+    source_pages:
+      - 9
+  - id: "osteoporoza_022"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Který nález je důvodem nepodat bisfosfonát bez vyřešení kontraindikace?"
+    options:
+      - id: "a"
+        text: "Hypokalcémie."
+      - id: "b"
+        text: "Kompenzovaná hypertenze."
+      - id: "c"
+        text: "Samotná mírná dyslipidémie."
+    correct_option_id: "a"
+    explanation: "Hypokalcémie je výslovně uvedena mezi kontraindikacemi."
+    source_pages:
+      - 9
+  - id: "osteoporoza_023"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy má být přehodnocena běžná perorální léčba bisfosfonátem?"
+    options:
+      - id: "a"
+        text: "Po pěti dnech."
+      - id: "b"
+        text: "Po pěti letech."
+      - id: "c"
+        text: "Až po dvaceti letech bez ohledu na riziko."
+    correct_option_id: "b"
+    explanation: "Délka další léčby závisí na frakturách, BMD a rizikovosti."
+    source_pages:
+      - 9
+  - id: "osteoporoza_024"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "U koho lze zvážit lékové prázdniny po bisfosfonátu?"
+    options:
+      - id: "a"
+        text: "U každého ihned po první dávce."
+      - id: "b"
+        text: "Povinně při každé nové fragilitní zlomenině."
+      - id: "c"
+        text: "U méně rizikového pacienta se zlepšením T-skóre nad −2,5."
+    correct_option_id: "c"
+    explanation: "Přerušení se zvažuje individuálně při příznivém vývoji a nízkém riziku."
+    source_pages:
+      - 9
+  - id: "osteoporoza_025"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které komplikace souvisejí s dlouhodobou léčbou bisfosfonáty?"
+    options:
+      - id: "a"
+        text: "Atypické fraktury femuru a osteonekróza čelisti."
+      - id: "b"
+        text: "Především akutní apendicitida a glaukom."
+      - id: "c"
+        text: "Výhradně sezonní rinitida."
+    correct_option_id: "a"
+    explanation: "Text tyto vzácné komplikace zmiňuje při přehodnocování délky léčby."
+    source_pages:
+      - 9
+  - id: "osteoporoza_026"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy je stomatologické vyšetření před nasazením bisfosfonátu zvlášť nutné?"
+    options:
+      - id: "a"
+        text: "Pouze u pacientů bez jediného zubu."
+      - id: "b"
+        text: "Při zanedbaném chrupu a špatné ústní hygieně."
+      - id: "c"
+        text: "Pouze při současné hyperlipidémii."
+    correct_option_id: "b"
+    explanation: "Je vhodné dokončit plánované invazivní stomatologické zákroky před léčbou."
+    source_pages:
+      - 9
+  - id: "osteoporoza_027"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak má pacient na bisfosfonátu postupovat před stomatologickým výkonem podle textu?"
+    options:
+      - id: "a"
+        text: "Zamlčet léčbu, aby výkon nebyl odložen."
+      - id: "b"
+        text: "Automaticky ukončit léčbu natrvalo."
+      - id: "c"
+        text: "Informovat stomatologa o antiresorpční léčbě."
+    correct_option_id: "c"
+    explanation: "Doplněk rutinní vysazení nedoporučuje a zdůrazňuje informovanost stomatologa."
+    source_pages:
+      - 9
+  - id: "osteoporoza_028"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy je doporučena první laboratorní kontrola po nasazení léčby?"
+    options:
+      - id: "a"
+        text: "Za šest měsíců."
+      - id: "b"
+        text: "Za deset let."
+      - id: "c"
+        text: "Jen při zlomenině."
+    correct_option_id: "a"
+    explanation: "Sledují se kreatinin, Ca, P, ALP a močový poměr Ca/kreatinin."
+    source_pages:
+      - 9
+  - id: "osteoporoza_029"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "V jakém intervalu doporučuje doplněk kontrolní DXA při léčbě?"
+    options:
+      - id: "a"
+        text: "Každý týden."
+      - id: "b"
+        text: "Za jeden až dva roky."
+      - id: "c"
+        text: "Rutinně až za deset let."
+    correct_option_id: "b"
+    explanation: "Vývoj BMD se hodnotí v delším časovém odstupu."
+    source_pages:
+      - 9
+  - id: "osteoporoza_030"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co znamená další pokles BMD po dvou letech léčby podle doplňku?"
+    options:
+      - id: "a"
+        text: "Očekávaný důkaz úspěšné léčby."
+      - id: "b"
+        text: "Důvod ukončit veškeré kontroly."
+      - id: "c"
+        text: "Důvod přehodnotit a změnit medikaci."
+    correct_option_id: "c"
+    explanation: "Cílem není nutně normalizace DXA, ale pokračující úbytek vyžaduje reakci."
+    source_pages:
+      - 9
+  - id: "osteoporoza_031"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký základní postup platí pro osteopenii?"
+    options:
+      - id: "a"
+        text: "Režimová opatření a doplnění nedostatečného příjmu Ca a vitaminu D."
+      - id: "b"
+        text: "Automatická dlouhodobá kortikoterapie."
+      - id: "c"
+        text: "Žádné pátrání po sekundární příčině."
+    correct_option_id: "a"
+    explanation: "Základní laboratorní vyšetření je doporučeno zvláště při nízkém Z-skóre."
+    source_pages:
+      - 9
+  - id: "osteoporoza_032"
+    section_id: "lecba"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Za jak dlouho doporučuje uvedená metodika kontrolní DXA při osteopenii s T-skóre −2,1 až −2,4?"
+    options:
+      - id: "a"
+        text: "Za dva týdny."
+      - id: "b"
+        text: "Za dva roky."
+      - id: "c"
+        text: "Za deset let."
+    correct_option_id: "b"
+    explanation: "Mírnější osteopenie −1,0 až −2,0 má uveden interval tří let."
+    source_pages:
+      - 9

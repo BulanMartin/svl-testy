@@ -1,0 +1,675 @@
+schema_version: "1.0"
+language: "cs"
+topic:
+  id: "lekarska_prvni_pomoc_a_kpr"
+  title: "Lékařská první pomoc a kardiopulmonální resuscitace"
+  source:
+    file: "dp-neodkladna-pece-2023.pdf"
+    year: 2023
+coverage:
+  proposed_question_count: 40
+  rationale: "40 otázek pokrývá rozpoznání zástavy, řetězec přežití, kvalitní KPR, AED, obstrukci, dětská specifika, vybavení a etická rozhodnutí. Duplicitní PDF stejného textu není zpracováno znovu. Nejednoznačný zápis novorozeneckého poměru ve zdroji je vynechán."
+  sections:
+    - id: "system"
+      title: "Systém a rozpoznání stavu"
+      planned_question_count: 6
+    - id: "kpr"
+      title: "Základní KPR a defibrilace"
+      planned_question_count: 13
+    - id: "duseni"
+      title: "Bezvědomí a dušení"
+      planned_question_count: 6
+    - id: "specialni"
+      title: "Děti a reverzibilní příčiny"
+      planned_question_count: 7
+    - id: "organizace"
+      title: "Vybavení, rozhodování a komunikace"
+      planned_question_count: 8
+questions:
+  - id: "lekarska_prvni_pomoc_a_kpr_001"
+    section_id: "system"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co patří do řetězce přežití po rozpoznání zástavy?"
+    options:
+      - id: "a"
+        text: "Přivolání pomoci, KPR, časná defibrilace a poresuscitační péče."
+      - id: "b"
+        text: "Pouze transport bez ošetření na místě."
+      - id: "c"
+        text: "Nejprve laboratorní odběry a až potom KPR."
+    correct_option_id: "a"
+    explanation: "Řetězec propojuje včasné rozpoznání a pomoc s obnovou oběhu a následnou péčí."
+    source_pages:
+      - 5
+  - id: "lekarska_prvni_pomoc_a_kpr_002"
+    section_id: "system"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Které číslo dokument preferuje pro přímé volání ZZS v ČR?"
+    options:
+      - id: "a"
+        text: "158."
+      - id: "b"
+        text: "155."
+      - id: "c"
+        text: "150."
+    correct_option_id: "b"
+    explanation: "Linka 155 vede přímo na zdravotnické operační středisko."
+    source_pages:
+      - 6
+  - id: "lekarska_prvni_pomoc_a_kpr_003"
+    section_id: "system"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co znamená TANR?"
+    options:
+      - id: "a"
+        text: "Trvalou ambulantní neurologickou rehabilitaci."
+      - id: "b"
+        text: "Transport asistovaný novorozeneckým resuscitátorem."
+      - id: "c"
+        text: "Telefonicky asistovanou neodkladnou resuscitaci."
+    correct_option_id: "c"
+    explanation: "Dispečer instruuje svědka k provádění resuscitace."
+    source_pages:
+      - 6
+  - id: "lekarska_prvni_pomoc_a_kpr_004"
+    section_id: "system"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Která kombinace svědčí pro zástavu oběhu?"
+    options:
+      - id: "a"
+        text: "Nereagující pacient, který nedýchá normálně."
+      - id: "b"
+        text: "Plně komunikující pacient s bolestí kolena."
+      - id: "c"
+        text: "Spící pacient s pravidelným normálním dýcháním."
+    correct_option_id: "a"
+    explanation: "Bezvědomí a nepřítomnost normálního dýchání jsou základní rozpoznávací známky."
+    source_pages:
+      - 6
+      - 7
+  - id: "lekarska_prvni_pomoc_a_kpr_005"
+    section_id: "system"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak hodnotit gasping u nereagujícího pacienta?"
+    options:
+      - id: "a"
+        text: "Jako spolehlivý důkaz normálního oběhu."
+      - id: "b"
+        text: "Jako abnormální dýchání slučitelné se zástavou."
+      - id: "c"
+        text: "Jako důvod odložit KPR o deset minut."
+    correct_option_id: "b"
+    explanation: "Lapavé dechy nejsou normálním dýcháním."
+    source_pages:
+      - 6
+      - 7
+  - id: "lekarska_prvni_pomoc_a_kpr_006"
+    section_id: "system"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak dlouho nejvýše kontrolovat normální dýchání při rozhodování o KPR?"
+    options:
+      - id: "a"
+        text: "60 sekund."
+      - id: "b"
+        text: "5 minut."
+      - id: "c"
+        text: "10 sekund."
+    correct_option_id: "c"
+    explanation: "Prodloužené vyšetřování nesmí oddálit zahájení kompresí."
+    source_pages:
+      - 8
+  - id: "lekarska_prvni_pomoc_a_kpr_007"
+    section_id: "kpr"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká je první podmínka bezpečného poskytování pomoci?"
+    options:
+      - id: "a"
+        text: "Zajistit bezpečnost zachránce a postiženého."
+      - id: "b"
+        text: "Získat předem úplnou anamnézu."
+      - id: "c"
+        text: "Přesunout pacienta vždy bez ohledu na riziko."
+    correct_option_id: "a"
+    explanation: "Bezpečnost předchází vlastnímu ošetření."
+    source_pages:
+      - 6
+  - id: "lekarska_prvni_pomoc_a_kpr_008"
+    section_id: "kpr"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká je doporučená frekvence kompresí hrudníku dospělého?"
+    options:
+      - id: "a"
+        text: "40–60 za minutu."
+      - id: "b"
+        text: "100–120 za minutu."
+      - id: "c"
+        text: "160–180 za minutu."
+    correct_option_id: "b"
+    explanation: "Kvalitní komprese mají u dospělého frekvenci 100–120/min."
+    source_pages:
+      - 7
+  - id: "lekarska_prvni_pomoc_a_kpr_009"
+    section_id: "kpr"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaká je hloubka kompresí u dospělého?"
+    options:
+      - id: "a"
+        text: "1–2 cm."
+      - id: "b"
+        text: "Nejméně 8 cm."
+      - id: "c"
+        text: "Přibližně 5 cm, nejvýše 6 cm."
+    correct_option_id: "c"
+    explanation: "Dostatečná hloubka je zásadní pro průtok, nadměrná zvyšuje riziko poranění."
+    source_pages:
+      - 7
+  - id: "lekarska_prvni_pomoc_a_kpr_010"
+    section_id: "kpr"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Kde se provádějí komprese hrudníku dospělého?"
+    options:
+      - id: "a"
+        text: "Na dolní polovině sterna ve středu hrudníku."
+      - id: "b"
+        text: "Na levém podžebří."
+      - id: "c"
+        text: "Na horní části krku."
+    correct_option_id: "a"
+    explanation: "Kompresní bod je na dolní polovině hrudní kosti."
+    source_pages:
+      - 7
+  - id: "lekarska_prvni_pomoc_a_kpr_011"
+    section_id: "kpr"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je třeba zajistit mezi kompresemi?"
+    options:
+      - id: "a"
+        text: "Trvalé lehké stlačení bez návratu."
+      - id: "b"
+        text: "Úplné uvolnění hrudníku."
+      - id: "c"
+        text: "Přerušení na kontrolu pulsu po každém stlačení."
+    correct_option_id: "b"
+    explanation: "Návrat hrudníku podporuje plnění srdce."
+    source_pages:
+      - 7
+  - id: "lekarska_prvni_pomoc_a_kpr_012"
+    section_id: "kpr"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaký je poměr kompresí a vdechů při základní KPR dospělého s ventilací?"
+    options:
+      - id: "a"
+        text: "15 : 5."
+      - id: "b"
+        text: "5 : 1."
+      - id: "c"
+        text: "30 : 2."
+    correct_option_id: "c"
+    explanation: "Dokument uvádí poměr třiceti kompresí ke dvěma vdechům."
+    source_pages:
+      - 7
+      - 8
+  - id: "lekarska_prvni_pomoc_a_kpr_013"
+    section_id: "kpr"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jak dlouho trvá jeden umělý vdech při KPR dospělého?"
+    options:
+      - id: "a"
+        text: "Přibližně jednu sekundu."
+      - id: "b"
+        text: "Přibližně deset sekund."
+      - id: "c"
+        text: "Nejméně pět sekund."
+    correct_option_id: "a"
+    explanation: "Vdech má zvednout hrudník jako při normálním dýchání."
+    source_pages:
+      - 7
+  - id: "lekarska_prvni_pomoc_a_kpr_014"
+    section_id: "kpr"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupuje zachránce, který není schopen provádět umělé dýchání?"
+    options:
+      - id: "a"
+        text: "Neprovádí žádnou resuscitaci."
+      - id: "b"
+        text: "Provádí samotné komprese hrudníku."
+      - id: "c"
+        text: "Provádí pouze ventilaci bez kompresí."
+    correct_option_id: "b"
+    explanation: "Samotná kvalitní masáž je zásadním dostupným výkonem."
+    source_pages:
+      - 8
+  - id: "lekarska_prvni_pomoc_a_kpr_015"
+    section_id: "kpr"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co následuje bezprostředně po výboji AED?"
+    options:
+      - id: "a"
+        text: "Rutinní minutová kontrola pulsu."
+      - id: "b"
+        text: "Přesun pacienta do sedu."
+      - id: "c"
+        text: "Okamžité pokračování v kompresích podle pokynů přístroje."
+    correct_option_id: "c"
+    explanation: "Pauza po výboji se nemá prodlužovat vyšetřováním."
+    source_pages:
+      - 7
+  - id: "lekarska_prvni_pomoc_a_kpr_016"
+    section_id: "kpr"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Jaké bezpečnostní pravidlo platí při výboji AED?"
+    options:
+      - id: "a"
+        text: "Nikdo se pacienta nedotýká."
+      - id: "b"
+        text: "Zachránce současně pokračuje v kompresích."
+      - id: "c"
+        text: "Jeden zachránce drží holou rukou elektrodu."
+    correct_option_id: "a"
+    explanation: "Při výboji musí být všichni mimo přímý kontakt s pacientem."
+    source_pages:
+      - 7
+  - id: "lekarska_prvni_pomoc_a_kpr_017"
+    section_id: "kpr"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Kdo může použít AED?"
+    options:
+      - id: "a"
+        text: "Pouze lékař urgentní medicíny."
+      - id: "b"
+        text: "I laik podle pokynů přístroje."
+      - id: "c"
+        text: "Pouze kardiolog po echokardiografii."
+    correct_option_id: "b"
+    explanation: "AED je určen také pro laické použití."
+    source_pages:
+      - 6
+  - id: "lekarska_prvni_pomoc_a_kpr_018"
+    section_id: "kpr"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Je samotný návrat lapavých dechů během KPR důvodem skončit?"
+    options:
+      - id: "a"
+        text: "Ano, vždy dokazuje ROSC."
+      - id: "b"
+        text: "Ano, pokud se objeví jediný nádech."
+      - id: "c"
+        text: "Není, bez jasných známek funkčního oběhu KPR pokračuje."
+    correct_option_id: "c"
+    explanation: "Gasping nesmí být zaměněn za návrat normálního dýchání."
+    source_pages:
+      - 7
+  - id: "lekarska_prvni_pomoc_a_kpr_019"
+    section_id: "kpr"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak využít pomocníka při rozpoznané zástavě?"
+    options:
+      - id: "a"
+        text: "Jeden zahájí KPR a druhý komunikuje se ZZS."
+      - id: "b"
+        text: "Oba čekají na telefonické potvrzení diagnózy."
+      - id: "c"
+        text: "Oba odejdou hledat dokumentaci."
+    correct_option_id: "a"
+    explanation: "Rozdělení rolí omezuje zpoždění kompresí."
+    source_pages:
+      - 7
+  - id: "lekarska_prvni_pomoc_a_kpr_020"
+    section_id: "duseni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdy je vhodná zotavovací poloha podle textu?"
+    options:
+      - id: "a"
+        text: "U každého pacienta se srdeční zástavou."
+      - id: "b"
+        text: "U bezvědomého, který normálně dýchá a nemá úrazový mechanismus."
+      - id: "c"
+        text: "Při absenci normálního dýchání místo KPR."
+    correct_option_id: "b"
+    explanation: "Zotavovací poloha slouží vybraným spontánně dýchajícím osobám."
+    source_pages:
+      - 7
+      - 8
+  - id: "lekarska_prvni_pomoc_a_kpr_021"
+    section_id: "duseni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je nutné trvale sledovat u pacienta v zotavovací poloze?"
+    options:
+      - id: "a"
+        text: "Pouze barvu nehtů jednou za hodinu."
+      - id: "b"
+        text: "Pouze velikost zornic bez kontroly dechu."
+      - id: "c"
+        text: "Normálnost dýchání."
+    correct_option_id: "c"
+    explanation: "Zhoršení dýchání vyžaduje nové zhodnocení a případnou KPR."
+    source_pages:
+      - 8
+  - id: "lekarska_prvni_pomoc_a_kpr_022"
+    section_id: "duseni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupovat u dospělého s cizím tělesem, který účinně kašle a mluví?"
+    options:
+      - id: "a"
+        text: "Vyzývat ke kašli a sledovat jej."
+      - id: "b"
+        text: "Ihned provádět opakované komprese nadbřišku."
+      - id: "c"
+        text: "Naslepo vytírat hluboko ústa prsty."
+    correct_option_id: "a"
+    explanation: "Účinný kašel svědčí pro nekritickou obstrukci."
+    source_pages:
+      - 8
+  - id: "lekarska_prvni_pomoc_a_kpr_023"
+    section_id: "duseni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaká je sekvence při kritické obstrukci dýchacích cest u dospělého při vědomí?"
+    options:
+      - id: "a"
+        text: "Pouze napít se vody."
+      - id: "b"
+        text: "Až pět úderů mezi lopatky, při neúspěchu až pět kompresí nadbřišku."
+      - id: "c"
+        text: "Pouze opakovaně zadržovat dech."
+    correct_option_id: "b"
+    explanation: "Manévry se střídají do uvolnění nebo ztráty vědomí."
+    source_pages:
+      - 8
+  - id: "lekarska_prvni_pomoc_a_kpr_024"
+    section_id: "duseni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co udělat, když postižený s kritickou obstrukcí upadne do bezvědomí?"
+    options:
+      - id: "a"
+        text: "Posadit jej a čekat na spontánní zotavení."
+      - id: "b"
+        text: "Pokračovat jen v kašlání na pokyn."
+      - id: "c"
+        text: "Zahájit standardní KPR a zajistit aktivaci ZZS."
+    correct_option_id: "c"
+    explanation: "Bezvědomí při obstrukci znamená těžkou hypoxii a nutnost resuscitace."
+    source_pages:
+      - 8
+  - id: "lekarska_prvni_pomoc_a_kpr_025"
+    section_id: "duseni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Co je vhodné po úspěšném Heimlichově manévru?"
+    options:
+      - id: "a"
+        text: "Lékařská kontrola, optimálně chirurgická."
+      - id: "b"
+        text: "Vyloučit kontrolu, pokud se pacient nadechl."
+      - id: "c"
+        text: "Preventivní trvalé omezení tekutin."
+    correct_option_id: "a"
+    explanation: "Komprese nadbřišku mohou způsobit vnitřní poranění."
+    source_pages:
+      - 8
+  - id: "lekarska_prvni_pomoc_a_kpr_026"
+    section_id: "specialni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Která příčina patří mezi reverzibilní 4 H?"
+    options:
+      - id: "a"
+        text: "Hypercholesterolemie."
+      - id: "b"
+        text: "Hypovolemie."
+      - id: "c"
+        text: "Hypermetropie."
+    correct_option_id: "b"
+    explanation: "Mezi 4 H patří hypoxie, hypovolemie, poruchy kalemie a hypotermie."
+    source_pages:
+      - 9
+  - id: "lekarska_prvni_pomoc_a_kpr_027"
+    section_id: "specialni"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Který stav patří mezi reverzibilní 4 T?"
+    options:
+      - id: "a"
+        text: "Tonzilitida."
+      - id: "b"
+        text: "Tendinitida."
+      - id: "c"
+        text: "Tenzní pneumothorax."
+    correct_option_id: "c"
+    explanation: "Skupina 4 T zahrnuje trombózu, tamponádu, toxiny a tenzní pneumothorax."
+    source_pages:
+      - 9
+  - id: "lekarska_prvni_pomoc_a_kpr_028"
+    section_id: "specialni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč může být vhodný transport za pokračující KPR?"
+    options:
+      - id: "a"
+        text: "Nemocnice může léčit reverzibilní příčinu nedostupnou na místě."
+      - id: "b"
+        text: "KPR je během každého transportu vždy účinnější."
+      - id: "c"
+        text: "Transport sám nahrazuje komprese."
+    correct_option_id: "a"
+    explanation: "Například koronární intervence nebo léčba intoxikace může rozšířit možnosti záchrany."
+    source_pages:
+      - 9
+  - id: "lekarska_prvni_pomoc_a_kpr_029"
+    section_id: "specialni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký význam má ventilace při resuscitaci dítěte?"
+    options:
+      - id: "a"
+        text: "Je vždy zcela zbytečná."
+      - id: "b"
+        text: "Je zvláště důležitá a začíná se pěti úvodními vdechy."
+      - id: "c"
+        text: "Má se odložit až po půlhodině kompresí."
+    correct_option_id: "b"
+    explanation: "U dětí mají asfyktické mechanismy větší význam."
+    source_pages:
+      - 9
+  - id: "lekarska_prvni_pomoc_a_kpr_030"
+    section_id: "specialni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak hluboko přibližně stlačovat hrudník dítěte?"
+    options:
+      - id: "a"
+        text: "Vždy přesně osm centimetrů."
+      - id: "b"
+        text: "Jen o několik milimetrů."
+      - id: "c"
+        text: "Do jedné třetiny předozadního rozměru hrudníku."
+    correct_option_id: "c"
+    explanation: "Síla i hloubka se přizpůsobují velikosti dítěte."
+    source_pages:
+      - 9
+  - id: "lekarska_prvni_pomoc_a_kpr_031"
+    section_id: "specialni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký poměr kompresí a vdechů text uvádí pro děti mimo novorozenecký kontext?"
+    options:
+      - id: "a"
+        text: "15 : 2."
+      - id: "b"
+        text: "3 : 1."
+      - id: "c"
+        text: "30 : 5."
+    correct_option_id: "a"
+    explanation: "Dětský postup v dokumentu uvádí patnáct kompresí a dva vdechy."
+    source_pages:
+      - 9
+  - id: "lekarska_prvni_pomoc_a_kpr_032"
+    section_id: "specialni"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaké manévry se střídají u kojence při kritické obstrukci a zachovaném vědomí?"
+    options:
+      - id: "a"
+        text: "Údery mezi lopatky a komprese nadbřišku."
+      - id: "b"
+        text: "Údery mezi lopatky a komprese hrudníku."
+      - id: "c"
+        text: "Výhradně tah za jazyk."
+    correct_option_id: "b"
+    explanation: "U kojenců se místo kompresí nadbřišku používají komprese hrudníku."
+    source_pages:
+      - 10
+  - id: "lekarska_prvni_pomoc_a_kpr_033"
+    section_id: "organizace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Které vybavení umožňuje VPL ventilovat pacienta?"
+    options:
+      - id: "a"
+        text: "Samotný fonendoskop."
+      - id: "b"
+        text: "Pouze tonometr."
+      - id: "c"
+        text: "Samorozpínací vak s vhodnou obličejovou maskou."
+    correct_option_id: "c"
+    explanation: "Vak s maskou patří mezi základní pomůcky pro ventilaci."
+    source_pages:
+      - 8
+      - 10
+  - id: "lekarska_prvni_pomoc_a_kpr_034"
+    section_id: "organizace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč dokument preferuje ústní před nosními vzduchovody?"
+    options:
+      - id: "a"
+        text: "Kvůli riziku krvácení při zavádění nosních."
+      - id: "b"
+        text: "Protože ústní vzduchovod zajišťuje vždy ochranu před aspirací."
+      - id: "c"
+        text: "Protože nosní vzduchovody nelze sterilizovat."
+    correct_option_id: "a"
+    explanation: "U nosních vzduchovodů je významné riziko epistaxe."
+    source_pages:
+      - 10
+  - id: "lekarska_prvni_pomoc_a_kpr_035"
+    section_id: "organizace"
+    difficulty: "zakladni"
+    type: "single_choice"
+    question: "Co je důležité pro ochranu zdravotníka při KPR?"
+    options:
+      - id: "a"
+        text: "Spoléhat pouze na nepřítomnost horečky."
+      - id: "b"
+        text: "Bariérové pomůcky, rukavice a vhodné vybavení pro ventilaci."
+      - id: "c"
+        text: "Ochranné pomůcky nikdy nepoužívat."
+    correct_option_id: "b"
+    explanation: "Zdroj zdůrazňuje bezpečnost a bariérové techniky."
+    source_pages:
+      - 10
+  - id: "lekarska_prvni_pomoc_a_kpr_036"
+    section_id: "organizace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak postupovat při pochybnosti, zda je KPR indikována?"
+    options:
+      - id: "a"
+        text: "Automaticky ji nezahájit."
+      - id: "b"
+        text: "Nechat rozhodnout pouze náhodného svědka."
+      - id: "c"
+        text: "Zahájit ji, pokud nejsou doložené důvody k nezahájení."
+    correct_option_id: "c"
+    explanation: "Při nejasnosti se má resuscitace zahájit."
+    source_pages:
+      - 9
+      - 11
+  - id: "lekarska_prvni_pomoc_a_kpr_037"
+    section_id: "organizace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jaký význam má platné a známé dříve vyslovené přání?"
+    options:
+      - id: "a"
+        text: "Má být při rozhodování respektováno."
+      - id: "b"
+        text: "Nemá žádný význam při neodkladné péči."
+      - id: "c"
+        text: "Nahrazuje je vždy přání náhodného příbuzného."
+    correct_option_id: "a"
+    explanation: "Dokument zdůrazňuje autonomii a zákonné náležitosti přání."
+    source_pages:
+      - 11
+  - id: "lekarska_prvni_pomoc_a_kpr_038"
+    section_id: "organizace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Kdo rozhoduje o ukončení resuscitace týmu?"
+    options:
+      - id: "a"
+        text: "Výhradně přítomný příbuzný."
+      - id: "b"
+        text: "Vedoucí resuscitačního týmu."
+      - id: "c"
+        text: "Vždy nejmladší zdravotník."
+    correct_option_id: "b"
+    explanation: "Odborné rozhodnutí náleží vedoucímu týmu."
+    source_pages:
+      - 11
+  - id: "lekarska_prvni_pomoc_a_kpr_039"
+    section_id: "organizace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Jak chápat časová vodítka pro ukončení KPR?"
+    options:
+      - id: "a"
+        text: "Jako automatické pravidlo bez výjimek."
+      - id: "b"
+        text: "Jako důvod nikdy nepátrat po reverzibilní příčině."
+      - id: "c"
+        text: "Jako orientační a aplikovaná na konkrétní klinickou situaci."
+    correct_option_id: "c"
+    explanation: "Zdroj výslovně upozorňuje na individualizaci rozhodnutí."
+    source_pages:
+      - 10
+      - 11
+  - id: "lekarska_prvni_pomoc_a_kpr_040"
+    section_id: "organizace"
+    difficulty: "stredni"
+    type: "single_choice"
+    question: "Proč obnova oběhu nemusí pro rodinu znamenat plné zotavení?"
+    options:
+      - id: "a"
+        text: "Může přetrvávat závažné hypoxické poškození mozku."
+      - id: "b"
+        text: "Protože ROSC vždy znamená normální neurologický stav."
+      - id: "c"
+        text: "Protože návrat oběhu neovlivňuje prognózu."
+    correct_option_id: "a"
+    explanation: "Komunikace musí rozlišovat obnovení oběhu a konečný neurologický výsledek."
+    source_pages:
+      - 11
